@@ -1,0 +1,129 @@
+{
+ "m1": {
+  "a1": {
+   "runs": 5,
+   "kills": 100,
+   "dup_median": 3648,
+   "dup_min": 2777,
+   "dup_max": 4525,
+   "dup_total": 18106,
+   "lost_median": 0,
+   "lost_min": 0,
+   "lost_max": 0,
+   "lost_total": 0,
+   "runs_with_dups": 5,
+   "runs_with_loss": 0
+  },
+  "a2": {
+   "runs": 5,
+   "kills": 100,
+   "dup_median": 2881,
+   "dup_min": 1823,
+   "dup_max": 3622,
+   "dup_total": 13735,
+   "lost_median": 63,
+   "lost_min": 48,
+   "lost_max": 147,
+   "lost_total": 391,
+   "runs_with_dups": 5,
+   "runs_with_loss": 5
+  },
+  "b": {
+   "runs": 5,
+   "kills": 100,
+   "dup_median": 5,
+   "dup_min": 0,
+   "dup_max": 7,
+   "dup_total": 20,
+   "lost_median": 0,
+   "lost_min": 0,
+   "lost_max": 0,
+   "lost_total": 0,
+   "runs_with_dups": 4,
+   "runs_with_loss": 0
+  },
+  "c": {
+   "runs": 5,
+   "kills": 100,
+   "dup_median": 0,
+   "dup_min": 0,
+   "dup_max": 0,
+   "dup_total": 0,
+   "lost_median": 0,
+   "lost_min": 0,
+   "lost_max": 0,
+   "lost_total": 0,
+   "runs_with_dups": 0,
+   "runs_with_loss": 0
+  }
+ },
+ "m2": {
+  "b": {
+   "slow_events": 50,
+   "evictions": 50,
+   "duplicates": 50,
+   "lost": 0,
+   "offset_commit_failed": 50,
+   "skipped_duplicates": 0,
+   "runs": 5,
+   "dup_per_run": [
+    10,
+    10,
+    10,
+    10,
+    10
+   ]
+  },
+  "c": {
+   "slow_events": 50,
+   "evictions": 50,
+   "duplicates": 0,
+   "lost": 0,
+   "offset_commit_failed": 50,
+   "skipped_duplicates": 50,
+   "runs": 5,
+   "dup_per_run": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "m3": {
+  "a1": {
+   "runs": 5,
+   "msgs_per_s_median": 445.1,
+   "msgs_per_s_min": 435.6,
+   "msgs_per_s_max": 447.1,
+   "gap_p50_ms_median": 2.091,
+   "gap_p99_ms_median": 4.207
+  },
+  "a2": {
+   "runs": 5,
+   "msgs_per_s_median": 447.5,
+   "msgs_per_s_min": 426.6,
+   "msgs_per_s_max": 449.3,
+   "gap_p50_ms_median": 2.085,
+   "gap_p99_ms_median": 3.614
+  },
+  "b": {
+   "runs": 5,
+   "msgs_per_s_median": 347.8,
+   "msgs_per_s_min": 314.6,
+   "msgs_per_s_max": 365.1,
+   "gap_p50_ms_median": 2.73,
+   "gap_p99_ms_median": 4.047
+  },
+  "c": {
+   "runs": 5,
+   "msgs_per_s_median": 323.0,
+   "msgs_per_s_min": 310.1,
+   "msgs_per_s_max": 325.5,
+   "gap_p50_ms_median": 2.941,
+   "gap_p99_ms_median": 4.136
+  },
+  "inbox_cost_pct": 7.1
+ }
+}

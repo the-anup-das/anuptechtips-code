@@ -1,0 +1,136 @@
+{'run': 1, 'workers': 1, 'batch': 10, 'rows': 100000, 'seconds': 60.1998, 'msgs_per_s': 1661.1, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '100000'}
+{'run': 1, 'workers': 2, 'batch': 10, 'rows': 100000, 'seconds': 34.5819, 'msgs_per_s': 2891.7, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '49990/50010'}
+{'run': 1, 'workers': 4, 'batch': 10, 'rows': 100000, 'seconds': 18.913, 'msgs_per_s': 5287.4, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '25040/24980/24970/25010'}
+{'run': 1, 'workers': 8, 'batch': 10, 'rows': 100000, 'seconds': 10.3065, 'msgs_per_s': 9702.6, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '12440/12490/12530/12520/12430/12560/12520/12510'}
+{'run': 1, 'workers': 1, 'batch': 100, 'rows': 100000, 'seconds': 9.3266, 'msgs_per_s': 10722.0, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '100000'}
+{'run': 1, 'workers': 2, 'batch': 100, 'rows': 100000, 'seconds': 5.3096, 'msgs_per_s': 18833.9, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '50100/49900'}
+{'run': 1, 'workers': 4, 'batch': 100, 'rows': 100000, 'seconds': 2.8961, 'msgs_per_s': 34529.1, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '25100/25200/24800/24900'}
+{'run': 1, 'workers': 8, 'batch': 100, 'rows': 100000, 'seconds': 2.2152, 'msgs_per_s': 45143.4, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '12001/12440/12290/12700/12617/12732/12734/12486'}
+{'run': 1, 'workers': 1, 'batch': 500, 'rows': 100000, 'seconds': 2.2714, 'msgs_per_s': 44025.1, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '100000'}
+{'run': 1, 'workers': 2, 'batch': 500, 'rows': 100000, 'seconds': 1.5837, 'msgs_per_s': 63143.0, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '50148/49852'}
+{'run': 1, 'workers': 4, 'batch': 500, 'rows': 100000, 'seconds': 1.7156, 'msgs_per_s': 58287.6, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '25142/24967/25337/24554'}
+{'run': 1, 'workers': 8, 'batch': 500, 'rows': 100000, 'seconds': 2.6052, 'msgs_per_s': 38384.2, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '11892/12413/13687/12792/11802/12205/12381/12828'}
+{'run': 2, 'workers': 1, 'batch': 10, 'rows': 100000, 'seconds': 55.536, 'msgs_per_s': 1800.6, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '100000'}
+{'run': 2, 'workers': 2, 'batch': 10, 'rows': 100000, 'seconds': 27.1424, 'msgs_per_s': 3684.3, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '49970/50030'}
+{'run': 2, 'workers': 4, 'batch': 10, 'rows': 100000, 'seconds': 14.2961, 'msgs_per_s': 6994.9, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '24940/25000/25040/25020'}
+{'run': 2, 'workers': 8, 'batch': 10, 'rows': 100000, 'seconds': 7.7624, 'msgs_per_s': 12882.6, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '12570/12590/12470/12500/12470/12500/12460/12440'}
+{'run': 2, 'workers': 1, 'batch': 100, 'rows': 100000, 'seconds': 6.6534, 'msgs_per_s': 15030.0, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '100000'}
+{'run': 2, 'workers': 2, 'batch': 100, 'rows': 100000, 'seconds': 3.4066, 'msgs_per_s': 29354.9, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '49800/50200'}
+{'run': 2, 'workers': 4, 'batch': 100, 'rows': 100000, 'seconds': 1.9477, 'msgs_per_s': 51343.2, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '24900/25400/24800/24900'}
+{'run': 2, 'workers': 8, 'batch': 100, 'rows': 100000, 'seconds': 2.1368, 'msgs_per_s': 46798.3, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '12824/12300/12678/12481/12650/12467/12100/12500'}
+{'run': 2, 'workers': 1, 'batch': 500, 'rows': 100000, 'seconds': 2.2106, 'msgs_per_s': 45237.0, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '100000'}
+{'run': 2, 'workers': 2, 'batch': 500, 'rows': 100000, 'seconds': 1.5838, 'msgs_per_s': 63139.3, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '49818/50182'}
+{'run': 2, 'workers': 4, 'batch': 500, 'rows': 100000, 'seconds': 1.6458, 'msgs_per_s': 60759.8, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '25895/25668/24223/24214'}
+{'run': 2, 'workers': 8, 'batch': 500, 'rows': 100000, 'seconds': 2.6314, 'msgs_per_s': 38003.1, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '12580/12238/12187/13334/12378/12183/12542/12558'}
+{'run': 3, 'workers': 1, 'batch': 10, 'rows': 100000, 'seconds': 54.6037, 'msgs_per_s': 1831.4, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '100000'}
+{'run': 3, 'workers': 2, 'batch': 10, 'rows': 100000, 'seconds': 28.0846, 'msgs_per_s': 3560.7, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '50040/49960'}
+{'run': 3, 'workers': 4, 'batch': 10, 'rows': 100000, 'seconds': 14.5521, 'msgs_per_s': 6871.9, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '25000/24960/25010/25030'}
+{'run': 3, 'workers': 8, 'batch': 10, 'rows': 100000, 'seconds': 7.6704, 'msgs_per_s': 13037.2, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '12560/12555/12460/12540/12460/12500/12495/12430'}
+{'run': 3, 'workers': 1, 'batch': 100, 'rows': 100000, 'seconds': 6.3702, 'msgs_per_s': 15698.0, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '100000'}
+{'run': 3, 'workers': 2, 'batch': 100, 'rows': 100000, 'seconds': 3.4301, 'msgs_per_s': 29153.4, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '50200/49800'}
+{'run': 3, 'workers': 4, 'batch': 100, 'rows': 100000, 'seconds': 1.876, 'msgs_per_s': 53304.1, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '25296/25018/24786/24900'}
+{'run': 3, 'workers': 8, 'batch': 100, 'rows': 100000, 'seconds': 2.3793, 'msgs_per_s': 42028.7, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '12357/12200/12693/12345/12500/12805/12400/12700'}
+{'run': 3, 'workers': 1, 'batch': 500, 'rows': 100000, 'seconds': 2.336, 'msgs_per_s': 42809.0, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '100000'}
+{'run': 3, 'workers': 2, 'batch': 500, 'rows': 100000, 'seconds': 1.7229, 'msgs_per_s': 58042.5, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '50000/50000'}
+{'run': 3, 'workers': 4, 'batch': 500, 'rows': 100000, 'seconds': 1.8716, 'msgs_per_s': 53431.3, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '25382/25599/24577/24442'}
+{'run': 3, 'workers': 8, 'batch': 500, 'rows': 100000, 'seconds': 2.7692, 'msgs_per_s': 36111.5, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '12251/12102/12506/13250/12553/12838/13000/11500'}
+{'run': 4, 'workers': 1, 'batch': 10, 'rows': 100000, 'seconds': 57.3805, 'msgs_per_s': 1742.8, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '100000'}
+{'run': 4, 'workers': 2, 'batch': 10, 'rows': 100000, 'seconds': 27.5471, 'msgs_per_s': 3630.2, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '49950/50050'}
+{'run': 4, 'workers': 4, 'batch': 10, 'rows': 100000, 'seconds': 14.4681, 'msgs_per_s': 6911.8, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '24980/25010/25000/25010'}
+{'run': 4, 'workers': 8, 'batch': 10, 'rows': 100000, 'seconds': 8.1745, 'msgs_per_s': 12233.1, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '12530/12500/12550/12540/12410/12460/12520/12490'}
+{'run': 4, 'workers': 1, 'batch': 100, 'rows': 100000, 'seconds': 6.4976, 'msgs_per_s': 15390.4, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '100000'}
+{'run': 4, 'workers': 2, 'batch': 100, 'rows': 100000, 'seconds': 3.3392, 'msgs_per_s': 29947.7, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '49900/50100'}
+{'run': 4, 'workers': 4, 'batch': 100, 'rows': 100000, 'seconds': 1.9373, 'msgs_per_s': 51618.6, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '25100/25300/24800/24800'}
+{'run': 4, 'workers': 8, 'batch': 100, 'rows': 100000, 'seconds': 2.3697, 'msgs_per_s': 42200.1, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '12000/12673/12100/12700/12700/12569/12385/12873'}
+{'run': 4, 'workers': 1, 'batch': 500, 'rows': 100000, 'seconds': 2.2342, 'msgs_per_s': 44759.0, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '100000'}
+{'run': 4, 'workers': 2, 'batch': 500, 'rows': 100000, 'seconds': 1.6051, 'msgs_per_s': 62299.6, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '50000/50000'}
+{'run': 4, 'workers': 4, 'batch': 500, 'rows': 100000, 'seconds': 1.7096, 'msgs_per_s': 58491.7, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '25000/25000/25500/24500'}
+{'run': 4, 'workers': 8, 'batch': 500, 'rows': 100000, 'seconds': 2.7063, 'msgs_per_s': 36951.0, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '12500/12141/11934/12425/12182/12984/12937/12897'}
+{'run': 5, 'workers': 1, 'batch': 10, 'rows': 100000, 'seconds': 54.3827, 'msgs_per_s': 1838.8, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '100000'}
+{'run': 5, 'workers': 2, 'batch': 10, 'rows': 100000, 'seconds': 27.0629, 'msgs_per_s': 3695.1, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '50040/49960'}
+{'run': 5, 'workers': 4, 'batch': 10, 'rows': 100000, 'seconds': 13.9273, 'msgs_per_s': 7180.2, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '25050/25000/25000/24950'}
+{'run': 5, 'workers': 8, 'batch': 10, 'rows': 100000, 'seconds': 7.3826, 'msgs_per_s': 13545.4, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '12460/12570/12600/12510/12520/12440/12460/12440'}
+{'run': 5, 'workers': 1, 'batch': 100, 'rows': 100000, 'seconds': 6.1089, 'msgs_per_s': 16369.5, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '100000'}
+{'run': 5, 'workers': 2, 'batch': 100, 'rows': 100000, 'seconds': 3.2415, 'msgs_per_s': 30850.3, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '49900/50100'}
+{'run': 5, 'workers': 4, 'batch': 100, 'rows': 100000, 'seconds': 1.8038, 'msgs_per_s': 55437.2, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '25000/25000/25000/25000'}
+{'run': 5, 'workers': 8, 'batch': 100, 'rows': 100000, 'seconds': 2.1221, 'msgs_per_s': 47124.2, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '12296/12600/12112/12800/12300/12500/12837/12555'}
+{'run': 5, 'workers': 1, 'batch': 500, 'rows': 100000, 'seconds': 2.0817, 'msgs_per_s': 48038.6, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '100000'}
+{'run': 5, 'workers': 2, 'batch': 500, 'rows': 100000, 'seconds': 1.5307, 'msgs_per_s': 65328.8, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '49500/50500'}
+{'run': 5, 'workers': 4, 'batch': 500, 'rows': 100000, 'seconds': 1.5329, 'msgs_per_s': 65234.8, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '24261/24229/26271/25239'}
+{'run': 5, 'workers': 8, 'batch': 500, 'rows': 100000, 'seconds': 2.4032, 'msgs_per_s': 41611.1, 'missing': 0, 'duplicates': 0, 'left_unpublished': 0, 'per_worker_rows': '12990/12623/12127/13112/12133/12468/11914/12633'}
+{
+  "batch=10 workers=1": {
+    "median_msgs_per_s": 1800.6,
+    "min": 1661.1,
+    "max": 1838.8,
+    "runs": 5
+  },
+  "batch=10 workers=2": {
+    "median_msgs_per_s": 3630.2,
+    "min": 2891.7,
+    "max": 3695.1,
+    "runs": 5
+  },
+  "batch=10 workers=4": {
+    "median_msgs_per_s": 6911.8,
+    "min": 5287.4,
+    "max": 7180.2,
+    "runs": 5
+  },
+  "batch=10 workers=8": {
+    "median_msgs_per_s": 12882.6,
+    "min": 9702.6,
+    "max": 13545.4,
+    "runs": 5
+  },
+  "batch=100 workers=1": {
+    "median_msgs_per_s": 15390.4,
+    "min": 10722.0,
+    "max": 16369.5,
+    "runs": 5
+  },
+  "batch=100 workers=2": {
+    "median_msgs_per_s": 29354.9,
+    "min": 18833.9,
+    "max": 30850.3,
+    "runs": 5
+  },
+  "batch=100 workers=4": {
+    "median_msgs_per_s": 51618.6,
+    "min": 34529.1,
+    "max": 55437.2,
+    "runs": 5
+  },
+  "batch=100 workers=8": {
+    "median_msgs_per_s": 45143.4,
+    "min": 42028.7,
+    "max": 47124.2,
+    "runs": 5
+  },
+  "batch=500 workers=1": {
+    "median_msgs_per_s": 44759.0,
+    "min": 42809.0,
+    "max": 48038.6,
+    "runs": 5
+  },
+  "batch=500 workers=2": {
+    "median_msgs_per_s": 63139.3,
+    "min": 58042.5,
+    "max": 65328.8,
+    "runs": 5
+  },
+  "batch=500 workers=4": {
+    "median_msgs_per_s": 58491.7,
+    "min": 53431.3,
+    "max": 65234.8,
+    "runs": 5
+  },
+  "batch=500 workers=8": {
+    "median_msgs_per_s": 38003.1,
+    "min": 36111.5,
+    "max": 41611.1,
+    "runs": 5
+  },
+  "missing_total": 0,
+  "duplicates_total": 0
+}

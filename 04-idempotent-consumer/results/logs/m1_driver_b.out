@@ -1,0 +1,9 @@
+{"variant": "b", "run": 1, "seed": 1001, "events": 10000, "kills": 20, "duplicates": 0, "lost": 0, "ledger_rows": 10000, "balance_total": 1000000, "expected_balance": 1000000, "wall_s": 274.8}
+%5|1790766134.824|PARTCNT|rdkafka#producer-1| [thrd:main]: Topic consumer.m1.b.1.d188e2 (id p3/xQoW/TAeCPW+T0Tdrhw) partition count changed from 6 to 0
+{"variant": "b", "run": 2, "seed": 1002, "events": 10000, "kills": 20, "duplicates": 7, "lost": 0, "ledger_rows": 10007, "balance_total": 1000700, "expected_balance": 1000000, "wall_s": 278.7}
+%5|1790766434.832|PARTCNT|rdkafka#producer-1| [thrd:main]: Topic consumer.m1.b.2.d7eba3 (id 12swXEXZRBycrGb7CJQ51g) partition count changed from 6 to 0
+{"variant": "b", "run": 3, "seed": 1003, "events": 10000, "kills": 20, "duplicates": 3, "lost": 0, "ledger_rows": 10003, "balance_total": 1000300, "expected_balance": 1000000, "wall_s": 277.5}
+%5|1790766734.838|PARTCNT|rdkafka#producer-1| [thrd:main]: Topic consumer.m1.b.3.34f525 (id SHPdyV5EQUWhd8QEtXu4rg) partition count changed from 6 to 0
+{"variant": "b", "run": 4, "seed": 1004, "events": 10000, "kills": 20, "duplicates": 5, "lost": 0, "ledger_rows": 10005, "balance_total": 1000500, "expected_balance": 1000000, "wall_s": 278.8}
+%5|1790767034.849|PARTCNT|rdkafka#producer-1| [thrd:main]: Topic consumer.m1.b.4.02ac56 (id pMwEcXPTTUuunP2FZ7793A) partition count changed from 6 to 0
+{"variant": "b", "run": 5, "seed": 1005, "events": 10000, "kills": 20, "duplicates": 5, "lost": 0, "ledger_rows": 10005, "balance_total": 1000500, "expected_balance": 1000000, "wall_s": 276.7}

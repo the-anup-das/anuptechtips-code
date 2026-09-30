@@ -1,0 +1,227 @@
+{
+  "started": "2026-09-30 16:53:23",
+  "setup": {
+    "charge_delay_s": 0.05,
+    "server_threads": 40,
+    "runs": 20,
+    "concurrency": [
+      50,
+      100
+    ],
+    "python": "3.12.4",
+    "client": "asyncio + one httpx.AsyncClient per concurrent request, warm keep-alive connections",
+    "server": "uvicorn race_app:app, 1 process, sync endpoints, pooled psycopg connections"
+  },
+  "results": {
+    "check-then-insert@50": {
+      "runs": 20,
+      "charges": {
+        "median": 42.5,
+        "min": 40,
+        "max": 45
+      },
+      "conflict_409": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "replayed": {
+        "median": 7.5,
+        "min": 5,
+        "max": 10
+      },
+      "error_500": {
+        "median": 41.5,
+        "min": 39,
+        "max": 44
+      },
+      "new_201": {
+        "median": 1.0,
+        "min": 1,
+        "max": 1
+      },
+      "wall_ms": {
+        "median": 181.5,
+        "min": 169.9,
+        "max": 222.4
+      },
+      "runs_with_duplicates": 20,
+      "total_charges": 850
+    },
+    "check-then-insert@100": {
+      "runs": 20,
+      "charges": {
+        "median": 40.0,
+        "min": 40,
+        "max": 40
+      },
+      "conflict_409": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "replayed": {
+        "median": 60.0,
+        "min": 60,
+        "max": 60
+      },
+      "error_500": {
+        "median": 39.0,
+        "min": 39,
+        "max": 39
+      },
+      "new_201": {
+        "median": 1.0,
+        "min": 1,
+        "max": 1
+      },
+      "wall_ms": {
+        "median": 220.85,
+        "min": 208.9,
+        "max": 245.8
+      },
+      "runs_with_duplicates": 20,
+      "total_charges": 800
+    },
+    "on-conflict@50": {
+      "runs": 20,
+      "charges": {
+        "median": 1.0,
+        "min": 1,
+        "max": 1
+      },
+      "conflict_409": {
+        "median": 49.0,
+        "min": 5,
+        "max": 49
+      },
+      "replayed": {
+        "median": 0.0,
+        "min": 0,
+        "max": 44
+      },
+      "error_500": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "new_201": {
+        "median": 1.0,
+        "min": 1,
+        "max": 1
+      },
+      "wall_ms": {
+        "median": 112.75,
+        "min": 91.1,
+        "max": 168.2
+      },
+      "runs_with_duplicates": 0,
+      "total_charges": 20
+    },
+    "on-conflict@100": {
+      "runs": 20,
+      "charges": {
+        "median": 1.0,
+        "min": 1,
+        "max": 1
+      },
+      "conflict_409": {
+        "median": 82.5,
+        "min": 47,
+        "max": 91
+      },
+      "replayed": {
+        "median": 16.5,
+        "min": 8,
+        "max": 52
+      },
+      "error_500": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "new_201": {
+        "median": 1.0,
+        "min": 1,
+        "max": 1
+      },
+      "wall_ms": {
+        "median": 212.05,
+        "min": 189.4,
+        "max": 253.7
+      },
+      "runs_with_duplicates": 0,
+      "total_charges": 20
+    },
+    "redis-set-nx@50": {
+      "runs": 20,
+      "charges": {
+        "median": 1.0,
+        "min": 1,
+        "max": 1
+      },
+      "conflict_409": {
+        "median": 49.0,
+        "min": 49,
+        "max": 49
+      },
+      "replayed": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "error_500": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "new_201": {
+        "median": 1.0,
+        "min": 1,
+        "max": 1
+      },
+      "wall_ms": {
+        "median": 86.9,
+        "min": 81.3,
+        "max": 128.2
+      },
+      "runs_with_duplicates": 0,
+      "total_charges": 20
+    },
+    "redis-set-nx@100": {
+      "runs": 20,
+      "charges": {
+        "median": 1.0,
+        "min": 1,
+        "max": 1
+      },
+      "conflict_409": {
+        "median": 99.0,
+        "min": 99,
+        "max": 99
+      },
+      "replayed": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "error_500": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "new_201": {
+        "median": 1.0,
+        "min": 1,
+        "max": 1
+      },
+      "wall_ms": {
+        "median": 109.75,
+        "min": 103.7,
+        "max": 133.8
+      },
+      "runs_with_duplicates": 0,
+      "total_charges": 20
+    }
+  }
+}

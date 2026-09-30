@@ -1,0 +1,39 @@
+{"variant": "b", "run": 1, "events": 100000, "span_s": 297.71, "msgs_per_s": 335.9, "gap_p50_ms": 2.697, "gap_p99_ms": 16.214, "gap_mean_ms": 2.977, "ledger_rows": 100000}
+%5|1790768031.015|PARTCNT|rdkafka#producer-1| [thrd:main]: Topic consumer.m3.b.1.7d1aab (id T1w/rYhFSg+wIqdOEHRazA) partition count changed from 6 to 0
+{"variant": "c", "run": 1, "events": 100000, "span_s": 307.18, "msgs_per_s": 325.5, "gap_p50_ms": 2.926, "gap_p99_ms": 4.128, "gap_mean_ms": 3.072, "ledger_rows": 100000}
+%5|1790768331.017|PARTCNT|rdkafka#producer-1| [thrd:main]: Topic consumer.m3.c.1.9ad962 (id Y/i7ZRYpRBaePDWz0/BFiA) partition count changed from 6 to 0
+{"variant": "a1", "run": 1, "events": 100000, "span_s": 224.69, "msgs_per_s": 445.1, "gap_p50_ms": 2.092, "gap_p99_ms": 4.357, "gap_mean_ms": 2.247, "ledger_rows": 100000}
+{"variant": "a2", "run": 1, "events": 100000, "span_s": 223.47, "msgs_per_s": 447.5, "gap_p50_ms": 2.081, "gap_p99_ms": 4.181, "gap_mean_ms": 2.235, "ledger_rows": 100000}
+%5|1790768631.017|PARTCNT|rdkafka#producer-1| [thrd:main]: Topic consumer.m3.a2.1.643bbf (id AHtyshqqTYmmbrRh7gYyLQ) partition count changed from 6 to 0
+%5|1790768631.017|PARTCNT|rdkafka#producer-1| [thrd:main]: Topic consumer.m3.a1.1.5a7e4f (id PukC4GooRxyJw5pqV67pdw) partition count changed from 6 to 0
+{"variant": "b", "run": 2, "events": 100000, "span_s": 275.3, "msgs_per_s": 363.2, "gap_p50_ms": 2.588, "gap_p99_ms": 4.301, "gap_mean_ms": 2.753, "ledger_rows": 100000}
+%5|1790768931.022|PARTCNT|rdkafka#producer-1| [thrd:main]: Topic consumer.m3.b.2.15125b (id 7ZFhPw2vS4W047m0sBYm/Q) partition count changed from 6 to 0
+{"variant": "c", "run": 2, "events": 100000, "span_s": 309.59, "msgs_per_s": 323.0, "gap_p50_ms": 2.939, "gap_p99_ms": 4.34, "gap_mean_ms": 3.096, "ledger_rows": 100000}
+%5|1790769231.077|PARTCNT|rdkafka#producer-1| [thrd:main]: Topic consumer.m3.c.2.68da46 (id PydXafcJSLu0Z8W9XlXIag) partition count changed from 6 to 0
+{"variant": "a1", "run": 2, "events": 100000, "span_s": 224.57, "msgs_per_s": 445.3, "gap_p50_ms": 2.091, "gap_p99_ms": 4.509, "gap_mean_ms": 2.246, "ledger_rows": 100000}
+%5|1790769531.076|PARTCNT|rdkafka#producer-1| [thrd:main]: Topic consumer.m3.a1.2.21ab4a (id 5Kq/2f7RTv++2TZIvHS5WQ) partition count changed from 6 to 0
+{"variant": "a2", "run": 2, "events": 100000, "span_s": 222.58, "msgs_per_s": 449.3, "gap_p50_ms": 2.081, "gap_p99_ms": 3.472, "gap_mean_ms": 2.226, "ledger_rows": 100000}
+%5|1790769831.084|PARTCNT|rdkafka#producer-1| [thrd:main]: Topic consumer.m3.a2.2.856eda (id mssT7CAaSc2sTYvAo1P2wg) partition count changed from 6 to 0
+{"variant": "b", "run": 3, "events": 100000, "span_s": 288.15, "msgs_per_s": 347.0, "gap_p50_ms": 2.732, "gap_p99_ms": 3.588, "gap_mean_ms": 2.881, "ledger_rows": 100000}
+%5|1790770131.009|PARTCNT|rdkafka#producer-1| [thrd:main]: Topic consumer.m3.b.3.0e1e94 (id 7OM1q1/bQRmV6lb6YE/iEQ) partition count changed from 6 to 0
+{"variant": "c", "run": 3, "events": 100000, "span_s": 309.64, "msgs_per_s": 323.0, "gap_p50_ms": 2.941, "gap_p99_ms": 4.129, "gap_mean_ms": 3.096, "ledger_rows": 100000}
+%5|1790770430.944|PARTCNT|rdkafka#producer-1| [thrd:main]: Topic consumer.m3.c.3.085da6 (id stOkp0v+QEyTovN7keOqaQ) partition count changed from 6 to 0
+{"variant": "a1", "run": 3, "events": 100000, "span_s": 224.85, "msgs_per_s": 444.7, "gap_p50_ms": 2.091, "gap_p99_ms": 4.207, "gap_mean_ms": 2.248, "ledger_rows": 100000}
+{"variant": "a2", "run": 3, "events": 100000, "span_s": 223.73, "msgs_per_s": 447.0, "gap_p50_ms": 2.088, "gap_p99_ms": 3.727, "gap_mean_ms": 2.237, "ledger_rows": 100000}
+%5|1790770730.876|PARTCNT|rdkafka#producer-1| [thrd:main]: Topic consumer.m3.a2.3.cb8f22 (id CaxuEBenSSisK2yeI35ehg) partition count changed from 6 to 0
+%5|1790770730.876|PARTCNT|rdkafka#producer-1| [thrd:main]: Topic consumer.m3.a1.3.f25d50 (id ed/RbgF+TP2/WUSb/kYxFA) partition count changed from 6 to 0
+{"variant": "b", "run": 4, "events": 100000, "span_s": 273.86, "msgs_per_s": 365.1, "gap_p50_ms": 2.586, "gap_p99_ms": 4.047, "gap_mean_ms": 2.739, "ledger_rows": 100000}
+%5|1790771030.819|PARTCNT|rdkafka#producer-1| [thrd:main]: Topic consumer.m3.b.4.8a83bc (id XAY04+mmS7qoKZVk+FhefA) partition count changed from 6 to 0
+{"variant": "c", "run": 4, "events": 100000, "span_s": 322.49, "msgs_per_s": 310.1, "gap_p50_ms": 3.081, "gap_p99_ms": 4.136, "gap_mean_ms": 3.225, "ledger_rows": 100000}
+%5|1790771330.764|PARTCNT|rdkafka#producer-1| [thrd:main]: Topic consumer.m3.c.4.37c483 (id NhhLIbzdR/ymIUb5e8z+FA) partition count changed from 6 to 0
+{"variant": "a1", "run": 4, "events": 100000, "span_s": 223.68, "msgs_per_s": 447.1, "gap_p50_ms": 2.089, "gap_p99_ms": 3.772, "gap_mean_ms": 2.237, "ledger_rows": 100000}
+%5|1790771630.715|PARTCNT|rdkafka#producer-1| [thrd:main]: Topic consumer.m3.a1.4.8dcdf6 (id 7NvbuVYaR4mSgxGCobhCmg) partition count changed from 6 to 0
+{"variant": "a2", "run": 4, "events": 100000, "span_s": 222.73, "msgs_per_s": 449.0, "gap_p50_ms": 2.085, "gap_p99_ms": 3.359, "gap_mean_ms": 2.227, "ledger_rows": 100000}
+%5|1790771930.665|PARTCNT|rdkafka#producer-1| [thrd:main]: Topic consumer.m3.a2.4.ab5f05 (id aMuIZWKtRpSvqyMKlzg1fQ) partition count changed from 6 to 0
+{"variant": "b", "run": 5, "events": 100000, "span_s": 287.54, "msgs_per_s": 347.8, "gap_p50_ms": 2.73, "gap_p99_ms": 3.926, "gap_mean_ms": 2.875, "ledger_rows": 100000}
+%5|1790772230.644|PARTCNT|rdkafka#producer-1| [thrd:main]: Topic consumer.m3.b.5.cabfc7 (id XqYMf5BPQLmKeLfLMMbbrw) partition count changed from 6 to 0
+{"variant": "c", "run": 5, "events": 100000, "span_s": 315.99, "msgs_per_s": 316.5, "gap_p50_ms": 2.997, "gap_p99_ms": 4.253, "gap_mean_ms": 3.16, "ledger_rows": 100000}
+%5|1790772530.597|PARTCNT|rdkafka#producer-1| [thrd:main]: Topic consumer.m3.c.5.d6c472 (id 6FttB7WeTMOSVfiKvuvh6Q) partition count changed from 6 to 0
+{"variant": "a1", "run": 5, "events": 100000, "span_s": 229.55, "msgs_per_s": 435.6, "gap_p50_ms": 2.132, "gap_p99_ms": 3.855, "gap_mean_ms": 2.296, "ledger_rows": 100000}
+%5|1790772830.560|PARTCNT|rdkafka#producer-1| [thrd:main]: Topic consumer.m3.a1.5.0638a3 (id VswMxQObSBODWwJ/aKxAow) partition count changed from 6 to 0
+{"variant": "a2", "run": 5, "events": 100000, "span_s": 234.41, "msgs_per_s": 426.6, "gap_p50_ms": 2.185, "gap_p99_ms": 3.614, "gap_mean_ms": 2.344, "ledger_rows": 100000}

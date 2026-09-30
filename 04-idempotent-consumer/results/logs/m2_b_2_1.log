@@ -1,0 +1,22 @@
+
+--- start b 16:34:13 ---
+2026-09-30 16:34:13,662 INFO stalling 12 s on seq 0
+%4|1790766263.664|MAXPOLL|rdkafka#consumer-1| [thrd:main]: Application maximum poll interval (10000ms) exceeded by 4ms (adjust max.poll.interval.ms for long-running message processing): leaving group
+2026-09-30 16:34:25,662 INFO stall over on seq 0
+2026-09-30 16:34:25,666 WARNING offset commit failed: KafkaError{code=UNKNOWN_MEMBER_ID,val=25,str="Commit failed: Broker: Unknown member"}
+2026-09-30 16:34:25,667 WARNING consumer error: KafkaError{code=_MAX_POLL_EXCEEDED,val=-147,str="Application maximum poll interval (10000ms) exceeded by 4ms"}
+2026-09-30 16:34:37,722 INFO stalling 12 s on seq 3006
+%4|1790766287.788|MAXPOLL|rdkafka#consumer-1| [thrd:main]: Application maximum poll interval (10000ms) exceeded by 67ms (adjust max.poll.interval.ms for long-running message processing): leaving group
+2026-09-30 16:34:49,723 INFO stall over on seq 3006
+2026-09-30 16:34:49,726 WARNING offset commit failed: KafkaError{code=UNKNOWN_MEMBER_ID,val=25,str="Commit failed: Broker: Unknown member"}
+2026-09-30 16:34:49,726 WARNING consumer error: KafkaError{code=_MAX_POLL_EXCEEDED,val=-147,str="Application maximum poll interval (10000ms) exceeded by 67ms"}
+2026-09-30 16:35:10,674 INFO stalling 12 s on seq 4509
+%4|1790766320.859|MAXPOLL|rdkafka#consumer-1| [thrd:main]: Application maximum poll interval (10000ms) exceeded by 187ms (adjust max.poll.interval.ms for long-running message processing): leaving group
+2026-09-30 16:35:22,674 INFO stall over on seq 4509
+2026-09-30 16:35:22,677 WARNING offset commit failed: KafkaError{code=UNKNOWN_MEMBER_ID,val=25,str="Commit failed: Broker: Unknown member"}
+2026-09-30 16:35:22,678 WARNING consumer error: KafkaError{code=_MAX_POLL_EXCEEDED,val=-147,str="Application maximum poll interval (10000ms) exceeded by 187ms"}
+2026-09-30 16:35:32,899 INFO stalling 12 s on seq 2004
+%4|1790766343.134|MAXPOLL|rdkafka#consumer-1| [thrd:main]: Application maximum poll interval (10000ms) exceeded by 237ms (adjust max.poll.interval.ms for long-running message processing): leaving group
+2026-09-30 16:35:44,900 INFO stall over on seq 2004
+2026-09-30 16:35:44,903 WARNING offset commit failed: KafkaError{code=UNKNOWN_MEMBER_ID,val=25,str="Commit failed: Broker: Unknown member"}
+2026-09-30 16:35:44,903 WARNING consumer error: KafkaError{code=_MAX_POLL_EXCEEDED,val=-147,str="Application maximum poll interval (10000ms) exceeded by 237ms"}

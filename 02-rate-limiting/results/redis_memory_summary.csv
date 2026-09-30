@@ -1,0 +1,8 @@
+algorithm,type,encoding,median_bytes,min_bytes,max_bytes,keys
+Fixed window,string,int,56.0,56,56,1000
+Sliding window log,zset,listpack,5352.0,5337,5365,1000
+Sliding window counter,hash,listpack,93.0,93,93,1000
+Token bucket,hash,listpack,117.0,113,117,1000
+Leaky bucket,hash,listpack,113.0,109,117,1000
+GCRA,string,embstr,80.0,71,80,1000
+"Sliding window log at 1,000/min",zset,skiplist,110360.0,109416,111416,200

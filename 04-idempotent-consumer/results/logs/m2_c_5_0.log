@@ -1,0 +1,19 @@
+
+--- start c 16:39:22 ---
+2026-09-30 16:39:22,946 INFO stalling 12 s on seq 0
+%4|1790766572.946|MAXPOLL|rdkafka#consumer-1| [thrd:main]: Application maximum poll interval (10000ms) exceeded by 4ms (adjust max.poll.interval.ms for long-running message processing): leaving group
+2026-09-30 16:39:34,947 INFO stall over on seq 0
+2026-09-30 16:39:34,952 WARNING offset commit failed: KafkaError{code=UNKNOWN_MEMBER_ID,val=25,str="Commit failed: Broker: Unknown member"}
+2026-09-30 16:39:34,953 WARNING consumer error: KafkaError{code=_MAX_POLL_EXCEEDED,val=-147,str="Application maximum poll interval (10000ms) exceeded by 4ms"}
+2026-09-30 16:39:38,582 INFO stalling 12 s on seq 3006
+%4|1790766588.971|MAXPOLL|rdkafka#consumer-1| [thrd:main]: Application maximum poll interval (10000ms) exceeded by 390ms (adjust max.poll.interval.ms for long-running message processing): leaving group
+2026-09-30 16:39:50,583 INFO stall over on seq 3006
+2026-09-30 16:39:50,588 WARNING offset commit failed: KafkaError{code=UNKNOWN_MEMBER_ID,val=25,str="Commit failed: Broker: Unknown member"}
+2026-09-30 16:39:50,588 WARNING consumer error: KafkaError{code=_MAX_POLL_EXCEEDED,val=-147,str="Application maximum poll interval (10000ms) exceeded by 390ms"}
+2026-09-30 16:39:53,750 INFO skipped duplicate a6af457b-742c-42b9-94fb-0508b92bca89
+2026-09-30 16:39:54,329 INFO stalling 12 s on seq 4509
+%4|1790766604.700|MAXPOLL|rdkafka#consumer-1| [thrd:main]: Application maximum poll interval (10000ms) exceeded by 374ms (adjust max.poll.interval.ms for long-running message processing): leaving group
+2026-09-30 16:40:06,329 INFO stall over on seq 4509
+2026-09-30 16:40:06,333 WARNING offset commit failed: KafkaError{code=UNKNOWN_MEMBER_ID,val=25,str="Commit failed: Broker: Unknown member"}
+2026-09-30 16:40:06,333 WARNING consumer error: KafkaError{code=_MAX_POLL_EXCEEDED,val=-147,str="Application maximum poll interval (10000ms) exceeded by 374ms"}
+2026-09-30 16:40:18,733 INFO skipped duplicate 8e2d6354-e2c2-4546-b618-d8cc85e0e024

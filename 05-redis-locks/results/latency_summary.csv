@@ -1,0 +1,5 @@
+case,samples,p50_ms,p99_ms,run_p50_min_ms,run_p50_max_ms
+redis-py Lock,10000,0.676,0.846,0.668,0.682
+SET NX PX + DELEX,10000,0.648,0.803,0.639,0.652
+FencedLock (Lua + INCR),10000,0.689,0.852,0.685,0.693
+pg_try_advisory_xact_lock,10000,0.877,1.057,0.864,0.882

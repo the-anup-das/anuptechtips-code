@@ -1,0 +1,76 @@
+{
+  "naive": [
+    {
+      "events": 10000,
+      "unique_sent": 10000,
+      "sent_total": 20000,
+      "sent_twice_or_more": 10000,
+      "extra_copies": 10000
+    },
+    {
+      "events": 10000,
+      "unique_sent": 10000,
+      "sent_total": 20000,
+      "sent_twice_or_more": 10000,
+      "extra_copies": 10000
+    },
+    {
+      "events": 10000,
+      "unique_sent": 10000,
+      "sent_total": 20000,
+      "sent_twice_or_more": 10000,
+      "extra_copies": 10000
+    },
+    {
+      "events": 10000,
+      "unique_sent": 10000,
+      "sent_total": 19800,
+      "sent_twice_or_more": 9800,
+      "extra_copies": 9800
+    },
+    {
+      "events": 10000,
+      "unique_sent": 10000,
+      "sent_total": 20000,
+      "sent_twice_or_more": 10000,
+      "extra_copies": 10000
+    }
+  ],
+  "skip_locked": [
+    {
+      "events": 10000,
+      "unique_sent": 10000,
+      "sent_total": 10000,
+      "sent_twice_or_more": 0,
+      "extra_copies": 0
+    },
+    {
+      "events": 10000,
+      "unique_sent": 10000,
+      "sent_total": 10000,
+      "sent_twice_or_more": 0,
+      "extra_copies": 0
+    },
+    {
+      "events": 10000,
+      "unique_sent": 10000,
+      "sent_total": 10000,
+      "sent_twice_or_more": 0,
+      "extra_copies": 0
+    },
+    {
+      "events": 10000,
+      "unique_sent": 10000,
+      "sent_total": 10000,
+      "sent_twice_or_more": 0,
+      "extra_copies": 0
+    },
+    {
+      "events": 10000,
+      "unique_sent": 10000,
+      "sent_total": 10000,
+      "sent_twice_or_more": 0,
+      "extra_copies": 0
+    }
+  ]
+}

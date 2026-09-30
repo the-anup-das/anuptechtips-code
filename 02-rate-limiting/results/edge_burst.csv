@@ -1,0 +1,22 @@
+pattern,algorithm,sent,served,max_in_1s,max_in_60s,max_delay_ms
+edge burst,Fixed window,200,200,200,200,0
+edge burst,Sliding window log,200,100,100,100,0
+edge burst,Sliding window counter,200,100,100,100,0
+edge burst,Token bucket (B = 20),200,21,21,21,0
+edge burst,Token bucket (B = 100),200,101,101,101,0
+edge burst,GCRA (B = 20),200,21,21,21,0
+edge burst,Leaky bucket (queue of 20),200,22,2,22,12000
+"edge burst, then 3x for 4 min",Fixed window,1397,500,200,200,0
+"edge burst, then 3x for 4 min",Sliding window log,1397,402,100,100,0
+"edge burst, then 3x for 4 min",Sliding window counter,1397,496,100,199,0
+"edge burst, then 3x for 4 min",Token bucket (B = 20),1397,420,21,119,0
+"edge burst, then 3x for 4 min",Token bucket (B = 100),1397,500,101,199,0
+"edge burst, then 3x for 4 min",GCRA (B = 20),1397,420,21,119,0
+"edge burst, then 3x for 4 min",Leaky bucket (queue of 20),1397,421,2,100,12000
+steady 3x for 5 min,Fixed window,1500,500,5,100,0
+steady 3x for 5 min,Sliding window log,1500,500,5,100,0
+steady 3x for 5 min,Sliding window counter,1500,496,5,100,0
+steady 3x for 5 min,Token bucket (B = 20),1500,519,5,119,0
+steady 3x for 5 min,Token bucket (B = 100),1500,599,5,199,0
+steady 3x for 5 min,GCRA (B = 20),1500,519,5,119,0
+steady 3x for 5 min,Leaky bucket (queue of 20),1500,520,2,100,12000

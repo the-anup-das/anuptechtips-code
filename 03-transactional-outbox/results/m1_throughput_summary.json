@@ -1,0 +1,76 @@
+{
+  "batch=10 workers=1": {
+    "median_msgs_per_s": 1800.6,
+    "min": 1661.1,
+    "max": 1838.8,
+    "runs": 5
+  },
+  "batch=10 workers=2": {
+    "median_msgs_per_s": 3630.2,
+    "min": 2891.7,
+    "max": 3695.1,
+    "runs": 5
+  },
+  "batch=10 workers=4": {
+    "median_msgs_per_s": 6911.8,
+    "min": 5287.4,
+    "max": 7180.2,
+    "runs": 5
+  },
+  "batch=10 workers=8": {
+    "median_msgs_per_s": 12882.6,
+    "min": 9702.6,
+    "max": 13545.4,
+    "runs": 5
+  },
+  "batch=100 workers=1": {
+    "median_msgs_per_s": 15390.4,
+    "min": 10722.0,
+    "max": 16369.5,
+    "runs": 5
+  },
+  "batch=100 workers=2": {
+    "median_msgs_per_s": 29354.9,
+    "min": 18833.9,
+    "max": 30850.3,
+    "runs": 5
+  },
+  "batch=100 workers=4": {
+    "median_msgs_per_s": 51618.6,
+    "min": 34529.1,
+    "max": 55437.2,
+    "runs": 5
+  },
+  "batch=100 workers=8": {
+    "median_msgs_per_s": 45143.4,
+    "min": 42028.7,
+    "max": 47124.2,
+    "runs": 5
+  },
+  "batch=500 workers=1": {
+    "median_msgs_per_s": 44759.0,
+    "min": 42809.0,
+    "max": 48038.6,
+    "runs": 5
+  },
+  "batch=500 workers=2": {
+    "median_msgs_per_s": 63139.3,
+    "min": 58042.5,
+    "max": 65328.8,
+    "runs": 5
+  },
+  "batch=500 workers=4": {
+    "median_msgs_per_s": 58491.7,
+    "min": 53431.3,
+    "max": 65234.8,
+    "runs": 5
+  },
+  "batch=500 workers=8": {
+    "median_msgs_per_s": 38003.1,
+    "min": 36111.5,
+    "max": 41611.1,
+    "runs": 5
+  },
+  "missing_total": 0,
+  "duplicates_total": 0
+}

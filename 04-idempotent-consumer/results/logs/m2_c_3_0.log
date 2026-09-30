@@ -1,0 +1,19 @@
+
+--- start c 16:35:51 ---
+2026-09-30 16:36:09,792 INFO stalling 12 s on seq 4008
+%4|1790766380.261|MAXPOLL|rdkafka#consumer-1| [thrd:main]: Application maximum poll interval (10000ms) exceeded by 472ms (adjust max.poll.interval.ms for long-running message processing): leaving group
+2026-09-30 16:36:21,793 INFO stall over on seq 4008
+2026-09-30 16:36:21,796 WARNING offset commit failed: KafkaError{code=UNKNOWN_MEMBER_ID,val=25,str="Commit failed: Broker: Unknown member"}
+2026-09-30 16:36:21,796 WARNING consumer error: KafkaError{code=_MAX_POLL_EXCEEDED,val=-147,str="Application maximum poll interval (10000ms) exceeded by 472ms"}
+2026-09-30 16:36:34,026 INFO skipped duplicate 8554545e-cc95-4411-af04-eb093d635fe7
+2026-09-30 16:36:34,393 INFO stalling 12 s on seq 1002
+%4|1790766404.481|MAXPOLL|rdkafka#consumer-1| [thrd:main]: Application maximum poll interval (10000ms) exceeded by 90ms (adjust max.poll.interval.ms for long-running message processing): leaving group
+2026-09-30 16:36:46,393 INFO stall over on seq 1002
+2026-09-30 16:36:46,413 WARNING offset commit failed: KafkaError{code=UNKNOWN_MEMBER_ID,val=25,str="Commit failed: Broker: Unknown member"}
+2026-09-30 16:36:46,413 WARNING consumer error: KafkaError{code=_MAX_POLL_EXCEEDED,val=-147,str="Application maximum poll interval (10000ms) exceeded by 90ms"}
+2026-09-30 16:36:56,891 INFO skipped duplicate f4e41788-40e3-457a-be35-34979baec8b8
+2026-09-30 16:36:57,291 INFO stalling 12 s on seq 2505
+%4|1790766427.456|MAXPOLL|rdkafka#consumer-1| [thrd:main]: Application maximum poll interval (10000ms) exceeded by 166ms (adjust max.poll.interval.ms for long-running message processing): leaving group
+2026-09-30 16:37:09,292 INFO stall over on seq 2505
+2026-09-30 16:37:09,296 WARNING offset commit failed: KafkaError{code=UNKNOWN_MEMBER_ID,val=25,str="Commit failed: Broker: Unknown member"}
+2026-09-30 16:37:09,296 WARNING consumer error: KafkaError{code=_MAX_POLL_EXCEEDED,val=-147,str="Application maximum poll interval (10000ms) exceeded by 166ms"}

@@ -1,0 +1,14 @@
+{'run': 1, 'rows': 800000, 'kills': 10, 'left_unpublished': 0, 'messages_in_topic': 800800, 'missing': 0, 'duplicates': 800, 'max_copies_of_one_id': 2, 'ids_by_copies': {1: 799200, 2: 800}}
+{'run': 2, 'rows': 800000, 'kills': 10, 'left_unpublished': 0, 'messages_in_topic': 800600, 'missing': 0, 'duplicates': 600, 'max_copies_of_one_id': 2, 'ids_by_copies': {1: 799400, 2: 600}}
+{'run': 3, 'rows': 800000, 'kills': 10, 'left_unpublished': 0, 'messages_in_topic': 800600, 'missing': 0, 'duplicates': 600, 'max_copies_of_one_id': 2, 'ids_by_copies': {1: 799400, 2: 600}}
+{'run': 4, 'rows': 800000, 'kills': 10, 'left_unpublished': 0, 'messages_in_topic': 800400, 'missing': 0, 'duplicates': 400, 'max_copies_of_one_id': 2, 'ids_by_copies': {1: 799600, 2: 400}}
+{'run': 5, 'rows': 800000, 'kills': 10, 'left_unpublished': 0, 'messages_in_topic': 800400, 'missing': 0, 'duplicates': 400, 'max_copies_of_one_id': 2, 'ids_by_copies': {1: 799600, 2: 400}}
+{
+  "total_kills": 50,
+  "total_duplicates": 2800,
+  "total_missing": 0,
+  "duplicates_per_kill": 56.0,
+  "batch": 100,
+  "workers": 4,
+  "rows_per_run": 800000
+}

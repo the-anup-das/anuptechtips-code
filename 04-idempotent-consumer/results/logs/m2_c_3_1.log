@@ -1,0 +1,20 @@
+
+--- start c 16:35:51 ---
+2026-09-30 16:35:51,631 INFO stalling 12 s on seq 0
+%4|1790766362.099|MAXPOLL|rdkafka#consumer-1| [thrd:main]: Application maximum poll interval (10000ms) exceeded by 471ms (adjust max.poll.interval.ms for long-running message processing): leaving group
+2026-09-30 16:36:03,632 INFO stall over on seq 0
+2026-09-30 16:36:03,636 WARNING offset commit failed: KafkaError{code=UNKNOWN_MEMBER_ID,val=25,str="Commit failed: Broker: Unknown member"}
+2026-09-30 16:36:03,637 WARNING consumer error: KafkaError{code=_MAX_POLL_EXCEEDED,val=-147,str="Application maximum poll interval (10000ms) exceeded by 471ms"}
+2026-09-30 16:36:07,166 INFO stalling 12 s on seq 3006
+%4|1790766377.234|MAXPOLL|rdkafka#consumer-1| [thrd:main]: Application maximum poll interval (10000ms) exceeded by 70ms (adjust max.poll.interval.ms for long-running message processing): leaving group
+2026-09-30 16:36:19,166 INFO stall over on seq 3006
+2026-09-30 16:36:19,169 WARNING offset commit failed: KafkaError{code=UNKNOWN_MEMBER_ID,val=25,str="Commit failed: Broker: Unknown member"}
+2026-09-30 16:36:19,169 WARNING consumer error: KafkaError{code=_MAX_POLL_EXCEEDED,val=-147,str="Application maximum poll interval (10000ms) exceeded by 70ms"}
+2026-09-30 16:36:21,796 INFO skipped duplicate 94c9e6fa-2c54-4603-a65a-3ba6de0236f7
+2026-09-30 16:36:31,992 INFO stalling 12 s on seq 4509
+%4|1790766402.471|MAXPOLL|rdkafka#consumer-1| [thrd:main]: Application maximum poll interval (10000ms) exceeded by 482ms (adjust max.poll.interval.ms for long-running message processing): leaving group
+2026-09-30 16:36:43,992 INFO stall over on seq 4509
+2026-09-30 16:36:43,996 WARNING offset commit failed: KafkaError{code=UNKNOWN_MEMBER_ID,val=25,str="Commit failed: Broker: Unknown member"}
+2026-09-30 16:36:43,996 WARNING consumer error: KafkaError{code=_MAX_POLL_EXCEEDED,val=-147,str="Application maximum poll interval (10000ms) exceeded by 482ms"}
+2026-09-30 16:36:46,412 INFO skipped duplicate 7eb2d7ab-06ff-4f12-b964-2e4cb17d2058
+2026-09-30 16:37:23,591 INFO skipped duplicate 38b6e566-a898-490d-8aa4-a9f18c78db3e

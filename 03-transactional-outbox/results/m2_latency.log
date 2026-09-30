@@ -1,0 +1,50 @@
+{'mode': 'poll 1 s', 'events': 1800, 'missing': 0, 'commits_per_s': 200.0, 'p50_ms': 510.72, 'p95_ms': 957.51, 'p99_ms': 997.37, 'max_ms': 1007.19, 'run': 1}
+{'mode': 'poll 100 ms', 'events': 1800, 'missing': 0, 'commits_per_s': 200.0, 'p50_ms': 55.22, 'p95_ms': 102.69, 'p99_ms': 105.86, 'max_ms': 124.03, 'run': 1}
+{'mode': 'LISTEN/NOTIFY', 'events': 1800, 'missing': 0, 'commits_per_s': 200.0, 'p50_ms': 2.8, 'p95_ms': 10.88, 'p99_ms': 21.51, 'max_ms': 22.41, 'run': 1}
+{'mode': 'poll 1 s', 'events': 1800, 'missing': 0, 'commits_per_s': 200.0, 'p50_ms': 512.75, 'p95_ms': 959.48, 'p99_ms': 999.14, 'max_ms': 1023.48, 'run': 2}
+{'mode': 'poll 100 ms', 'events': 1800, 'missing': 0, 'commits_per_s': 200.0, 'p50_ms': 54.14, 'p95_ms': 103.26, 'p99_ms': 111.23, 'max_ms': 125.94, 'run': 2}
+{'mode': 'LISTEN/NOTIFY', 'events': 1800, 'missing': 0, 'commits_per_s': 200.0, 'p50_ms': 2.86, 'p95_ms': 18.0, 'p99_ms': 22.91, 'max_ms': 36.04, 'run': 2}
+{'mode': 'poll 1 s', 'events': 1800, 'missing': 0, 'commits_per_s': 200.0, 'p50_ms': 511.53, 'p95_ms': 957.74, 'p99_ms': 997.85, 'max_ms': 1008.01, 'run': 3}
+{'mode': 'poll 100 ms', 'events': 1800, 'missing': 0, 'commits_per_s': 200.0, 'p50_ms': 54.8, 'p95_ms': 102.17, 'p99_ms': 106.4, 'max_ms': 122.53, 'run': 3}
+{'mode': 'LISTEN/NOTIFY', 'events': 1800, 'missing': 0, 'commits_per_s': 200.0, 'p50_ms': 2.87, 'p95_ms': 11.85, 'p99_ms': 21.52, 'max_ms': 22.45, 'run': 3}
+{'mode': 'poll 1 s', 'events': 1800, 'missing': 0, 'commits_per_s': 200.0, 'p50_ms': 511.55, 'p95_ms': 958.84, 'p99_ms': 999.11, 'max_ms': 1023.0, 'run': 4}
+{'mode': 'poll 100 ms', 'events': 1800, 'missing': 0, 'commits_per_s': 200.0, 'p50_ms': 54.64, 'p95_ms': 102.4, 'p99_ms': 106.26, 'max_ms': 123.17, 'run': 4}
+{'mode': 'LISTEN/NOTIFY', 'events': 1800, 'missing': 0, 'commits_per_s': 200.0, 'p50_ms': 2.95, 'p95_ms': 11.36, 'p99_ms': 21.69, 'max_ms': 22.86, 'run': 4}
+{'mode': 'poll 1 s', 'events': 1800, 'missing': 0, 'commits_per_s': 200.0, 'p50_ms': 510.62, 'p95_ms': 957.43, 'p99_ms': 997.32, 'max_ms': 1007.47, 'run': 5}
+{'mode': 'poll 100 ms', 'events': 1800, 'missing': 0, 'commits_per_s': 200.0, 'p50_ms': 54.92, 'p95_ms': 102.24, 'p99_ms': 105.38, 'max_ms': 122.29, 'run': 5}
+{'mode': 'LISTEN/NOTIFY', 'events': 1800, 'missing': 0, 'commits_per_s': 200.0, 'p50_ms': 2.84, 'p95_ms': 11.12, 'p99_ms': 21.59, 'max_ms': 22.55, 'run': 5}
+{
+  "poll 1 s": {
+    "median_of_run_p50_ms": 511.53,
+    "median_of_run_p99_ms": 997.85,
+    "min_run_p99_ms": 997.32,
+    "max_run_p99_ms": 999.14,
+    "pooled_p50_ms": 511.22,
+    "pooled_p99_ms": 998.55,
+    "events": 9000,
+    "missing": 0,
+    "runs": 5
+  },
+  "poll 100 ms": {
+    "median_of_run_p50_ms": 54.8,
+    "median_of_run_p99_ms": 106.26,
+    "min_run_p99_ms": 105.38,
+    "max_run_p99_ms": 111.23,
+    "pooled_p50_ms": 54.79,
+    "pooled_p99_ms": 106.37,
+    "events": 9000,
+    "missing": 0,
+    "runs": 5
+  },
+  "LISTEN/NOTIFY": {
+    "median_of_run_p50_ms": 2.86,
+    "median_of_run_p99_ms": 21.59,
+    "min_run_p99_ms": 21.51,
+    "max_run_p99_ms": 22.91,
+    "pooled_p50_ms": 2.86,
+    "pooled_p99_ms": 21.63,
+    "events": 9000,
+    "missing": 0,
+    "runs": 5
+  }
+}

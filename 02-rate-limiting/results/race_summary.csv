@@ -1,0 +1,4 @@
+limiter,runs,median_allowed,min_allowed,max_allowed
+naive GET + INCR,20,109.0,106,115
+MULTI/EXEC,20,100.0,100,100
+Lua script,20,100.0,100,100

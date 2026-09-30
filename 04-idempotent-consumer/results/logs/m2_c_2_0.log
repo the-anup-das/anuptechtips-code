@@ -1,0 +1,19 @@
+
+--- start c 16:34:02 ---
+2026-09-30 16:34:03,107 INFO stalling 12 s on seq 0
+%4|1790766253.581|MAXPOLL|rdkafka#consumer-1| [thrd:main]: Application maximum poll interval (10000ms) exceeded by 477ms (adjust max.poll.interval.ms for long-running message processing): leaving group
+2026-09-30 16:34:15,108 INFO stall over on seq 0
+2026-09-30 16:34:15,113 WARNING offset commit failed: KafkaError{code=UNKNOWN_MEMBER_ID,val=25,str="Commit failed: Broker: Unknown member"}
+2026-09-30 16:34:15,114 WARNING consumer error: KafkaError{code=_MAX_POLL_EXCEEDED,val=-147,str="Application maximum poll interval (10000ms) exceeded by 477ms"}
+2026-09-30 16:34:20,012 INFO stalling 12 s on seq 4008
+%4|1790766270.124|MAXPOLL|rdkafka#consumer-1| [thrd:main]: Application maximum poll interval (10000ms) exceeded by 114ms (adjust max.poll.interval.ms for long-running message processing): leaving group
+2026-09-30 16:34:32,013 INFO stall over on seq 4008
+2026-09-30 16:34:32,014 WARNING offset commit failed: KafkaError{code=UNKNOWN_MEMBER_ID,val=25,str="Commit failed: Broker: Unknown member"}
+2026-09-30 16:34:32,014 WARNING consumer error: KafkaError{code=_MAX_POLL_EXCEEDED,val=-147,str="Application maximum poll interval (10000ms) exceeded by 114ms"}
+2026-09-30 16:34:44,318 INFO stalling 12 s on seq 3006
+%4|1790766294.626|MAXPOLL|rdkafka#consumer-1| [thrd:main]: Application maximum poll interval (10000ms) exceeded by 310ms (adjust max.poll.interval.ms for long-running message processing): leaving group
+2026-09-30 16:34:56,320 INFO stall over on seq 3006
+2026-09-30 16:34:56,322 WARNING offset commit failed: KafkaError{code=UNKNOWN_MEMBER_ID,val=25,str="Commit failed: Broker: Unknown member"}
+2026-09-30 16:34:56,322 WARNING consumer error: KafkaError{code=_MAX_POLL_EXCEEDED,val=-147,str="Application maximum poll interval (10000ms) exceeded by 310ms"}
+2026-09-30 16:35:17,948 INFO skipped duplicate 5bedb00f-e9a4-417b-8f7d-ad9b773808fe
+2026-09-30 16:35:32,064 INFO skipped duplicate cbf28787-7a7d-4730-923b-feadad62bc86

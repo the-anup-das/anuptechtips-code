@@ -1,0 +1,21 @@
+
+--- start c 16:34:02 ---
+2026-09-30 16:34:15,113 INFO skipped duplicate 84527cc5-9995-4849-82ae-8a38d24cca74
+2026-09-30 16:34:17,353 INFO stalling 12 s on seq 1503
+%4|1790766267.610|MAXPOLL|rdkafka#consumer-1| [thrd:main]: Application maximum poll interval (10000ms) exceeded by 259ms (adjust max.poll.interval.ms for long-running message processing): leaving group
+2026-09-30 16:34:29,353 INFO stall over on seq 1503
+2026-09-30 16:34:29,358 WARNING offset commit failed: KafkaError{code=UNKNOWN_MEMBER_ID,val=25,str="Commit failed: Broker: Unknown member"}
+2026-09-30 16:34:29,358 WARNING consumer error: KafkaError{code=_MAX_POLL_EXCEEDED,val=-147,str="Application maximum poll interval (10000ms) exceeded by 259ms"}
+2026-09-30 16:34:30,173 INFO skipped duplicate 8bd0414c-ec5d-4407-ac91-7432445ffa99
+2026-09-30 16:34:30,603 INFO stalling 12 s on seq 1002
+%4|1790766280.773|MAXPOLL|rdkafka#consumer-1| [thrd:main]: Application maximum poll interval (10000ms) exceeded by 191ms (adjust max.poll.interval.ms for long-running message processing): leaving group
+2026-09-30 16:34:42,604 INFO stall over on seq 1002
+2026-09-30 16:34:42,620 WARNING offset commit failed: KafkaError{code=UNKNOWN_MEMBER_ID,val=25,str="Commit failed: Broker: Unknown member"}
+2026-09-30 16:34:42,620 WARNING consumer error: KafkaError{code=_MAX_POLL_EXCEEDED,val=-147,str="Application maximum poll interval (10000ms) exceeded by 191ms"}
+2026-09-30 16:34:52,672 INFO skipped duplicate da917228-3042-4fde-a773-ea40bf100913
+2026-09-30 16:34:53,165 INFO skipped duplicate b08d47f0-bc12-4823-a591-043ae0807882
+2026-09-30 16:34:53,518 INFO stalling 12 s on seq 2004
+%4|1790766303.813|MAXPOLL|rdkafka#consumer-1| [thrd:main]: Application maximum poll interval (10000ms) exceeded by 297ms (adjust max.poll.interval.ms for long-running message processing): leaving group
+2026-09-30 16:35:05,519 INFO stall over on seq 2004
+2026-09-30 16:35:05,525 WARNING offset commit failed: KafkaError{code=UNKNOWN_MEMBER_ID,val=25,str="Commit failed: Broker: Unknown member"}
+2026-09-30 16:35:05,525 WARNING consumer error: KafkaError{code=_MAX_POLL_EXCEEDED,val=-147,str="Application maximum poll interval (10000ms) exceeded by 297ms"}

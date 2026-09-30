@@ -1,0 +1,1 @@
+{"variant": "b", "run": 1, "events": 100000, "span_s": 317.84, "msgs_per_s": 314.6, "gap_p50_ms": 2.948, "gap_p99_ms": 5.682, "gap_mean_ms": 3.178, "ledger_rows": 100000}

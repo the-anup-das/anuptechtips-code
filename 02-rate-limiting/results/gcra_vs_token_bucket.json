@@ -1,0 +1,11 @@
+{
+  "decisions_compared": 132388,
+  "mismatches": 0,
+  "bursts": [
+    1,
+    5,
+    20,
+    100
+  ],
+  "traffic_patterns": 23
+}

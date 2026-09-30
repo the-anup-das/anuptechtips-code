@@ -1,0 +1,15 @@
+variant,runs,median_p50_us,min_p50_us,max_p50_us,median_p99_us,max_p99_us
+naive GET + INCR (racy),20,842.5,792.4,953.2,1460.9,1593.0
+MULTI/EXEC fixed window,20,409.2,393.2,486.9,630.5,707.3
+EVALSHA fixed_window,20,404.9,385.4,445.6,614.6,712.3
+FCALL fixed_window,20,401.4,376.5,440.5,611.0,683.1
+EVALSHA sliding_log,20,414.9,395.3,462.8,629.9,721.0
+FCALL sliding_log,20,408.4,393.7,475.9,616.5,715.5
+EVALSHA sliding_counter,20,416.4,390.4,482.3,644.4,696.4
+FCALL sliding_counter,20,404.0,385.8,463.9,635.1,699.4
+EVALSHA token_bucket,20,415.3,388.5,471.3,638.1,756.7
+FCALL token_bucket,20,418.4,394.5,531.0,651.2,790.2
+EVALSHA leaky_bucket,20,414.9,395.8,452.9,623.5,715.4
+FCALL leaky_bucket,20,408.4,388.6,463.2,620.4,710.3
+EVALSHA gcra,20,409.9,392.6,463.0,633.6,730.8
+FCALL gcra,20,405.9,382.3,475.2,627.8,768.1

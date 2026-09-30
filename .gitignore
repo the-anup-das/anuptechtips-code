@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.measure.lock/
+tools/_test/
+tools/*.woff2
+*.full.png
+.venv/

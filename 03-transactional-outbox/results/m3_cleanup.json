@@ -1,0 +1,438 @@
+{
+  "summary": {
+    "quiet database": {
+      "before": {
+        "claim_median_ms": 3.93,
+        "size_mb": 391.7
+      },
+      "after_delete": {
+        "claim_median_ms": 3.68,
+        "size_mb": 391.9
+      },
+      "after_vacuum": {
+        "claim_median_ms": 2.24,
+        "size_mb": 99.5
+      },
+      "before_drop": {
+        "claim_median_ms": 3.81,
+        "size_mb": 391.7
+      },
+      "after_drop": {
+        "claim_median_ms": 2.21,
+        "size_mb": 0.8
+      },
+      "delete_s": 0.52,
+      "vacuum_s": 0.47,
+      "drop_s": 0.311,
+      "runs": 5
+    },
+    "long transaction open": {
+      "before": {
+        "claim_median_ms": 67.61,
+        "size_mb": 391.7
+      },
+      "after_delete": {
+        "claim_median_ms": 66.82,
+        "size_mb": 391.9
+      },
+      "after_vacuum": {
+        "claim_median_ms": 51.61,
+        "size_mb": 391.7
+      },
+      "before_drop": {
+        "claim_median_ms": 67.37,
+        "size_mb": 391.7
+      },
+      "after_drop": {
+        "claim_median_ms": 2.21,
+        "size_mb": 0.8
+      },
+      "delete_s": 0.55,
+      "vacuum_s": 0.12,
+      "drop_s": 0.385,
+      "runs": 5
+    }
+  },
+  "runs": [
+    {
+      "run": 1,
+      "long_transaction_open": false,
+      "before": {
+        "median_ms": 5.26,
+        "max_ms": 386.38,
+        "first_ms": 386.38,
+        "size_mb": 391.7
+      },
+      "delete_s": 0.68,
+      "deleted_rows": 1000000,
+      "after_delete": {
+        "median_ms": 3.65,
+        "max_ms": 6.62,
+        "first_ms": 6.62,
+        "size_mb": 391.9
+      },
+      "vacuum_s": 0.49,
+      "after_vacuum": {
+        "median_ms": 2.4,
+        "max_ms": 2.83,
+        "first_ms": 2.78,
+        "size_mb": 99.5
+      },
+      "before_drop": {
+        "median_ms": 4.62,
+        "max_ms": 292.97,
+        "first_ms": 292.97,
+        "size_mb": 391.7
+      },
+      "drop_s": 0.316,
+      "after_drop": {
+        "median_ms": 2.21,
+        "max_ms": 2.76,
+        "first_ms": 2.76,
+        "size_mb": 0.8
+      }
+    },
+    {
+      "run": 1,
+      "long_transaction_open": true,
+      "before": {
+        "median_ms": 67.61,
+        "max_ms": 241.05,
+        "first_ms": 241.05,
+        "size_mb": 391.7
+      },
+      "delete_s": 0.55,
+      "deleted_rows": 1000000,
+      "after_delete": {
+        "median_ms": 66.95,
+        "max_ms": 71.81,
+        "first_ms": 66.35,
+        "size_mb": 391.9
+      },
+      "vacuum_s": 0.12,
+      "after_vacuum": {
+        "median_ms": 51.65,
+        "max_ms": 53.64,
+        "first_ms": 52.63,
+        "size_mb": 391.7
+      },
+      "before_drop": {
+        "median_ms": 67.37,
+        "max_ms": 296.48,
+        "first_ms": 296.48,
+        "size_mb": 391.7
+      },
+      "drop_s": 0.424,
+      "after_drop": {
+        "median_ms": 2.2,
+        "max_ms": 2.71,
+        "first_ms": 2.71,
+        "size_mb": 0.8
+      }
+    },
+    {
+      "run": 2,
+      "long_transaction_open": false,
+      "before": {
+        "median_ms": 3.93,
+        "max_ms": 307.01,
+        "first_ms": 307.01,
+        "size_mb": 391.7
+      },
+      "delete_s": 0.52,
+      "deleted_rows": 1000000,
+      "after_delete": {
+        "median_ms": 3.95,
+        "max_ms": 5.4,
+        "first_ms": 5.4,
+        "size_mb": 391.9
+      },
+      "vacuum_s": 0.47,
+      "after_vacuum": {
+        "median_ms": 2.28,
+        "max_ms": 2.99,
+        "first_ms": 2.7,
+        "size_mb": 99.5
+      },
+      "before_drop": {
+        "median_ms": 4.35,
+        "max_ms": 295.57,
+        "first_ms": 295.57,
+        "size_mb": 391.7
+      },
+      "drop_s": 0.314,
+      "after_drop": {
+        "median_ms": 2.39,
+        "max_ms": 2.75,
+        "first_ms": 2.75,
+        "size_mb": 0.8
+      }
+    },
+    {
+      "run": 2,
+      "long_transaction_open": true,
+      "before": {
+        "median_ms": 67.52,
+        "max_ms": 255.04,
+        "first_ms": 255.04,
+        "size_mb": 391.7
+      },
+      "delete_s": 0.55,
+      "deleted_rows": 1000000,
+      "after_delete": {
+        "median_ms": 66.8,
+        "max_ms": 69.47,
+        "first_ms": 67.63,
+        "size_mb": 391.9
+      },
+      "vacuum_s": 0.12,
+      "after_vacuum": {
+        "median_ms": 51.72,
+        "max_ms": 54.66,
+        "first_ms": 51.48,
+        "size_mb": 391.7
+      },
+      "before_drop": {
+        "median_ms": 66.7,
+        "max_ms": 281.25,
+        "first_ms": 281.25,
+        "size_mb": 391.7
+      },
+      "drop_s": 0.466,
+      "after_drop": {
+        "median_ms": 2.2,
+        "max_ms": 2.76,
+        "first_ms": 2.76,
+        "size_mb": 0.8
+      }
+    },
+    {
+      "run": 3,
+      "long_transaction_open": false,
+      "before": {
+        "median_ms": 3.7,
+        "max_ms": 314.69,
+        "first_ms": 314.69,
+        "size_mb": 391.7
+      },
+      "delete_s": 0.54,
+      "deleted_rows": 1000000,
+      "after_delete": {
+        "median_ms": 3.68,
+        "max_ms": 5.27,
+        "first_ms": 5.27,
+        "size_mb": 391.9
+      },
+      "vacuum_s": 0.47,
+      "after_vacuum": {
+        "median_ms": 2.23,
+        "max_ms": 2.8,
+        "first_ms": 2.8,
+        "size_mb": 99.5
+      },
+      "before_drop": {
+        "median_ms": 3.72,
+        "max_ms": 274.65,
+        "first_ms": 274.65,
+        "size_mb": 391.7
+      },
+      "drop_s": 0.311,
+      "after_drop": {
+        "median_ms": 2.22,
+        "max_ms": 3.06,
+        "first_ms": 3.06,
+        "size_mb": 0.8
+      }
+    },
+    {
+      "run": 3,
+      "long_transaction_open": true,
+      "before": {
+        "median_ms": 68.34,
+        "max_ms": 253.38,
+        "first_ms": 253.38,
+        "size_mb": 391.7
+      },
+      "delete_s": 0.56,
+      "deleted_rows": 1000000,
+      "after_delete": {
+        "median_ms": 66.82,
+        "max_ms": 67.91,
+        "first_ms": 66.83,
+        "size_mb": 391.9
+      },
+      "vacuum_s": 0.12,
+      "after_vacuum": {
+        "median_ms": 51.61,
+        "max_ms": 53.0,
+        "first_ms": 51.45,
+        "size_mb": 391.7
+      },
+      "before_drop": {
+        "median_ms": 67.24,
+        "max_ms": 260.73,
+        "first_ms": 260.73,
+        "size_mb": 391.7
+      },
+      "drop_s": 0.384,
+      "after_drop": {
+        "median_ms": 2.22,
+        "max_ms": 2.6,
+        "first_ms": 2.6,
+        "size_mb": 0.8
+      }
+    },
+    {
+      "run": 4,
+      "long_transaction_open": false,
+      "before": {
+        "median_ms": 3.75,
+        "max_ms": 295.19,
+        "first_ms": 295.19,
+        "size_mb": 391.7
+      },
+      "delete_s": 0.48,
+      "deleted_rows": 1000000,
+      "after_delete": {
+        "median_ms": 3.56,
+        "max_ms": 5.23,
+        "first_ms": 5.23,
+        "size_mb": 391.9
+      },
+      "vacuum_s": 0.47,
+      "after_vacuum": {
+        "median_ms": 2.24,
+        "max_ms": 2.62,
+        "first_ms": 2.62,
+        "size_mb": 99.5
+      },
+      "before_drop": {
+        "median_ms": 3.65,
+        "max_ms": 273.3,
+        "first_ms": 273.3,
+        "size_mb": 391.7
+      },
+      "drop_s": 0.296,
+      "after_drop": {
+        "median_ms": 2.17,
+        "max_ms": 2.74,
+        "first_ms": 2.74,
+        "size_mb": 0.8
+      }
+    },
+    {
+      "run": 4,
+      "long_transaction_open": true,
+      "before": {
+        "median_ms": 68.62,
+        "max_ms": 260.38,
+        "first_ms": 260.38,
+        "size_mb": 391.7
+      },
+      "delete_s": 0.55,
+      "deleted_rows": 1000000,
+      "after_delete": {
+        "median_ms": 66.81,
+        "max_ms": 68.53,
+        "first_ms": 67.16,
+        "size_mb": 391.9
+      },
+      "vacuum_s": 0.12,
+      "after_vacuum": {
+        "median_ms": 51.46,
+        "max_ms": 52.93,
+        "first_ms": 51.74,
+        "size_mb": 391.7
+      },
+      "before_drop": {
+        "median_ms": 67.57,
+        "max_ms": 257.85,
+        "first_ms": 257.85,
+        "size_mb": 391.7
+      },
+      "drop_s": 0.385,
+      "after_drop": {
+        "median_ms": 2.21,
+        "max_ms": 2.74,
+        "first_ms": 2.7,
+        "size_mb": 0.8
+      }
+    },
+    {
+      "run": 5,
+      "long_transaction_open": false,
+      "before": {
+        "median_ms": 4.29,
+        "max_ms": 299.71,
+        "first_ms": 299.71,
+        "size_mb": 391.7
+      },
+      "delete_s": 0.51,
+      "deleted_rows": 1000000,
+      "after_delete": {
+        "median_ms": 4.35,
+        "max_ms": 5.26,
+        "first_ms": 5.18,
+        "size_mb": 391.9
+      },
+      "vacuum_s": 0.46,
+      "after_vacuum": {
+        "median_ms": 2.17,
+        "max_ms": 2.6,
+        "first_ms": 2.6,
+        "size_mb": 99.5
+      },
+      "before_drop": {
+        "median_ms": 3.81,
+        "max_ms": 282.61,
+        "first_ms": 282.61,
+        "size_mb": 391.7
+      },
+      "drop_s": 0.3,
+      "after_drop": {
+        "median_ms": 2.2,
+        "max_ms": 2.66,
+        "first_ms": 2.66,
+        "size_mb": 0.8
+      }
+    },
+    {
+      "run": 5,
+      "long_transaction_open": true,
+      "before": {
+        "median_ms": 67.4,
+        "max_ms": 247.77,
+        "first_ms": 247.77,
+        "size_mb": 391.7
+      },
+      "delete_s": 0.55,
+      "deleted_rows": 1000000,
+      "after_delete": {
+        "median_ms": 67.22,
+        "max_ms": 68.66,
+        "first_ms": 67.1,
+        "size_mb": 391.9
+      },
+      "vacuum_s": 0.12,
+      "after_vacuum": {
+        "median_ms": 51.5,
+        "max_ms": 52.39,
+        "first_ms": 52.17,
+        "size_mb": 391.7
+      },
+      "before_drop": {
+        "median_ms": 67.53,
+        "max_ms": 250.99,
+        "first_ms": 250.99,
+        "size_mb": 391.7
+      },
+      "drop_s": 0.368,
+      "after_drop": {
+        "median_ms": 2.22,
+        "max_ms": 2.94,
+        "first_ms": 2.94,
+        "size_mb": 0.8
+      }
+    }
+  ]
+}

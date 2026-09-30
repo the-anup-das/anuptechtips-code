@@ -1,0 +1,24 @@
+$ python break_it.py
+A: the lock expired before release
+final value: 1
+
+$ python fence_it.py pause write-only
+B: token 34 accepted
+A: token 33 REJECTED
+A: token 33 had expired before release
+A: token 35 accepted
+final value: 2
+
+$ python fence_it.py overlap write-only
+A: token 33 accepted
+A: token 33 had expired before release
+B: token 34 accepted
+final value: 1
+
+$ python fence_it.py overlap claim-first
+A: token 33 REJECTED
+A: token 33 had expired before release
+B: token 34 accepted
+A: token 35 accepted
+final value: 2
+

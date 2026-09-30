@@ -1,0 +1,71 @@
+{'run': 1, 'writers': 1, 'notify': False, 'commits': 4355, 'commits_per_s': 435.5, 'notifications': 0}
+{'run': 1, 'writers': 1, 'notify': True, 'commits': 4255, 'commits_per_s': 425.5, 'notifications': 4255}
+{'run': 1, 'writers': 8, 'notify': False, 'commits': 22783, 'commits_per_s': 2278.3, 'notifications': 0}
+{'run': 1, 'writers': 8, 'notify': True, 'commits': 9053, 'commits_per_s': 905.3, 'notifications': 9053}
+{'run': 1, 'writers': 32, 'notify': False, 'commits': 58851, 'commits_per_s': 5885.1, 'notifications': 0}
+{'run': 1, 'writers': 32, 'notify': True, 'commits': 9426, 'commits_per_s': 942.6, 'notifications': 9426}
+{'run': 2, 'writers': 1, 'notify': False, 'commits': 4089, 'commits_per_s': 408.9, 'notifications': 0}
+{'run': 2, 'writers': 1, 'notify': True, 'commits': 4098, 'commits_per_s': 409.8, 'notifications': 4098}
+{'run': 2, 'writers': 8, 'notify': False, 'commits': 23978, 'commits_per_s': 2397.8, 'notifications': 0}
+{'run': 2, 'writers': 8, 'notify': True, 'commits': 9378, 'commits_per_s': 937.8, 'notifications': 9378}
+{'run': 2, 'writers': 32, 'notify': False, 'commits': 63101, 'commits_per_s': 6310.1, 'notifications': 0}
+{'run': 2, 'writers': 32, 'notify': True, 'commits': 8462, 'commits_per_s': 846.2, 'notifications': 8462}
+{'run': 3, 'writers': 1, 'notify': False, 'commits': 4324, 'commits_per_s': 432.4, 'notifications': 0}
+{'run': 3, 'writers': 1, 'notify': True, 'commits': 4275, 'commits_per_s': 427.5, 'notifications': 4275}
+{'run': 3, 'writers': 8, 'notify': False, 'commits': 23662, 'commits_per_s': 2366.2, 'notifications': 0}
+{'run': 3, 'writers': 8, 'notify': True, 'commits': 9396, 'commits_per_s': 939.6, 'notifications': 9396}
+{'run': 3, 'writers': 32, 'notify': False, 'commits': 60456, 'commits_per_s': 6045.6, 'notifications': 0}
+{'run': 3, 'writers': 32, 'notify': True, 'commits': 9120, 'commits_per_s': 912.0, 'notifications': 9120}
+{'run': 4, 'writers': 1, 'notify': False, 'commits': 4415, 'commits_per_s': 441.5, 'notifications': 0}
+{'run': 4, 'writers': 1, 'notify': True, 'commits': 4257, 'commits_per_s': 425.7, 'notifications': 4257}
+{'run': 4, 'writers': 8, 'notify': False, 'commits': 24491, 'commits_per_s': 2449.1, 'notifications': 0}
+{'run': 4, 'writers': 8, 'notify': True, 'commits': 9574, 'commits_per_s': 957.4, 'notifications': 9574}
+{'run': 4, 'writers': 32, 'notify': False, 'commits': 60492, 'commits_per_s': 6049.2, 'notifications': 0}
+{'run': 4, 'writers': 32, 'notify': True, 'commits': 9270, 'commits_per_s': 927.0, 'notifications': 9270}
+{'run': 5, 'writers': 1, 'notify': False, 'commits': 4352, 'commits_per_s': 435.2, 'notifications': 0}
+{'run': 5, 'writers': 1, 'notify': True, 'commits': 4252, 'commits_per_s': 425.2, 'notifications': 4252}
+{'run': 5, 'writers': 8, 'notify': False, 'commits': 24600, 'commits_per_s': 2460.0, 'notifications': 0}
+{'run': 5, 'writers': 8, 'notify': True, 'commits': 9443, 'commits_per_s': 944.3, 'notifications': 9443}
+{'run': 5, 'writers': 32, 'notify': False, 'commits': 61764, 'commits_per_s': 6176.4, 'notifications': 0}
+{'run': 5, 'writers': 32, 'notify': True, 'commits': 9589, 'commits_per_s': 958.9, 'notifications': 9589}
+{
+  "1 writers": {
+    "without_notify_median": 435.2,
+    "with_notify_median": 425.5,
+    "without_min_max": [
+      408.9,
+      441.5
+    ],
+    "with_min_max": [
+      409.8,
+      427.5
+    ],
+    "change_pct": -2.2
+  },
+  "8 writers": {
+    "without_notify_median": 2397.8,
+    "with_notify_median": 939.6,
+    "without_min_max": [
+      2278.3,
+      2460.0
+    ],
+    "with_min_max": [
+      905.3,
+      957.4
+    ],
+    "change_pct": -60.8
+  },
+  "32 writers": {
+    "without_notify_median": 6049.2,
+    "with_notify_median": 927.0,
+    "without_min_max": [
+      5885.1,
+      6310.1
+    ],
+    "with_min_max": [
+      846.2,
+      958.9
+    ],
+    "change_pct": -84.7
+  }
+}

@@ -1,0 +1,14 @@
+naive GET + INCR (racy)      p50   842.5 us (min 792.4, max 953.2)   p99  1460.9 us
+MULTI/EXEC fixed window      p50   409.2 us (min 393.2, max 486.9)   p99   630.5 us
+EVALSHA fixed_window         p50   404.9 us (min 385.4, max 445.6)   p99   614.6 us
+FCALL fixed_window           p50   401.4 us (min 376.5, max 440.5)   p99   611.0 us
+EVALSHA sliding_log          p50   414.9 us (min 395.3, max 462.8)   p99   629.9 us
+FCALL sliding_log            p50   408.4 us (min 393.7, max 475.9)   p99   616.5 us
+EVALSHA sliding_counter      p50   416.4 us (min 390.4, max 482.3)   p99   644.4 us
+FCALL sliding_counter        p50   404.0 us (min 385.8, max 463.9)   p99   635.1 us
+EVALSHA token_bucket         p50   415.3 us (min 388.5, max 471.3)   p99   638.1 us
+FCALL token_bucket           p50   418.4 us (min 394.5, max 531.0)   p99   651.2 us
+EVALSHA leaky_bucket         p50   414.9 us (min 395.8, max 452.9)   p99   623.5 us
+FCALL leaky_bucket           p50   408.4 us (min 388.6, max 463.2)   p99   620.4 us
+EVALSHA gcra                 p50   409.9 us (min 392.6, max 463.0)   p99   633.6 us
+FCALL gcra                   p50   405.9 us (min 382.3, max 475.2)   p99   627.8 us

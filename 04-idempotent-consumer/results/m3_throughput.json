@@ -1,0 +1,222 @@
+[
+ {
+  "variant": "c",
+  "run": 1,
+  "events": 100000,
+  "span_s": 307.18,
+  "msgs_per_s": 325.5,
+  "gap_p50_ms": 2.926,
+  "gap_p99_ms": 4.128,
+  "gap_mean_ms": 3.072,
+  "ledger_rows": 100000
+ },
+ {
+  "variant": "a1",
+  "run": 1,
+  "events": 100000,
+  "span_s": 224.69,
+  "msgs_per_s": 445.1,
+  "gap_p50_ms": 2.092,
+  "gap_p99_ms": 4.357,
+  "gap_mean_ms": 2.247,
+  "ledger_rows": 100000
+ },
+ {
+  "variant": "a2",
+  "run": 1,
+  "events": 100000,
+  "span_s": 223.47,
+  "msgs_per_s": 447.5,
+  "gap_p50_ms": 2.081,
+  "gap_p99_ms": 4.181,
+  "gap_mean_ms": 2.235,
+  "ledger_rows": 100000
+ },
+ {
+  "variant": "b",
+  "run": 2,
+  "events": 100000,
+  "span_s": 275.3,
+  "msgs_per_s": 363.2,
+  "gap_p50_ms": 2.588,
+  "gap_p99_ms": 4.301,
+  "gap_mean_ms": 2.753,
+  "ledger_rows": 100000
+ },
+ {
+  "variant": "c",
+  "run": 2,
+  "events": 100000,
+  "span_s": 309.59,
+  "msgs_per_s": 323.0,
+  "gap_p50_ms": 2.939,
+  "gap_p99_ms": 4.34,
+  "gap_mean_ms": 3.096,
+  "ledger_rows": 100000
+ },
+ {
+  "variant": "a1",
+  "run": 2,
+  "events": 100000,
+  "span_s": 224.57,
+  "msgs_per_s": 445.3,
+  "gap_p50_ms": 2.091,
+  "gap_p99_ms": 4.509,
+  "gap_mean_ms": 2.246,
+  "ledger_rows": 100000
+ },
+ {
+  "variant": "a2",
+  "run": 2,
+  "events": 100000,
+  "span_s": 222.58,
+  "msgs_per_s": 449.3,
+  "gap_p50_ms": 2.081,
+  "gap_p99_ms": 3.472,
+  "gap_mean_ms": 2.226,
+  "ledger_rows": 100000
+ },
+ {
+  "variant": "b",
+  "run": 3,
+  "events": 100000,
+  "span_s": 288.15,
+  "msgs_per_s": 347.0,
+  "gap_p50_ms": 2.732,
+  "gap_p99_ms": 3.588,
+  "gap_mean_ms": 2.881,
+  "ledger_rows": 100000
+ },
+ {
+  "variant": "c",
+  "run": 3,
+  "events": 100000,
+  "span_s": 309.64,
+  "msgs_per_s": 323.0,
+  "gap_p50_ms": 2.941,
+  "gap_p99_ms": 4.129,
+  "gap_mean_ms": 3.096,
+  "ledger_rows": 100000
+ },
+ {
+  "variant": "a1",
+  "run": 3,
+  "events": 100000,
+  "span_s": 224.85,
+  "msgs_per_s": 444.7,
+  "gap_p50_ms": 2.091,
+  "gap_p99_ms": 4.207,
+  "gap_mean_ms": 2.248,
+  "ledger_rows": 100000
+ },
+ {
+  "variant": "a2",
+  "run": 3,
+  "events": 100000,
+  "span_s": 223.73,
+  "msgs_per_s": 447.0,
+  "gap_p50_ms": 2.088,
+  "gap_p99_ms": 3.727,
+  "gap_mean_ms": 2.237,
+  "ledger_rows": 100000
+ },
+ {
+  "variant": "b",
+  "run": 4,
+  "events": 100000,
+  "span_s": 273.86,
+  "msgs_per_s": 365.1,
+  "gap_p50_ms": 2.586,
+  "gap_p99_ms": 4.047,
+  "gap_mean_ms": 2.739,
+  "ledger_rows": 100000
+ },
+ {
+  "variant": "c",
+  "run": 4,
+  "events": 100000,
+  "span_s": 322.49,
+  "msgs_per_s": 310.1,
+  "gap_p50_ms": 3.081,
+  "gap_p99_ms": 4.136,
+  "gap_mean_ms": 3.225,
+  "ledger_rows": 100000
+ },
+ {
+  "variant": "a1",
+  "run": 4,
+  "events": 100000,
+  "span_s": 223.68,
+  "msgs_per_s": 447.1,
+  "gap_p50_ms": 2.089,
+  "gap_p99_ms": 3.772,
+  "gap_mean_ms": 2.237,
+  "ledger_rows": 100000
+ },
+ {
+  "variant": "a2",
+  "run": 4,
+  "events": 100000,
+  "span_s": 222.73,
+  "msgs_per_s": 449.0,
+  "gap_p50_ms": 2.085,
+  "gap_p99_ms": 3.359,
+  "gap_mean_ms": 2.227,
+  "ledger_rows": 100000
+ },
+ {
+  "variant": "b",
+  "run": 5,
+  "events": 100000,
+  "span_s": 287.54,
+  "msgs_per_s": 347.8,
+  "gap_p50_ms": 2.73,
+  "gap_p99_ms": 3.926,
+  "gap_mean_ms": 2.875,
+  "ledger_rows": 100000
+ },
+ {
+  "variant": "c",
+  "run": 5,
+  "events": 100000,
+  "span_s": 315.99,
+  "msgs_per_s": 316.5,
+  "gap_p50_ms": 2.997,
+  "gap_p99_ms": 4.253,
+  "gap_mean_ms": 3.16,
+  "ledger_rows": 100000
+ },
+ {
+  "variant": "a1",
+  "run": 5,
+  "events": 100000,
+  "span_s": 229.55,
+  "msgs_per_s": 435.6,
+  "gap_p50_ms": 2.132,
+  "gap_p99_ms": 3.855,
+  "gap_mean_ms": 2.296,
+  "ledger_rows": 100000
+ },
+ {
+  "variant": "a2",
+  "run": 5,
+  "events": 100000,
+  "span_s": 234.41,
+  "msgs_per_s": 426.6,
+  "gap_p50_ms": 2.185,
+  "gap_p99_ms": 3.614,
+  "gap_mean_ms": 2.344,
+  "ledger_rows": 100000
+ },
+ {
+  "variant": "b",
+  "run": 1,
+  "events": 100000,
+  "span_s": 317.84,
+  "msgs_per_s": 314.6,
+  "gap_p50_ms": 2.948,
+  "gap_p99_ms": 5.682,
+  "gap_mean_ms": 3.178,
+  "ledger_rows": 100000
+ }
+]

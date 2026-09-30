@@ -1,0 +1,41 @@
+{
+  "1 writers": {
+    "without_notify_median": 435.2,
+    "with_notify_median": 425.5,
+    "without_min_max": [
+      408.9,
+      441.5
+    ],
+    "with_min_max": [
+      409.8,
+      427.5
+    ],
+    "change_pct": -2.2
+  },
+  "8 writers": {
+    "without_notify_median": 2397.8,
+    "with_notify_median": 939.6,
+    "without_min_max": [
+      2278.3,
+      2460.0
+    ],
+    "with_min_max": [
+      905.3,
+      957.4
+    ],
+    "change_pct": -60.8
+  },
+  "32 writers": {
+    "without_notify_median": 6049.2,
+    "with_notify_median": 927.0,
+    "without_min_max": [
+      5885.1,
+      6310.1
+    ],
+    "with_min_max": [
+      846.2,
+      958.9
+    ],
+    "change_pct": -84.7
+  }
+}

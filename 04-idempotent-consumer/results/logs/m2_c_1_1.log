@@ -1,0 +1,22 @@
+
+--- start c 16:32:12 ---
+2026-09-30 16:32:26,582 INFO stalling 12 s on seq 501
+%4|1790766156.600|MAXPOLL|rdkafka#consumer-1| [thrd:main]: Application maximum poll interval (10000ms) exceeded by 20ms (adjust max.poll.interval.ms for long-running message processing): leaving group
+2026-09-30 16:32:38,583 INFO stall over on seq 501
+2026-09-30 16:32:38,587 WARNING offset commit failed: KafkaError{code=UNKNOWN_MEMBER_ID,val=25,str="Commit failed: Broker: Unknown member"}
+2026-09-30 16:32:38,587 WARNING consumer error: KafkaError{code=_MAX_POLL_EXCEEDED,val=-147,str="Application maximum poll interval (10000ms) exceeded by 20ms"}
+2026-09-30 16:32:42,618 INFO skipped duplicate 972fff7f-7671-454a-a13c-3013bf37e371
+2026-09-30 16:32:43,157 INFO stalling 12 s on seq 4509
+%4|1790766173.249|MAXPOLL|rdkafka#consumer-1| [thrd:main]: Application maximum poll interval (10000ms) exceeded by 94ms (adjust max.poll.interval.ms for long-running message processing): leaving group
+2026-09-30 16:32:55,157 INFO stall over on seq 4509
+2026-09-30 16:32:55,180 WARNING offset commit failed: KafkaError{code=UNKNOWN_MEMBER_ID,val=25,str="Commit failed: Broker: Unknown member"}
+2026-09-30 16:32:55,180 WARNING consumer error: KafkaError{code=_MAX_POLL_EXCEEDED,val=-147,str="Application maximum poll interval (10000ms) exceeded by 94ms"}
+2026-09-30 16:33:03,108 INFO skipped duplicate 70b6bab6-64a5-4fe5-a4fc-2e390c1eb8f2
+2026-09-30 16:33:03,572 INFO skipped duplicate b9fc874f-40b6-4350-88b4-ed1359285abc
+2026-09-30 16:33:03,977 INFO stalling 12 s on seq 2004
+%4|1790766194.268|MAXPOLL|rdkafka#consumer-1| [thrd:main]: Application maximum poll interval (10000ms) exceeded by 293ms (adjust max.poll.interval.ms for long-running message processing): leaving group
+2026-09-30 16:33:15,978 INFO stall over on seq 2004
+2026-09-30 16:33:15,981 WARNING offset commit failed: KafkaError{code=UNKNOWN_MEMBER_ID,val=25,str="Commit failed: Broker: Unknown member"}
+2026-09-30 16:33:15,981 WARNING consumer error: KafkaError{code=_MAX_POLL_EXCEEDED,val=-147,str="Application maximum poll interval (10000ms) exceeded by 293ms"}
+2026-09-30 16:33:28,410 INFO skipped duplicate fd31b23e-2186-4b31-984f-0b344a1509d3
+2026-09-30 16:33:42,797 INFO skipped duplicate f3ee2e34-87b6-4eee-a646-4d53990085cb

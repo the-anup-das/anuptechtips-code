@@ -1,0 +1,20 @@
+{
+  "duplicates": 99,
+  "rounds": 20,
+  "results": {
+    "do-update-where (the post's CLAIM)": {
+      "rounds": 20,
+      "last_ms_median": 137.53,
+      "last_ms_min": 118.61,
+      "last_ms_max": 158.41,
+      "per_claim_median_ms": 61.655
+    },
+    "do-nothing": {
+      "rounds": 20,
+      "last_ms_median": 16.475,
+      "last_ms_min": 15.46,
+      "last_ms_max": 30.09,
+      "per_claim_median_ms": 13.405000000000001
+    }
+  }
+}

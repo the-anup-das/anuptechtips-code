@@ -1,0 +1,777 @@
+[
+ {
+  "variant": "a1",
+  "run": 1,
+  "seed": 1001,
+  "events": 10000,
+  "kills": 20,
+  "duplicates": 2777,
+  "lost": 0,
+  "ledger_rows": 12777,
+  "balance_total": 1277700,
+  "expected_balance": 1000000,
+  "wall_s": 284.9,
+  "kill_log": [
+   {
+    "kill": 1,
+    "startup_s": 0.48,
+    "life_s": 6.58,
+    "rows": 473,
+    "distinct": 473
+   },
+   {
+    "kill": 2,
+    "startup_s": 5.36,
+    "life_s": 1.41,
+    "rows": 577,
+    "distinct": 473
+   },
+   {
+    "kill": 3,
+    "startup_s": 4.51,
+    "life_s": 6.32,
+    "rows": 1044,
+    "distinct": 812
+   },
+   {
+    "kill": 4,
+    "startup_s": 5.71,
+    "life_s": 7.04,
+    "rows": 1532,
+    "distinct": 1261
+   },
+   {
+    "kill": 5,
+    "startup_s": 4.97,
+    "life_s": 1.64,
+    "rows": 1655,
+    "distinct": 1261
+   },
+   {
+    "kill": 6,
+    "startup_s": 4.69,
+    "life_s": 7.32,
+    "rows": 2208,
+    "distinct": 1652
+   },
+   {
+    "kill": 7,
+    "startup_s": 4.68,
+    "life_s": 6.5,
+    "rows": 2697,
+    "distinct": 2012
+   },
+   {
+    "kill": 8,
+    "startup_s": 5.5,
+    "life_s": 3.85,
+    "rows": 2986,
+    "distinct": 2234
+   },
+   {
+    "kill": 9,
+    "startup_s": 5.14,
+    "life_s": 3.62,
+    "rows": 3256,
+    "distinct": 2234
+   },
+   {
+    "kill": 10,
+    "startup_s": 5.34,
+    "life_s": 5.54,
+    "rows": 3666,
+    "distinct": 2369
+   },
+   {
+    "kill": 11,
+    "startup_s": 5.42,
+    "life_s": 3.81,
+    "rows": 3943,
+    "distinct": 2603
+   },
+   {
+    "kill": 12,
+    "startup_s": 5.14,
+    "life_s": 5.0,
+    "rows": 4310,
+    "distinct": 2693
+   },
+   {
+    "kill": 13,
+    "startup_s": 3.97,
+    "life_s": 5.25,
+    "rows": 4696,
+    "distinct": 2725
+   },
+   {
+    "kill": 14,
+    "startup_s": 3.72,
+    "life_s": 1.36,
+    "rows": 4801,
+    "distinct": 2725
+   },
+   {
+    "kill": 15,
+    "startup_s": 4.58,
+    "life_s": 6.16,
+    "rows": 5254,
+    "distinct": 2891
+   },
+   {
+    "kill": 16,
+    "startup_s": 5.85,
+    "life_s": 5.96,
+    "rows": 5690,
+    "distinct": 3295
+   },
+   {
+    "kill": 17,
+    "startup_s": 4.44,
+    "life_s": 7.46,
+    "rows": 6234,
+    "distinct": 3731
+   },
+   {
+    "kill": 18,
+    "startup_s": 4.59,
+    "life_s": 6.0,
+    "rows": 6677,
+    "distinct": 4058
+   },
+   {
+    "kill": 19,
+    "startup_s": 5.7,
+    "life_s": 5.59,
+    "rows": 7088,
+    "distinct": 4449
+   },
+   {
+    "kill": 20,
+    "startup_s": 5.01,
+    "life_s": 6.16,
+    "rows": 7532,
+    "distinct": 4819
+   }
+  ]
+ },
+ {
+  "variant": "a1",
+  "run": 2,
+  "seed": 1002,
+  "events": 10000,
+  "kills": 20,
+  "duplicates": 4525,
+  "lost": 0,
+  "ledger_rows": 14525,
+  "balance_total": 1452500,
+  "expected_balance": 1000000,
+  "wall_s": 299.8,
+  "kill_log": [
+   {
+    "kill": 1,
+    "startup_s": 0.52,
+    "life_s": 4.65,
+    "rows": 336,
+    "distinct": 336
+   },
+   {
+    "kill": 2,
+    "startup_s": 4.34,
+    "life_s": 3.95,
+    "rows": 619,
+    "distinct": 336
+   },
+   {
+    "kill": 3,
+    "startup_s": 4.93,
+    "life_s": 2.55,
+    "rows": 808,
+    "distinct": 336
+   },
+   {
+    "kill": 4,
+    "startup_s": 3.81,
+    "life_s": 1.91,
+    "rows": 944,
+    "distinct": 336
+   },
+   {
+    "kill": 5,
+    "startup_s": 5.53,
+    "life_s": 4.39,
+    "rows": 1260,
+    "distinct": 522
+   },
+   {
+    "kill": 6,
+    "startup_s": 4.56,
+    "life_s": 5.38,
+    "rows": 1646,
+    "distinct": 592
+   },
+   {
+    "kill": 7,
+    "startup_s": 3.63,
+    "life_s": 5.35,
+    "rows": 2042,
+    "distinct": 655
+   },
+   {
+    "kill": 8,
+    "startup_s": 3.61,
+    "life_s": 5.95,
+    "rows": 2480,
+    "distinct": 822
+   },
+   {
+    "kill": 9,
+    "startup_s": 3.03,
+    "life_s": 4.05,
+    "rows": 2771,
+    "distinct": 822
+   },
+   {
+    "kill": 10,
+    "startup_s": 4.93,
+    "life_s": 1.34,
+    "rows": 2864,
+    "distinct": 822
+   },
+   {
+    "kill": 11,
+    "startup_s": 5.01,
+    "life_s": 2.58,
+    "rows": 3055,
+    "distinct": 891
+   },
+   {
+    "kill": 12,
+    "startup_s": 3.69,
+    "life_s": 6.52,
+    "rows": 3533,
+    "distinct": 1200
+   },
+   {
+    "kill": 13,
+    "startup_s": 5.48,
+    "life_s": 3.95,
+    "rows": 3818,
+    "distinct": 1200
+   },
+   {
+    "kill": 14,
+    "startup_s": 5.04,
+    "life_s": 4.96,
+    "rows": 4176,
+    "distinct": 1200
+   },
+   {
+    "kill": 15,
+    "startup_s": 4.03,
+    "life_s": 5.73,
+    "rows": 4594,
+    "distinct": 1278
+   },
+   {
+    "kill": 16,
+    "startup_s": 3.26,
+    "life_s": 6.3,
+    "rows": 5043,
+    "distinct": 1404
+   },
+   {
+    "kill": 17,
+    "startup_s": 5.75,
+    "life_s": 2.14,
+    "rows": 5195,
+    "distinct": 1404
+   },
+   {
+    "kill": 18,
+    "startup_s": 3.83,
+    "life_s": 4.26,
+    "rows": 5507,
+    "distinct": 1415
+   },
+   {
+    "kill": 19,
+    "startup_s": 4.76,
+    "life_s": 5.57,
+    "rows": 5909,
+    "distinct": 1615
+   },
+   {
+    "kill": 20,
+    "startup_s": 5.93,
+    "life_s": 7.54,
+    "rows": 6453,
+    "distinct": 2156
+   }
+  ]
+ },
+ {
+  "variant": "a1",
+  "run": 3,
+  "seed": 1003,
+  "events": 10000,
+  "kills": 20,
+  "duplicates": 3648,
+  "lost": 0,
+  "ledger_rows": 13648,
+  "balance_total": 1364800,
+  "expected_balance": 1000000,
+  "wall_s": 298.7,
+  "kill_log": [
+   {
+    "kill": 1,
+    "startup_s": 0.5,
+    "life_s": 4.48,
+    "rows": 327,
+    "distinct": 327
+   },
+   {
+    "kill": 2,
+    "startup_s": 4.49,
+    "life_s": 3.52,
+    "rows": 582,
+    "distinct": 327
+   },
+   {
+    "kill": 3,
+    "startup_s": 5.37,
+    "life_s": 6.05,
+    "rows": 1034,
+    "distinct": 510
+   },
+   {
+    "kill": 4,
+    "startup_s": 5.94,
+    "life_s": 4.13,
+    "rows": 1338,
+    "distinct": 733
+   },
+   {
+    "kill": 5,
+    "startup_s": 4.86,
+    "life_s": 4.17,
+    "rows": 1646,
+    "distinct": 737
+   },
+   {
+    "kill": 6,
+    "startup_s": 4.83,
+    "life_s": 1.18,
+    "rows": 1734,
+    "distinct": 737
+   },
+   {
+    "kill": 7,
+    "startup_s": 5.22,
+    "life_s": 3.34,
+    "rows": 1985,
+    "distinct": 752
+   },
+   {
+    "kill": 8,
+    "startup_s": 5.65,
+    "life_s": 4.33,
+    "rows": 2298,
+    "distinct": 820
+   },
+   {
+    "kill": 9,
+    "startup_s": 4.63,
+    "life_s": 4.16,
+    "rows": 2609,
+    "distinct": 820
+   },
+   {
+    "kill": 10,
+    "startup_s": 4.87,
+    "life_s": 1.62,
+    "rows": 2731,
+    "distinct": 820
+   },
+   {
+    "kill": 11,
+    "startup_s": 4.77,
+    "life_s": 3.07,
+    "rows": 2962,
+    "distinct": 821
+   },
+   {
+    "kill": 12,
+    "startup_s": 5.93,
+    "life_s": 3.37,
+    "rows": 3207,
+    "distinct": 873
+   },
+   {
+    "kill": 13,
+    "startup_s": 5.59,
+    "life_s": 7.31,
+    "rows": 3728,
+    "distinct": 1149
+   },
+   {
+    "kill": 14,
+    "startup_s": 4.7,
+    "life_s": 6.02,
+    "rows": 4166,
+    "distinct": 1400
+   },
+   {
+    "kill": 15,
+    "startup_s": 5.99,
+    "life_s": 7.29,
+    "rows": 4685,
+    "distinct": 1888
+   },
+   {
+    "kill": 16,
+    "startup_s": 4.69,
+    "life_s": 1.23,
+    "rows": 4775,
+    "distinct": 1888
+   },
+   {
+    "kill": 17,
+    "startup_s": 5.35,
+    "life_s": 2.6,
+    "rows": 4963,
+    "distinct": 1906
+   },
+   {
+    "kill": 18,
+    "startup_s": 3.34,
+    "life_s": 4.77,
+    "rows": 5300,
+    "distinct": 2055
+   },
+   {
+    "kill": 19,
+    "startup_s": 4.18,
+    "life_s": 1.43,
+    "rows": 5403,
+    "distinct": 2055
+   },
+   {
+    "kill": 20,
+    "startup_s": 5.72,
+    "life_s": 2.61,
+    "rows": 5589,
+    "distinct": 2127
+   }
+  ]
+ },
+ {
+  "variant": "a1",
+  "run": 4,
+  "seed": 1004,
+  "events": 10000,
+  "kills": 20,
+  "duplicates": 3910,
+  "lost": 0,
+  "ledger_rows": 13910,
+  "balance_total": 1391000,
+  "expected_balance": 1000000,
+  "wall_s": 291.3,
+  "kill_log": [
+   {
+    "kill": 1,
+    "startup_s": 0.5,
+    "life_s": 3.95,
+    "rows": 290,
+    "distinct": 290
+   },
+   {
+    "kill": 2,
+    "startup_s": 4.99,
+    "life_s": 7.83,
+    "rows": 871,
+    "distinct": 581
+   },
+   {
+    "kill": 3,
+    "startup_s": 4.1,
+    "life_s": 5.29,
+    "rows": 1268,
+    "distinct": 793
+   },
+   {
+    "kill": 4,
+    "startup_s": 3.7,
+    "life_s": 5.85,
+    "rows": 1688,
+    "distinct": 904
+   },
+   {
+    "kill": 5,
+    "startup_s": 3.13,
+    "life_s": 4.56,
+    "rows": 2025,
+    "distinct": 933
+   },
+   {
+    "kill": 6,
+    "startup_s": 4.47,
+    "life_s": 2.31,
+    "rows": 2162,
+    "distinct": 933
+   },
+   {
+    "kill": 7,
+    "startup_s": 5.48,
+    "life_s": 6.81,
+    "rows": 2654,
+    "distinct": 1292
+   },
+   {
+    "kill": 8,
+    "startup_s": 4.18,
+    "life_s": 6.91,
+    "rows": 3163,
+    "distinct": 1658
+   },
+   {
+    "kill": 9,
+    "startup_s": 5.17,
+    "life_s": 2.47,
+    "rows": 3347,
+    "distinct": 1784
+   },
+   {
+    "kill": 10,
+    "startup_s": 3.65,
+    "life_s": 5.55,
+    "rows": 3754,
+    "distinct": 2015
+   },
+   {
+    "kill": 11,
+    "startup_s": 3.43,
+    "life_s": 5.9,
+    "rows": 4197,
+    "distinct": 2170
+   },
+   {
+    "kill": 12,
+    "startup_s": 3.08,
+    "life_s": 6.01,
+    "rows": 4646,
+    "distinct": 2317
+   },
+   {
+    "kill": 13,
+    "startup_s": 3.01,
+    "life_s": 6.66,
+    "rows": 5135,
+    "distinct": 2524
+   },
+   {
+    "kill": 14,
+    "startup_s": 5.32,
+    "life_s": 6.92,
+    "rows": 5648,
+    "distinct": 2718
+   },
+   {
+    "kill": 15,
+    "startup_s": 5.08,
+    "life_s": 3.59,
+    "rows": 5864,
+    "distinct": 2791
+   },
+   {
+    "kill": 16,
+    "startup_s": 5.41,
+    "life_s": 4.54,
+    "rows": 6135,
+    "distinct": 2861
+   },
+   {
+    "kill": 17,
+    "startup_s": 4.48,
+    "life_s": 6.04,
+    "rows": 6516,
+    "distinct": 2971
+   },
+   {
+    "kill": 18,
+    "startup_s": 5.97,
+    "life_s": 2.0,
+    "rows": 6664,
+    "distinct": 3103
+   },
+   {
+    "kill": 19,
+    "startup_s": 3.96,
+    "life_s": 1.19,
+    "rows": 6751,
+    "distinct": 3103
+   },
+   {
+    "kill": 20,
+    "startup_s": 4.74,
+    "life_s": 2.07,
+    "rows": 6906,
+    "distinct": 3110
+   }
+  ]
+ },
+ {
+  "variant": "a1",
+  "run": 5,
+  "seed": 1005,
+  "events": 10000,
+  "kills": 20,
+  "duplicates": 3246,
+  "lost": 0,
+  "ledger_rows": 13246,
+  "balance_total": 1324600,
+  "expected_balance": 1000000,
+  "wall_s": 288.5,
+  "kill_log": [
+   {
+    "kill": 1,
+    "startup_s": 0.51,
+    "life_s": 4.38,
+    "rows": 317,
+    "distinct": 317
+   },
+   {
+    "kill": 2,
+    "startup_s": 4.58,
+    "life_s": 7.32,
+    "rows": 844,
+    "distinct": 527
+   },
+   {
+    "kill": 3,
+    "startup_s": 4.6,
+    "life_s": 4.76,
+    "rows": 1190,
+    "distinct": 758
+   },
+   {
+    "kill": 4,
+    "startup_s": 4.24,
+    "life_s": 7.13,
+    "rows": 1707,
+    "distinct": 977
+   },
+   {
+    "kill": 5,
+    "startup_s": 4.93,
+    "life_s": 5.01,
+    "rows": 2074,
+    "distinct": 1270
+   },
+   {
+    "kill": 6,
+    "startup_s": 3.98,
+    "life_s": 7.96,
+    "rows": 2654,
+    "distinct": 1512
+   },
+   {
+    "kill": 7,
+    "startup_s": 4.31,
+    "life_s": 3.5,
+    "rows": 2903,
+    "distinct": 1645
+   },
+   {
+    "kill": 8,
+    "startup_s": 5.5,
+    "life_s": 5.63,
+    "rows": 3297,
+    "distinct": 1860
+   },
+   {
+    "kill": 9,
+    "startup_s": 5.13,
+    "life_s": 4.42,
+    "rows": 3629,
+    "distinct": 2137
+   },
+   {
+    "kill": 10,
+    "startup_s": 4.55,
+    "life_s": 5.01,
+    "rows": 3999,
+    "distinct": 2190
+   },
+   {
+    "kill": 11,
+    "startup_s": 3.99,
+    "life_s": 3.27,
+    "rows": 4238,
+    "distinct": 2190
+   },
+   {
+    "kill": 12,
+    "startup_s": 5.68,
+    "life_s": 6.65,
+    "rows": 4737,
+    "distinct": 2469
+   },
+   {
+    "kill": 13,
+    "startup_s": 5.37,
+    "life_s": 6.66,
+    "rows": 5224,
+    "distinct": 2807
+   },
+   {
+    "kill": 14,
+    "startup_s": 5.32,
+    "life_s": 5.63,
+    "rows": 5632,
+    "distinct": 3089
+   },
+   {
+    "kill": 15,
+    "startup_s": 5.29,
+    "life_s": 5.06,
+    "rows": 5996,
+    "distinct": 3403
+   },
+   {
+    "kill": 16,
+    "startup_s": 5.89,
+    "life_s": 1.31,
+    "rows": 6092,
+    "distinct": 3494
+   },
+   {
+    "kill": 17,
+    "startup_s": 4.64,
+    "life_s": 6.41,
+    "rows": 6567,
+    "distinct": 3873
+   },
+   {
+    "kill": 18,
+    "startup_s": 5.61,
+    "life_s": 3.38,
+    "rows": 6819,
+    "distinct": 4067
+   },
+   {
+    "kill": 19,
+    "startup_s": 5.59,
+    "life_s": 1.67,
+    "rows": 6941,
+    "distinct": 4067
+   },
+   {
+    "kill": 20,
+    "startup_s": 4.31,
+    "life_s": 2.63,
+    "rows": 7133,
+    "distinct": 4067
+   }
+  ]
+ }
+]

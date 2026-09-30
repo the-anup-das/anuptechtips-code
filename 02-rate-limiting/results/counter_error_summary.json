@@ -1,0 +1,106 @@
+{
+  "uniform": {
+    "requests": {
+      "median": 10398185,
+      "min": 10273802,
+      "max": 10441633
+    },
+    "A_wrong_pct": {
+      "median": 1.011,
+      "min": 0.9688,
+      "max": 1.0285
+    },
+    "A_false_allow_pct": {
+      "median": 0.4092,
+      "min": 0.3968,
+      "max": 0.4258
+    },
+    "A_false_limit_pct": {
+      "median": 0.6015,
+      "min": 0.5632,
+      "max": 0.6151
+    },
+    "A_rate_error_pct": {
+      "median": 2.4,
+      "min": 2.39,
+      "max": 2.41
+    },
+    "B_worst_60s_any_key": {
+      "median": 118,
+      "min": 117,
+      "max": 119
+    },
+    "B_keys_over_100": {
+      "median": 4883,
+      "min": 4832,
+      "max": 4920
+    },
+    "B_keys_with_rate_over_100": {
+      "median": 4091,
+      "min": 4012,
+      "max": 4118
+    },
+    "B_counter_allowed": {
+      "median": 6940173,
+      "min": 6888604,
+      "max": 6957216
+    },
+    "B_log_allowed": {
+      "median": 6960367,
+      "min": 6907989,
+      "max": 6976910
+    }
+  },
+  "bursty": {
+    "requests": {
+      "median": 10352540,
+      "min": 10182180,
+      "max": 10411390
+    },
+    "A_wrong_pct": {
+      "median": 3.0931,
+      "min": 2.9842,
+      "max": 3.1081
+    },
+    "A_false_allow_pct": {
+      "median": 1.3282,
+      "min": 1.3057,
+      "max": 1.3706
+    },
+    "A_false_limit_pct": {
+      "median": 1.7546,
+      "min": 1.6786,
+      "max": 1.7943
+    },
+    "A_rate_error_pct": {
+      "median": 7.31,
+      "min": 7.25,
+      "max": 7.34
+    },
+    "B_worst_60s_any_key": {
+      "median": 154,
+      "min": 150,
+      "max": 157
+    },
+    "B_keys_over_100": {
+      "median": 6342,
+      "min": 6261,
+      "max": 6400
+    },
+    "B_keys_with_rate_over_100": {
+      "median": 4083,
+      "min": 3996,
+      "max": 4097
+    },
+    "B_counter_allowed": {
+      "median": 6539084,
+      "min": 6486752,
+      "max": 6563003
+    },
+    "B_log_allowed": {
+      "median": 6480074,
+      "min": 6430905,
+      "max": 6508878
+    }
+  }
+}

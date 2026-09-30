@@ -1,0 +1,52 @@
+{
+  "rounds": 20,
+  "calls_per_round": 1000,
+  "latency": {
+    "postgres_claim": {
+      "calls": 20000,
+      "p50_us": 1189.0,
+      "p99_us": 2012.0099999999984,
+      "median_of_round_p50_us": 1190.0,
+      "median_of_round_p99_us": 1972.3549999999996,
+      "round_p99_min_us": 1433.8499999999992,
+      "round_p99_max_us": 2130.2699999999986
+    },
+    "postgres_repeat": {
+      "calls": 20000,
+      "p50_us": 1526.0,
+      "p99_us": 2275.019999999997,
+      "median_of_round_p50_us": 1521.5,
+      "median_of_round_p99_us": 2230.5199999999995,
+      "round_p99_min_us": 1746.8999999999983,
+      "round_p99_max_us": 2417.3399999999997
+    },
+    "redis_claim": {
+      "calls": 20000,
+      "p50_us": 331.0,
+      "p99_us": 470.0,
+      "median_of_round_p50_us": 331.0,
+      "median_of_round_p99_us": 462.06999999999994,
+      "round_p99_min_us": 438.1199999999999,
+      "round_p99_max_us": 501.0899999999999
+    },
+    "redis_repeat": {
+      "calls": 20000,
+      "p50_us": 331.0,
+      "p99_us": 465.0099999999984,
+      "median_of_round_p50_us": 332.5,
+      "median_of_round_p99_us": 463.53,
+      "round_p99_min_us": 421.17999999999984,
+      "round_p99_max_us": 516.04
+    }
+  },
+  "bytes": {
+    "keys": 100000,
+    "postgres_total_bytes_per_key": 351.3,
+    "postgres_heap_bytes_per_key": 248.3,
+    "postgres_index_bytes_per_key": 102.6,
+    "redis_memory_usage_median": 275.0,
+    "redis_memory_usage_min": 275,
+    "redis_memory_usage_max": 275,
+    "redis_record_json_bytes": 170
+  }
+}
