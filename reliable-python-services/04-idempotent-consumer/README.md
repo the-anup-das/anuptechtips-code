@@ -40,7 +40,7 @@ In every variant the side effect itself is one Postgres transaction, so a crash 
 ## Run it
 
 ```sh
-docker compose up -d                      # from the repo root: Postgres 18, Kafka 4.3 (KRaft)
+docker compose up -d                      # from the series folder, one level up: Postgres 18, Kafka 4.3 (KRaft)
 docker compose exec postgres psql -U patterns -c "CREATE DATABASE consumer"
 psql postgresql://patterns:patterns@localhost:55432/consumer -f schema.sql
 psql postgresql://patterns:patterns@localhost:55432/consumer -c "INSERT INTO accounts (id) SELECT generate_series(1, 100)"

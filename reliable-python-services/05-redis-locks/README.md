@@ -25,7 +25,7 @@ that outlives the lease, then makes Postgres reject the stale writer with a fenc
 
 ## Run it
 
-Start the services from the repo root (`docker compose up -d`): Redis 8.10 on `localhost:56379`
+Start the services from the series folder, one level up (`docker compose up -d`): Redis 8.10 on `localhost:56379`
 and PostgreSQL 18.6 on `localhost:55432`. This folder uses Redis DB 5 and a Postgres database
 called `locks` (`CREATE DATABASE locks;`). Override with `REDIS_URL` and `PG_DSN`.
 

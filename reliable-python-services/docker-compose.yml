@@ -1,6 +1,6 @@
 # Local test services for the "Reliable Python services" posts on anuptechtips.com.
 # docker compose up -d   then   docker compose down -v
-name: reliable-python-patterns
+name: reliable-python-services
 services:
   postgres:
     image: postgres:18

@@ -21,7 +21,7 @@ fixed window, sliding window log, sliding window counter, token bucket, leaky bu
 
 ## Run it
 
-From the repo root, start the services once:
+From the series folder, one level up, start the services once:
 
 ```sh
 docker compose up -d          # Redis 8 on localhost:56379 (this folder uses DB 2)

@@ -33,7 +33,7 @@ It shows how to make a retried `POST /charges` run once:
 
 ## Run it
 
-Start the services from the repo root (`docker compose up -d`, see `../docker-compose.yml`). The code
+Start the services from the series folder, one level up (`docker compose up -d`, see `../docker-compose.yml`). The code
 uses Postgres database `idem` (create it once: `CREATE DATABASE idem;`) and Redis DB 1. Override
 with `IDEM_DSN` and `IDEM_REDIS_URL`.
 
