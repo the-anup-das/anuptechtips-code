@@ -1,0 +1,112 @@
+{
+  "runs": 20,
+  "ticks": 60,
+  "requests_per_tick": 2000,
+  "schedule": {
+    "bug_starts_at_tick": 10,
+    "share_until_change": 0.008,
+    "load_balancer_change_at_tick": 40,
+    "share_by_tick": {
+      "40": 0.0232,
+      "41": 0.0384,
+      "42": 0.0536,
+      "43": 0.0688,
+      "44": 0.084,
+      "45": 0.0992,
+      "46": 0.1144,
+      "47": 0.1296,
+      "48": 0.1448,
+      "49": 0.16
+    }
+  },
+  "alert": {
+    "window_ticks": 3,
+    "z": 3.0,
+    "tolerance": 0.01,
+    "min_n": 30
+  },
+  "baseline": {
+    "passed": 48671,
+    "total": 50000,
+    "rate": 0.97342
+  },
+  "events_sent": {
+    "median": 120000.0,
+    "min": 120000,
+    "max": 120000,
+    "runs_with_value": 20
+  },
+  "events_counted": {
+    "median": 120000.0,
+    "min": 120000,
+    "max": 120000,
+    "runs_with_value": 20
+  },
+  "slice_alert_tick": {
+    "median": 12.0,
+    "min": 11,
+    "max": 14,
+    "runs_with_value": 20
+  },
+  "global_alert_tick": {
+    "median": 45.0,
+    "min": 43,
+    "max": 47,
+    "runs_with_value": 20
+  },
+  "false_alarms": {
+    "median": 0.0,
+    "min": 0,
+    "max": 0,
+    "runs_with_value": 20
+  },
+  "global_rate_healthy": {
+    "median": 0.9737,
+    "min": 0.971,
+    "max": 0.9758,
+    "runs_with_value": 20
+  },
+  "global_rate_low": {
+    "median": 0.971775,
+    "min": 0.96975,
+    "max": 0.9728,
+    "runs_with_value": 20
+  },
+  "global_rate_peak": {
+    "median": 0.939875,
+    "min": 0.93755,
+    "max": 0.94165,
+    "runs_with_value": 20
+  },
+  "slice_rate_low": {
+    "median": 0.7607355287973306,
+    "min": 0.7142857142857143,
+    "max": 0.8012820512820513,
+    "runs_with_value": 20
+  },
+  "slice_rate_peak": {
+    "median": 0.7648594481860259,
+    "min": 0.7493734335839599,
+    "max": 0.7721212121212121,
+    "runs_with_value": 20
+  },
+  "requests_misrouted_low": {
+    "median": 0.008199999999999999,
+    "min": 0.006666666666666667,
+    "max": 0.009,
+    "runs_with_value": 20
+  },
+  "users_hit_by_change": {
+    "median": 0.217,
+    "min": 0.174,
+    "max": 0.25,
+    "runs_with_value": 20
+  },
+  "users_hit_by_end": {
+    "median": 0.948,
+    "min": 0.934,
+    "max": 0.96,
+    "runs_with_value": 20
+  },
+  "setup": "AMD Ryzen 9 7950X3D (16 cores/32 threads), 64 GB RAM, Windows 11, Docker Desktop 28.5 (WSL2); Python 3.12, NumPy 1.26, confluent-kafka 2.15.1, psycopg 3.3.6, Kafka 4.3.1, PostgreSQL 18.6"
+}

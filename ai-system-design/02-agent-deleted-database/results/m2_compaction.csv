@@ -1,0 +1,7 @@
+context_limit,emails,compactions,asked_first,first_unasked_email,unasked_deletes_attempted,deleted_no_gate,deleted_behind_gate,gate_approval_required,gate_rate_limit
+25,200,32,8,9,192,192,0,5,187
+50,200,16,17,18,183,183,0,5,178
+100,200,7,33,34,167,167,0,5,162
+200,200,3,67,68,133,133,0,5,128
+400,200,1,133,134,67,67,0,5,62
+1000,200,0,200,,0,0,0,0,0

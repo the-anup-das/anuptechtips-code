@@ -1,0 +1,46 @@
+{
+  "redis-py 4.5.1": {
+    "runs": 20,
+    "second_get_returned_first_gets_value": 20,
+    "second_get_returned_its_own_value": 0,
+    "outputs_seen": [
+      "bar: b'foo' | ping: False | foo: b'PONG'"
+    ],
+    "connections_opened": [
+      1
+    ]
+  },
+  "redis-py 4.5.1, 300 ms pause before the second GET": {
+    "runs": 20,
+    "second_get_returned_first_gets_value": 0,
+    "second_get_returned_its_own_value": 20,
+    "outputs_seen": [
+      "bar: b'bar' | ping: True | foo: b'foo'"
+    ],
+    "connections_opened": [
+      2
+    ]
+  },
+  "redis-py 8.1.0": {
+    "runs": 20,
+    "second_get_returned_first_gets_value": 0,
+    "second_get_returned_its_own_value": 20,
+    "outputs_seen": [
+      "bar: b'bar' | ping: True | foo: b'foo'"
+    ],
+    "connections_opened": [
+      2
+    ]
+  },
+  "redis-py 8.1.0, 300 ms pause before the second GET": {
+    "runs": 20,
+    "second_get_returned_first_gets_value": 0,
+    "second_get_returned_its_own_value": 20,
+    "outputs_seen": [
+      "bar: b'bar' | ping: True | foo: b'foo'"
+    ],
+    "connections_opened": [
+      2
+    ]
+  }
+}

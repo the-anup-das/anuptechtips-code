@@ -1,0 +1,241 @@
+round,experiment,path,mode,concurrency,requests,p50_ms,p99_ms,mean_ms,rps
+1,instant,direct,non-stream,1,2000,0.741,1.136,0.789,1265.6
+1,instant,proxy,non-stream,1,2000,1.931,2.68,1.987,503.2
+1,instant,all checks,non-stream,1,2000,3.208,4.189,3.257,306.9
+1,instant,direct,non-stream,16,2000,9.455,12.16,9.591,1664.1
+1,instant,proxy,non-stream,16,2000,29.843,123.935,36.332,439.5
+1,instant,all checks,non-stream,16,2000,26.596,150.346,42.714,374.0
+1,instant,direct,non-stream,64,2000,34.891,63.11,36.462,1737.7
+1,instant,proxy,non-stream,64,2000,141.543,1417.299,251.339,253.2
+1,instant,all checks,non-stream,64,2000,181.761,1569.152,274.78,231.6
+1,instant,direct,stream,1,2000,0.879,1.293,0.917,668.9
+1,instant,proxy,stream,1,2000,2.277,3.276,2.356,271.1
+1,instant,all checks,stream,1,2000,3.395,4.784,3.49,196.8
+1,instant,direct,stream,16,2000,10.019,23.304,10.324,848.6
+1,instant,proxy,stream,16,2000,28.687,139.218,55.215,282.6
+1,instant,all checks,stream,16,2000,44.79,164.849,55.829,261.8
+1,instant,direct,stream,64,2000,40.015,66.125,41.06,887.8
+1,instant,proxy,stream,64,2000,214.965,1650.306,332.001,185.5
+1,instant,all checks,stream,64,2000,231.992,1623.949,334.097,178.7
+1,one second,direct,non-stream,64,640,1037.663,1059.629,1036.972,61.6
+1,one second,proxy,non-stream,64,640,1013.567,1461.237,1058.556,59.3
+1,one second,all checks,non-stream,64,640,1022.985,1450.978,1069.117,58.7
+1,one second,direct,stream,64,640,1016.806,1052.101,1017.892,60.3
+1,one second,proxy,stream,64,640,1013.314,1454.05,1054.066,57.7
+1,one second,all checks,stream,64,640,1014.276,1518.347,1064.621,56.8
+2,instant,direct,non-stream,1,2000,0.757,1.167,0.798,1252.1
+2,instant,proxy,non-stream,1,2000,1.865,2.445,1.919,521.0
+2,instant,all checks,non-stream,1,2000,3.178,4.144,3.237,308.9
+2,instant,direct,non-stream,16,2000,9.306,16.179,9.401,1697.6
+2,instant,proxy,non-stream,16,2000,30.371,128.277,37.315,428.0
+2,instant,all checks,non-stream,16,2000,27.734,161.578,43.073,370.9
+2,instant,direct,non-stream,64,2000,32.962,81.907,35.577,1781.2
+2,instant,proxy,non-stream,64,2000,151.67,1570.577,254.578,250.0
+2,instant,all checks,non-stream,64,2000,179.024,1285.731,273.885,232.4
+2,instant,direct,stream,1,2000,0.869,1.245,0.907,677.6
+2,instant,proxy,stream,1,2000,2.221,3.0,2.28,277.5
+2,instant,all checks,stream,1,2000,2.813,4.006,2.892,245.1
+2,instant,direct,stream,16,2000,6.869,17.993,7.291,1248.3
+2,instant,proxy,stream,16,2000,22.927,137.403,45.559,342.2
+2,instant,all checks,stream,16,2000,40.314,172.659,54.645,266.4
+2,instant,direct,stream,64,2000,41.206,62.934,41.94,919.3
+2,instant,proxy,stream,64,2000,234.645,1832.339,349.503,176.7
+2,instant,all checks,stream,64,2000,228.187,1655.646,331.682,180.1
+2,one second,direct,non-stream,64,640,1034.827,1077.774,1037.876,61.6
+2,one second,proxy,non-stream,64,640,1015.156,1458.069,1059.374,59.0
+2,one second,all checks,non-stream,64,640,1017.721,1477.077,1063.246,59.0
+2,one second,direct,stream,64,640,1012.837,1045.187,1014.41,60.8
+2,one second,proxy,stream,64,640,1014.157,1489.045,1055.087,58.0
+2,one second,all checks,stream,64,640,1013.141,1510.146,1056.067,58.4
+3,instant,direct,non-stream,1,2000,0.743,1.1,0.792,1261.7
+3,instant,proxy,non-stream,1,2000,1.854,2.458,1.912,522.9
+3,instant,all checks,non-stream,1,2000,3.164,4.294,3.233,309.2
+3,instant,direct,non-stream,16,2000,9.008,11.196,9.078,1758.4
+3,instant,proxy,non-stream,16,2000,28.576,128.342,36.207,441.0
+3,instant,all checks,non-stream,16,2000,30.611,159.497,43.765,365.0
+3,instant,direct,non-stream,64,2000,33.159,70.119,34.319,1844.6
+3,instant,proxy,non-stream,64,2000,160.45,1549.397,253.906,250.5
+3,instant,all checks,non-stream,64,2000,178.546,1465.725,271.905,234.1
+3,instant,direct,stream,1,2000,0.863,1.222,0.898,680.5
+3,instant,proxy,stream,1,2000,2.253,3.064,2.323,274.7
+3,instant,all checks,stream,1,2000,3.075,4.133,3.132,215.1
+3,instant,direct,stream,16,2000,9.594,17.393,9.738,869.7
+3,instant,proxy,stream,16,2000,38.504,160.101,52.126,296.6
+3,instant,all checks,stream,16,2000,39.909,171.084,53.552,271.5
+3,instant,direct,stream,64,2000,37.563,70.605,38.994,899.4
+3,instant,proxy,stream,64,2000,195.461,1795.59,308.423,199.8
+3,instant,all checks,stream,64,2000,211.908,1714.419,318.345,187.6
+3,one second,direct,non-stream,64,640,1023.871,1080.721,1027.236,62.0
+3,one second,proxy,non-stream,64,640,1015.627,1462.914,1061.441,59.0
+3,one second,all checks,non-stream,64,640,1020.985,1479.433,1062.654,58.7
+3,one second,direct,stream,64,640,1013.061,1054.657,1016.51,60.5
+3,one second,proxy,stream,64,640,1013.75,1492.416,1056.54,57.9
+3,one second,all checks,stream,64,640,1013.044,1460.347,1054.474,58.0
+4,instant,direct,non-stream,1,2000,0.736,1.138,0.779,1282.2
+4,instant,proxy,non-stream,1,2000,1.862,2.475,1.927,518.6
+4,instant,all checks,non-stream,1,2000,3.227,4.13,3.285,304.3
+4,instant,direct,non-stream,16,2000,9.533,17.381,9.687,1647.9
+4,instant,proxy,non-stream,16,2000,30.549,122.044,37.341,427.7
+4,instant,all checks,non-stream,16,2000,30.669,143.054,42.242,378.2
+4,instant,direct,non-stream,64,2000,33.188,54.546,33.558,1885.6
+4,instant,proxy,non-stream,64,2000,155.985,1433.227,253.582,250.8
+4,instant,all checks,non-stream,64,2000,179.98,1258.682,267.372,238.0
+4,instant,direct,stream,1,2000,0.861,1.215,0.896,683.0
+4,instant,proxy,stream,1,2000,2.171,2.881,2.241,282.0
+4,instant,all checks,stream,1,2000,3.086,3.988,3.138,214.7
+4,instant,direct,stream,16,2000,9.904,20.685,10.076,869.1
+4,instant,proxy,stream,16,2000,35.639,190.713,52.086,297.0
+4,instant,all checks,stream,16,2000,40.604,164.31,54.491,266.8
+4,instant,direct,stream,64,2000,40.247,75.13,41.998,884.5
+4,instant,proxy,stream,64,2000,207.352,1607.834,327.04,187.8
+4,instant,all checks,stream,64,2000,223.39,1638.979,322.895,184.8
+4,one second,direct,non-stream,64,640,1031.999,1051.949,1033.588,61.9
+4,one second,proxy,non-stream,64,640,1016.301,1441.651,1061.674,59.1
+4,one second,all checks,non-stream,64,640,1019.809,1450.8,1063.823,58.7
+4,one second,direct,stream,64,640,1019.033,1053.568,1019.347,60.5
+4,one second,proxy,stream,64,640,1013.242,1484.204,1055.848,58.0
+4,one second,all checks,stream,64,640,1013.689,1496.287,1056.643,57.4
+5,instant,direct,non-stream,1,2000,0.745,1.125,0.795,1256.5
+5,instant,proxy,non-stream,1,2000,1.859,2.659,1.935,516.6
+5,instant,all checks,non-stream,1,2000,3.14,4.059,3.188,313.6
+5,instant,direct,non-stream,16,2000,8.971,11.422,8.98,1777.7
+5,instant,proxy,non-stream,16,2000,29.483,127.933,36.318,439.6
+5,instant,all checks,non-stream,16,2000,30.91,134.543,42.31,377.6
+5,instant,direct,non-stream,64,2000,32.906,69.299,34.023,1862.0
+5,instant,proxy,non-stream,64,2000,164.866,1379.94,259.553,245.1
+5,instant,all checks,non-stream,64,2000,183.327,1394.14,279.584,227.6
+5,instant,direct,stream,1,2000,0.899,1.369,0.943,657.6
+5,instant,proxy,stream,1,2000,2.635,3.622,2.664,250.3
+5,instant,all checks,stream,1,2000,3.763,5.206,3.792,182.5
+5,instant,direct,stream,16,2000,10.243,25.782,10.608,814.2
+5,instant,proxy,stream,16,2000,41.602,181.449,55.58,278.6
+5,instant,all checks,stream,16,2000,42.817,201.697,57.225,254.2
+5,instant,direct,stream,64,2000,39.847,65.843,40.887,894.9
+5,instant,proxy,stream,64,2000,222.207,1613.921,338.87,182.9
+5,instant,all checks,stream,64,2000,242.069,1563.855,349.449,171.0
+5,one second,direct,non-stream,64,640,1031.258,1079.498,1032.826,61.8
+5,one second,proxy,non-stream,64,640,1014.701,1437.658,1057.917,59.1
+5,one second,all checks,non-stream,64,640,1020.684,1471.241,1067.07,59.0
+5,one second,direct,stream,64,640,1011.895,1062.685,1012.937,61.0
+5,one second,proxy,stream,64,640,1012.84,1454.603,1053.452,57.9
+5,one second,all checks,stream,64,640,1012.421,1419.475,1052.07,57.9
+6,instant,direct,non-stream,1,2000,0.749,1.112,0.794,1257.9
+6,instant,proxy,non-stream,1,2000,1.877,2.429,1.934,516.8
+6,instant,all checks,non-stream,1,2000,3.206,4.108,3.259,306.7
+6,instant,direct,non-stream,16,2000,9.236,10.666,9.277,1720.9
+6,instant,proxy,non-stream,16,2000,28.68,128.842,35.966,443.9
+6,instant,all checks,non-stream,16,2000,29.924,151.222,42.355,377.2
+6,instant,direct,non-stream,64,2000,32.643,69.967,33.929,1865.6
+6,instant,proxy,non-stream,64,2000,149.891,1518.619,249.927,254.6
+6,instant,all checks,non-stream,64,2000,180.487,1302.003,270.424,235.3
+6,instant,direct,stream,1,2000,0.864,1.21,0.896,682.5
+6,instant,proxy,stream,1,2000,2.199,3.0,2.273,280.4
+6,instant,all checks,stream,1,2000,3.13,4.184,3.197,212.4
+6,instant,direct,stream,16,2000,10.614,23.209,10.789,828.6
+6,instant,proxy,stream,16,2000,38.407,205.061,53.546,289.5
+6,instant,all checks,stream,16,2000,41.767,172.242,53.54,271.2
+6,instant,direct,stream,64,2000,38.802,62.025,39.392,914.2
+6,instant,proxy,stream,64,2000,177.298,1884.809,290.126,212.6
+6,instant,all checks,stream,64,2000,219.643,1418.464,314.181,190.5
+6,one second,direct,non-stream,64,640,1031.639,1068.756,1032.518,61.9
+6,one second,proxy,non-stream,64,640,1014.552,1418.527,1060.737,59.2
+6,one second,all checks,non-stream,64,640,1024.888,1442.458,1068.305,58.4
+6,one second,direct,stream,64,640,1017.548,1046.246,1016.525,60.4
+6,one second,proxy,stream,64,640,1015.714,1439.095,1055.99,57.7
+6,one second,all checks,stream,64,640,1015.101,1501.916,1058.464,57.1
+7,instant,direct,non-stream,1,2000,0.747,1.144,0.793,1259.6
+7,instant,proxy,non-stream,1,2000,1.862,2.482,1.929,518.1
+7,instant,all checks,non-stream,1,2000,3.185,4.158,3.256,307.1
+7,instant,direct,non-stream,16,2000,9.039,10.599,9.084,1757.8
+7,instant,proxy,non-stream,16,2000,28.976,127.348,36.463,437.9
+7,instant,all checks,non-stream,16,2000,29.02,145.974,42.546,375.5
+7,instant,direct,non-stream,64,2000,34.069,70.429,35.906,1760.7
+7,instant,proxy,non-stream,64,2000,153.378,1495.591,253.905,250.6
+7,instant,all checks,non-stream,64,2000,182.412,1352.498,274.181,232.2
+7,instant,direct,stream,1,2000,0.863,1.227,0.897,684.1
+7,instant,proxy,stream,1,2000,2.185,2.774,2.237,282.8
+7,instant,all checks,stream,1,2000,3.139,4.176,3.201,211.8
+7,instant,direct,stream,16,2000,10.524,20.844,11.21,860.1
+7,instant,proxy,stream,16,2000,33.069,184.615,53.636,289.6
+7,instant,all checks,stream,16,2000,41.78,180.157,54.575,266.9
+7,instant,direct,stream,64,2000,38.723,84.194,40.655,888.2
+7,instant,proxy,stream,64,2000,196.592,1782.381,310.775,197.6
+7,instant,all checks,stream,64,2000,251.296,1716.757,365.871,163.5
+7,one second,direct,non-stream,64,640,1032.031,1059.079,1034.186,61.8
+7,one second,proxy,non-stream,64,640,1012.965,1499.414,1059.704,59.2
+7,one second,all checks,non-stream,64,640,1021.024,1464.307,1066.004,58.7
+7,one second,direct,stream,64,640,1016.013,1043.997,1017.316,60.4
+7,one second,proxy,stream,64,640,1016.289,1474.32,1058.669,57.7
+7,one second,all checks,stream,64,640,1017.308,1464.22,1057.814,57.2
+8,instant,direct,non-stream,1,2000,0.738,1.099,0.773,1291.7
+8,instant,proxy,non-stream,1,2000,1.875,2.637,1.936,516.3
+8,instant,all checks,non-stream,1,2000,3.168,4.004,3.214,311.1
+8,instant,direct,non-stream,16,2000,9.168,11.501,9.198,1735.4
+8,instant,proxy,non-stream,16,2000,28.272,131.88,36.109,442.2
+8,instant,all checks,non-stream,16,2000,25.495,148.969,42.537,375.5
+8,instant,direct,non-stream,64,2000,33.98,59.548,35.622,1777.0
+8,instant,proxy,non-stream,64,2000,149.167,1475.094,252.87,251.6
+8,instant,all checks,non-stream,64,2000,174.013,1474.951,268.527,237.0
+8,instant,direct,stream,1,2000,0.86,1.174,0.886,689.1
+8,instant,proxy,stream,1,2000,2.183,2.946,2.242,282.4
+8,instant,all checks,stream,1,2000,3.265,4.372,3.318,205.2
+8,instant,direct,stream,16,2000,9.804,20.617,10.072,867.0
+8,instant,proxy,stream,16,2000,36.491,193.736,52.389,295.7
+8,instant,all checks,stream,16,2000,41.6,169.083,54.271,267.6
+8,instant,direct,stream,64,2000,38.444,59.874,39.054,938.4
+8,instant,proxy,stream,64,2000,194.709,1628.729,313.269,196.4
+8,instant,all checks,stream,64,2000,213.183,1674.412,329.764,181.0
+8,one second,direct,non-stream,64,640,1032.543,1047.469,1029.351,61.9
+8,one second,proxy,non-stream,64,640,1011.05,1456.79,1057.816,59.3
+8,one second,all checks,non-stream,64,640,1022.69,1462.863,1068.021,58.9
+8,one second,direct,stream,64,640,1015.332,1050.366,1017.647,61.1
+8,one second,proxy,stream,64,640,1014.835,1496.277,1058.416,57.8
+8,one second,all checks,stream,64,640,1014.357,1462.266,1056.183,57.8
+9,instant,direct,non-stream,1,2000,0.786,1.232,0.825,1210.7
+9,instant,proxy,non-stream,1,2000,1.887,2.535,1.939,515.5
+9,instant,all checks,non-stream,1,2000,3.24,4.45,3.322,300.9
+9,instant,direct,non-stream,16,2000,9.231,10.184,9.239,1727.9
+9,instant,proxy,non-stream,16,2000,29.546,134.819,37.947,420.8
+9,instant,all checks,non-stream,16,2000,30.631,169.033,44.292,360.7
+9,instant,direct,non-stream,64,2000,35.457,68.257,38.403,1650.2
+9,instant,proxy,non-stream,64,2000,159.022,1500.098,256.404,248.2
+9,instant,all checks,non-stream,64,2000,185.349,1370.324,275.067,231.4
+9,instant,direct,stream,1,2000,0.868,1.219,0.899,682.5
+9,instant,proxy,stream,1,2000,2.199,3.0,2.256,280.1
+9,instant,all checks,stream,1,2000,3.128,4.187,3.202,212.1
+9,instant,direct,stream,16,2000,10.095,22.53,10.392,840.5
+9,instant,proxy,stream,16,2000,33.455,173.863,54.405,285.3
+9,instant,all checks,stream,16,2000,42.107,188.102,55.747,261.3
+9,instant,direct,stream,64,2000,38.726,63.146,40.288,881.5
+9,instant,proxy,stream,64,2000,212.267,1706.278,325.3,189.3
+9,instant,all checks,stream,64,2000,220.825,1717.489,330.548,180.8
+9,one second,direct,non-stream,64,640,1031.826,1074.637,1033.745,61.8
+9,one second,proxy,non-stream,64,640,1013.729,1483.675,1059.779,59.0
+9,one second,all checks,non-stream,64,640,1020.216,1496.355,1070.9,58.7
+9,one second,direct,stream,64,640,1016.218,1055.481,1017.545,60.7
+9,one second,proxy,stream,64,640,1015.652,1503.093,1060.03,57.5
+9,one second,all checks,stream,64,640,1015.662,1474.983,1060.116,57.3
+10,instant,direct,non-stream,1,2000,0.748,1.097,0.787,1269.4
+10,instant,proxy,non-stream,1,2000,1.857,2.442,1.915,522.0
+10,instant,all checks,non-stream,1,2000,3.202,4.012,3.251,307.5
+10,instant,direct,non-stream,16,2000,9.247,15.92,9.378,1702.1
+10,instant,proxy,non-stream,16,2000,29.115,123.15,36.45,438.1
+10,instant,all checks,non-stream,16,2000,30.689,153.013,42.78,373.3
+10,instant,direct,non-stream,64,2000,33.348,68.302,34.913,1813.1
+10,instant,proxy,non-stream,64,2000,154.646,1355.45,250.41,254.2
+10,instant,all checks,non-stream,64,2000,179.083,1392.839,270.053,235.6
+10,instant,direct,stream,1,2000,0.868,1.248,0.899,681.6
+10,instant,proxy,stream,1,2000,2.266,2.969,2.318,275.0
+10,instant,all checks,stream,1,2000,3.1,3.985,3.154,214.6
+10,instant,direct,stream,16,2000,15.535,16.675,14.594,911.5
+10,instant,proxy,stream,16,2000,39.593,199.134,52.156,296.5
+10,instant,all checks,stream,16,2000,42.162,182.149,54.128,268.6
+10,instant,direct,stream,64,2000,42.801,67.727,43.966,926.1
+10,instant,proxy,stream,64,2000,203.486,1765.941,316.143,194.6
+10,instant,all checks,stream,64,2000,219.728,1587.965,323.804,184.3
+10,one second,direct,non-stream,64,640,1031.939,1060.078,1034.895,61.8
+10,one second,proxy,non-stream,64,640,1014.866,1424.492,1059.742,59.2
+10,one second,all checks,non-stream,64,640,1020.233,1471.418,1067.599,58.5
+10,one second,direct,stream,64,640,1012.125,1051.439,1014.97,60.8
+10,one second,proxy,stream,64,640,1013.231,1479.576,1055.136,57.7
+10,one second,all checks,stream,64,640,1016.348,1379.21,1051.007,58.2

@@ -1,0 +1,121 @@
+{
+  "runs_per_plan_and_warmup": 10,
+  "warmups_s": [
+    0.5,
+    0.525,
+    0.55,
+    0.575,
+    1.0,
+    2.0
+  ],
+  "gate_poll_ms": 50,
+  "proxy_report_ms": 100,
+  "plans": {
+    "global": {
+      "runs": 60,
+      "proxies_with_errors": [
+        12
+      ],
+      "failed_requests": {
+        "median": 123.0,
+        "min": 48,
+        "max": 191
+      },
+      "rollout_ms": {
+        "median": 107.4,
+        "min": 55.4,
+        "max": 160.7
+      },
+      "runs_stopped_at_check": {
+        "1": 25,
+        "2": 31,
+        "3": 4
+      },
+      "by_warmup": {
+        "0.5": {
+          "median_ms": 56.4,
+          "min_ms": 55.6,
+          "max_ms": 108.1
+        },
+        "0.525": {
+          "median_ms": 56.2,
+          "min_ms": 55.7,
+          "max_ms": 57.9
+        },
+        "0.55": {
+          "median_ms": 109.75,
+          "min_ms": 107.4,
+          "max_ms": 160.7
+        },
+        "0.575": {
+          "median_ms": 107.80000000000001,
+          "min_ms": 107.0,
+          "max_ms": 108.6
+        },
+        "1.0": {
+          "median_ms": 107.65,
+          "min_ms": 107.0,
+          "max_ms": 108.3
+        },
+        "2.0": {
+          "median_ms": 56.65,
+          "min_ms": 55.4,
+          "max_ms": 108.6
+        }
+      }
+    },
+    "staged": {
+      "runs": 60,
+      "proxies_with_errors": [
+        1
+      ],
+      "failed_requests": {
+        "median": 26.0,
+        "min": 20,
+        "max": 31
+      },
+      "rollout_ms": {
+        "median": 256.2,
+        "min": 204.2,
+        "max": 309.8
+      },
+      "runs_stopped_at_check": {
+        "4": 18,
+        "5": 20,
+        "6": 22
+      },
+      "by_warmup": {
+        "0.5": {
+          "median_ms": 307.25,
+          "min_ms": 306.1,
+          "max_ms": 309.8
+        },
+        "0.525": {
+          "median_ms": 256.0,
+          "min_ms": 255.2,
+          "max_ms": 257.1
+        },
+        "0.55": {
+          "median_ms": 256.15,
+          "min_ms": 255.6,
+          "max_ms": 257.0
+        },
+        "0.575": {
+          "median_ms": 205.1,
+          "min_ms": 204.4,
+          "max_ms": 306.6
+        },
+        "1.0": {
+          "median_ms": 204.85000000000002,
+          "min_ms": 204.2,
+          "max_ms": 306.2
+        },
+        "2.0": {
+          "median_ms": 307.35,
+          "min_ms": 306.1,
+          "max_ms": 308.4
+        }
+      }
+    }
+  }
+}

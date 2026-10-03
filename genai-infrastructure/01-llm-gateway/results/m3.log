@@ -1,0 +1,134 @@
+{'run': 1, 'variant': 'stacked defaults', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 27, 'seconds': 11.0}
+{'run': 1, 'variant': 'sdk retries off', 'app_tries': 3, 'sdk_max_retries': 0, 'upstream_calls': 9, 'seconds': 2.35}
+{'run': 1, 'variant': 'gateway only', 'app_tries': 1, 'sdk_max_retries': 0, 'upstream_calls': 3, 'seconds': 1.45}
+{'run': 1, 'variant': 'retry hint', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 9, 'seconds': 2.65}
+{'run': 2, 'variant': 'stacked defaults', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 27, 'seconds': 13.04}
+{'run': 2, 'variant': 'sdk retries off', 'app_tries': 3, 'sdk_max_retries': 0, 'upstream_calls': 9, 'seconds': 3.46}
+{'run': 2, 'variant': 'gateway only', 'app_tries': 1, 'sdk_max_retries': 0, 'upstream_calls': 3, 'seconds': 1.03}
+{'run': 2, 'variant': 'retry hint', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 9, 'seconds': 2.76}
+{'run': 3, 'variant': 'stacked defaults', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 27, 'seconds': 12.05}
+{'run': 3, 'variant': 'sdk retries off', 'app_tries': 3, 'sdk_max_retries': 0, 'upstream_calls': 9, 'seconds': 1.46}
+{'run': 3, 'variant': 'gateway only', 'app_tries': 1, 'sdk_max_retries': 0, 'upstream_calls': 3, 'seconds': 0.75}
+{'run': 3, 'variant': 'retry hint', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 9, 'seconds': 3.16}
+{'run': 4, 'variant': 'stacked defaults', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 27, 'seconds': 11.91}
+{'run': 4, 'variant': 'sdk retries off', 'app_tries': 3, 'sdk_max_retries': 0, 'upstream_calls': 9, 'seconds': 2.26}
+{'run': 4, 'variant': 'gateway only', 'app_tries': 1, 'sdk_max_retries': 0, 'upstream_calls': 3, 'seconds': 0.43}
+{'run': 4, 'variant': 'retry hint', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 9, 'seconds': 2.24}
+{'run': 5, 'variant': 'stacked defaults', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 27, 'seconds': 11.81}
+{'run': 5, 'variant': 'sdk retries off', 'app_tries': 3, 'sdk_max_retries': 0, 'upstream_calls': 9, 'seconds': 2.36}
+{'run': 5, 'variant': 'gateway only', 'app_tries': 1, 'sdk_max_retries': 0, 'upstream_calls': 3, 'seconds': 0.83}
+{'run': 5, 'variant': 'retry hint', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 9, 'seconds': 1.78}
+{'run': 6, 'variant': 'stacked defaults', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 27, 'seconds': 11.27}
+{'run': 6, 'variant': 'sdk retries off', 'app_tries': 3, 'sdk_max_retries': 0, 'upstream_calls': 9, 'seconds': 2.65}
+{'run': 6, 'variant': 'gateway only', 'app_tries': 1, 'sdk_max_retries': 0, 'upstream_calls': 3, 'seconds': 1.66}
+{'run': 6, 'variant': 'retry hint', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 9, 'seconds': 3.57}
+{'run': 7, 'variant': 'stacked defaults', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 27, 'seconds': 11.79}
+{'run': 7, 'variant': 'sdk retries off', 'app_tries': 3, 'sdk_max_retries': 0, 'upstream_calls': 9, 'seconds': 2.49}
+{'run': 7, 'variant': 'gateway only', 'app_tries': 1, 'sdk_max_retries': 0, 'upstream_calls': 3, 'seconds': 1.15}
+{'run': 7, 'variant': 'retry hint', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 9, 'seconds': 3.6}
+{'run': 8, 'variant': 'stacked defaults', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 27, 'seconds': 12.02}
+{'run': 8, 'variant': 'sdk retries off', 'app_tries': 3, 'sdk_max_retries': 0, 'upstream_calls': 9, 'seconds': 3.35}
+{'run': 8, 'variant': 'gateway only', 'app_tries': 1, 'sdk_max_retries': 0, 'upstream_calls': 3, 'seconds': 0.92}
+{'run': 8, 'variant': 'retry hint', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 9, 'seconds': 2.14}
+{'run': 9, 'variant': 'stacked defaults', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 27, 'seconds': 11.06}
+{'run': 9, 'variant': 'sdk retries off', 'app_tries': 3, 'sdk_max_retries': 0, 'upstream_calls': 9, 'seconds': 2.62}
+{'run': 9, 'variant': 'gateway only', 'app_tries': 1, 'sdk_max_retries': 0, 'upstream_calls': 3, 'seconds': 1.1}
+{'run': 9, 'variant': 'retry hint', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 9, 'seconds': 3.54}
+{'run': 10, 'variant': 'stacked defaults', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 27, 'seconds': 10.14}
+{'run': 10, 'variant': 'sdk retries off', 'app_tries': 3, 'sdk_max_retries': 0, 'upstream_calls': 9, 'seconds': 3.89}
+{'run': 10, 'variant': 'gateway only', 'app_tries': 1, 'sdk_max_retries': 0, 'upstream_calls': 3, 'seconds': 1.03}
+{'run': 10, 'variant': 'retry hint', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 9, 'seconds': 2.37}
+{'run': 11, 'variant': 'stacked defaults', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 27, 'seconds': 12.17}
+{'run': 11, 'variant': 'sdk retries off', 'app_tries': 3, 'sdk_max_retries': 0, 'upstream_calls': 9, 'seconds': 3.2}
+{'run': 11, 'variant': 'gateway only', 'app_tries': 1, 'sdk_max_retries': 0, 'upstream_calls': 3, 'seconds': 1.47}
+{'run': 11, 'variant': 'retry hint', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 9, 'seconds': 2.98}
+{'run': 12, 'variant': 'stacked defaults', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 27, 'seconds': 11.44}
+{'run': 12, 'variant': 'sdk retries off', 'app_tries': 3, 'sdk_max_retries': 0, 'upstream_calls': 9, 'seconds': 2.47}
+{'run': 12, 'variant': 'gateway only', 'app_tries': 1, 'sdk_max_retries': 0, 'upstream_calls': 3, 'seconds': 0.92}
+{'run': 12, 'variant': 'retry hint', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 9, 'seconds': 2.91}
+{'run': 13, 'variant': 'stacked defaults', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 27, 'seconds': 7.79}
+{'run': 13, 'variant': 'sdk retries off', 'app_tries': 3, 'sdk_max_retries': 0, 'upstream_calls': 9, 'seconds': 3.24}
+{'run': 13, 'variant': 'gateway only', 'app_tries': 1, 'sdk_max_retries': 0, 'upstream_calls': 3, 'seconds': 1.71}
+{'run': 13, 'variant': 'retry hint', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 9, 'seconds': 2.51}
+{'run': 14, 'variant': 'stacked defaults', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 27, 'seconds': 12.53}
+{'run': 14, 'variant': 'sdk retries off', 'app_tries': 3, 'sdk_max_retries': 0, 'upstream_calls': 9, 'seconds': 2.44}
+{'run': 14, 'variant': 'gateway only', 'app_tries': 1, 'sdk_max_retries': 0, 'upstream_calls': 3, 'seconds': 0.91}
+{'run': 14, 'variant': 'retry hint', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 9, 'seconds': 3.1}
+{'run': 15, 'variant': 'stacked defaults', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 27, 'seconds': 13.25}
+{'run': 15, 'variant': 'sdk retries off', 'app_tries': 3, 'sdk_max_retries': 0, 'upstream_calls': 9, 'seconds': 2.27}
+{'run': 15, 'variant': 'gateway only', 'app_tries': 1, 'sdk_max_retries': 0, 'upstream_calls': 3, 'seconds': 1.6}
+{'run': 15, 'variant': 'retry hint', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 9, 'seconds': 3.01}
+{'run': 16, 'variant': 'stacked defaults', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 27, 'seconds': 10.82}
+{'run': 16, 'variant': 'sdk retries off', 'app_tries': 3, 'sdk_max_retries': 0, 'upstream_calls': 9, 'seconds': 2.9}
+{'run': 16, 'variant': 'gateway only', 'app_tries': 1, 'sdk_max_retries': 0, 'upstream_calls': 3, 'seconds': 0.86}
+{'run': 16, 'variant': 'retry hint', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 9, 'seconds': 2.0}
+{'run': 17, 'variant': 'stacked defaults', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 27, 'seconds': 11.21}
+{'run': 17, 'variant': 'sdk retries off', 'app_tries': 3, 'sdk_max_retries': 0, 'upstream_calls': 9, 'seconds': 2.16}
+{'run': 17, 'variant': 'gateway only', 'app_tries': 1, 'sdk_max_retries': 0, 'upstream_calls': 3, 'seconds': 1.43}
+{'run': 17, 'variant': 'retry hint', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 9, 'seconds': 3.44}
+{'run': 18, 'variant': 'stacked defaults', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 27, 'seconds': 11.31}
+{'run': 18, 'variant': 'sdk retries off', 'app_tries': 3, 'sdk_max_retries': 0, 'upstream_calls': 9, 'seconds': 1.62}
+{'run': 18, 'variant': 'gateway only', 'app_tries': 1, 'sdk_max_retries': 0, 'upstream_calls': 3, 'seconds': 0.9}
+{'run': 18, 'variant': 'retry hint', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 9, 'seconds': 1.93}
+{'run': 19, 'variant': 'stacked defaults', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 27, 'seconds': 11.12}
+{'run': 19, 'variant': 'sdk retries off', 'app_tries': 3, 'sdk_max_retries': 0, 'upstream_calls': 9, 'seconds': 1.79}
+{'run': 19, 'variant': 'gateway only', 'app_tries': 1, 'sdk_max_retries': 0, 'upstream_calls': 3, 'seconds': 1.39}
+{'run': 19, 'variant': 'retry hint', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 9, 'seconds': 2.08}
+{'run': 20, 'variant': 'stacked defaults', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 27, 'seconds': 9.98}
+{'run': 20, 'variant': 'sdk retries off', 'app_tries': 3, 'sdk_max_retries': 0, 'upstream_calls': 9, 'seconds': 3.03}
+{'run': 20, 'variant': 'gateway only', 'app_tries': 1, 'sdk_max_retries': 0, 'upstream_calls': 3, 'seconds': 0.42}
+{'run': 20, 'variant': 'retry hint', 'app_tries': 3, 'sdk_max_retries': 'default (2)', 'upstream_calls': 9, 'seconds': 3.06}
+{
+  "stacked defaults": {
+    "runs": 20,
+    "upstream_calls": {
+      "median": 27.0,
+      "min": 27,
+      "max": 27
+    },
+    "seconds": {
+      "median": 11.375,
+      "min": 7.79,
+      "max": 13.25
+    }
+  },
+  "sdk retries off": {
+    "runs": 20,
+    "upstream_calls": {
+      "median": 9.0,
+      "min": 9,
+      "max": 9
+    },
+    "seconds": {
+      "median": 2.4800000000000004,
+      "min": 1.46,
+      "max": 3.89
+    }
+  },
+  "gateway only": {
+    "runs": 20,
+    "upstream_calls": {
+      "median": 3.0,
+      "min": 3,
+      "max": 3
+    },
+    "seconds": {
+      "median": 1.03,
+      "min": 0.42,
+      "max": 1.71
+    }
+  },
+  "retry hint": {
+    "runs": 20,
+    "upstream_calls": {
+      "median": 9.0,
+      "min": 9,
+      "max": 9
+    },
+    "seconds": {
+      "median": 2.835,
+      "min": 1.78,
+      "max": 3.6
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{'run': 1, 'budget': 'check, then spend', 'served_200': 200, 'refused_429': 0, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 64200, 'times_the_budget': 20.0}
+{'run': 1, 'budget': 'reserve, then settle', 'served_200': 10, 'refused_429': 190, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 3210, 'times_the_budget': 1.0}
+{'run': 2, 'budget': 'check, then spend', 'served_200': 200, 'refused_429': 0, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 64200, 'times_the_budget': 20.0}
+{'run': 2, 'budget': 'reserve, then settle', 'served_200': 10, 'refused_429': 190, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 3210, 'times_the_budget': 1.0}
+{'run': 3, 'budget': 'check, then spend', 'served_200': 200, 'refused_429': 0, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 64200, 'times_the_budget': 20.0}
+{'run': 3, 'budget': 'reserve, then settle', 'served_200': 10, 'refused_429': 190, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 3210, 'times_the_budget': 1.0}
+{'run': 4, 'budget': 'check, then spend', 'served_200': 200, 'refused_429': 0, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 64200, 'times_the_budget': 20.0}
+{'run': 4, 'budget': 'reserve, then settle', 'served_200': 10, 'refused_429': 190, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 3210, 'times_the_budget': 1.0}
+{'run': 5, 'budget': 'check, then spend', 'served_200': 200, 'refused_429': 0, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 64200, 'times_the_budget': 20.0}
+{'run': 5, 'budget': 'reserve, then settle', 'served_200': 10, 'refused_429': 190, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 3210, 'times_the_budget': 1.0}
+{'run': 6, 'budget': 'check, then spend', 'served_200': 200, 'refused_429': 0, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 64200, 'times_the_budget': 20.0}
+{'run': 6, 'budget': 'reserve, then settle', 'served_200': 10, 'refused_429': 190, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 3210, 'times_the_budget': 1.0}
+{'run': 7, 'budget': 'check, then spend', 'served_200': 200, 'refused_429': 0, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 64200, 'times_the_budget': 20.0}
+{'run': 7, 'budget': 'reserve, then settle', 'served_200': 10, 'refused_429': 190, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 3210, 'times_the_budget': 1.0}
+{'run': 8, 'budget': 'check, then spend', 'served_200': 200, 'refused_429': 0, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 64200, 'times_the_budget': 20.0}
+{'run': 8, 'budget': 'reserve, then settle', 'served_200': 10, 'refused_429': 190, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 3210, 'times_the_budget': 1.0}
+{'run': 9, 'budget': 'check, then spend', 'served_200': 200, 'refused_429': 0, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 64200, 'times_the_budget': 20.0}
+{'run': 9, 'budget': 'reserve, then settle', 'served_200': 10, 'refused_429': 190, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 3210, 'times_the_budget': 1.0}
+{'run': 10, 'budget': 'check, then spend', 'served_200': 200, 'refused_429': 0, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 64200, 'times_the_budget': 20.0}
+{'run': 10, 'budget': 'reserve, then settle', 'served_200': 10, 'refused_429': 190, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 3210, 'times_the_budget': 1.0}
+{'run': 11, 'budget': 'check, then spend', 'served_200': 192, 'refused_429': 0, 'other': 8, 'limit_micro_usd': 3210, 'spent_micro_usd': 61632, 'times_the_budget': 19.2}
+{'run': 11, 'budget': 'reserve, then settle', 'served_200': 10, 'refused_429': 190, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 3210, 'times_the_budget': 1.0}
+{'run': 12, 'budget': 'check, then spend', 'served_200': 192, 'refused_429': 0, 'other': 8, 'limit_micro_usd': 3210, 'spent_micro_usd': 61632, 'times_the_budget': 19.2}
+{'run': 12, 'budget': 'reserve, then settle', 'served_200': 10, 'refused_429': 190, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 3210, 'times_the_budget': 1.0}
+{'run': 13, 'budget': 'check, then spend', 'served_200': 200, 'refused_429': 0, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 64200, 'times_the_budget': 20.0}
+{'run': 13, 'budget': 'reserve, then settle', 'served_200': 10, 'refused_429': 190, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 3210, 'times_the_budget': 1.0}
+{'run': 14, 'budget': 'check, then spend', 'served_200': 192, 'refused_429': 0, 'other': 8, 'limit_micro_usd': 3210, 'spent_micro_usd': 61632, 'times_the_budget': 19.2}
+{'run': 14, 'budget': 'reserve, then settle', 'served_200': 10, 'refused_429': 190, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 3210, 'times_the_budget': 1.0}
+{'run': 15, 'budget': 'check, then spend', 'served_200': 200, 'refused_429': 0, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 64200, 'times_the_budget': 20.0}
+{'run': 15, 'budget': 'reserve, then settle', 'served_200': 10, 'refused_429': 190, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 3210, 'times_the_budget': 1.0}
+{'run': 16, 'budget': 'check, then spend', 'served_200': 200, 'refused_429': 0, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 64200, 'times_the_budget': 20.0}
+{'run': 16, 'budget': 'reserve, then settle', 'served_200': 10, 'refused_429': 190, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 3210, 'times_the_budget': 1.0}
+{'run': 17, 'budget': 'check, then spend', 'served_200': 192, 'refused_429': 0, 'other': 8, 'limit_micro_usd': 3210, 'spent_micro_usd': 61632, 'times_the_budget': 19.2}
+{'run': 17, 'budget': 'reserve, then settle', 'served_200': 10, 'refused_429': 190, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 3210, 'times_the_budget': 1.0}
+{'run': 18, 'budget': 'check, then spend', 'served_200': 197, 'refused_429': 0, 'other': 3, 'limit_micro_usd': 3210, 'spent_micro_usd': 63237, 'times_the_budget': 19.7}
+{'run': 18, 'budget': 'reserve, then settle', 'served_200': 10, 'refused_429': 190, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 3210, 'times_the_budget': 1.0}
+{'run': 19, 'budget': 'check, then spend', 'served_200': 199, 'refused_429': 0, 'other': 1, 'limit_micro_usd': 3210, 'spent_micro_usd': 63879, 'times_the_budget': 19.9}
+{'run': 19, 'budget': 'reserve, then settle', 'served_200': 10, 'refused_429': 190, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 3210, 'times_the_budget': 1.0}
+{'run': 20, 'budget': 'check, then spend', 'served_200': 200, 'refused_429': 0, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 64200, 'times_the_budget': 20.0}
+{'run': 20, 'budget': 'reserve, then settle', 'served_200': 10, 'refused_429': 190, 'other': 0, 'limit_micro_usd': 3210, 'spent_micro_usd': 3210, 'times_the_budget': 1.0}
+{
+  "check, then spend": {
+    "runs": 20,
+    "served_200": {
+      "median": 200.0,
+      "min": 192,
+      "max": 200
+    },
+    "refused_429": {
+      "median": 0.0,
+      "min": 0,
+      "max": 0
+    },
+    "other": {
+      "median": 0.0,
+      "min": 0,
+      "max": 8
+    },
+    "spent_micro_usd": {
+      "median": 64200.0,
+      "min": 61632,
+      "max": 64200
+    },
+    "times_the_budget": {
+      "median": 20.0,
+      "min": 19.2,
+      "max": 20.0
+    }
+  },
+  "reserve, then settle": {
+    "runs": 20,
+    "served_200": {
+      "median": 10.0,
+      "min": 10,
+      "max": 10
+    },
+    "refused_429": {
+      "median": 190.0,
+      "min": 190,
+      "max": 190
+    },
+    "other": {
+      "median": 0.0,
+      "min": 0,
+      "max": 0
+    },
+    "spent_micro_usd": {
+      "median": 3210.0,
+      "min": 3210,
+      "max": 3210
+    },
+    "times_the_budget": {
+      "median": 1.0,
+      "min": 1.0,
+      "max": 1.0
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "runs": 20,
+  "vault_file_bytes": {
+    "executives": 94287,
+    "courses_answer": 131026517
+  },
+  "results": [
+    {
+      "table": "executives",
+      "rows": 1206,
+      "method": "soft drop (statement)",
+      "runs": 20,
+      "median_ms": 3.28,
+      "min_ms": 2.767,
+      "max_ms": 4.643
+    },
+    {
+      "table": "executives",
+      "rows": 1206,
+      "method": "trash restore (statement)",
+      "runs": 20,
+      "median_ms": 3.29,
+      "min_ms": 2.721,
+      "max_ms": 3.562
+    },
+    {
+      "table": "executives",
+      "rows": 1206,
+      "method": "trash restore",
+      "runs": 20,
+      "median_ms": 29.12,
+      "min_ms": 11.742,
+      "max_ms": 34.652
+    },
+    {
+      "table": "executives",
+      "rows": 1206,
+      "method": "vault backup",
+      "runs": 20,
+      "median_ms": 17.68,
+      "min_ms": 13.012,
+      "max_ms": 39.773
+    },
+    {
+      "table": "executives",
+      "rows": 1206,
+      "method": "vault restore",
+      "runs": 20,
+      "median_ms": 82.97,
+      "min_ms": 39.71,
+      "max_ms": 102.785
+    },
+    {
+      "table": "courses_answer",
+      "rows": 1943200,
+      "method": "soft drop (statement)",
+      "runs": 20,
+      "median_ms": 3.28,
+      "min_ms": 2.987,
+      "max_ms": 4.449
+    },
+    {
+      "table": "courses_answer",
+      "rows": 1943200,
+      "method": "trash restore (statement)",
+      "runs": 20,
+      "median_ms": 3.38,
+      "min_ms": 3.036,
+      "max_ms": 3.731
+    },
+    {
+      "table": "courses_answer",
+      "rows": 1943200,
+      "method": "trash restore",
+      "runs": 20,
+      "median_ms": 29.01,
+      "min_ms": 13.094,
+      "max_ms": 33.311
+    },
+    {
+      "table": "courses_answer",
+      "rows": 1943200,
+      "method": "vault backup",
+      "runs": 20,
+      "median_ms": 3300.91,
+      "min_ms": 3026.289,
+      "max_ms": 3788.029
+    },
+    {
+      "table": "courses_answer",
+      "rows": 1943200,
+      "method": "vault restore",
+      "runs": 20,
+      "median_ms": 1672.18,
+      "min_ms": 1389.945,
+      "max_ms": 1914.836
+    }
+  ]
+}

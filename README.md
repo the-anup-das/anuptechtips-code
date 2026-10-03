@@ -9,6 +9,8 @@ need and how to run it.
 | Series | Folder | What's inside |
 |---|---|---|
 | Reliable Python services | [reliable-python-services](reliable-python-services/) | Idempotency keys, rate limiting, the transactional outbox, idempotent consumers and Redis locks, built and tested on PostgreSQL, Redis and Kafka |
+| GenAI infrastructure | [genai-infrastructure](genai-infrastructure/) | An LLM gateway (routing, retries, circuit breaker, streaming fallback, per-tenant budgets) and a production RAG pipeline on pgvector |
+| AI System Design Case Studies | [ai-system-design](ai-system-design/) | Five public AI incidents (Air Canada's chatbot, agents deleting databases, fail open vs fail closed, the ChatGPT Redis bug, silent LLM regressions), each rebuilt and fixed |
 
 More series are added as their articles are written.
 

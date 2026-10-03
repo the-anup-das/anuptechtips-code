@@ -1,0 +1,51 @@
+run,scenario,rows_unfiltered,distinct_names,rows_with_schema_filter,role_can_read_r0_table
+1,before the change,60,60,60,False
+1,USAGE on schema r0 only,60,60,60,False
+1,SELECT on r0.http_requests_features,120,60,60,False
+1,SELECT on the table and USAGE on the schema,120,60,60,True
+1,INSERT on the table,120,60,60,False
+1,UPDATE on the table,120,60,60,False
+1,REFERENCES on the table,120,60,60,False
+1,DELETE on the table,60,60,60,False
+1,TRUNCATE on the table,60,60,60,False
+1,TRIGGER on the table,60,60,60,False
+2,before the change,60,60,60,False
+2,USAGE on schema r0 only,60,60,60,False
+2,SELECT on r0.http_requests_features,120,60,60,False
+2,SELECT on the table and USAGE on the schema,120,60,60,True
+2,INSERT on the table,120,60,60,False
+2,UPDATE on the table,120,60,60,False
+2,REFERENCES on the table,120,60,60,False
+2,DELETE on the table,60,60,60,False
+2,TRUNCATE on the table,60,60,60,False
+2,TRIGGER on the table,60,60,60,False
+3,before the change,60,60,60,False
+3,USAGE on schema r0 only,60,60,60,False
+3,SELECT on r0.http_requests_features,120,60,60,False
+3,SELECT on the table and USAGE on the schema,120,60,60,True
+3,INSERT on the table,120,60,60,False
+3,UPDATE on the table,120,60,60,False
+3,REFERENCES on the table,120,60,60,False
+3,DELETE on the table,60,60,60,False
+3,TRUNCATE on the table,60,60,60,False
+3,TRIGGER on the table,60,60,60,False
+4,before the change,60,60,60,False
+4,USAGE on schema r0 only,60,60,60,False
+4,SELECT on r0.http_requests_features,120,60,60,False
+4,SELECT on the table and USAGE on the schema,120,60,60,True
+4,INSERT on the table,120,60,60,False
+4,UPDATE on the table,120,60,60,False
+4,REFERENCES on the table,120,60,60,False
+4,DELETE on the table,60,60,60,False
+4,TRUNCATE on the table,60,60,60,False
+4,TRIGGER on the table,60,60,60,False
+5,before the change,60,60,60,False
+5,USAGE on schema r0 only,60,60,60,False
+5,SELECT on r0.http_requests_features,120,60,60,False
+5,SELECT on the table and USAGE on the schema,120,60,60,True
+5,INSERT on the table,120,60,60,False
+5,UPDATE on the table,120,60,60,False
+5,REFERENCES on the table,120,60,60,False
+5,DELETE on the table,60,60,60,False
+5,TRUNCATE on the table,60,60,60,False
+5,TRIGGER on the table,60,60,60,False

@@ -1,0 +1,16 @@
+# Local test services for the GenAI infrastructure posts on anuptechtips.com.
+# docker compose up -d   then   docker compose down -v
+#
+# pgvector: PostgreSQL 18 with the pgvector extension, for the RAG post (port 55433).
+# The LLM gateway post needs Redis only; it uses the one from
+# ../reliable-python-services/docker-compose.yml (port 56379).
+name: genai-infrastructure
+services:
+  pgvector:
+    image: pgvector/pgvector:0.8.6-pg18
+    environment:
+      POSTGRES_USER: patterns
+      POSTGRES_PASSWORD: patterns
+      POSTGRES_DB: rag
+    command: ["postgres", "-c", "max_connections=200", "-c", "shared_buffers=512MB", "-c", "maintenance_work_mem=1GB"]
+    ports: ["55433:5432"]

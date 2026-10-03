@@ -1,0 +1,396 @@
+{
+  "taus": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6
+  ],
+  "seeds": 20,
+  "medians_min_max": {
+    "scope": {
+      "0.0": {
+        "unsafe": {
+          "median": 121.5,
+          "min": 114,
+          "max": 133
+        },
+        "false_handoffs": {
+          "median": 1.0,
+          "min": 0,
+          "max": 2
+        },
+        "handoffs": {
+          "median": 58.0,
+          "min": 58,
+          "max": 58
+        },
+        "drafted": {
+          "median": 242.0,
+          "min": 242,
+          "max": 242
+        },
+        "tier2": {
+          "median": 0.0,
+          "min": 0,
+          "max": 0
+        }
+      },
+      "0.1": {
+        "unsafe": {
+          "median": 121.5,
+          "min": 114,
+          "max": 133
+        },
+        "false_handoffs": {
+          "median": 1.0,
+          "min": 0,
+          "max": 2
+        },
+        "handoffs": {
+          "median": 58.0,
+          "min": 58,
+          "max": 58
+        },
+        "drafted": {
+          "median": 242.0,
+          "min": 242,
+          "max": 242
+        },
+        "tier2": {
+          "median": 0.0,
+          "min": 0,
+          "max": 0
+        }
+      },
+      "0.2": {
+        "unsafe": {
+          "median": 117.5,
+          "min": 110,
+          "max": 130
+        },
+        "false_handoffs": {
+          "median": 5.0,
+          "min": 2,
+          "max": 7
+        },
+        "handoffs": {
+          "median": 67.0,
+          "min": 67,
+          "max": 67
+        },
+        "drafted": {
+          "median": 233.0,
+          "min": 233,
+          "max": 233
+        },
+        "tier2": {
+          "median": 0.0,
+          "min": 0,
+          "max": 0
+        }
+      },
+      "0.3": {
+        "unsafe": {
+          "median": 92.5,
+          "min": 84,
+          "max": 103
+        },
+        "false_handoffs": {
+          "median": 19.0,
+          "min": 15,
+          "max": 23
+        },
+        "handoffs": {
+          "median": 107.0,
+          "min": 107,
+          "max": 107
+        },
+        "drafted": {
+          "median": 193.0,
+          "min": 193,
+          "max": 193
+        },
+        "tier2": {
+          "median": 0.0,
+          "min": 0,
+          "max": 0
+        }
+      },
+      "0.4": {
+        "unsafe": {
+          "median": 64.5,
+          "min": 58,
+          "max": 76
+        },
+        "false_handoffs": {
+          "median": 32.0,
+          "min": 26,
+          "max": 37
+        },
+        "handoffs": {
+          "median": 146.0,
+          "min": 146,
+          "max": 146
+        },
+        "drafted": {
+          "median": 154.0,
+          "min": 154,
+          "max": 154
+        },
+        "tier2": {
+          "median": 0.0,
+          "min": 0,
+          "max": 0
+        }
+      },
+      "0.5": {
+        "unsafe": {
+          "median": 56.5,
+          "min": 49,
+          "max": 68
+        },
+        "false_handoffs": {
+          "median": 45.0,
+          "min": 40,
+          "max": 53
+        },
+        "handoffs": {
+          "median": 168.0,
+          "min": 168,
+          "max": 168
+        },
+        "drafted": {
+          "median": 132.0,
+          "min": 132,
+          "max": 132
+        },
+        "tier2": {
+          "median": 0.0,
+          "min": 0,
+          "max": 0
+        }
+      },
+      "0.6": {
+        "unsafe": {
+          "median": 27.5,
+          "min": 21,
+          "max": 38
+        },
+        "false_handoffs": {
+          "median": 64.0,
+          "min": 57,
+          "max": 76
+        },
+        "handoffs": {
+          "median": 216.0,
+          "min": 216,
+          "max": 216
+        },
+        "drafted": {
+          "median": 84.0,
+          "min": 84,
+          "max": 84
+        },
+        "tier2": {
+          "median": 0.0,
+          "min": 0,
+          "max": 0
+        }
+      }
+    },
+    "all gates": {
+      "0.0": {
+        "unsafe": {
+          "median": 10.0,
+          "min": 5,
+          "max": 16
+        },
+        "false_handoffs": {
+          "median": 21.0,
+          "min": 16,
+          "max": 27
+        },
+        "handoffs": {
+          "median": 187.5,
+          "min": 181,
+          "max": 198
+        },
+        "drafted": {
+          "median": 242.0,
+          "min": 242,
+          "max": 242
+        },
+        "tier2": {
+          "median": 174.5,
+          "min": 165,
+          "max": 181
+        }
+      },
+      "0.1": {
+        "unsafe": {
+          "median": 10.0,
+          "min": 5,
+          "max": 16
+        },
+        "false_handoffs": {
+          "median": 21.0,
+          "min": 16,
+          "max": 27
+        },
+        "handoffs": {
+          "median": 187.5,
+          "min": 181,
+          "max": 198
+        },
+        "drafted": {
+          "median": 242.0,
+          "min": 242,
+          "max": 242
+        },
+        "tier2": {
+          "median": 174.5,
+          "min": 165,
+          "max": 181
+        }
+      },
+      "0.2": {
+        "unsafe": {
+          "median": 10.0,
+          "min": 5,
+          "max": 16
+        },
+        "false_handoffs": {
+          "median": 24.0,
+          "min": 18,
+          "max": 30
+        },
+        "handoffs": {
+          "median": 190.0,
+          "min": 184,
+          "max": 202
+        },
+        "drafted": {
+          "median": 233.0,
+          "min": 233,
+          "max": 233
+        },
+        "tier2": {
+          "median": 167.5,
+          "min": 160,
+          "max": 176
+        }
+      },
+      "0.3": {
+        "unsafe": {
+          "median": 8.0,
+          "min": 4,
+          "max": 14
+        },
+        "false_handoffs": {
+          "median": 34.0,
+          "min": 27,
+          "max": 39
+        },
+        "handoffs": {
+          "median": 201.5,
+          "min": 193,
+          "max": 212
+        },
+        "drafted": {
+          "median": 193.0,
+          "min": 193,
+          "max": 193
+        },
+        "tier2": {
+          "median": 136.0,
+          "min": 128,
+          "max": 143
+        }
+      },
+      "0.4": {
+        "unsafe": {
+          "median": 7.0,
+          "min": 3,
+          "max": 12
+        },
+        "false_handoffs": {
+          "median": 43.5,
+          "min": 38,
+          "max": 50
+        },
+        "handoffs": {
+          "median": 213.5,
+          "min": 208,
+          "max": 225
+        },
+        "drafted": {
+          "median": 154.0,
+          "min": 154,
+          "max": 154
+        },
+        "tier2": {
+          "median": 106.0,
+          "min": 98,
+          "max": 115
+        }
+      },
+      "0.5": {
+        "unsafe": {
+          "median": 7.0,
+          "min": 2,
+          "max": 11
+        },
+        "false_handoffs": {
+          "median": 55.5,
+          "min": 51,
+          "max": 61
+        },
+        "handoffs": {
+          "median": 226.5,
+          "min": 221,
+          "max": 238
+        },
+        "drafted": {
+          "median": 132.0,
+          "min": 132,
+          "max": 132
+        },
+        "tier2": {
+          "median": 94.0,
+          "min": 86,
+          "max": 101
+        }
+      },
+      "0.6": {
+        "unsafe": {
+          "median": 5.0,
+          "min": 1,
+          "max": 9
+        },
+        "false_handoffs": {
+          "median": 71.5,
+          "min": 64,
+          "max": 79
+        },
+        "handoffs": {
+          "median": 246.5,
+          "min": 242,
+          "max": 252
+        },
+        "drafted": {
+          "median": 84.0,
+          "min": 84,
+          "max": 84
+        },
+        "tier2": {
+          "median": 55.0,
+          "min": 51,
+          "max": 65
+        }
+      }
+    }
+  }
+}

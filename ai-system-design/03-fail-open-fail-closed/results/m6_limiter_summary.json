@@ -1,0 +1,138 @@
+{
+  "redis_py": "8.1.0",
+  "redis_py_defaults": {
+    "socket_timeout": 5,
+    "socket_connect_timeout": 5,
+    "retries": 10,
+    "backoff": "ExponentialWithJitterBackoff",
+    "backoff_base_s": 0.01,
+    "backoff_cap_s": 1
+  },
+  "rounds": 5,
+  "statuses": [
+    {
+      "limiter_redis": "healthy",
+      "route": "naive limiter",
+      "status": 200,
+      "retry_after": "",
+      "detail": ""
+    },
+    {
+      "limiter_redis": "healthy",
+      "route": "fail open (/search)",
+      "status": 200,
+      "retry_after": "",
+      "detail": ""
+    },
+    {
+      "limiter_redis": "healthy",
+      "route": "fail closed (/login)",
+      "status": 200,
+      "retry_after": "",
+      "detail": ""
+    },
+    {
+      "limiter_redis": "refusing connections",
+      "route": "naive limiter",
+      "status": 429,
+      "retry_after": "1",
+      "detail": "Too Many Requests"
+    },
+    {
+      "limiter_redis": "refusing connections",
+      "route": "fail open (/search)",
+      "status": 200,
+      "retry_after": "",
+      "detail": ""
+    },
+    {
+      "limiter_redis": "refusing connections",
+      "route": "fail closed (/login)",
+      "status": 503,
+      "retry_after": "1",
+      "detail": "Rate limiter unavailable"
+    },
+    {
+      "limiter_redis": "hung",
+      "route": "naive limiter",
+      "status": 429,
+      "retry_after": "1",
+      "detail": "Too Many Requests"
+    },
+    {
+      "limiter_redis": "hung",
+      "route": "fail open (/search)",
+      "status": 200,
+      "retry_after": "",
+      "detail": ""
+    },
+    {
+      "limiter_redis": "hung",
+      "route": "fail closed (/login)",
+      "status": 503,
+      "retry_after": "1",
+      "detail": "Rate limiter unavailable"
+    }
+  ],
+  "latency": {
+    "healthy / both timeouts, no retries": {
+      "requests": 500,
+      "median_ms": 3.0,
+      "min_ms": 2.33,
+      "max_ms": 30.78,
+      "p99_ms": 4.49
+    },
+    "healthy / both timeouts": {
+      "requests": 500,
+      "median_ms": 3.18,
+      "min_ms": 2.68,
+      "max_ms": 32.34,
+      "p99_ms": 4.58
+    },
+    "healthy / socket_timeout only": {
+      "requests": 500,
+      "median_ms": 3.325,
+      "min_ms": 2.83,
+      "max_ms": 31.57,
+      "p99_ms": 5.08
+    },
+    "refusing connections / both timeouts, no retries": {
+      "requests": 500,
+      "median_ms": 61.95,
+      "min_ms": 58.94,
+      "max_ms": 103.83,
+      "p99_ms": 64.44
+    },
+    "refusing connections / both timeouts": {
+      "requests": 5,
+      "median_ms": 4526.08,
+      "min_ms": 3787.91,
+      "max_ms": 5383.2
+    },
+    "refusing connections / socket_timeout only": {
+      "requests": 5,
+      "median_ms": 26602.47,
+      "min_ms": 26013.45,
+      "max_ms": 26749.14
+    },
+    "hung / both timeouts, no retries": {
+      "requests": 500,
+      "median_ms": 62.235,
+      "min_ms": 54.18,
+      "max_ms": 101.25,
+      "p99_ms": 92.51
+    },
+    "hung / both timeouts": {
+      "requests": 5,
+      "median_ms": 4780.64,
+      "min_ms": 4431.34,
+      "max_ms": 5743.28
+    },
+    "hung / socket_timeout only": {
+      "requests": 5,
+      "median_ms": 4850.54,
+      "min_ms": 4211.88,
+      "max_ms": 5559.48
+    }
+  }
+}

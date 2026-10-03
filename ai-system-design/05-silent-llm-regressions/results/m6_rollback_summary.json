@@ -1,0 +1,62 @@
+{
+  "runs": 20,
+  "workers": 8,
+  "cache_ttl_seconds": 1.0,
+  "modes": {
+    "read per request": {
+      "rollback_call_ms": {
+        "median": 0.85,
+        "min": 0.484,
+        "max": 2.531
+      },
+      "all_workers_switched_ms": {
+        "median": 2.117,
+        "min": 1.8,
+        "max": 3.192
+      },
+      "first_worker_switched_ms": {
+        "median": 0.993,
+        "min": 0.744,
+        "max": 2.331
+      },
+      "candidate_replies_after_return": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "requests_served": {
+        "median": 1985.5,
+        "min": 1728,
+        "max": 2105
+      }
+    },
+    "cached 1 s": {
+      "rollback_call_ms": {
+        "median": 0.65,
+        "min": 0.486,
+        "max": 0.767
+      },
+      "all_workers_switched_ms": {
+        "median": 988.524,
+        "min": 965.774,
+        "max": 990.789
+      },
+      "first_worker_switched_ms": {
+        "median": 113.412,
+        "min": 90.35,
+        "max": 116.174
+      },
+      "candidate_replies_after_return": {
+        "median": 2967.5,
+        "min": 2829,
+        "max": 3130
+      },
+      "requests_served": {
+        "median": 4337.0,
+        "min": 4188,
+        "max": 4543
+      }
+    }
+  },
+  "setup": "AMD Ryzen 9 7950X3D (16 cores/32 threads), 64 GB RAM, Windows 11, Docker Desktop 28.5 (WSL2); Python 3.12, redis-py 8.1.0, Redis 8.10.2"
+}

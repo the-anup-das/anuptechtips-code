@@ -1,0 +1,54 @@
+{
+  "runs": 20,
+  "requests": 1000,
+  "clause_republished_at_request": 500,
+  "clause": "REF-03",
+  "keys": {
+    "naive": {
+      "stale": {
+        "median": 13.0,
+        "min": 6,
+        "max": 19
+      },
+      "cache_hits": {
+        "median": 631.0,
+        "min": 607,
+        "max": 655
+      },
+      "model_calls": {
+        "median": 315.0,
+        "min": 296,
+        "max": 346
+      },
+      "shipped": {
+        "median": 742.0,
+        "min": 718,
+        "max": 766
+      },
+      "runs_with_a_stale_answer": 20
+    },
+    "versioned": {
+      "stale": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "cache_hits": {
+        "median": 614.5,
+        "min": 592,
+        "max": 637
+      },
+      "model_calls": {
+        "median": 330.5,
+        "min": 311,
+        "max": 361
+      },
+      "shipped": {
+        "median": 742.0,
+        "min": 718,
+        "max": 766
+      },
+      "runs_with_a_stale_answer": 0
+    }
+  }
+}

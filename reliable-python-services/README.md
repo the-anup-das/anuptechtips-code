@@ -3,7 +3,7 @@
 Part of [anuptechtips-code](../README.md), the code behind the articles on anuptechtips.com.
 
 Runnable code, tests and measurements for the **Reliable Python services** series on
-[anuptechtips.com](https://anuptechtips.com/category/system-design/): distributed-systems
+[anuptechtips.com](https://anuptechtips.com/system-design/): distributed-systems
 patterns built and tested in Python, PostgreSQL, Redis and Kafka.
 
 Every code block in the posts comes from these folders, and every number in the posts comes

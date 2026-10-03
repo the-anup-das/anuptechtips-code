@@ -1,0 +1,378 @@
+{
+  "proxies": 12,
+  "cohorts": [
+    1,
+    3,
+    8
+  ],
+  "requests_per_second_per_proxy": 100,
+  "soak_seconds_per_stage": 1.0,
+  "features_good": 60,
+  "features_bad": 120,
+  "variants": {
+    "naive / global / bad file / gate: errors and blocks": {
+      "runs": 20,
+      "stages_passed": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "proxies_with_errors": {
+        "median": 12.0,
+        "min": 12,
+        "max": 12
+      },
+      "failed_requests": {
+        "median": 58.0,
+        "min": 48,
+        "max": 79
+      },
+      "proxies_on_new_file": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "proxies_serving_stale": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "stale_serves": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "humans_blocked": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "rollout_ms": {
+        "median": 56.3,
+        "min": 55.5,
+        "max": 58.9
+      },
+      "first_error_ms": {
+        "median": 1.4,
+        "min": 0.8,
+        "max": 15.3
+      },
+      "last_error_ms": {
+        "median": 46.65,
+        "min": 43.1,
+        "max": 56.7
+      }
+    },
+    "naive / staged / bad file / gate: errors and blocks": {
+      "runs": 20,
+      "stages_passed": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "proxies_with_errors": {
+        "median": 1.0,
+        "min": 1,
+        "max": 1
+      },
+      "failed_requests": {
+        "median": 31.0,
+        "min": 26,
+        "max": 31
+      },
+      "proxies_on_new_file": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "proxies_serving_stale": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "stale_serves": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "humans_blocked": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "rollout_ms": {
+        "median": 307.35,
+        "min": 256.2,
+        "max": 312.1
+      },
+      "first_error_ms": {
+        "median": 1.05,
+        "min": 0.8,
+        "max": 16.4
+      },
+      "last_error_ms": {
+        "median": 302.65,
+        "min": 250.6,
+        "max": 307.1
+      }
+    },
+    "hardened / global / bad file / gate: errors and blocks": {
+      "runs": 20,
+      "stages_passed": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "proxies_with_errors": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "failed_requests": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "proxies_on_new_file": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "proxies_serving_stale": {
+        "median": 12.0,
+        "min": 12,
+        "max": 12
+      },
+      "stale_serves": {
+        "median": 63.0,
+        "min": 48,
+        "max": 81
+      },
+      "humans_blocked": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "rollout_ms": {
+        "median": 56.6,
+        "min": 55.7,
+        "max": 60.3
+      }
+    },
+    "hardened / staged / bad file / gate: errors and blocks": {
+      "runs": 20,
+      "stages_passed": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "proxies_with_errors": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "failed_requests": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "proxies_on_new_file": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "proxies_serving_stale": {
+        "median": 1.0,
+        "min": 1,
+        "max": 1
+      },
+      "stale_serves": {
+        "median": 5.0,
+        "min": 4,
+        "max": 7
+      },
+      "humans_blocked": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "rollout_ms": {
+        "median": 52.6,
+        "min": 52.1,
+        "max": 54.1
+      }
+    },
+    "fail wrong / staged / bad file / gate: errors and blocks": {
+      "runs": 20,
+      "stages_passed": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "proxies_with_errors": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "failed_requests": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "proxies_on_new_file": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "proxies_serving_stale": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "stale_serves": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "humans_blocked": {
+        "median": 27.0,
+        "min": 23,
+        "max": 28
+      },
+      "rollout_ms": {
+        "median": 306.65,
+        "min": 256.4,
+        "max": 308.8
+      }
+    },
+    "fail wrong / staged / bad file / gate: errors only": {
+      "runs": 20,
+      "stages_passed": {
+        "median": 3.0,
+        "min": 3,
+        "max": 3
+      },
+      "proxies_with_errors": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "failed_requests": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "proxies_on_new_file": {
+        "median": 12.0,
+        "min": 12,
+        "max": 12
+      },
+      "proxies_serving_stale": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "stale_serves": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "humans_blocked": {
+        "median": 2205.5,
+        "min": 2192,
+        "max": 2223
+      },
+      "rollout_ms": {
+        "median": 3059.1,
+        "min": 3053.0,
+        "max": 3063.8
+      }
+    },
+    "naive / global / good file / gate: errors and blocks": {
+      "runs": 20,
+      "stages_passed": {
+        "median": 1.0,
+        "min": 1,
+        "max": 1
+      },
+      "proxies_with_errors": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "failed_requests": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "proxies_on_new_file": {
+        "median": 12.0,
+        "min": 12,
+        "max": 12
+      },
+      "proxies_serving_stale": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "stale_serves": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "humans_blocked": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "rollout_ms": {
+        "median": 1037.8000000000002,
+        "min": 1034.3,
+        "max": 1043.5
+      }
+    },
+    "naive / staged / good file / gate: errors and blocks": {
+      "runs": 20,
+      "stages_passed": {
+        "median": 3.0,
+        "min": 3,
+        "max": 3
+      },
+      "proxies_with_errors": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "failed_requests": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "proxies_on_new_file": {
+        "median": 12.0,
+        "min": 12,
+        "max": 12
+      },
+      "proxies_serving_stale": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "stale_serves": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "humans_blocked": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "rollout_ms": {
+        "median": 3061.8999999999996,
+        "min": 3054.0,
+        "max": 3069.2
+      }
+    }
+  }
+}

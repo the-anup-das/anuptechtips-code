@@ -1,0 +1,304 @@
+{
+  "started": "2026-10-01 20:35:00",
+  "setup": {
+    "runs": 10,
+    "requests_per_run": 60,
+    "interval_s": 0.25,
+    "attempt_timeout_s": 5.0,
+    "first_token_timeout_s": 1.0,
+    "breaker": "opens for 5 s after 3 failures in a row",
+    "fallback_ms_to_first_token": 50,
+    "python": "3.12.4",
+    "gateway": "4 uvicorn processes, one per configuration, attempts=3, backoff base 0.5 s with full jitter"
+  },
+  "results": {
+    "hang | no breaker": {
+      "runs": 10,
+      "requests_per_run": 60,
+      "served_by_fallback": 600,
+      "not_200": 0,
+      "p50": {
+        "median": 5.0616,
+        "min": 5.058,
+        "max": 5.0665
+      },
+      "p95": {
+        "median": 5.0798,
+        "min": 5.0766,
+        "max": 5.0837
+      },
+      "max": {
+        "median": 5.085,
+        "min": 5.0826,
+        "max": 5.0981
+      },
+      "mean": {
+        "median": 5.0628,
+        "min": 5.0597,
+        "max": 5.0681
+      },
+      "waited_over_500ms": {
+        "median": 60.0,
+        "min": 60,
+        "max": 60
+      },
+      "total_wait": {
+        "median": 303.7683,
+        "min": 303.5802,
+        "max": 304.0857
+      }
+    },
+    "hang | first-token timeout": {
+      "runs": 10,
+      "requests_per_run": 60,
+      "served_by_fallback": 600,
+      "not_200": 0,
+      "p50": {
+        "median": 1.0592,
+        "min": 1.0553,
+        "max": 1.0608
+      },
+      "p95": {
+        "median": 1.0775,
+        "min": 1.0709,
+        "max": 1.081
+      },
+      "max": {
+        "median": 1.0844,
+        "min": 1.0801,
+        "max": 1.0874
+      },
+      "mean": {
+        "median": 1.0604,
+        "min": 1.0569,
+        "max": 1.0618
+      },
+      "waited_over_500ms": {
+        "median": 60.0,
+        "min": 60,
+        "max": 60
+      },
+      "total_wait": {
+        "median": 63.6257,
+        "min": 63.4162,
+        "max": 63.7107
+      }
+    },
+    "hang | breaker": {
+      "runs": 10,
+      "requests_per_run": 60,
+      "served_by_fallback": 600,
+      "not_200": 0,
+      "p50": {
+        "median": 0.0624,
+        "min": 0.0576,
+        "max": 0.0657
+      },
+      "p95": {
+        "median": 5.0733,
+        "min": 5.0675,
+        "max": 5.0829
+      },
+      "max": {
+        "median": 5.0808,
+        "min": 5.0727,
+        "max": 5.0854
+      },
+      "mean": {
+        "median": 1.9745,
+        "min": 1.8916,
+        "max": 1.9794
+      },
+      "waited_over_500ms": {
+        "median": 23.0,
+        "min": 22,
+        "max": 23
+      },
+      "total_wait": {
+        "median": 118.4676,
+        "min": 113.4983,
+        "max": 118.7616
+      }
+    },
+    "hang | breaker + first-token timeout": {
+      "runs": 10,
+      "requests_per_run": 60,
+      "served_by_fallback": 600,
+      "not_200": 0,
+      "p50": {
+        "median": 0.0573,
+        "min": 0.0564,
+        "max": 0.0586
+      },
+      "p95": {
+        "median": 1.064,
+        "min": 1.0534,
+        "max": 1.0722
+      },
+      "max": {
+        "median": 1.0758,
+        "min": 1.057,
+        "max": 1.0843
+      },
+      "mean": {
+        "median": 0.2065,
+        "min": 0.19,
+        "max": 0.209
+      },
+      "waited_over_500ms": {
+        "median": 9.0,
+        "min": 8,
+        "max": 9
+      },
+      "total_wait": {
+        "median": 12.3928,
+        "min": 11.4015,
+        "max": 12.5381
+      }
+    },
+    "503 | no breaker": {
+      "runs": 10,
+      "requests_per_run": 60,
+      "served_by_fallback": 600,
+      "not_200": 0,
+      "p50": {
+        "median": 0.7848,
+        "min": 0.7003,
+        "max": 0.9694
+      },
+      "p95": {
+        "median": 1.3386,
+        "min": 1.2,
+        "max": 1.3927
+      },
+      "max": {
+        "median": 1.4705,
+        "min": 1.4038,
+        "max": 1.5566
+      },
+      "mean": {
+        "median": 0.8204,
+        "min": 0.7508,
+        "max": 0.8988
+      },
+      "waited_over_500ms": {
+        "median": 49.5,
+        "min": 45,
+        "max": 56
+      },
+      "total_wait": {
+        "median": 49.2234,
+        "min": 45.0496,
+        "max": 53.9261
+      }
+    },
+    "503 | first-token timeout": {
+      "runs": 10,
+      "requests_per_run": 60,
+      "served_by_fallback": 600,
+      "not_200": 0,
+      "p50": {
+        "median": 0.7933,
+        "min": 0.7259,
+        "max": 0.9367
+      },
+      "p95": {
+        "median": 1.3113,
+        "min": 1.2192,
+        "max": 1.4177
+      },
+      "max": {
+        "median": 1.4477,
+        "min": 1.3231,
+        "max": 1.4941
+      },
+      "mean": {
+        "median": 0.8072,
+        "min": 0.756,
+        "max": 0.8683
+      },
+      "waited_over_500ms": {
+        "median": 48.0,
+        "min": 46,
+        "max": 52
+      },
+      "total_wait": {
+        "median": 48.4337,
+        "min": 45.3625,
+        "max": 52.0957
+      }
+    },
+    "503 | breaker": {
+      "runs": 10,
+      "requests_per_run": 60,
+      "served_by_fallback": 600,
+      "not_200": 0,
+      "p50": {
+        "median": 0.0553,
+        "min": 0.0528,
+        "max": 0.0561
+      },
+      "p95": {
+        "median": 0.0673,
+        "min": 0.0634,
+        "max": 0.07
+      },
+      "max": {
+        "median": 1.0076,
+        "min": 0.3765,
+        "max": 1.366
+      },
+      "mean": {
+        "median": 0.0758,
+        "min": 0.0617,
+        "max": 0.0901
+      },
+      "waited_over_500ms": {
+        "median": 1.0,
+        "min": 0,
+        "max": 2
+      },
+      "total_wait": {
+        "median": 4.5473,
+        "min": 3.701,
+        "max": 5.4065
+      }
+    },
+    "503 | breaker + first-token timeout": {
+      "runs": 10,
+      "requests_per_run": 60,
+      "served_by_fallback": 600,
+      "not_200": 0,
+      "p50": {
+        "median": 0.0551,
+        "min": 0.0525,
+        "max": 0.056
+      },
+      "p95": {
+        "median": 0.0671,
+        "min": 0.0632,
+        "max": 0.0697
+      },
+      "max": {
+        "median": 0.8985,
+        "min": 0.5026,
+        "max": 1.1836
+      },
+      "mean": {
+        "median": 0.0727,
+        "min": 0.0656,
+        "max": 0.0831
+      },
+      "waited_over_500ms": {
+        "median": 1.0,
+        "min": 1,
+        "max": 2
+      },
+      "total_wait": {
+        "median": 4.3642,
+        "min": 3.9381,
+        "max": 4.9846
+      }
+    }
+  }
+}

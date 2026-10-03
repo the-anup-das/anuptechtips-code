@@ -1,0 +1,5 @@
+$ $REDIS_451_PYTHON repro_cancel_then_get.py
+GET repro:foo cancelled after 50 ms: sent, reply not read
+bar: b'foo'
+ping: False
+foo: b'PONG'

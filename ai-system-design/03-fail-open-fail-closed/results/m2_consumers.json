@@ -1,0 +1,79 @@
+{
+  "runs": 5,
+  "features_good": 60,
+  "features_bad": 120,
+  "outcomes": {
+    "good file (baseline)": {
+      "proxies": 12,
+      "requests": 12000,
+      "status_200": 10800,
+      "status_403": 1200,
+      "status_500": 0,
+      "status_503": 0,
+      "humans_blocked": 0,
+      "bots_passed": 0,
+      "stale_serves": 0,
+      "files_rejected": 0
+    },
+    "crash": {
+      "proxies": 12,
+      "requests": 12000,
+      "status_200": 0,
+      "status_403": 0,
+      "status_500": 12000,
+      "status_503": 0,
+      "humans_blocked": 0,
+      "bots_passed": 0,
+      "stale_serves": 0,
+      "files_rejected": 0
+    },
+    "fail wrong": {
+      "proxies": 12,
+      "requests": 12000,
+      "status_200": 0,
+      "status_403": 12000,
+      "status_500": 0,
+      "status_503": 0,
+      "humans_blocked": 10800,
+      "bots_passed": 0,
+      "stale_serves": 0,
+      "files_rejected": 0
+    },
+    "fail stale": {
+      "proxies": 12,
+      "requests": 12000,
+      "status_200": 10800,
+      "status_403": 1200,
+      "status_500": 0,
+      "status_503": 0,
+      "humans_blocked": 0,
+      "bots_passed": 0,
+      "stale_serves": 12000,
+      "files_rejected": 12
+    },
+    "fail open": {
+      "proxies": 12,
+      "requests": 12000,
+      "status_200": 12000,
+      "status_403": 0,
+      "status_500": 0,
+      "status_503": 0,
+      "humans_blocked": 0,
+      "bots_passed": 1200,
+      "stale_serves": 0,
+      "files_rejected": 12
+    },
+    "fail closed": {
+      "proxies": 12,
+      "requests": 12000,
+      "status_200": 0,
+      "status_403": 0,
+      "status_500": 0,
+      "status_503": 12000,
+      "humans_blocked": 0,
+      "bots_passed": 0,
+      "stale_serves": 0,
+      "files_rejected": 12
+    }
+  }
+}

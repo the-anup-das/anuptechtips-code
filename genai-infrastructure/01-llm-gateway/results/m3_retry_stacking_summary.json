@@ -1,0 +1,64 @@
+{
+  "started": "2026-10-02 21:09:39",
+  "setup": {
+    "runs": 20,
+    "python": "3.12.4",
+    "openai_sdk": "2.4.0",
+    "sdk_default_max_retries": 2,
+    "gateway": "attempts=3 per target, backoff base 0.5 s, breaker off, route 'summarize' (one target)"
+  },
+  "results": {
+    "stacked defaults": {
+      "runs": 20,
+      "upstream_calls": {
+        "median": 27.0,
+        "min": 27,
+        "max": 27
+      },
+      "seconds": {
+        "median": 11.375,
+        "min": 7.79,
+        "max": 13.25
+      }
+    },
+    "sdk retries off": {
+      "runs": 20,
+      "upstream_calls": {
+        "median": 9.0,
+        "min": 9,
+        "max": 9
+      },
+      "seconds": {
+        "median": 2.4800000000000004,
+        "min": 1.46,
+        "max": 3.89
+      }
+    },
+    "gateway only": {
+      "runs": 20,
+      "upstream_calls": {
+        "median": 3.0,
+        "min": 3,
+        "max": 3
+      },
+      "seconds": {
+        "median": 1.03,
+        "min": 0.42,
+        "max": 1.71
+      }
+    },
+    "retry hint": {
+      "runs": 20,
+      "upstream_calls": {
+        "median": 9.0,
+        "min": 9,
+        "max": 9
+      },
+      "seconds": {
+        "median": 2.835,
+        "min": 1.78,
+        "max": 3.6
+      }
+    }
+  }
+}

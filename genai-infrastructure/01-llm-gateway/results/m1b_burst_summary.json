@@ -1,0 +1,43 @@
+{
+  "started": "2026-10-02 21:34:58",
+  "setup": {
+    "runs": 10,
+    "waves_per_run": 6,
+    "callers": 64,
+    "idle_before_wave_1_s": 6.0,
+    "mock_ms_to_first_token": 1000,
+    "python": "3.12.4",
+    "gateway": "gateway:app, 1 uvicorn process; Redis 8.10.2 in Docker",
+    "client": "asyncio, one httpx.AsyncClient per caller, kept alive"
+  },
+  "results": {
+    "wave 1 (cold pool)": {
+      "added_p50_ms": {
+        "median": 103.15,
+        "min": 86.5,
+        "max": 147.8,
+        "waves": 10
+      },
+      "added_max_ms": {
+        "median": 117.25,
+        "min": 96.5,
+        "max": 199.5,
+        "waves": 10
+      }
+    },
+    "waves 2-6 (warm pool)": {
+      "added_p50_ms": {
+        "median": 374.65,
+        "min": 321.8,
+        "max": 502.9,
+        "waves": 50
+      },
+      "added_max_ms": {
+        "median": 498.15,
+        "min": 412.9,
+        "max": 617.6,
+        "waves": 50
+      }
+    }
+  }
+}

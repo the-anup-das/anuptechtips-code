@@ -1,0 +1,161 @@
+consumers,plan,file,gate,run,stages_passed,proxies_with_errors,failed_requests,proxies_on_new_file,proxies_serving_stale,stale_serves,humans_blocked,rollout_ms,first_error_ms,last_error_ms
+naive,global,bad,errors and blocks,1,0,12,74,0,0,0,0,56.2,0.9,56.7
+naive,global,bad,errors and blocks,2,0,12,48,0,0,0,0,55.9,13.9,45.7
+naive,global,bad,errors and blocks,3,0,12,48,0,0,0,0,55.8,12.9,45.1
+naive,global,bad,errors and blocks,4,0,12,67,0,0,0,0,56.8,0.8,56.6
+naive,global,bad,errors and blocks,5,0,12,60,0,0,0,0,56.3,0.9,43.4
+naive,global,bad,errors and blocks,6,0,12,71,0,0,0,0,57.1,1.0,56.3
+naive,global,bad,errors and blocks,7,0,12,60,0,0,0,0,56.7,1.6,46.2
+naive,global,bad,errors and blocks,8,0,12,51,0,0,0,0,58.9,2.4,46.8
+naive,global,bad,errors and blocks,9,0,12,79,0,0,0,0,56.3,0.8,55.3
+naive,global,bad,errors and blocks,10,0,12,72,0,0,0,0,56.3,1.0,53.0
+naive,global,bad,errors and blocks,11,0,12,51,0,0,0,0,57.0,14.7,49.7
+naive,global,bad,errors and blocks,12,0,12,48,0,0,0,0,55.7,15.3,46.5
+naive,global,bad,errors and blocks,13,0,12,58,0,0,0,0,55.8,1.7,43.1
+naive,global,bad,errors and blocks,14,0,12,48,0,0,0,0,56.5,14.8,45.9
+naive,global,bad,errors and blocks,15,0,12,64,0,0,0,0,56.4,1.1,49.3
+naive,global,bad,errors and blocks,16,0,12,56,0,0,0,0,55.9,1.2,50.3
+naive,global,bad,errors and blocks,17,0,12,60,0,0,0,0,56.4,1.1,44.3
+naive,global,bad,errors and blocks,18,0,12,49,0,0,0,0,55.7,1.6,46.0
+naive,global,bad,errors and blocks,19,0,12,48,0,0,0,0,56.3,12.9,44.3
+naive,global,bad,errors and blocks,20,0,12,58,0,0,0,0,55.5,0.9,50.4
+naive,staged,bad,errors and blocks,1,0,1,31,0,0,0,0,307.3,0.8,303.2
+naive,staged,bad,errors and blocks,2,0,1,30,0,0,0,0,307.5,10.2,299.7
+naive,staged,bad,errors and blocks,3,0,1,31,0,0,0,0,306.9,0.9,305.3
+naive,staged,bad,errors and blocks,4,0,1,31,0,0,0,0,307.9,1.1,301.0
+naive,staged,bad,errors and blocks,5,0,1,31,0,0,0,0,307.5,0.9,292.7
+naive,staged,bad,errors and blocks,6,0,1,26,0,0,0,0,256.2,1.1,252.3
+naive,staged,bad,errors and blocks,7,0,1,30,0,0,0,0,307.0,15.4,306.0
+naive,staged,bad,errors and blocks,8,0,1,30,0,0,0,0,307.4,15.1,303.7
+naive,staged,bad,errors and blocks,9,0,1,26,0,0,0,0,257.2,0.9,250.6
+naive,staged,bad,errors and blocks,10,0,1,31,0,0,0,0,308.8,1.0,300.5
+naive,staged,bad,errors and blocks,11,0,1,31,0,0,0,0,312.1,16.4,307.1
+naive,staged,bad,errors and blocks,12,0,1,26,0,0,0,0,256.9,1.2,252.4
+naive,staged,bad,errors and blocks,13,0,1,27,0,0,0,0,258.9,1.2,255.5
+naive,staged,bad,errors and blocks,14,0,1,31,0,0,0,0,307.2,0.9,302.7
+naive,staged,bad,errors and blocks,15,0,1,31,0,0,0,0,307.4,0.9,304.5
+naive,staged,bad,errors and blocks,16,0,1,31,0,0,0,0,309.4,0.8,301.0
+naive,staged,bad,errors and blocks,17,0,1,31,0,0,0,0,306.6,0.8,302.6
+naive,staged,bad,errors and blocks,18,0,1,31,0,0,0,0,307.8,1.0,304.9
+naive,staged,bad,errors and blocks,19,0,1,30,0,0,0,0,308.2,14.3,305.9
+naive,staged,bad,errors and blocks,20,0,1,30,0,0,0,0,306.9,14.7,306.2
+hardened,global,bad,errors and blocks,1,0,0,0,0,12,73,0,56.7,,
+hardened,global,bad,errors and blocks,2,0,0,0,0,12,57,0,56.6,,
+hardened,global,bad,errors and blocks,3,0,0,0,0,12,62,0,56.2,,
+hardened,global,bad,errors and blocks,4,0,0,0,0,12,72,0,57.0,,
+hardened,global,bad,errors and blocks,5,0,0,0,0,12,81,0,57.9,,
+hardened,global,bad,errors and blocks,6,0,0,0,0,12,72,0,56.8,,
+hardened,global,bad,errors and blocks,7,0,0,0,0,12,51,0,56.0,,
+hardened,global,bad,errors and blocks,8,0,0,0,0,12,72,0,60.3,,
+hardened,global,bad,errors and blocks,9,0,0,0,0,12,72,0,56.9,,
+hardened,global,bad,errors and blocks,10,0,0,0,0,12,76,0,59.0,,
+hardened,global,bad,errors and blocks,11,0,0,0,0,12,64,0,57.7,,
+hardened,global,bad,errors and blocks,12,0,0,0,0,12,60,0,56.1,,
+hardened,global,bad,errors and blocks,13,0,0,0,0,12,64,0,56.6,,
+hardened,global,bad,errors and blocks,14,0,0,0,0,12,49,0,56.9,,
+hardened,global,bad,errors and blocks,15,0,0,0,0,12,68,0,55.7,,
+hardened,global,bad,errors and blocks,16,0,0,0,0,12,60,0,56.2,,
+hardened,global,bad,errors and blocks,17,0,0,0,0,12,48,0,56.6,,
+hardened,global,bad,errors and blocks,18,0,0,0,0,12,55,0,56.3,,
+hardened,global,bad,errors and blocks,19,0,0,0,0,12,48,0,56.0,,
+hardened,global,bad,errors and blocks,20,0,0,0,0,12,48,0,56.0,,
+hardened,staged,bad,errors and blocks,1,0,0,0,0,1,5,0,52.9,,
+hardened,staged,bad,errors and blocks,2,0,0,0,0,1,5,0,52.3,,
+hardened,staged,bad,errors and blocks,3,0,0,0,0,1,7,0,52.2,,
+hardened,staged,bad,errors and blocks,4,0,0,0,0,1,5,0,52.6,,
+hardened,staged,bad,errors and blocks,5,0,0,0,0,1,4,0,53.3,,
+hardened,staged,bad,errors and blocks,6,0,0,0,0,1,6,0,54.1,,
+hardened,staged,bad,errors and blocks,7,0,0,0,0,1,4,0,52.7,,
+hardened,staged,bad,errors and blocks,8,0,0,0,0,1,7,0,52.5,,
+hardened,staged,bad,errors and blocks,9,0,0,0,0,1,5,0,52.4,,
+hardened,staged,bad,errors and blocks,10,0,0,0,0,1,6,0,52.5,,
+hardened,staged,bad,errors and blocks,11,0,0,0,0,1,5,0,52.8,,
+hardened,staged,bad,errors and blocks,12,0,0,0,0,1,5,0,52.2,,
+hardened,staged,bad,errors and blocks,13,0,0,0,0,1,5,0,52.6,,
+hardened,staged,bad,errors and blocks,14,0,0,0,0,1,5,0,52.4,,
+hardened,staged,bad,errors and blocks,15,0,0,0,0,1,6,0,52.6,,
+hardened,staged,bad,errors and blocks,16,0,0,0,0,1,6,0,52.1,,
+hardened,staged,bad,errors and blocks,17,0,0,0,0,1,5,0,53.1,,
+hardened,staged,bad,errors and blocks,18,0,0,0,0,1,5,0,52.9,,
+hardened,staged,bad,errors and blocks,19,0,0,0,0,1,4,0,52.6,,
+hardened,staged,bad,errors and blocks,20,0,0,0,0,1,4,0,52.6,,
+fail wrong,staged,bad,errors and blocks,1,0,0,0,0,0,0,23,257.7,,
+fail wrong,staged,bad,errors and blocks,2,0,0,0,0,0,0,27,307.3,,
+fail wrong,staged,bad,errors and blocks,3,0,0,0,0,0,0,27,308.0,,
+fail wrong,staged,bad,errors and blocks,4,0,0,0,0,0,0,27,307.3,,
+fail wrong,staged,bad,errors and blocks,5,0,0,0,0,0,0,27,306.2,,
+fail wrong,staged,bad,errors and blocks,6,0,0,0,0,0,0,23,258.2,,
+fail wrong,staged,bad,errors and blocks,7,0,0,0,0,0,0,27,307.9,,
+fail wrong,staged,bad,errors and blocks,8,0,0,0,0,0,0,27,308.8,,
+fail wrong,staged,bad,errors and blocks,9,0,0,0,0,0,0,28,306.4,,
+fail wrong,staged,bad,errors and blocks,10,0,0,0,0,0,0,27,306.5,,
+fail wrong,staged,bad,errors and blocks,11,0,0,0,0,0,0,23,257.7,,
+fail wrong,staged,bad,errors and blocks,12,0,0,0,0,0,0,23,257.0,,
+fail wrong,staged,bad,errors and blocks,13,0,0,0,0,0,0,27,306.8,,
+fail wrong,staged,bad,errors and blocks,14,0,0,0,0,0,0,23,256.4,,
+fail wrong,staged,bad,errors and blocks,15,0,0,0,0,0,0,27,307.3,,
+fail wrong,staged,bad,errors and blocks,16,0,0,0,0,0,0,27,308.5,,
+fail wrong,staged,bad,errors and blocks,17,0,0,0,0,0,0,28,306.4,,
+fail wrong,staged,bad,errors and blocks,18,0,0,0,0,0,0,27,306.1,,
+fail wrong,staged,bad,errors and blocks,19,0,0,0,0,0,0,27,307.3,,
+fail wrong,staged,bad,errors and blocks,20,0,0,0,0,0,0,27,308.6,,
+fail wrong,staged,bad,errors only,1,3,0,0,12,0,0,2196,3056.6,,
+fail wrong,staged,bad,errors only,2,3,0,0,12,0,0,2200,3054.6,,
+fail wrong,staged,bad,errors only,3,3,0,0,12,0,0,2193,3056.0,,
+fail wrong,staged,bad,errors only,4,3,0,0,12,0,0,2194,3059.1,,
+fail wrong,staged,bad,errors only,5,3,0,0,12,0,0,2208,3061.4,,
+fail wrong,staged,bad,errors only,6,3,0,0,12,0,0,2202,3060.5,,
+fail wrong,staged,bad,errors only,7,3,0,0,12,0,0,2197,3060.2,,
+fail wrong,staged,bad,errors only,8,3,0,0,12,0,0,2196,3062.6,,
+fail wrong,staged,bad,errors only,9,3,0,0,12,0,0,2206,3063.8,,
+fail wrong,staged,bad,errors only,10,3,0,0,12,0,0,2192,3057.0,,
+fail wrong,staged,bad,errors only,11,3,0,0,12,0,0,2206,3059.2,,
+fail wrong,staged,bad,errors only,12,3,0,0,12,0,0,2199,3053.0,,
+fail wrong,staged,bad,errors only,13,3,0,0,12,0,0,2205,3057.3,,
+fail wrong,staged,bad,errors only,14,3,0,0,12,0,0,2206,3056.1,,
+fail wrong,staged,bad,errors only,15,3,0,0,12,0,0,2210,3062.2,,
+fail wrong,staged,bad,errors only,16,3,0,0,12,0,0,2223,3060.5,,
+fail wrong,staged,bad,errors only,17,3,0,0,12,0,0,2207,3061.3,,
+fail wrong,staged,bad,errors only,18,3,0,0,12,0,0,2211,3057.2,,
+fail wrong,staged,bad,errors only,19,3,0,0,12,0,0,2214,3059.1,,
+fail wrong,staged,bad,errors only,20,3,0,0,12,0,0,2215,3058.3,,
+naive,global,good,errors and blocks,1,1,0,0,12,0,0,0,1034.6,,
+naive,global,good,errors and blocks,2,1,0,0,12,0,0,0,1035.8,,
+naive,global,good,errors and blocks,3,1,0,0,12,0,0,0,1034.4,,
+naive,global,good,errors and blocks,4,1,0,0,12,0,0,0,1039.9,,
+naive,global,good,errors and blocks,5,1,0,0,12,0,0,0,1040.5,,
+naive,global,good,errors and blocks,6,1,0,0,12,0,0,0,1039.0,,
+naive,global,good,errors and blocks,7,1,0,0,12,0,0,0,1037.7,,
+naive,global,good,errors and blocks,8,1,0,0,12,0,0,0,1034.3,,
+naive,global,good,errors and blocks,9,1,0,0,12,0,0,0,1037.1,,
+naive,global,good,errors and blocks,10,1,0,0,12,0,0,0,1038.2,,
+naive,global,good,errors and blocks,11,1,0,0,12,0,0,0,1037.3,,
+naive,global,good,errors and blocks,12,1,0,0,12,0,0,0,1038.2,,
+naive,global,good,errors and blocks,13,1,0,0,12,0,0,0,1043.5,,
+naive,global,good,errors and blocks,14,1,0,0,12,0,0,0,1037.9,,
+naive,global,good,errors and blocks,15,1,0,0,12,0,0,0,1037.2,,
+naive,global,good,errors and blocks,16,1,0,0,12,0,0,0,1037.3,,
+naive,global,good,errors and blocks,17,1,0,0,12,0,0,0,1039.5,,
+naive,global,good,errors and blocks,18,1,0,0,12,0,0,0,1042.3,,
+naive,global,good,errors and blocks,19,1,0,0,12,0,0,0,1036.3,,
+naive,global,good,errors and blocks,20,1,0,0,12,0,0,0,1039.1,,
+naive,staged,good,errors and blocks,1,3,0,0,12,0,0,0,3068.4,,
+naive,staged,good,errors and blocks,2,3,0,0,12,0,0,0,3062.4,,
+naive,staged,good,errors and blocks,3,3,0,0,12,0,0,0,3059.6,,
+naive,staged,good,errors and blocks,4,3,0,0,12,0,0,0,3062.3,,
+naive,staged,good,errors and blocks,5,3,0,0,12,0,0,0,3060.1,,
+naive,staged,good,errors and blocks,6,3,0,0,12,0,0,0,3063.0,,
+naive,staged,good,errors and blocks,7,3,0,0,12,0,0,0,3058.3,,
+naive,staged,good,errors and blocks,8,3,0,0,12,0,0,0,3069.2,,
+naive,staged,good,errors and blocks,9,3,0,0,12,0,0,0,3062.9,,
+naive,staged,good,errors and blocks,10,3,0,0,12,0,0,0,3062.4,,
+naive,staged,good,errors and blocks,11,3,0,0,12,0,0,0,3061.7,,
+naive,staged,good,errors and blocks,12,3,0,0,12,0,0,0,3060.0,,
+naive,staged,good,errors and blocks,13,3,0,0,12,0,0,0,3063.1,,
+naive,staged,good,errors and blocks,14,3,0,0,12,0,0,0,3062.6,,
+naive,staged,good,errors and blocks,15,3,0,0,12,0,0,0,3058.9,,
+naive,staged,good,errors and blocks,16,3,0,0,12,0,0,0,3061.0,,
+naive,staged,good,errors and blocks,17,3,0,0,12,0,0,0,3054.0,,
+naive,staged,good,errors and blocks,18,3,0,0,12,0,0,0,3062.1,,
+naive,staged,good,errors and blocks,19,3,0,0,12,0,0,0,3058.0,,
+naive,staged,good,errors and blocks,20,3,0,0,12,0,0,0,3057.6,,

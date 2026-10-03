@@ -1,0 +1,1601 @@
+client,round,connection,ms
+redis-py,1,warm,11.783
+redis-py,1,closed,50.537
+redis-py,1,warm,11.11
+redis-py,1,closed,50.1
+redis-py,1,warm,11.573
+redis-py,1,closed,49.569
+redis-py,1,warm,11.614
+redis-py,1,closed,51.883
+redis-py,1,warm,13.093
+redis-py,1,closed,49.359
+redis-py,1,warm,11.939
+redis-py,1,closed,50.666
+redis-py,1,warm,13.13
+redis-py,1,closed,53.176
+redis-py,1,warm,11.48
+redis-py,1,closed,51.065
+redis-py,1,warm,11.518
+redis-py,1,closed,49.52
+redis-py,1,warm,11.955
+redis-py,1,closed,51.554
+redis-py,1,warm,11.458
+redis-py,1,closed,48.083
+redis-py,1,warm,11.722
+redis-py,1,closed,49.952
+redis-py,1,warm,12.626
+redis-py,1,closed,47.497
+redis-py,1,warm,11.511
+redis-py,1,closed,51.116
+redis-py,1,warm,13.354
+redis-py,1,closed,53.125
+redis-py,1,warm,11.933
+redis-py,1,closed,49.225
+redis-py,1,warm,12.077
+redis-py,1,closed,50.774
+redis-py,1,warm,12.415
+redis-py,1,closed,50.264
+redis-py,1,warm,12.476
+redis-py,1,closed,47.816
+redis-py,1,warm,11.041
+redis-py,1,closed,50.64
+redis-py,2,warm,11.534
+redis-py,2,closed,51.251
+redis-py,2,warm,11.132
+redis-py,2,closed,53.681
+redis-py,2,warm,12.095
+redis-py,2,closed,49.086
+redis-py,2,warm,12.298
+redis-py,2,closed,48.595
+redis-py,2,warm,12.001
+redis-py,2,closed,47.652
+redis-py,2,warm,13.038
+redis-py,2,closed,48.622
+redis-py,2,warm,11.026
+redis-py,2,closed,49.458
+redis-py,2,warm,11.03
+redis-py,2,closed,48.826
+redis-py,2,warm,12.669
+redis-py,2,closed,52.379
+redis-py,2,warm,12.867
+redis-py,2,closed,52.369
+redis-py,2,warm,12.32
+redis-py,2,closed,50.086
+redis-py,2,warm,12.019
+redis-py,2,closed,49.0
+redis-py,2,warm,11.19
+redis-py,2,closed,49.267
+redis-py,2,warm,11.544
+redis-py,2,closed,48.265
+redis-py,2,warm,10.771
+redis-py,2,closed,50.773
+redis-py,2,warm,11.405
+redis-py,2,closed,48.372
+redis-py,2,warm,11.652
+redis-py,2,closed,50.572
+redis-py,2,warm,11.721
+redis-py,2,closed,52.864
+redis-py,2,warm,12.111
+redis-py,2,closed,50.584
+redis-py,2,warm,11.733
+redis-py,2,closed,49.286
+redis-py,3,warm,11.59
+redis-py,3,closed,53.143
+redis-py,3,warm,11.292
+redis-py,3,closed,48.001
+redis-py,3,warm,13.634
+redis-py,3,closed,49.182
+redis-py,3,warm,11.636
+redis-py,3,closed,51.409
+redis-py,3,warm,11.163
+redis-py,3,closed,51.346
+redis-py,3,warm,11.023
+redis-py,3,closed,48.689
+redis-py,3,warm,11.191
+redis-py,3,closed,51.362
+redis-py,3,warm,11.6
+redis-py,3,closed,51.394
+redis-py,3,warm,11.595
+redis-py,3,closed,47.254
+redis-py,3,warm,13.397
+redis-py,3,closed,51.438
+redis-py,3,warm,12.686
+redis-py,3,closed,50.885
+redis-py,3,warm,12.526
+redis-py,3,closed,48.444
+redis-py,3,warm,12.575
+redis-py,3,closed,48.142
+redis-py,3,warm,13.604
+redis-py,3,closed,51.554
+redis-py,3,warm,12.544
+redis-py,3,closed,51.379
+redis-py,3,warm,11.726
+redis-py,3,closed,49.316
+redis-py,3,warm,11.684
+redis-py,3,closed,49.917
+redis-py,3,warm,12.429
+redis-py,3,closed,50.106
+redis-py,3,warm,12.707
+redis-py,3,closed,51.618
+redis-py,3,warm,11.253
+redis-py,3,closed,47.282
+redis-py,4,warm,12.634
+redis-py,4,closed,49.802
+redis-py,4,warm,11.597
+redis-py,4,closed,47.796
+redis-py,4,warm,12.354
+redis-py,4,closed,48.585
+redis-py,4,warm,12.106
+redis-py,4,closed,50.928
+redis-py,4,warm,12.32
+redis-py,4,closed,49.412
+redis-py,4,warm,11.094
+redis-py,4,closed,47.338
+redis-py,4,warm,11.132
+redis-py,4,closed,49.562
+redis-py,4,warm,11.503
+redis-py,4,closed,52.396
+redis-py,4,warm,11.648
+redis-py,4,closed,47.728
+redis-py,4,warm,11.104
+redis-py,4,closed,47.43
+redis-py,4,warm,13.984
+redis-py,4,closed,50.219
+redis-py,4,warm,12.684
+redis-py,4,closed,51.695
+redis-py,4,warm,12.145
+redis-py,4,closed,49.441
+redis-py,4,warm,12.477
+redis-py,4,closed,50.916
+redis-py,4,warm,12.138
+redis-py,4,closed,49.781
+redis-py,4,warm,12.523
+redis-py,4,closed,51.258
+redis-py,4,warm,12.7
+redis-py,4,closed,49.468
+redis-py,4,warm,11.783
+redis-py,4,closed,51.46
+redis-py,4,warm,12.008
+redis-py,4,closed,49.88
+redis-py,4,warm,11.103
+redis-py,4,closed,50.043
+redis-py,5,warm,11.958
+redis-py,5,closed,50.343
+redis-py,5,warm,11.855
+redis-py,5,closed,49.345
+redis-py,5,warm,11.288
+redis-py,5,closed,51.721
+redis-py,5,warm,12.875
+redis-py,5,closed,49.836
+redis-py,5,warm,13.297
+redis-py,5,closed,49.53
+redis-py,5,warm,12.531
+redis-py,5,closed,49.043
+redis-py,5,warm,12.537
+redis-py,5,closed,49.883
+redis-py,5,warm,11.682
+redis-py,5,closed,50.396
+redis-py,5,warm,13.459
+redis-py,5,closed,53.795
+redis-py,5,warm,11.305
+redis-py,5,closed,47.311
+redis-py,5,warm,10.933
+redis-py,5,closed,50.508
+redis-py,5,warm,10.939
+redis-py,5,closed,52.045
+redis-py,5,warm,11.55
+redis-py,5,closed,47.162
+redis-py,5,warm,12.227
+redis-py,5,closed,52.682
+redis-py,5,warm,12.217
+redis-py,5,closed,52.284
+redis-py,5,warm,11.331
+redis-py,5,closed,51.106
+redis-py,5,warm,12.104
+redis-py,5,closed,49.517
+redis-py,5,warm,11.442
+redis-py,5,closed,47.153
+redis-py,5,warm,11.953
+redis-py,5,closed,49.07
+redis-py,5,warm,12.141
+redis-py,5,closed,47.888
+redis-py,6,warm,13.074
+redis-py,6,closed,51.108
+redis-py,6,warm,12.018
+redis-py,6,closed,47.965
+redis-py,6,warm,12.613
+redis-py,6,closed,48.743
+redis-py,6,warm,12.374
+redis-py,6,closed,50.335
+redis-py,6,warm,11.535
+redis-py,6,closed,49.092
+redis-py,6,warm,11.805
+redis-py,6,closed,52.472
+redis-py,6,warm,12.13
+redis-py,6,closed,48.781
+redis-py,6,warm,12.717
+redis-py,6,closed,48.586
+redis-py,6,warm,11.256
+redis-py,6,closed,50.205
+redis-py,6,warm,11.122
+redis-py,6,closed,50.106
+redis-py,6,warm,11.257
+redis-py,6,closed,47.367
+redis-py,6,warm,11.718
+redis-py,6,closed,52.104
+redis-py,6,warm,11.652
+redis-py,6,closed,49.865
+redis-py,6,warm,12.065
+redis-py,6,closed,49.627
+redis-py,6,warm,11.581
+redis-py,6,closed,46.743
+redis-py,6,warm,11.653
+redis-py,6,closed,50.169
+redis-py,6,warm,11.34
+redis-py,6,closed,47.942
+redis-py,6,warm,11.625
+redis-py,6,closed,50.109
+redis-py,6,warm,12.081
+redis-py,6,closed,50.028
+redis-py,6,warm,14.241
+redis-py,6,closed,53.482
+redis-py,7,warm,12.023
+redis-py,7,closed,48.789
+redis-py,7,warm,11.197
+redis-py,7,closed,48.433
+redis-py,7,warm,12.452
+redis-py,7,closed,50.296
+redis-py,7,warm,13.548
+redis-py,7,closed,48.875
+redis-py,7,warm,13.099
+redis-py,7,closed,50.32
+redis-py,7,warm,11.932
+redis-py,7,closed,47.365
+redis-py,7,warm,11.611
+redis-py,7,closed,49.467
+redis-py,7,warm,12.246
+redis-py,7,closed,49.03
+redis-py,7,warm,10.726
+redis-py,7,closed,53.346
+redis-py,7,warm,11.616
+redis-py,7,closed,51.73
+redis-py,7,warm,11.123
+redis-py,7,closed,52.562
+redis-py,7,warm,12.108
+redis-py,7,closed,51.558
+redis-py,7,warm,11.506
+redis-py,7,closed,49.219
+redis-py,7,warm,12.318
+redis-py,7,closed,48.816
+redis-py,7,warm,13.079
+redis-py,7,closed,49.449
+redis-py,7,warm,11.51
+redis-py,7,closed,50.334
+redis-py,7,warm,12.026
+redis-py,7,closed,48.018
+redis-py,7,warm,11.984
+redis-py,7,closed,49.582
+redis-py,7,warm,12.015
+redis-py,7,closed,50.28
+redis-py,7,warm,11.594
+redis-py,7,closed,52.993
+redis-py,8,warm,11.034
+redis-py,8,closed,53.837
+redis-py,8,warm,12.341
+redis-py,8,closed,53.326
+redis-py,8,warm,11.512
+redis-py,8,closed,53.579
+redis-py,8,warm,13.265
+redis-py,8,closed,50.825
+redis-py,8,warm,11.089
+redis-py,8,closed,51.03
+redis-py,8,warm,11.628
+redis-py,8,closed,50.996
+redis-py,8,warm,12.035
+redis-py,8,closed,49.618
+redis-py,8,warm,13.315
+redis-py,8,closed,50.43
+redis-py,8,warm,12.084
+redis-py,8,closed,48.1
+redis-py,8,warm,11.054
+redis-py,8,closed,48.919
+redis-py,8,warm,12.612
+redis-py,8,closed,51.27
+redis-py,8,warm,11.045
+redis-py,8,closed,48.239
+redis-py,8,warm,11.585
+redis-py,8,closed,50.913
+redis-py,8,warm,11.623
+redis-py,8,closed,49.781
+redis-py,8,warm,12.103
+redis-py,8,closed,50.05
+redis-py,8,warm,12.065
+redis-py,8,closed,50.482
+redis-py,8,warm,13.107
+redis-py,8,closed,49.13
+redis-py,8,warm,11.523
+redis-py,8,closed,50.037
+redis-py,8,warm,11.488
+redis-py,8,closed,53.572
+redis-py,8,warm,11.531
+redis-py,8,closed,48.64
+redis-py,9,warm,12.031
+redis-py,9,closed,49.989
+redis-py,9,warm,11.987
+redis-py,9,closed,51.354
+redis-py,9,warm,11.498
+redis-py,9,closed,52.474
+redis-py,9,warm,12.09
+redis-py,9,closed,49.068
+redis-py,9,warm,12.495
+redis-py,9,closed,50.342
+redis-py,9,warm,12.74
+redis-py,9,closed,52.792
+redis-py,9,warm,12.908
+redis-py,9,closed,48.056
+redis-py,9,warm,12.268
+redis-py,9,closed,48.749
+redis-py,9,warm,11.572
+redis-py,9,closed,50.386
+redis-py,9,warm,12.641
+redis-py,9,closed,49.122
+redis-py,9,warm,12.985
+redis-py,9,closed,50.947
+redis-py,9,warm,11.439
+redis-py,9,closed,50.887
+redis-py,9,warm,11.56
+redis-py,9,closed,50.073
+redis-py,9,warm,11.519
+redis-py,9,closed,49.196
+redis-py,9,warm,11.583
+redis-py,9,closed,50.684
+redis-py,9,warm,11.598
+redis-py,9,closed,48.263
+redis-py,9,warm,11.866
+redis-py,9,closed,50.043
+redis-py,9,warm,12.605
+redis-py,9,closed,49.881
+redis-py,9,warm,11.913
+redis-py,9,closed,51.16
+redis-py,9,warm,12.169
+redis-py,9,closed,49.814
+redis-py,10,warm,13.022
+redis-py,10,closed,49.541
+redis-py,10,warm,12.067
+redis-py,10,closed,49.835
+redis-py,10,warm,12.43
+redis-py,10,closed,48.819
+redis-py,10,warm,13.017
+redis-py,10,closed,49.217
+redis-py,10,warm,11.288
+redis-py,10,closed,48.83
+redis-py,10,warm,11.575
+redis-py,10,closed,47.748
+redis-py,10,warm,11.091
+redis-py,10,closed,49.407
+redis-py,10,warm,11.197
+redis-py,10,closed,51.231
+redis-py,10,warm,12.537
+redis-py,10,closed,47.158
+redis-py,10,warm,12.079
+redis-py,10,closed,50.839
+redis-py,10,warm,11.054
+redis-py,10,closed,47.521
+redis-py,10,warm,11.042
+redis-py,10,closed,49.439
+redis-py,10,warm,12.11
+redis-py,10,closed,51.239
+redis-py,10,warm,12.602
+redis-py,10,closed,50.6
+redis-py,10,warm,12.646
+redis-py,10,closed,49.986
+redis-py,10,warm,11.607
+redis-py,10,closed,49.866
+redis-py,10,warm,11.357
+redis-py,10,closed,47.677
+redis-py,10,warm,11.649
+redis-py,10,closed,50.444
+redis-py,10,warm,12.401
+redis-py,10,closed,52.566
+redis-py,10,warm,12.072
+redis-py,10,closed,49.671
+redis-py,11,warm,11.596
+redis-py,11,closed,49.54
+redis-py,11,warm,13.054
+redis-py,11,closed,49.105
+redis-py,11,warm,11.608
+redis-py,11,closed,50.387
+redis-py,11,warm,11.159
+redis-py,11,closed,48.354
+redis-py,11,warm,12.365
+redis-py,11,closed,50.532
+redis-py,11,warm,13.113
+redis-py,11,closed,50.31
+redis-py,11,warm,12.533
+redis-py,11,closed,49.392
+redis-py,11,warm,11.518
+redis-py,11,closed,48.438
+redis-py,11,warm,12.108
+redis-py,11,closed,50.241
+redis-py,11,warm,12.773
+redis-py,11,closed,48.439
+redis-py,11,warm,11.707
+redis-py,11,closed,47.656
+redis-py,11,warm,12.409
+redis-py,11,closed,48.477
+redis-py,11,warm,11.47
+redis-py,11,closed,50.142
+redis-py,11,warm,11.571
+redis-py,11,closed,49.065
+redis-py,11,warm,11.083
+redis-py,11,closed,48.453
+redis-py,11,warm,13.536
+redis-py,11,closed,51.432
+redis-py,11,warm,11.007
+redis-py,11,closed,50.882
+redis-py,11,warm,12.849
+redis-py,11,closed,48.388
+redis-py,11,warm,10.79
+redis-py,11,closed,50.605
+redis-py,11,warm,13.061
+redis-py,11,closed,50.455
+redis-py,12,warm,12.665
+redis-py,12,closed,52.097
+redis-py,12,warm,13.076
+redis-py,12,closed,50.6
+redis-py,12,warm,11.89
+redis-py,12,closed,48.796
+redis-py,12,warm,12.558
+redis-py,12,closed,49.122
+redis-py,12,warm,12.048
+redis-py,12,closed,50.031
+redis-py,12,warm,12.155
+redis-py,12,closed,50.082
+redis-py,12,warm,11.543
+redis-py,12,closed,50.192
+redis-py,12,warm,11.497
+redis-py,12,closed,47.735
+redis-py,12,warm,11.645
+redis-py,12,closed,50.111
+redis-py,12,warm,12.119
+redis-py,12,closed,50.14
+redis-py,12,warm,12.548
+redis-py,12,closed,47.919
+redis-py,12,warm,13.542
+redis-py,12,closed,49.677
+redis-py,12,warm,13.213
+redis-py,12,closed,50.179
+redis-py,12,warm,12.448
+redis-py,12,closed,51.517
+redis-py,12,warm,14.096
+redis-py,12,closed,50.311
+redis-py,12,warm,12.08
+redis-py,12,closed,48.721
+redis-py,12,warm,11.64
+redis-py,12,closed,49.593
+redis-py,12,warm,13.024
+redis-py,12,closed,48.281
+redis-py,12,warm,12.549
+redis-py,12,closed,48.506
+redis-py,12,warm,12.629
+redis-py,12,closed,50.21
+redis-py,13,warm,11.563
+redis-py,13,closed,47.933
+redis-py,13,warm,11.544
+redis-py,13,closed,48.302
+redis-py,13,warm,11.0
+redis-py,13,closed,49.304
+redis-py,13,warm,11.988
+redis-py,13,closed,51.273
+redis-py,13,warm,11.501
+redis-py,13,closed,47.957
+redis-py,13,warm,12.164
+redis-py,13,closed,49.358
+redis-py,13,warm,12.561
+redis-py,13,closed,50.365
+redis-py,13,warm,12.129
+redis-py,13,closed,47.574
+redis-py,13,warm,11.063
+redis-py,13,closed,49.667
+redis-py,13,warm,12.386
+redis-py,13,closed,50.423
+redis-py,13,warm,11.015
+redis-py,13,closed,48.645
+redis-py,13,warm,12.263
+redis-py,13,closed,50.852
+redis-py,13,warm,10.98
+redis-py,13,closed,50.056
+redis-py,13,warm,11.04
+redis-py,13,closed,48.438
+redis-py,13,warm,12.52
+redis-py,13,closed,48.501
+redis-py,13,warm,12.314
+redis-py,13,closed,50.216
+redis-py,13,warm,13.039
+redis-py,13,closed,47.661
+redis-py,13,warm,11.625
+redis-py,13,closed,49.279
+redis-py,13,warm,11.069
+redis-py,13,closed,49.236
+redis-py,13,warm,12.406
+redis-py,13,closed,49.158
+redis-py,14,warm,12.218
+redis-py,14,closed,49.314
+redis-py,14,warm,11.08
+redis-py,14,closed,49.761
+redis-py,14,warm,11.567
+redis-py,14,closed,48.203
+redis-py,14,warm,12.087
+redis-py,14,closed,51.719
+redis-py,14,warm,13.128
+redis-py,14,closed,48.529
+redis-py,14,warm,11.554
+redis-py,14,closed,50.238
+redis-py,14,warm,12.029
+redis-py,14,closed,49.717
+redis-py,14,warm,12.509
+redis-py,14,closed,51.829
+redis-py,14,warm,11.46
+redis-py,14,closed,49.392
+redis-py,14,warm,12.532
+redis-py,14,closed,48.814
+redis-py,14,warm,13.126
+redis-py,14,closed,49.872
+redis-py,14,warm,11.547
+redis-py,14,closed,48.691
+redis-py,14,warm,12.974
+redis-py,14,closed,48.75
+redis-py,14,warm,12.704
+redis-py,14,closed,48.445
+redis-py,14,warm,12.181
+redis-py,14,closed,49.993
+redis-py,14,warm,12.182
+redis-py,14,closed,50.855
+redis-py,14,warm,13.045
+redis-py,14,closed,48.551
+redis-py,14,warm,11.064
+redis-py,14,closed,53.378
+redis-py,14,warm,11.556
+redis-py,14,closed,48.914
+redis-py,14,warm,11.045
+redis-py,14,closed,50.16
+redis-py,15,warm,12.028
+redis-py,15,closed,49.101
+redis-py,15,warm,12.651
+redis-py,15,closed,49.555
+redis-py,15,warm,12.567
+redis-py,15,closed,51.377
+redis-py,15,warm,11.5
+redis-py,15,closed,49.913
+redis-py,15,warm,11.601
+redis-py,15,closed,50.421
+redis-py,15,warm,12.082
+redis-py,15,closed,52.561
+redis-py,15,warm,11.592
+redis-py,15,closed,50.929
+redis-py,15,warm,11.038
+redis-py,15,closed,53.657
+redis-py,15,warm,12.546
+redis-py,15,closed,51.639
+redis-py,15,warm,11.498
+redis-py,15,closed,50.464
+redis-py,15,warm,12.05
+redis-py,15,closed,51.27
+redis-py,15,warm,11.089
+redis-py,15,closed,49.621
+redis-py,15,warm,12.089
+redis-py,15,closed,48.572
+redis-py,15,warm,12.593
+redis-py,15,closed,50.601
+redis-py,15,warm,11.503
+redis-py,15,closed,49.044
+redis-py,15,warm,11.526
+redis-py,15,closed,50.764
+redis-py,15,warm,12.029
+redis-py,15,closed,48.146
+redis-py,15,warm,12.038
+redis-py,15,closed,51.077
+redis-py,15,warm,12.018
+redis-py,15,closed,49.086
+redis-py,15,warm,12.524
+redis-py,15,closed,49.732
+redis-py,16,warm,12.973
+redis-py,16,closed,51.744
+redis-py,16,warm,11.121
+redis-py,16,closed,48.014
+redis-py,16,warm,12.569
+redis-py,16,closed,48.785
+redis-py,16,warm,12.94
+redis-py,16,closed,49.74
+redis-py,16,warm,12.08
+redis-py,16,closed,48.742
+redis-py,16,warm,11.551
+redis-py,16,closed,49.147
+redis-py,16,warm,12.032
+redis-py,16,closed,50.234
+redis-py,16,warm,13.547
+redis-py,16,closed,51.192
+redis-py,16,warm,12.027
+redis-py,16,closed,48.819
+redis-py,16,warm,13.6
+redis-py,16,closed,49.442
+redis-py,16,warm,12.026
+redis-py,16,closed,47.672
+redis-py,16,warm,12.278
+redis-py,16,closed,48.439
+redis-py,16,warm,11.103
+redis-py,16,closed,48.8
+redis-py,16,warm,10.999
+redis-py,16,closed,49.983
+redis-py,16,warm,11.138
+redis-py,16,closed,53.063
+redis-py,16,warm,11.85
+redis-py,16,closed,49.108
+redis-py,16,warm,11.155
+redis-py,16,closed,48.143
+redis-py,16,warm,12.083
+redis-py,16,closed,49.609
+redis-py,16,warm,12.034
+redis-py,16,closed,50.114
+redis-py,16,warm,11.055
+redis-py,16,closed,50.928
+redis-py,17,warm,13.078
+redis-py,17,closed,47.714
+redis-py,17,warm,12.562
+redis-py,17,closed,52.702
+redis-py,17,warm,11.512
+redis-py,17,closed,48.137
+redis-py,17,warm,11.027
+redis-py,17,closed,47.646
+redis-py,17,warm,11.938
+redis-py,17,closed,49.386
+redis-py,17,warm,10.754
+redis-py,17,closed,52.083
+redis-py,17,warm,13.039
+redis-py,17,closed,49.057
+redis-py,17,warm,12.089
+redis-py,17,closed,52.307
+redis-py,17,warm,11.618
+redis-py,17,closed,49.373
+redis-py,17,warm,11.768
+redis-py,17,closed,48.495
+redis-py,17,warm,11.635
+redis-py,17,closed,52.546
+redis-py,17,warm,13.076
+redis-py,17,closed,51.33
+redis-py,17,warm,10.955
+redis-py,17,closed,49.865
+redis-py,17,warm,12.545
+redis-py,17,closed,50.221
+redis-py,17,warm,12.426
+redis-py,17,closed,49.689
+redis-py,17,warm,11.98
+redis-py,17,closed,46.537
+redis-py,17,warm,11.379
+redis-py,17,closed,49.121
+redis-py,17,warm,11.827
+redis-py,17,closed,50.091
+redis-py,17,warm,13.077
+redis-py,17,closed,50.354
+redis-py,17,warm,11.753
+redis-py,17,closed,50.427
+redis-py,18,warm,12.489
+redis-py,18,closed,48.195
+redis-py,18,warm,12.568
+redis-py,18,closed,47.84
+redis-py,18,warm,12.195
+redis-py,18,closed,50.812
+redis-py,18,warm,12.106
+redis-py,18,closed,50.051
+redis-py,18,warm,11.177
+redis-py,18,closed,50.268
+redis-py,18,warm,12.569
+redis-py,18,closed,49.695
+redis-py,18,warm,13.603
+redis-py,18,closed,49.544
+redis-py,18,warm,12.433
+redis-py,18,closed,49.341
+redis-py,18,warm,12.58
+redis-py,18,closed,51.527
+redis-py,18,warm,11.53
+redis-py,18,closed,48.975
+redis-py,18,warm,13.06
+redis-py,18,closed,51.057
+redis-py,18,warm,11.038
+redis-py,18,closed,48.222
+redis-py,18,warm,11.561
+redis-py,18,closed,48.923
+redis-py,18,warm,12.136
+redis-py,18,closed,48.755
+redis-py,18,warm,11.146
+redis-py,18,closed,47.438
+redis-py,18,warm,11.589
+redis-py,18,closed,47.095
+redis-py,18,warm,11.107
+redis-py,18,closed,48.752
+redis-py,18,warm,11.52
+redis-py,18,closed,48.361
+redis-py,18,warm,12.702
+redis-py,18,closed,50.594
+redis-py,18,warm,12.618
+redis-py,18,closed,51.435
+redis-py,19,warm,11.637
+redis-py,19,closed,48.211
+redis-py,19,warm,11.56
+redis-py,19,closed,50.017
+redis-py,19,warm,11.007
+redis-py,19,closed,49.846
+redis-py,19,warm,13.093
+redis-py,19,closed,48.592
+redis-py,19,warm,11.107
+redis-py,19,closed,46.653
+redis-py,19,warm,12.597
+redis-py,19,closed,51.699
+redis-py,19,warm,12.584
+redis-py,19,closed,48.838
+redis-py,19,warm,11.108
+redis-py,19,closed,50.125
+redis-py,19,warm,12.593
+redis-py,19,closed,48.39
+redis-py,19,warm,11.561
+redis-py,19,closed,48.867
+redis-py,19,warm,12.526
+redis-py,19,closed,50.361
+redis-py,19,warm,11.561
+redis-py,19,closed,49.1
+redis-py,19,warm,12.015
+redis-py,19,closed,51.125
+redis-py,19,warm,12.08
+redis-py,19,closed,50.201
+redis-py,19,warm,11.675
+redis-py,19,closed,48.162
+redis-py,19,warm,11.63
+redis-py,19,closed,48.913
+redis-py,19,warm,12.697
+redis-py,19,closed,49.832
+redis-py,19,warm,11.323
+redis-py,19,closed,50.803
+redis-py,19,warm,11.575
+redis-py,19,closed,48.641
+redis-py,19,warm,12.325
+redis-py,19,closed,49.445
+redis-py,20,warm,12.165
+redis-py,20,closed,50.539
+redis-py,20,warm,12.231
+redis-py,20,closed,50.612
+redis-py,20,warm,11.551
+redis-py,20,closed,51.881
+redis-py,20,warm,11.082
+redis-py,20,closed,47.304
+redis-py,20,warm,12.087
+redis-py,20,closed,46.861
+redis-py,20,warm,11.011
+redis-py,20,closed,50.854
+redis-py,20,warm,12.515
+redis-py,20,closed,48.707
+redis-py,20,warm,12.099
+redis-py,20,closed,51.224
+redis-py,20,warm,11.54
+redis-py,20,closed,51.78
+redis-py,20,warm,12.024
+redis-py,20,closed,50.63
+redis-py,20,warm,12.041
+redis-py,20,closed,48.554
+redis-py,20,warm,13.163
+redis-py,20,closed,48.848
+redis-py,20,warm,11.957
+redis-py,20,closed,46.771
+redis-py,20,warm,12.488
+redis-py,20,closed,48.028
+redis-py,20,warm,11.529
+redis-py,20,closed,48.284
+redis-py,20,warm,11.533
+redis-py,20,closed,51.76
+redis-py,20,warm,13.374
+redis-py,20,closed,48.517
+redis-py,20,warm,12.504
+redis-py,20,closed,53.36
+redis-py,20,warm,11.014
+redis-py,20,closed,50.002
+redis-py,20,warm,10.914
+redis-py,20,closed,50.679
+toy pool,1,warm,10.973
+toy pool,1,closed,13.666
+toy pool,1,warm,11.05
+toy pool,1,closed,13.58
+toy pool,1,warm,10.688
+toy pool,1,closed,11.696
+toy pool,1,warm,11.74
+toy pool,1,closed,11.822
+toy pool,1,warm,11.593
+toy pool,1,closed,12.911
+toy pool,1,warm,11.942
+toy pool,1,closed,12.315
+toy pool,1,warm,12.113
+toy pool,1,closed,12.472
+toy pool,1,warm,12.186
+toy pool,1,closed,12.556
+toy pool,1,warm,12.108
+toy pool,1,closed,11.543
+toy pool,1,warm,11.777
+toy pool,1,closed,12.443
+toy pool,1,warm,11.07
+toy pool,1,closed,12.092
+toy pool,1,warm,11.163
+toy pool,1,closed,11.793
+toy pool,1,warm,11.713
+toy pool,1,closed,11.73
+toy pool,1,warm,11.512
+toy pool,1,closed,11.956
+toy pool,1,warm,11.285
+toy pool,1,closed,13.504
+toy pool,1,warm,13.12
+toy pool,1,closed,13.625
+toy pool,1,warm,10.735
+toy pool,1,closed,13.009
+toy pool,1,warm,11.328
+toy pool,1,closed,13.473
+toy pool,1,warm,12.256
+toy pool,1,closed,12.44
+toy pool,1,warm,11.766
+toy pool,1,closed,13.502
+toy pool,2,warm,11.254
+toy pool,2,closed,11.672
+toy pool,2,warm,11.332
+toy pool,2,closed,13.455
+toy pool,2,warm,10.818
+toy pool,2,closed,12.044
+toy pool,2,warm,12.09
+toy pool,2,closed,12.826
+toy pool,2,warm,13.114
+toy pool,2,closed,12.31
+toy pool,2,warm,10.502
+toy pool,2,closed,12.157
+toy pool,2,warm,12.114
+toy pool,2,closed,12.865
+toy pool,2,warm,11.175
+toy pool,2,closed,12.396
+toy pool,2,warm,12.619
+toy pool,2,closed,12.321
+toy pool,2,warm,11.407
+toy pool,2,closed,12.387
+toy pool,2,warm,11.541
+toy pool,2,closed,12.388
+toy pool,2,warm,13.595
+toy pool,2,closed,12.019
+toy pool,2,warm,11.393
+toy pool,2,closed,12.203
+toy pool,2,warm,12.846
+toy pool,2,closed,12.635
+toy pool,2,warm,11.385
+toy pool,2,closed,12.551
+toy pool,2,warm,12.688
+toy pool,2,closed,12.655
+toy pool,2,warm,10.698
+toy pool,2,closed,12.424
+toy pool,2,warm,12.493
+toy pool,2,closed,11.588
+toy pool,2,warm,10.673
+toy pool,2,closed,13.472
+toy pool,2,warm,11.338
+toy pool,2,closed,12.79
+toy pool,3,warm,11.685
+toy pool,3,closed,12.729
+toy pool,3,warm,11.059
+toy pool,3,closed,13.423
+toy pool,3,warm,10.86
+toy pool,3,closed,13.627
+toy pool,3,warm,10.954
+toy pool,3,closed,12.045
+toy pool,3,warm,11.441
+toy pool,3,closed,12.067
+toy pool,3,warm,11.49
+toy pool,3,closed,12.778
+toy pool,3,warm,13.533
+toy pool,3,closed,12.448
+toy pool,3,warm,12.606
+toy pool,3,closed,14.145
+toy pool,3,warm,11.556
+toy pool,3,closed,13.577
+toy pool,3,warm,12.414
+toy pool,3,closed,13.754
+toy pool,3,warm,11.113
+toy pool,3,closed,12.994
+toy pool,3,warm,10.713
+toy pool,3,closed,12.921
+toy pool,3,warm,11.541
+toy pool,3,closed,12.039
+toy pool,3,warm,13.734
+toy pool,3,closed,12.975
+toy pool,3,warm,11.633
+toy pool,3,closed,12.585
+toy pool,3,warm,11.525
+toy pool,3,closed,12.091
+toy pool,3,warm,11.865
+toy pool,3,closed,12.039
+toy pool,3,warm,12.118
+toy pool,3,closed,12.952
+toy pool,3,warm,12.007
+toy pool,3,closed,12.566
+toy pool,3,warm,12.313
+toy pool,3,closed,11.381
+toy pool,4,warm,11.148
+toy pool,4,closed,12.612
+toy pool,4,warm,11.603
+toy pool,4,closed,12.985
+toy pool,4,warm,11.174
+toy pool,4,closed,13.08
+toy pool,4,warm,11.292
+toy pool,4,closed,11.213
+toy pool,4,warm,10.851
+toy pool,4,closed,12.173
+toy pool,4,warm,12.622
+toy pool,4,closed,12.978
+toy pool,4,warm,12.169
+toy pool,4,closed,11.957
+toy pool,4,warm,11.011
+toy pool,4,closed,12.984
+toy pool,4,warm,11.625
+toy pool,4,closed,12.114
+toy pool,4,warm,11.265
+toy pool,4,closed,12.245
+toy pool,4,warm,12.425
+toy pool,4,closed,12.657
+toy pool,4,warm,11.254
+toy pool,4,closed,11.792
+toy pool,4,warm,11.386
+toy pool,4,closed,12.524
+toy pool,4,warm,11.442
+toy pool,4,closed,12.218
+toy pool,4,warm,11.065
+toy pool,4,closed,12.662
+toy pool,4,warm,13.13
+toy pool,4,closed,13.873
+toy pool,4,warm,12.202
+toy pool,4,closed,12.587
+toy pool,4,warm,11.415
+toy pool,4,closed,13.131
+toy pool,4,warm,11.6
+toy pool,4,closed,12.448
+toy pool,4,warm,11.017
+toy pool,4,closed,12.61
+toy pool,5,warm,10.972
+toy pool,5,closed,11.917
+toy pool,5,warm,11.768
+toy pool,5,closed,11.863
+toy pool,5,warm,11.296
+toy pool,5,closed,12.122
+toy pool,5,warm,11.213
+toy pool,5,closed,12.667
+toy pool,5,warm,12.382
+toy pool,5,closed,11.792
+toy pool,5,warm,11.721
+toy pool,5,closed,11.948
+toy pool,5,warm,11.234
+toy pool,5,closed,12.048
+toy pool,5,warm,11.695
+toy pool,5,closed,12.062
+toy pool,5,warm,13.36
+toy pool,5,closed,13.598
+toy pool,5,warm,11.111
+toy pool,5,closed,11.713
+toy pool,5,warm,13.417
+toy pool,5,closed,11.542
+toy pool,5,warm,12.098
+toy pool,5,closed,12.296
+toy pool,5,warm,12.212
+toy pool,5,closed,12.28
+toy pool,5,warm,11.584
+toy pool,5,closed,12.395
+toy pool,5,warm,11.255
+toy pool,5,closed,12.218
+toy pool,5,warm,11.494
+toy pool,5,closed,12.35
+toy pool,5,warm,11.967
+toy pool,5,closed,14.016
+toy pool,5,warm,11.301
+toy pool,5,closed,12.475
+toy pool,5,warm,11.862
+toy pool,5,closed,12.719
+toy pool,5,warm,10.707
+toy pool,5,closed,12.136
+toy pool,6,warm,10.962
+toy pool,6,closed,12.127
+toy pool,6,warm,12.427
+toy pool,6,closed,14.407
+toy pool,6,warm,13.604
+toy pool,6,closed,13.066
+toy pool,6,warm,10.851
+toy pool,6,closed,11.43
+toy pool,6,warm,11.987
+toy pool,6,closed,13.623
+toy pool,6,warm,12.018
+toy pool,6,closed,12.171
+toy pool,6,warm,11.082
+toy pool,6,closed,12.373
+toy pool,6,warm,12.202
+toy pool,6,closed,12.7
+toy pool,6,warm,11.758
+toy pool,6,closed,12.444
+toy pool,6,warm,11.397
+toy pool,6,closed,11.673
+toy pool,6,warm,13.415
+toy pool,6,closed,12.083
+toy pool,6,warm,12.77
+toy pool,6,closed,12.939
+toy pool,6,warm,13.197
+toy pool,6,closed,12.105
+toy pool,6,warm,10.56
+toy pool,6,closed,12.655
+toy pool,6,warm,12.15
+toy pool,6,closed,12.139
+toy pool,6,warm,11.715
+toy pool,6,closed,13.865
+toy pool,6,warm,13.128
+toy pool,6,closed,13.333
+toy pool,6,warm,11.415
+toy pool,6,closed,11.726
+toy pool,6,warm,11.196
+toy pool,6,closed,13.631
+toy pool,6,warm,11.469
+toy pool,6,closed,12.461
+toy pool,7,warm,12.938
+toy pool,7,closed,14.284
+toy pool,7,warm,12.066
+toy pool,7,closed,11.739
+toy pool,7,warm,11.517
+toy pool,7,closed,12.448
+toy pool,7,warm,11.059
+toy pool,7,closed,12.863
+toy pool,7,warm,12.02
+toy pool,7,closed,12.152
+toy pool,7,warm,10.855
+toy pool,7,closed,13.975
+toy pool,7,warm,11.053
+toy pool,7,closed,13.628
+toy pool,7,warm,12.639
+toy pool,7,closed,11.963
+toy pool,7,warm,12.966
+toy pool,7,closed,12.451
+toy pool,7,warm,12.581
+toy pool,7,closed,13.564
+toy pool,7,warm,11.109
+toy pool,7,closed,12.043
+toy pool,7,warm,10.799
+toy pool,7,closed,12.307
+toy pool,7,warm,11.548
+toy pool,7,closed,11.872
+toy pool,7,warm,13.543
+toy pool,7,closed,14.128
+toy pool,7,warm,12.14
+toy pool,7,closed,13.403
+toy pool,7,warm,11.075
+toy pool,7,closed,12.569
+toy pool,7,warm,10.935
+toy pool,7,closed,11.797
+toy pool,7,warm,11.179
+toy pool,7,closed,11.593
+toy pool,7,warm,11.019
+toy pool,7,closed,12.62
+toy pool,7,warm,11.477
+toy pool,7,closed,13.684
+toy pool,8,warm,11.99
+toy pool,8,closed,12.664
+toy pool,8,warm,10.508
+toy pool,8,closed,13.078
+toy pool,8,warm,11.091
+toy pool,8,closed,13.071
+toy pool,8,warm,12.601
+toy pool,8,closed,11.554
+toy pool,8,warm,11.629
+toy pool,8,closed,12.168
+toy pool,8,warm,12.276
+toy pool,8,closed,13.039
+toy pool,8,warm,12.008
+toy pool,8,closed,12.271
+toy pool,8,warm,10.617
+toy pool,8,closed,13.558
+toy pool,8,warm,12.404
+toy pool,8,closed,13.756
+toy pool,8,warm,10.654
+toy pool,8,closed,12.632
+toy pool,8,warm,12.63
+toy pool,8,closed,12.133
+toy pool,8,warm,12.628
+toy pool,8,closed,12.11
+toy pool,8,warm,11.516
+toy pool,8,closed,11.84
+toy pool,8,warm,11.489
+toy pool,8,closed,12.577
+toy pool,8,warm,11.322
+toy pool,8,closed,12.53
+toy pool,8,warm,11.878
+toy pool,8,closed,13.626
+toy pool,8,warm,11.836
+toy pool,8,closed,12.62
+toy pool,8,warm,11.003
+toy pool,8,closed,13.766
+toy pool,8,warm,11.636
+toy pool,8,closed,12.544
+toy pool,8,warm,10.5
+toy pool,8,closed,12.541
+toy pool,9,warm,11.675
+toy pool,9,closed,12.236
+toy pool,9,warm,11.411
+toy pool,9,closed,11.981
+toy pool,9,warm,13.013
+toy pool,9,closed,12.056
+toy pool,9,warm,13.094
+toy pool,9,closed,12.067
+toy pool,9,warm,12.575
+toy pool,9,closed,11.724
+toy pool,9,warm,11.119
+toy pool,9,closed,11.534
+toy pool,9,warm,11.037
+toy pool,9,closed,11.926
+toy pool,9,warm,12.549
+toy pool,9,closed,11.884
+toy pool,9,warm,10.556
+toy pool,9,closed,13.158
+toy pool,9,warm,11.235
+toy pool,9,closed,12.312
+toy pool,9,warm,10.816
+toy pool,9,closed,13.293
+toy pool,9,warm,12.599
+toy pool,9,closed,11.259
+toy pool,9,warm,12.576
+toy pool,9,closed,13.744
+toy pool,9,warm,12.501
+toy pool,9,closed,12.086
+toy pool,9,warm,11.571
+toy pool,9,closed,14.025
+toy pool,9,warm,11.604
+toy pool,9,closed,14.548
+toy pool,9,warm,12.578
+toy pool,9,closed,13.101
+toy pool,9,warm,11.47
+toy pool,9,closed,14.014
+toy pool,9,warm,11.585
+toy pool,9,closed,12.376
+toy pool,9,warm,11.843
+toy pool,9,closed,11.703
+toy pool,10,warm,11.337
+toy pool,10,closed,12.013
+toy pool,10,warm,12.733
+toy pool,10,closed,12.995
+toy pool,10,warm,10.906
+toy pool,10,closed,12.082
+toy pool,10,warm,11.244
+toy pool,10,closed,12.062
+toy pool,10,warm,10.931
+toy pool,10,closed,11.848
+toy pool,10,warm,12.301
+toy pool,10,closed,12.064
+toy pool,10,warm,11.347
+toy pool,10,closed,13.091
+toy pool,10,warm,11.176
+toy pool,10,closed,13.068
+toy pool,10,warm,10.867
+toy pool,10,closed,11.984
+toy pool,10,warm,11.562
+toy pool,10,closed,12.734
+toy pool,10,warm,12.799
+toy pool,10,closed,12.069
+toy pool,10,warm,11.272
+toy pool,10,closed,13.157
+toy pool,10,warm,12.068
+toy pool,10,closed,11.602
+toy pool,10,warm,12.07
+toy pool,10,closed,12.616
+toy pool,10,warm,11.68
+toy pool,10,closed,12.574
+toy pool,10,warm,10.623
+toy pool,10,closed,11.243
+toy pool,10,warm,11.037
+toy pool,10,closed,11.532
+toy pool,10,warm,13.185
+toy pool,10,closed,11.343
+toy pool,10,warm,11.2
+toy pool,10,closed,12.49
+toy pool,10,warm,12.623
+toy pool,10,closed,12.516
+toy pool,11,warm,13.093
+toy pool,11,closed,13.126
+toy pool,11,warm,12.577
+toy pool,11,closed,13.113
+toy pool,11,warm,10.818
+toy pool,11,closed,13.232
+toy pool,11,warm,12.841
+toy pool,11,closed,12.573
+toy pool,11,warm,11.748
+toy pool,11,closed,11.343
+toy pool,11,warm,11.907
+toy pool,11,closed,13.099
+toy pool,11,warm,10.657
+toy pool,11,closed,11.376
+toy pool,11,warm,12.042
+toy pool,11,closed,13.298
+toy pool,11,warm,11.971
+toy pool,11,closed,12.378
+toy pool,11,warm,11.586
+toy pool,11,closed,11.602
+toy pool,11,warm,11.612
+toy pool,11,closed,12.555
+toy pool,11,warm,11.593
+toy pool,11,closed,12.68
+toy pool,11,warm,13.008
+toy pool,11,closed,12.229
+toy pool,11,warm,12.073
+toy pool,11,closed,12.814
+toy pool,11,warm,11.298
+toy pool,11,closed,11.819
+toy pool,11,warm,11.293
+toy pool,11,closed,12.099
+toy pool,11,warm,11.896
+toy pool,11,closed,12.743
+toy pool,11,warm,10.829
+toy pool,11,closed,11.823
+toy pool,11,warm,12.229
+toy pool,11,closed,13.254
+toy pool,11,warm,11.737
+toy pool,11,closed,12.609
+toy pool,12,warm,11.637
+toy pool,12,closed,12.976
+toy pool,12,warm,10.657
+toy pool,12,closed,12.108
+toy pool,12,warm,12.108
+toy pool,12,closed,12.16
+toy pool,12,warm,11.904
+toy pool,12,closed,13.414
+toy pool,12,warm,11.7
+toy pool,12,closed,12.558
+toy pool,12,warm,11.747
+toy pool,12,closed,12.328
+toy pool,12,warm,11.635
+toy pool,12,closed,12.084
+toy pool,12,warm,11.002
+toy pool,12,closed,13.059
+toy pool,12,warm,12.256
+toy pool,12,closed,11.591
+toy pool,12,warm,12.002
+toy pool,12,closed,13.309
+toy pool,12,warm,11.135
+toy pool,12,closed,12.077
+toy pool,12,warm,10.473
+toy pool,12,closed,14.181
+toy pool,12,warm,12.547
+toy pool,12,closed,12.618
+toy pool,12,warm,10.779
+toy pool,12,closed,12.851
+toy pool,12,warm,11.05
+toy pool,12,closed,11.92
+toy pool,12,warm,12.608
+toy pool,12,closed,13.005
+toy pool,12,warm,10.782
+toy pool,12,closed,12.483
+toy pool,12,warm,12.644
+toy pool,12,closed,13.613
+toy pool,12,warm,12.207
+toy pool,12,closed,12.28
+toy pool,12,warm,11.109
+toy pool,12,closed,13.13
+toy pool,13,warm,11.062
+toy pool,13,closed,12.081
+toy pool,13,warm,12.701
+toy pool,13,closed,11.767
+toy pool,13,warm,12.534
+toy pool,13,closed,13.789
+toy pool,13,warm,11.632
+toy pool,13,closed,12.381
+toy pool,13,warm,11.982
+toy pool,13,closed,12.935
+toy pool,13,warm,11.225
+toy pool,13,closed,13.033
+toy pool,13,warm,10.943
+toy pool,13,closed,12.074
+toy pool,13,warm,12.557
+toy pool,13,closed,11.857
+toy pool,13,warm,11.708
+toy pool,13,closed,12.588
+toy pool,13,warm,12.179
+toy pool,13,closed,12.036
+toy pool,13,warm,11.247
+toy pool,13,closed,12.551
+toy pool,13,warm,10.679
+toy pool,13,closed,12.368
+toy pool,13,warm,13.634
+toy pool,13,closed,12.038
+toy pool,13,warm,11.167
+toy pool,13,closed,11.807
+toy pool,13,warm,10.815
+toy pool,13,closed,11.994
+toy pool,13,warm,11.076
+toy pool,13,closed,11.499
+toy pool,13,warm,11.108
+toy pool,13,closed,12.596
+toy pool,13,warm,10.475
+toy pool,13,closed,11.738
+toy pool,13,warm,12.387
+toy pool,13,closed,11.385
+toy pool,13,warm,10.411
+toy pool,13,closed,11.443
+toy pool,14,warm,10.462
+toy pool,14,closed,12.933
+toy pool,14,warm,13.048
+toy pool,14,closed,11.778
+toy pool,14,warm,11.257
+toy pool,14,closed,13.71
+toy pool,14,warm,13.057
+toy pool,14,closed,13.916
+toy pool,14,warm,12.214
+toy pool,14,closed,12.175
+toy pool,14,warm,11.944
+toy pool,14,closed,12.128
+toy pool,14,warm,12.122
+toy pool,14,closed,12.999
+toy pool,14,warm,12.224
+toy pool,14,closed,11.861
+toy pool,14,warm,10.795
+toy pool,14,closed,13.201
+toy pool,14,warm,12.503
+toy pool,14,closed,12.732
+toy pool,14,warm,11.75
+toy pool,14,closed,12.861
+toy pool,14,warm,10.855
+toy pool,14,closed,11.638
+toy pool,14,warm,12.492
+toy pool,14,closed,12.69
+toy pool,14,warm,13.178
+toy pool,14,closed,11.569
+toy pool,14,warm,11.833
+toy pool,14,closed,12.383
+toy pool,14,warm,12.041
+toy pool,14,closed,11.847
+toy pool,14,warm,11.559
+toy pool,14,closed,12.521
+toy pool,14,warm,10.371
+toy pool,14,closed,12.996
+toy pool,14,warm,11.125
+toy pool,14,closed,11.448
+toy pool,14,warm,10.996
+toy pool,14,closed,12.436
+toy pool,15,warm,11.818
+toy pool,15,closed,13.015
+toy pool,15,warm,10.687
+toy pool,15,closed,13.103
+toy pool,15,warm,12.17
+toy pool,15,closed,14.023
+toy pool,15,warm,11.287
+toy pool,15,closed,12.218
+toy pool,15,warm,11.319
+toy pool,15,closed,11.596
+toy pool,15,warm,13.267
+toy pool,15,closed,11.918
+toy pool,15,warm,12.11
+toy pool,15,closed,12.825
+toy pool,15,warm,11.644
+toy pool,15,closed,12.544
+toy pool,15,warm,11.349
+toy pool,15,closed,12.551
+toy pool,15,warm,11.723
+toy pool,15,closed,12.598
+toy pool,15,warm,12.093
+toy pool,15,closed,12.356
+toy pool,15,warm,11.63
+toy pool,15,closed,12.048
+toy pool,15,warm,12.206
+toy pool,15,closed,11.724
+toy pool,15,warm,10.894
+toy pool,15,closed,11.661
+toy pool,15,warm,12.4
+toy pool,15,closed,11.684
+toy pool,15,warm,12.162
+toy pool,15,closed,11.488
+toy pool,15,warm,11.232
+toy pool,15,closed,11.578
+toy pool,15,warm,11.052
+toy pool,15,closed,12.513
+toy pool,15,warm,12.251
+toy pool,15,closed,12.268
+toy pool,15,warm,11.342
+toy pool,15,closed,12.454
+toy pool,16,warm,11.165
+toy pool,16,closed,13.051
+toy pool,16,warm,13.195
+toy pool,16,closed,13.035
+toy pool,16,warm,12.164
+toy pool,16,closed,12.275
+toy pool,16,warm,11.591
+toy pool,16,closed,12.376
+toy pool,16,warm,11.707
+toy pool,16,closed,12.772
+toy pool,16,warm,13.071
+toy pool,16,closed,11.959
+toy pool,16,warm,10.767
+toy pool,16,closed,12.154
+toy pool,16,warm,10.977
+toy pool,16,closed,11.649
+toy pool,16,warm,11.902
+toy pool,16,closed,13.204
+toy pool,16,warm,13.139
+toy pool,16,closed,12.744
+toy pool,16,warm,11.784
+toy pool,16,closed,12.637
+toy pool,16,warm,13.088
+toy pool,16,closed,12.754
+toy pool,16,warm,13.863
+toy pool,16,closed,14.136
+toy pool,16,warm,11.622
+toy pool,16,closed,12.288
+toy pool,16,warm,12.135
+toy pool,16,closed,12.745
+toy pool,16,warm,11.324
+toy pool,16,closed,12.755
+toy pool,16,warm,11.064
+toy pool,16,closed,12.108
+toy pool,16,warm,11.304
+toy pool,16,closed,13.405
+toy pool,16,warm,10.966
+toy pool,16,closed,11.741
+toy pool,16,warm,12.027
+toy pool,16,closed,12.722
+toy pool,17,warm,12.231
+toy pool,17,closed,13.706
+toy pool,17,warm,11.398
+toy pool,17,closed,12.578
+toy pool,17,warm,13.22
+toy pool,17,closed,12.813
+toy pool,17,warm,11.691
+toy pool,17,closed,12.144
+toy pool,17,warm,12.071
+toy pool,17,closed,11.875
+toy pool,17,warm,11.422
+toy pool,17,closed,12.52
+toy pool,17,warm,11.271
+toy pool,17,closed,11.931
+toy pool,17,warm,12.936
+toy pool,17,closed,13.432
+toy pool,17,warm,12.583
+toy pool,17,closed,11.713
+toy pool,17,warm,11.676
+toy pool,17,closed,11.726
+toy pool,17,warm,10.942
+toy pool,17,closed,12.215
+toy pool,17,warm,12.727
+toy pool,17,closed,12.018
+toy pool,17,warm,12.75
+toy pool,17,closed,11.297
+toy pool,17,warm,10.834
+toy pool,17,closed,12.805
+toy pool,17,warm,11.749
+toy pool,17,closed,15.566
+toy pool,17,warm,11.801
+toy pool,17,closed,12.839
+toy pool,17,warm,12.042
+toy pool,17,closed,12.202
+toy pool,17,warm,11.566
+toy pool,17,closed,13.028
+toy pool,17,warm,11.366
+toy pool,17,closed,12.836
+toy pool,17,warm,11.366
+toy pool,17,closed,12.708
+toy pool,18,warm,10.668
+toy pool,18,closed,12.009
+toy pool,18,warm,11.316
+toy pool,18,closed,11.795
+toy pool,18,warm,11.323
+toy pool,18,closed,11.694
+toy pool,18,warm,12.062
+toy pool,18,closed,12.777
+toy pool,18,warm,10.999
+toy pool,18,closed,12.636
+toy pool,18,warm,12.067
+toy pool,18,closed,13.289
+toy pool,18,warm,11.654
+toy pool,18,closed,13.112
+toy pool,18,warm,12.317
+toy pool,18,closed,11.861
+toy pool,18,warm,11.611
+toy pool,18,closed,12.278
+toy pool,18,warm,10.613
+toy pool,18,closed,12.834
+toy pool,18,warm,11.421
+toy pool,18,closed,12.129
+toy pool,18,warm,11.14
+toy pool,18,closed,13.127
+toy pool,18,warm,13.65
+toy pool,18,closed,12.394
+toy pool,18,warm,10.814
+toy pool,18,closed,13.26
+toy pool,18,warm,11.268
+toy pool,18,closed,12.057
+toy pool,18,warm,11.013
+toy pool,18,closed,12.583
+toy pool,18,warm,11.615
+toy pool,18,closed,12.472
+toy pool,18,warm,11.633
+toy pool,18,closed,12.75
+toy pool,18,warm,11.644
+toy pool,18,closed,14.718
+toy pool,18,warm,12.685
+toy pool,18,closed,11.48
+toy pool,19,warm,11.619
+toy pool,19,closed,12.558
+toy pool,19,warm,11.768
+toy pool,19,closed,13.814
+toy pool,19,warm,12.546
+toy pool,19,closed,12.845
+toy pool,19,warm,11.184
+toy pool,19,closed,12.629
+toy pool,19,warm,12.054
+toy pool,19,closed,11.883
+toy pool,19,warm,10.737
+toy pool,19,closed,14.024
+toy pool,19,warm,10.739
+toy pool,19,closed,12.07
+toy pool,19,warm,13.393
+toy pool,19,closed,14.917
+toy pool,19,warm,13.836
+toy pool,19,closed,12.223
+toy pool,19,warm,10.362
+toy pool,19,closed,12.751
+toy pool,19,warm,12.198
+toy pool,19,closed,12.8
+toy pool,19,warm,12.051
+toy pool,19,closed,11.823
+toy pool,19,warm,12.117
+toy pool,19,closed,11.473
+toy pool,19,warm,12.383
+toy pool,19,closed,12.535
+toy pool,19,warm,12.672
+toy pool,19,closed,12.615
+toy pool,19,warm,12.236
+toy pool,19,closed,12.917
+toy pool,19,warm,12.093
+toy pool,19,closed,11.968
+toy pool,19,warm,12.628
+toy pool,19,closed,12.652
+toy pool,19,warm,11.196
+toy pool,19,closed,11.978
+toy pool,19,warm,11.61
+toy pool,19,closed,15.097
+toy pool,20,warm,11.129
+toy pool,20,closed,13.072
+toy pool,20,warm,10.732
+toy pool,20,closed,14.163
+toy pool,20,warm,12.969
+toy pool,20,closed,12.573
+toy pool,20,warm,13.506
+toy pool,20,closed,12.024
+toy pool,20,warm,11.233
+toy pool,20,closed,11.46
+toy pool,20,warm,12.714
+toy pool,20,closed,11.836
+toy pool,20,warm,11.576
+toy pool,20,closed,14.106
+toy pool,20,warm,11.173
+toy pool,20,closed,11.454
+toy pool,20,warm,12.12
+toy pool,20,closed,12.569
+toy pool,20,warm,12.282
+toy pool,20,closed,13.068
+toy pool,20,warm,10.755
+toy pool,20,closed,12.155
+toy pool,20,warm,11.636
+toy pool,20,closed,13.032
+toy pool,20,warm,10.652
+toy pool,20,closed,11.88
+toy pool,20,warm,11.673
+toy pool,20,closed,12.19
+toy pool,20,warm,11.278
+toy pool,20,closed,12.472
+toy pool,20,warm,11.293
+toy pool,20,closed,12.664
+toy pool,20,warm,11.584
+toy pool,20,closed,12.531
+toy pool,20,warm,11.545
+toy pool,20,closed,14.131
+toy pool,20,warm,11.28
+toy pool,20,closed,12.637
+toy pool,20,warm,12.076
+toy pool,20,closed,11.775

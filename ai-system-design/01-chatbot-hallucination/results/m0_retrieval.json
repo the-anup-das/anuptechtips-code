@@ -1,0 +1,20 @@
+{
+  "coverage_then_ts_rank_cd": {
+    "right_clause_first": 138,
+    "right_clause_in_top_5": 190,
+    "questions_with_a_clause": 200,
+    "median_best_score": {
+      "has_clause": 0.5,
+      "no_clause": 0.286
+    }
+  },
+  "ts_rank_cd_only": {
+    "right_clause_first": 119,
+    "right_clause_in_top_5": 188,
+    "questions_with_a_clause": 200,
+    "median_best_score": {
+      "has_clause": 0.4,
+      "no_clause": 0.2
+    }
+  }
+}

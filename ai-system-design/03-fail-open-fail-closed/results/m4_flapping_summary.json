@@ -1,0 +1,403 @@
+{
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "ticks": 30,
+  "tick_seconds": 5.0,
+  "grant_at_tick": {
+    "7": 1,
+    "13": 2,
+    "19": 3,
+    "25": 4
+  },
+  "proxies": 12,
+  "requests_per_second_per_proxy": 100,
+  "doubled_files_per_seed": {
+    "1": 16,
+    "2": 12,
+    "3": 16,
+    "4": 19,
+    "5": 15
+  },
+  "files_the_producer_check_rejects_per_seed": {
+    "1": 16,
+    "2": 12,
+    "3": 16,
+    "4": 19,
+    "5": 15
+  },
+  "per_seed": {
+    "1": {
+      "naive, global push": {
+        "requests": 180000,
+        "failed_requests": 95981,
+        "failed_share_pct": 53.32,
+        "max_proxies_failing_at_once": 12,
+        "seconds_with_all_12_failing": 80.0,
+        "seconds_with_any_failing": 80.1,
+        "proxies_that_ever_failed": 12,
+        "rollouts_halted": 0,
+        "files_rejected_per_proxy": 0,
+        "stale_serves": 0,
+        "oldest_file_in_service_seconds": ""
+      },
+      "naive, staged rollout": {
+        "requests": 180000,
+        "failed_requests": 439,
+        "failed_share_pct": 0.24,
+        "max_proxies_failing_at_once": 1,
+        "seconds_with_all_12_failing": 0.0,
+        "seconds_with_any_failing": 5.1,
+        "proxies_that_ever_failed": 1,
+        "rollouts_halted": 16,
+        "files_rejected_per_proxy": 0,
+        "stale_serves": 0,
+        "oldest_file_in_service_seconds": ""
+      },
+      "hardened, global push": {
+        "requests": 180000,
+        "failed_requests": 0,
+        "failed_share_pct": 0.0,
+        "max_proxies_failing_at_once": 0,
+        "seconds_with_all_12_failing": 0.0,
+        "seconds_with_any_failing": 0.0,
+        "proxies_that_ever_failed": 0,
+        "rollouts_halted": 0,
+        "files_rejected_per_proxy": 16,
+        "stale_serves": 96101,
+        "oldest_file_in_service_seconds": 70.0
+      }
+    },
+    "2": {
+      "naive, global push": {
+        "requests": 179995,
+        "failed_requests": 71979,
+        "failed_share_pct": 39.99,
+        "max_proxies_failing_at_once": 12,
+        "seconds_with_all_12_failing": 60.1,
+        "seconds_with_any_failing": 60.3,
+        "proxies_that_ever_failed": 12,
+        "rollouts_halted": 0,
+        "files_rejected_per_proxy": 0,
+        "stale_serves": 0,
+        "oldest_file_in_service_seconds": ""
+      },
+      "naive, staged rollout": {
+        "requests": 179996,
+        "failed_requests": 323,
+        "failed_share_pct": 0.18,
+        "max_proxies_failing_at_once": 1,
+        "seconds_with_all_12_failing": 0.0,
+        "seconds_with_any_failing": 3.9,
+        "proxies_that_ever_failed": 1,
+        "rollouts_halted": 12,
+        "files_rejected_per_proxy": 0,
+        "stale_serves": 0,
+        "oldest_file_in_service_seconds": ""
+      },
+      "hardened, global push": {
+        "requests": 179997,
+        "failed_requests": 0,
+        "failed_share_pct": 0.0,
+        "max_proxies_failing_at_once": 0,
+        "seconds_with_all_12_failing": 0.0,
+        "seconds_with_any_failing": 0.0,
+        "proxies_that_ever_failed": 0,
+        "rollouts_halted": 0,
+        "files_rejected_per_proxy": 12,
+        "stale_serves": 72090,
+        "oldest_file_in_service_seconds": 45.0
+      }
+    },
+    "3": {
+      "naive, global push": {
+        "requests": 179992,
+        "failed_requests": 96007,
+        "failed_share_pct": 53.34,
+        "max_proxies_failing_at_once": 12,
+        "seconds_with_all_12_failing": 80.1,
+        "seconds_with_any_failing": 80.1,
+        "proxies_that_ever_failed": 12,
+        "rollouts_halted": 0,
+        "files_rejected_per_proxy": 0,
+        "stale_serves": 0,
+        "oldest_file_in_service_seconds": ""
+      },
+      "naive, staged rollout": {
+        "requests": 179994,
+        "failed_requests": 432,
+        "failed_share_pct": 0.24,
+        "max_proxies_failing_at_once": 1,
+        "seconds_with_all_12_failing": 0.0,
+        "seconds_with_any_failing": 5.0,
+        "proxies_that_ever_failed": 1,
+        "rollouts_halted": 16,
+        "files_rejected_per_proxy": 0,
+        "stale_serves": 0,
+        "oldest_file_in_service_seconds": ""
+      },
+      "hardened, global push": {
+        "requests": 179991,
+        "failed_requests": 0,
+        "failed_share_pct": 0.0,
+        "max_proxies_failing_at_once": 0,
+        "seconds_with_all_12_failing": 0.0,
+        "seconds_with_any_failing": 0.0,
+        "proxies_that_ever_failed": 0,
+        "rollouts_halted": 0,
+        "files_rejected_per_proxy": 16,
+        "stale_serves": 96107,
+        "oldest_file_in_service_seconds": 70.0
+      }
+    },
+    "4": {
+      "naive, global push": {
+        "requests": 179994,
+        "failed_requests": 113972,
+        "failed_share_pct": 63.32,
+        "max_proxies_failing_at_once": 12,
+        "seconds_with_all_12_failing": 95.1,
+        "seconds_with_any_failing": 95.2,
+        "proxies_that_ever_failed": 12,
+        "rollouts_halted": 0,
+        "files_rejected_per_proxy": 0,
+        "stale_serves": 0,
+        "oldest_file_in_service_seconds": ""
+      },
+      "naive, staged rollout": {
+        "requests": 179990,
+        "failed_requests": 492,
+        "failed_share_pct": 0.27,
+        "max_proxies_failing_at_once": 1,
+        "seconds_with_all_12_failing": 0.0,
+        "seconds_with_any_failing": 6.0,
+        "proxies_that_ever_failed": 1,
+        "rollouts_halted": 19,
+        "files_rejected_per_proxy": 0,
+        "stale_serves": 0,
+        "oldest_file_in_service_seconds": ""
+      },
+      "hardened, global push": {
+        "requests": 179991,
+        "failed_requests": 0,
+        "failed_share_pct": 0.0,
+        "max_proxies_failing_at_once": 0,
+        "seconds_with_all_12_failing": 0.0,
+        "seconds_with_any_failing": 0.0,
+        "proxies_that_ever_failed": 0,
+        "rollouts_halted": 0,
+        "files_rejected_per_proxy": 19,
+        "stale_serves": 114114,
+        "oldest_file_in_service_seconds": 65.0
+      }
+    },
+    "5": {
+      "naive, global push": {
+        "requests": 179990,
+        "failed_requests": 89989,
+        "failed_share_pct": 50.0,
+        "max_proxies_failing_at_once": 12,
+        "seconds_with_all_12_failing": 75.1,
+        "seconds_with_any_failing": 75.2,
+        "proxies_that_ever_failed": 12,
+        "rollouts_halted": 0,
+        "files_rejected_per_proxy": 0,
+        "stale_serves": 0,
+        "oldest_file_in_service_seconds": ""
+      },
+      "naive, staged rollout": {
+        "requests": 179988,
+        "failed_requests": 416,
+        "failed_share_pct": 0.23,
+        "max_proxies_failing_at_once": 1,
+        "seconds_with_all_12_failing": 0.0,
+        "seconds_with_any_failing": 4.8,
+        "proxies_that_ever_failed": 1,
+        "rollouts_halted": 15,
+        "files_rejected_per_proxy": 0,
+        "stale_serves": 0,
+        "oldest_file_in_service_seconds": ""
+      },
+      "hardened, global push": {
+        "requests": 179988,
+        "failed_requests": 0,
+        "failed_share_pct": 0.0,
+        "max_proxies_failing_at_once": 0,
+        "seconds_with_all_12_failing": 0.0,
+        "seconds_with_any_failing": 0.0,
+        "proxies_that_ever_failed": 0,
+        "rollouts_halted": 0,
+        "files_rejected_per_proxy": 15,
+        "stale_serves": 90115,
+        "oldest_file_in_service_seconds": 35.0
+      }
+    }
+  },
+  "across_seeds": {
+    "naive, global push": {
+      "requests": {
+        "median": 179994,
+        "min": 179990,
+        "max": 180000
+      },
+      "failed_requests": {
+        "median": 95981,
+        "min": 71979,
+        "max": 113972
+      },
+      "failed_share_pct": {
+        "median": 53.32,
+        "min": 39.99,
+        "max": 63.32
+      },
+      "max_proxies_failing_at_once": {
+        "median": 12,
+        "min": 12,
+        "max": 12
+      },
+      "seconds_with_all_12_failing": {
+        "median": 80.0,
+        "min": 60.1,
+        "max": 95.1
+      },
+      "seconds_with_any_failing": {
+        "median": 80.1,
+        "min": 60.3,
+        "max": 95.2
+      },
+      "proxies_that_ever_failed": {
+        "median": 12,
+        "min": 12,
+        "max": 12
+      },
+      "rollouts_halted": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "files_rejected_per_proxy": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "stale_serves": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    "naive, staged rollout": {
+      "requests": {
+        "median": 179994,
+        "min": 179988,
+        "max": 180000
+      },
+      "failed_requests": {
+        "median": 432,
+        "min": 323,
+        "max": 492
+      },
+      "failed_share_pct": {
+        "median": 0.24,
+        "min": 0.18,
+        "max": 0.27
+      },
+      "max_proxies_failing_at_once": {
+        "median": 1,
+        "min": 1,
+        "max": 1
+      },
+      "seconds_with_all_12_failing": {
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "seconds_with_any_failing": {
+        "median": 5.0,
+        "min": 3.9,
+        "max": 6.0
+      },
+      "proxies_that_ever_failed": {
+        "median": 1,
+        "min": 1,
+        "max": 1
+      },
+      "rollouts_halted": {
+        "median": 16,
+        "min": 12,
+        "max": 19
+      },
+      "files_rejected_per_proxy": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "stale_serves": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    "hardened, global push": {
+      "requests": {
+        "median": 179991,
+        "min": 179988,
+        "max": 180000
+      },
+      "failed_requests": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "failed_share_pct": {
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "max_proxies_failing_at_once": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "seconds_with_all_12_failing": {
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "seconds_with_any_failing": {
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "proxies_that_ever_failed": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "rollouts_halted": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "files_rejected_per_proxy": {
+        "median": 16,
+        "min": 12,
+        "max": 19
+      },
+      "stale_serves": {
+        "median": 96101,
+        "min": 72090,
+        "max": 114114
+      },
+      "oldest_file_in_service_seconds": {
+        "median": 65.0,
+        "min": 35.0,
+        "max": 70.0
+      }
+    }
+  }
+}

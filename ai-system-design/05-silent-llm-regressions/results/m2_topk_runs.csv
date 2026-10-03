@@ -1,0 +1,241 @@
+run,sampler,batch_size,requests,passed,answers_changed,replies_changed
+0,"exact top-k, fp32 pick",1,9600,9354,0,0
+0,"exact top-k, fp32 pick",8,9600,9354,0,0
+0,"exact top-k, fp32 pick",32,9600,9354,0,0
+0,"exact top-k, fp32 pick",64,9600,9354,0,0
+0,"exact top-k, fp16 pick",1,9600,9354,0,88
+0,"exact top-k, fp16 pick",8,9600,9354,0,88
+0,"exact top-k, fp16 pick",32,9600,9354,0,88
+0,"exact top-k, fp16 pick",64,9600,9354,0,88
+0,"approximate top-k (bug), fp32 pick",1,9600,9354,0,0
+0,"approximate top-k (bug), fp32 pick",8,9600,9354,0,0
+0,"approximate top-k (bug), fp32 pick",32,9600,8992,383,3953
+0,"approximate top-k (bug), fp32 pick",64,9600,8992,383,3953
+1,"exact top-k, fp32 pick",1,9600,9358,0,0
+1,"exact top-k, fp32 pick",8,9600,9358,0,0
+1,"exact top-k, fp32 pick",32,9600,9358,0,0
+1,"exact top-k, fp32 pick",64,9600,9358,0,0
+1,"exact top-k, fp16 pick",1,9600,9358,0,98
+1,"exact top-k, fp16 pick",8,9600,9358,0,98
+1,"exact top-k, fp16 pick",32,9600,9358,0,98
+1,"exact top-k, fp16 pick",64,9600,9358,0,98
+1,"approximate top-k (bug), fp32 pick",1,9600,9358,0,0
+1,"approximate top-k (bug), fp32 pick",8,9600,9358,0,0
+1,"approximate top-k (bug), fp32 pick",32,9600,8989,390,3927
+1,"approximate top-k (bug), fp32 pick",64,9600,8989,390,3927
+2,"exact top-k, fp32 pick",1,9600,9313,0,0
+2,"exact top-k, fp32 pick",8,9600,9313,0,0
+2,"exact top-k, fp32 pick",32,9600,9313,0,0
+2,"exact top-k, fp32 pick",64,9600,9313,0,0
+2,"exact top-k, fp16 pick",1,9600,9313,0,114
+2,"exact top-k, fp16 pick",8,9600,9313,0,114
+2,"exact top-k, fp16 pick",32,9600,9313,0,114
+2,"exact top-k, fp16 pick",64,9600,9313,0,114
+2,"approximate top-k (bug), fp32 pick",1,9600,9313,0,0
+2,"approximate top-k (bug), fp32 pick",8,9600,9313,0,0
+2,"approximate top-k (bug), fp32 pick",32,9600,8953,378,3972
+2,"approximate top-k (bug), fp32 pick",64,9600,8953,378,3972
+3,"exact top-k, fp32 pick",1,9600,9377,0,0
+3,"exact top-k, fp32 pick",8,9600,9377,0,0
+3,"exact top-k, fp32 pick",32,9600,9377,0,0
+3,"exact top-k, fp32 pick",64,9600,9377,0,0
+3,"exact top-k, fp16 pick",1,9600,9377,0,93
+3,"exact top-k, fp16 pick",8,9600,9377,0,93
+3,"exact top-k, fp16 pick",32,9600,9377,0,93
+3,"exact top-k, fp16 pick",64,9600,9377,0,93
+3,"approximate top-k (bug), fp32 pick",1,9600,9377,0,0
+3,"approximate top-k (bug), fp32 pick",8,9600,9377,0,0
+3,"approximate top-k (bug), fp32 pick",32,9600,9005,386,3854
+3,"approximate top-k (bug), fp32 pick",64,9600,9005,386,3854
+4,"exact top-k, fp32 pick",1,9600,9330,0,0
+4,"exact top-k, fp32 pick",8,9600,9330,0,0
+4,"exact top-k, fp32 pick",32,9600,9330,0,0
+4,"exact top-k, fp32 pick",64,9600,9330,0,0
+4,"exact top-k, fp16 pick",1,9600,9329,1,89
+4,"exact top-k, fp16 pick",8,9600,9329,1,89
+4,"exact top-k, fp16 pick",32,9600,9329,1,89
+4,"exact top-k, fp16 pick",64,9600,9329,1,89
+4,"approximate top-k (bug), fp32 pick",1,9600,9330,0,0
+4,"approximate top-k (bug), fp32 pick",8,9600,9330,0,0
+4,"approximate top-k (bug), fp32 pick",32,9600,8963,393,4016
+4,"approximate top-k (bug), fp32 pick",64,9600,8963,393,4016
+5,"exact top-k, fp32 pick",1,9600,9353,0,0
+5,"exact top-k, fp32 pick",8,9600,9353,0,0
+5,"exact top-k, fp32 pick",32,9600,9353,0,0
+5,"exact top-k, fp32 pick",64,9600,9353,0,0
+5,"exact top-k, fp16 pick",1,9600,9353,0,100
+5,"exact top-k, fp16 pick",8,9600,9353,0,100
+5,"exact top-k, fp16 pick",32,9600,9353,0,100
+5,"exact top-k, fp16 pick",64,9600,9353,0,100
+5,"approximate top-k (bug), fp32 pick",1,9600,9353,0,0
+5,"approximate top-k (bug), fp32 pick",8,9600,9353,0,0
+5,"approximate top-k (bug), fp32 pick",32,9600,8986,380,3838
+5,"approximate top-k (bug), fp32 pick",64,9600,8986,380,3838
+6,"exact top-k, fp32 pick",1,9600,9335,0,0
+6,"exact top-k, fp32 pick",8,9600,9335,0,0
+6,"exact top-k, fp32 pick",32,9600,9335,0,0
+6,"exact top-k, fp32 pick",64,9600,9335,0,0
+6,"exact top-k, fp16 pick",1,9600,9334,1,105
+6,"exact top-k, fp16 pick",8,9600,9334,1,105
+6,"exact top-k, fp16 pick",32,9600,9334,1,105
+6,"exact top-k, fp16 pick",64,9600,9334,1,105
+6,"approximate top-k (bug), fp32 pick",1,9600,9335,0,0
+6,"approximate top-k (bug), fp32 pick",8,9600,9335,0,0
+6,"approximate top-k (bug), fp32 pick",32,9600,8968,388,3931
+6,"approximate top-k (bug), fp32 pick",64,9600,8968,388,3931
+7,"exact top-k, fp32 pick",1,9600,9328,0,0
+7,"exact top-k, fp32 pick",8,9600,9328,0,0
+7,"exact top-k, fp32 pick",32,9600,9328,0,0
+7,"exact top-k, fp32 pick",64,9600,9328,0,0
+7,"exact top-k, fp16 pick",1,9600,9329,2,105
+7,"exact top-k, fp16 pick",8,9600,9329,2,105
+7,"exact top-k, fp16 pick",32,9600,9329,2,105
+7,"exact top-k, fp16 pick",64,9600,9329,2,105
+7,"approximate top-k (bug), fp32 pick",1,9600,9328,0,0
+7,"approximate top-k (bug), fp32 pick",8,9600,9328,0,0
+7,"approximate top-k (bug), fp32 pick",32,9600,8961,387,3935
+7,"approximate top-k (bug), fp32 pick",64,9600,8961,387,3935
+8,"exact top-k, fp32 pick",1,9600,9354,0,0
+8,"exact top-k, fp32 pick",8,9600,9354,0,0
+8,"exact top-k, fp32 pick",32,9600,9354,0,0
+8,"exact top-k, fp32 pick",64,9600,9354,0,0
+8,"exact top-k, fp16 pick",1,9600,9354,0,99
+8,"exact top-k, fp16 pick",8,9600,9354,0,99
+8,"exact top-k, fp16 pick",32,9600,9354,0,99
+8,"exact top-k, fp16 pick",64,9600,9354,0,99
+8,"approximate top-k (bug), fp32 pick",1,9600,9354,0,0
+8,"approximate top-k (bug), fp32 pick",8,9600,9354,0,0
+8,"approximate top-k (bug), fp32 pick",32,9600,8987,384,3917
+8,"approximate top-k (bug), fp32 pick",64,9600,8987,384,3917
+9,"exact top-k, fp32 pick",1,9600,9339,0,0
+9,"exact top-k, fp32 pick",8,9600,9339,0,0
+9,"exact top-k, fp32 pick",32,9600,9339,0,0
+9,"exact top-k, fp32 pick",64,9600,9339,0,0
+9,"exact top-k, fp16 pick",1,9600,9338,1,111
+9,"exact top-k, fp16 pick",8,9600,9338,1,111
+9,"exact top-k, fp16 pick",32,9600,9338,1,111
+9,"exact top-k, fp16 pick",64,9600,9338,1,111
+9,"approximate top-k (bug), fp32 pick",1,9600,9339,0,0
+9,"approximate top-k (bug), fp32 pick",8,9600,9339,0,0
+9,"approximate top-k (bug), fp32 pick",32,9600,8973,389,4010
+9,"approximate top-k (bug), fp32 pick",64,9600,8973,389,4010
+10,"exact top-k, fp32 pick",1,9600,9325,0,0
+10,"exact top-k, fp32 pick",8,9600,9325,0,0
+10,"exact top-k, fp32 pick",32,9600,9325,0,0
+10,"exact top-k, fp32 pick",64,9600,9325,0,0
+10,"exact top-k, fp16 pick",1,9600,9325,0,128
+10,"exact top-k, fp16 pick",8,9600,9325,0,128
+10,"exact top-k, fp16 pick",32,9600,9325,0,128
+10,"exact top-k, fp16 pick",64,9600,9325,0,128
+10,"approximate top-k (bug), fp32 pick",1,9600,9325,0,0
+10,"approximate top-k (bug), fp32 pick",8,9600,9325,0,0
+10,"approximate top-k (bug), fp32 pick",32,9600,8967,393,3908
+10,"approximate top-k (bug), fp32 pick",64,9600,8967,393,3908
+11,"exact top-k, fp32 pick",1,9600,9319,0,0
+11,"exact top-k, fp32 pick",8,9600,9319,0,0
+11,"exact top-k, fp32 pick",32,9600,9319,0,0
+11,"exact top-k, fp32 pick",64,9600,9319,0,0
+11,"exact top-k, fp16 pick",1,9600,9319,0,110
+11,"exact top-k, fp16 pick",8,9600,9319,0,110
+11,"exact top-k, fp16 pick",32,9600,9319,0,110
+11,"exact top-k, fp16 pick",64,9600,9319,0,110
+11,"approximate top-k (bug), fp32 pick",1,9600,9319,0,0
+11,"approximate top-k (bug), fp32 pick",8,9600,9319,0,0
+11,"approximate top-k (bug), fp32 pick",32,9600,8955,387,3943
+11,"approximate top-k (bug), fp32 pick",64,9600,8955,387,3943
+12,"exact top-k, fp32 pick",1,9600,9337,0,0
+12,"exact top-k, fp32 pick",8,9600,9337,0,0
+12,"exact top-k, fp32 pick",32,9600,9337,0,0
+12,"exact top-k, fp32 pick",64,9600,9337,0,0
+12,"exact top-k, fp16 pick",1,9600,9337,0,112
+12,"exact top-k, fp16 pick",8,9600,9337,0,112
+12,"exact top-k, fp16 pick",32,9600,9337,0,112
+12,"exact top-k, fp16 pick",64,9600,9337,0,112
+12,"approximate top-k (bug), fp32 pick",1,9600,9337,0,0
+12,"approximate top-k (bug), fp32 pick",8,9600,9337,0,0
+12,"approximate top-k (bug), fp32 pick",32,9600,8975,381,3916
+12,"approximate top-k (bug), fp32 pick",64,9600,8975,381,3916
+13,"exact top-k, fp32 pick",1,9600,9326,0,0
+13,"exact top-k, fp32 pick",8,9600,9326,0,0
+13,"exact top-k, fp32 pick",32,9600,9326,0,0
+13,"exact top-k, fp32 pick",64,9600,9326,0,0
+13,"exact top-k, fp16 pick",1,9600,9326,0,112
+13,"exact top-k, fp16 pick",8,9600,9326,0,112
+13,"exact top-k, fp16 pick",32,9600,9326,0,112
+13,"exact top-k, fp16 pick",64,9600,9326,0,112
+13,"approximate top-k (bug), fp32 pick",1,9600,9326,0,0
+13,"approximate top-k (bug), fp32 pick",8,9600,9326,0,0
+13,"approximate top-k (bug), fp32 pick",32,9600,8964,391,4020
+13,"approximate top-k (bug), fp32 pick",64,9600,8964,391,4020
+14,"exact top-k, fp32 pick",1,9600,9325,0,0
+14,"exact top-k, fp32 pick",8,9600,9325,0,0
+14,"exact top-k, fp32 pick",32,9600,9325,0,0
+14,"exact top-k, fp32 pick",64,9600,9325,0,0
+14,"exact top-k, fp16 pick",1,9600,9326,1,100
+14,"exact top-k, fp16 pick",8,9600,9326,1,100
+14,"exact top-k, fp16 pick",32,9600,9326,1,100
+14,"exact top-k, fp16 pick",64,9600,9326,1,100
+14,"approximate top-k (bug), fp32 pick",1,9600,9325,0,0
+14,"approximate top-k (bug), fp32 pick",8,9600,9325,0,0
+14,"approximate top-k (bug), fp32 pick",32,9600,8954,381,4011
+14,"approximate top-k (bug), fp32 pick",64,9600,8954,381,4011
+15,"exact top-k, fp32 pick",1,9600,9330,0,0
+15,"exact top-k, fp32 pick",8,9600,9330,0,0
+15,"exact top-k, fp32 pick",32,9600,9330,0,0
+15,"exact top-k, fp32 pick",64,9600,9330,0,0
+15,"exact top-k, fp16 pick",1,9600,9329,2,99
+15,"exact top-k, fp16 pick",8,9600,9329,2,99
+15,"exact top-k, fp16 pick",32,9600,9329,2,99
+15,"exact top-k, fp16 pick",64,9600,9329,2,99
+15,"approximate top-k (bug), fp32 pick",1,9600,9330,0,0
+15,"approximate top-k (bug), fp32 pick",8,9600,9330,0,0
+15,"approximate top-k (bug), fp32 pick",32,9600,8972,375,3897
+15,"approximate top-k (bug), fp32 pick",64,9600,8972,375,3897
+16,"exact top-k, fp32 pick",1,9600,9349,0,0
+16,"exact top-k, fp32 pick",8,9600,9349,0,0
+16,"exact top-k, fp32 pick",32,9600,9349,0,0
+16,"exact top-k, fp32 pick",64,9600,9349,0,0
+16,"exact top-k, fp16 pick",1,9600,9349,0,102
+16,"exact top-k, fp16 pick",8,9600,9349,0,102
+16,"exact top-k, fp16 pick",32,9600,9349,0,102
+16,"exact top-k, fp16 pick",64,9600,9349,0,102
+16,"approximate top-k (bug), fp32 pick",1,9600,9349,0,0
+16,"approximate top-k (bug), fp32 pick",8,9600,9349,0,0
+16,"approximate top-k (bug), fp32 pick",32,9600,8987,375,3886
+16,"approximate top-k (bug), fp32 pick",64,9600,8987,375,3886
+17,"exact top-k, fp32 pick",1,9600,9348,0,0
+17,"exact top-k, fp32 pick",8,9600,9348,0,0
+17,"exact top-k, fp32 pick",32,9600,9348,0,0
+17,"exact top-k, fp32 pick",64,9600,9348,0,0
+17,"exact top-k, fp16 pick",1,9600,9349,1,108
+17,"exact top-k, fp16 pick",8,9600,9349,1,108
+17,"exact top-k, fp16 pick",32,9600,9349,1,108
+17,"exact top-k, fp16 pick",64,9600,9349,1,108
+17,"approximate top-k (bug), fp32 pick",1,9600,9348,0,0
+17,"approximate top-k (bug), fp32 pick",8,9600,9348,0,0
+17,"approximate top-k (bug), fp32 pick",32,9600,8988,386,4001
+17,"approximate top-k (bug), fp32 pick",64,9600,8988,386,4001
+18,"exact top-k, fp32 pick",1,9600,9345,0,0
+18,"exact top-k, fp32 pick",8,9600,9345,0,0
+18,"exact top-k, fp32 pick",32,9600,9345,0,0
+18,"exact top-k, fp32 pick",64,9600,9345,0,0
+18,"exact top-k, fp16 pick",1,9600,9345,0,107
+18,"exact top-k, fp16 pick",8,9600,9345,0,107
+18,"exact top-k, fp16 pick",32,9600,9345,0,107
+18,"exact top-k, fp16 pick",64,9600,9345,0,107
+18,"approximate top-k (bug), fp32 pick",1,9600,9345,0,0
+18,"approximate top-k (bug), fp32 pick",8,9600,9345,0,0
+18,"approximate top-k (bug), fp32 pick",32,9600,8970,383,3880
+18,"approximate top-k (bug), fp32 pick",64,9600,8970,383,3880
+19,"exact top-k, fp32 pick",1,9600,9348,0,0
+19,"exact top-k, fp32 pick",8,9600,9348,0,0
+19,"exact top-k, fp32 pick",32,9600,9348,0,0
+19,"exact top-k, fp32 pick",64,9600,9348,0,0
+19,"exact top-k, fp16 pick",1,9600,9349,1,119
+19,"exact top-k, fp16 pick",8,9600,9349,1,119
+19,"exact top-k, fp16 pick",32,9600,9349,1,119
+19,"exact top-k, fp16 pick",64,9600,9349,1,119
+19,"approximate top-k (bug), fp32 pick",1,9600,9348,0,0
+19,"approximate top-k (bug), fp32 pick",8,9600,9348,0,0
+19,"approximate top-k (bug), fp32 pick",32,9600,8979,384,3937
+19,"approximate top-k (bug), fp32 pick",64,9600,8979,384,3937

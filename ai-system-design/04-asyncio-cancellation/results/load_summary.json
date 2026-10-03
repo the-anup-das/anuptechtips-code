@@ -1,0 +1,589 @@
+{
+  "setup": {
+    "requests": 10000,
+    "tasks": 200,
+    "pool": 10,
+    "delay_ms": 5,
+    "timeout_ms": [
+      5,
+      120
+    ],
+    "think_ms": 600
+  },
+  "variants": {
+    "toy-buggy": {
+      "runs": 20,
+      "library": "toy pool",
+      "correct": {
+        "median": 150.0,
+        "min": 81,
+        "max": 223
+      },
+      "wrong_owner": {
+        "median": 9820.5,
+        "min": 9741,
+        "max": 9893
+      },
+      "misses": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "owner_mismatches_caught": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "timed_out": {
+        "median": 32.0,
+        "min": 26,
+        "max": 36
+      },
+      "errors": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "connections_opened": {
+        "median": 10.0,
+        "min": 8,
+        "max": 10
+      },
+      "p50_ms": {
+        "median": 0.07,
+        "min": 0.05,
+        "max": 0.13
+      },
+      "p99_ms": {
+        "median": 11.84,
+        "min": 10.83,
+        "max": 12.28
+      },
+      "seconds": {
+        "median": 18.455,
+        "min": 17.57,
+        "max": 19.28
+      },
+      "error_types_all_runs": {},
+      "undecodable_replies_all_runs": {},
+      "runs_with_wrong_owner_reads": 20
+    },
+    "toy-fixed": {
+      "runs": 20,
+      "library": "toy pool",
+      "correct": {
+        "median": 9332.0,
+        "min": 9264,
+        "max": 9421
+      },
+      "wrong_owner": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "misses": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "owner_mismatches_caught": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "timed_out": {
+        "median": 668.0,
+        "min": 579,
+        "max": 736
+      },
+      "errors": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "connections_opened": {
+        "median": 660.0,
+        "min": 577,
+        "max": 726
+      },
+      "p50_ms": {
+        "median": 12.26,
+        "min": 11.95,
+        "max": 12.48
+      },
+      "p99_ms": {
+        "median": 20.835,
+        "min": 19.06,
+        "max": 22.36
+      },
+      "seconds": {
+        "median": 19.04,
+        "min": 18.1,
+        "max": 19.8
+      },
+      "error_types_all_runs": {},
+      "undecodable_replies_all_runs": {},
+      "runs_with_wrong_owner_reads": 0
+    },
+    "toy-buggy+owner-check": {
+      "runs": 20,
+      "library": "toy pool",
+      "correct": {
+        "median": 155.5,
+        "min": 83,
+        "max": 199
+      },
+      "wrong_owner": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "misses": {
+        "median": 9813.5,
+        "min": 9769,
+        "max": 9889
+      },
+      "owner_mismatches_caught": {
+        "median": 9813.5,
+        "min": 9769,
+        "max": 9889
+      },
+      "timed_out": {
+        "median": 31.0,
+        "min": 24,
+        "max": 35
+      },
+      "errors": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "connections_opened": {
+        "median": 10.0,
+        "min": 8,
+        "max": 10
+      },
+      "p50_ms": {
+        "median": 0.12,
+        "min": 0.09,
+        "max": 0.28
+      },
+      "p99_ms": {
+        "median": 11.825,
+        "min": 10.89,
+        "max": 12.27
+      },
+      "seconds": {
+        "median": 18.47,
+        "min": 17.57,
+        "max": 19.27
+      },
+      "error_types_all_runs": {},
+      "undecodable_replies_all_runs": {},
+      "runs_with_wrong_owner_reads": 0
+    },
+    "redis-py-4.5.1": {
+      "runs": 20,
+      "library": "redis-py 4.5.1",
+      "correct": {
+        "median": 7238.0,
+        "min": 6826,
+        "max": 7545
+      },
+      "wrong_owner": {
+        "median": 2143.5,
+        "min": 1869,
+        "max": 2524
+      },
+      "misses": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "owner_mismatches_caught": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "timed_out": {
+        "median": 597.5,
+        "min": 533,
+        "max": 661
+      },
+      "errors": {
+        "median": 30.0,
+        "min": 21,
+        "max": 39
+      },
+      "connections_opened": {
+        "median": 575.5,
+        "min": 519,
+        "max": 631
+      },
+      "p50_ms": {
+        "median": 11.82,
+        "min": 11.71,
+        "max": 11.96
+      },
+      "p99_ms": {
+        "median": 26.825,
+        "min": 26.32,
+        "max": 27.5
+      },
+      "seconds": {
+        "median": 18.990000000000002,
+        "min": 18.06,
+        "max": 19.75
+      },
+      "error_types_all_runs": {
+        "JSONDecodeError": 604
+      },
+      "undecodable_replies_all_runs": {
+        "OK": 604
+      },
+      "runs_with_wrong_owner_reads": 20
+    },
+    "redis-py-4.5.1+owner-check": {
+      "runs": 20,
+      "library": "redis-py 4.5.1",
+      "correct": {
+        "median": 7195.5,
+        "min": 6872,
+        "max": 7441
+      },
+      "wrong_owner": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "misses": {
+        "median": 2206.0,
+        "min": 1990,
+        "max": 2469
+      },
+      "owner_mismatches_caught": {
+        "median": 2206.0,
+        "min": 1990,
+        "max": 2469
+      },
+      "timed_out": {
+        "median": 598.5,
+        "min": 569,
+        "max": 659
+      },
+      "errors": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "connections_opened": {
+        "median": 572.5,
+        "min": 542,
+        "max": 628
+      },
+      "p50_ms": {
+        "median": 11.844999999999999,
+        "min": 11.73,
+        "max": 12.0
+      },
+      "p99_ms": {
+        "median": 26.98,
+        "min": 26.52,
+        "max": 27.92
+      },
+      "seconds": {
+        "median": 18.990000000000002,
+        "min": 18.07,
+        "max": 19.82
+      },
+      "error_types_all_runs": {},
+      "undecodable_replies_all_runs": {},
+      "runs_with_wrong_owner_reads": 0
+    },
+    "redis-py": {
+      "runs": 20,
+      "library": "redis-py 8.1.0",
+      "correct": {
+        "median": 8078.5,
+        "min": 7643,
+        "max": 8237
+      },
+      "wrong_owner": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "misses": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "owner_mismatches_caught": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "timed_out": {
+        "median": 1921.5,
+        "min": 1763,
+        "max": 2357
+      },
+      "errors": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "connections_opened": {
+        "median": 1415.0,
+        "min": 1331,
+        "max": 1606
+      },
+      "p50_ms": {
+        "median": 18.975,
+        "min": 16.81,
+        "max": 23.29
+      },
+      "p99_ms": {
+        "median": 74.52000000000001,
+        "min": 70.17,
+        "max": 80.24
+      },
+      "seconds": {
+        "median": 19.525,
+        "min": 18.71,
+        "max": 20.39
+      },
+      "error_types_all_runs": {},
+      "undecodable_replies_all_runs": {},
+      "runs_with_wrong_owner_reads": 0
+    },
+    "redis-py+owner-check": {
+      "runs": 20,
+      "library": "redis-py 8.1.0",
+      "correct": {
+        "median": 8007.0,
+        "min": 7720,
+        "max": 8386
+      },
+      "wrong_owner": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "misses": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "owner_mismatches_caught": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "timed_out": {
+        "median": 1993.0,
+        "min": 1614,
+        "max": 2280
+      },
+      "errors": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "connections_opened": {
+        "median": 1450.0,
+        "min": 1266,
+        "max": 1582
+      },
+      "p50_ms": {
+        "median": 19.369999999999997,
+        "min": 15.88,
+        "max": 22.3
+      },
+      "p99_ms": {
+        "median": 74.0,
+        "min": 68.68,
+        "max": 79.86
+      },
+      "seconds": {
+        "median": 19.535,
+        "min": 18.69,
+        "max": 20.42
+      },
+      "error_types_all_runs": {},
+      "undecodable_replies_all_runs": {},
+      "runs_with_wrong_owner_reads": 0
+    },
+    "redis-py-no-timeouts": {
+      "runs": 20,
+      "library": "redis-py 8.1.0",
+      "correct": {
+        "median": 10000.0,
+        "min": 10000,
+        "max": 10000
+      },
+      "wrong_owner": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "misses": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "owner_mismatches_caught": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "timed_out": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "errors": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "connections_opened": {
+        "median": 10.0,
+        "min": 10,
+        "max": 10
+      },
+      "p50_ms": {
+        "median": 12.205,
+        "min": 12.0,
+        "max": 12.38
+      },
+      "p99_ms": {
+        "median": 22.845,
+        "min": 20.5,
+        "max": 28.03
+      },
+      "seconds": {
+        "median": 18.96,
+        "min": 18.49,
+        "max": 19.94
+      },
+      "error_types_all_runs": {},
+      "undecodable_replies_all_runs": {},
+      "runs_with_wrong_owner_reads": 0
+    },
+    "toy-fixed-no-timeouts": {
+      "runs": 20,
+      "library": "toy pool",
+      "correct": {
+        "median": 10000.0,
+        "min": 10000,
+        "max": 10000
+      },
+      "wrong_owner": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "misses": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "owner_mismatches_caught": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "timed_out": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "errors": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "connections_opened": {
+        "median": 10.0,
+        "min": 10,
+        "max": 10
+      },
+      "p50_ms": {
+        "median": 12.094999999999999,
+        "min": 11.79,
+        "max": 12.31
+      },
+      "p99_ms": {
+        "median": 22.06,
+        "min": 19.55,
+        "max": 25.22
+      },
+      "seconds": {
+        "median": 18.95,
+        "min": 18.45,
+        "max": 19.92
+      },
+      "error_types_all_runs": {},
+      "undecodable_replies_all_runs": {},
+      "runs_with_wrong_owner_reads": 0
+    },
+    "redis-py-lean-handshake": {
+      "runs": 20,
+      "library": "redis-py 8.1.0",
+      "correct": {
+        "median": 9179.5,
+        "min": 9089,
+        "max": 9263
+      },
+      "wrong_owner": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "misses": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "owner_mismatches_caught": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "timed_out": {
+        "median": 820.5,
+        "min": 737,
+        "max": 911
+      },
+      "errors": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "connections_opened": {
+        "median": 799.0,
+        "min": 725,
+        "max": 881
+      },
+      "p50_ms": {
+        "median": 12.49,
+        "min": 12.32,
+        "max": 12.75
+      },
+      "p99_ms": {
+        "median": 30.82,
+        "min": 29.73,
+        "max": 32.87
+      },
+      "seconds": {
+        "median": 19.15,
+        "min": 18.16,
+        "max": 19.89
+      },
+      "error_types_all_runs": {},
+      "undecodable_replies_all_runs": {},
+      "runs_with_wrong_owner_reads": 0
+    }
+  }
+}

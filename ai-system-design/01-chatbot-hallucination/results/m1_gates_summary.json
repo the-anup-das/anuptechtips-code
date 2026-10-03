@@ -1,0 +1,732 @@
+{
+  "questions": 300,
+  "seeds": 20,
+  "kinds": {
+    "answerable": 150,
+    "no_policy": 50,
+    "legal": 50,
+    "leading": 50
+  },
+  "settings": {
+    "tau": 0.2,
+    "theta": 0.75,
+    "judge_theta": 0.6,
+    "k": 5,
+    "rates": {
+      "answerable": {
+        "faithful": 0.7,
+        "blend": 0.15,
+        "wrong_clause": 0.15
+      },
+      "leading": {
+        "agree": 0.6,
+        "faithful": 0.4
+      },
+      "no_policy": {
+        "gap_fill": 1.0
+      },
+      "legal": {
+        "gap_fill": 1.0
+      }
+    },
+    "reword_rate": 0.5
+  },
+  "router": {
+    "legal_no_intent": 5,
+    "legal_sent_to_legal": 43,
+    "legal_typed": 2,
+    "no_policy_no_intent": 42,
+    "no_policy_typed": 8,
+    "with_clause_no_intent": 28,
+    "with_clause_right": 162,
+    "with_clause_sent_to_legal": 2,
+    "with_clause_wrong_type": 8
+  },
+  "configs": {
+    "none": {
+      "unsafe": {
+        "median": 178.5,
+        "min": 171,
+        "max": 190
+      },
+      "false_handoffs": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "handoffs": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "backend_answers": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "drafted": {
+        "median": 300.0,
+        "min": 300,
+        "max": 300
+      },
+      "tier2": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "right_drafts_checked": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "right_drafts_to_tier2": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "wrong_clause_checked": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "wrong_clause_stopped_by_type_only": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "unsafe_blend": {
+        "median": 21.5,
+        "min": 13,
+        "max": 28
+      },
+      "unsafe_wrong_clause": {
+        "median": 22.0,
+        "min": 15,
+        "max": 31
+      },
+      "unsafe_gap_fill": {
+        "median": 100.0,
+        "min": 100,
+        "max": 100
+      },
+      "unsafe_agree": {
+        "median": 30.0,
+        "min": 22,
+        "max": 36
+      },
+      "unsafe_retrieval_miss": {
+        "median": 7.0,
+        "min": 5,
+        "max": 9
+      },
+      "unsafe_kind_answerable": {
+        "median": 50.5,
+        "min": 39,
+        "max": 57
+      },
+      "unsafe_kind_no_policy": {
+        "median": 50.0,
+        "min": 50,
+        "max": 50
+      },
+      "unsafe_kind_legal": {
+        "median": 50.0,
+        "min": 50,
+        "max": 50
+      },
+      "unsafe_kind_leading": {
+        "median": 30.5,
+        "min": 23,
+        "max": 37
+      },
+      "false_handoff_out_of_scope": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "false_handoff_no_policy": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "false_handoff_policy_type": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "false_handoff_facts_or_wording": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "false_handoff_commitment": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "handoff_rate_pct": {
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "tier2_share_of_drafts_pct": {
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "tier2_share_of_right_drafts_pct": {
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    "scope": {
+      "unsafe": {
+        "median": 117.5,
+        "min": 110,
+        "max": 130
+      },
+      "false_handoffs": {
+        "median": 5.0,
+        "min": 2,
+        "max": 7
+      },
+      "handoffs": {
+        "median": 67.0,
+        "min": 67,
+        "max": 67
+      },
+      "backend_answers": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "drafted": {
+        "median": 233.0,
+        "min": 233,
+        "max": 233
+      },
+      "tier2": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "right_drafts_checked": {
+        "median": 115.5,
+        "min": 103,
+        "max": 123
+      },
+      "right_drafts_to_tier2": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "wrong_clause_checked": {
+        "median": 21.0,
+        "min": 15,
+        "max": 31
+      },
+      "wrong_clause_stopped_by_type_only": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "unsafe_blend": {
+        "median": 20.5,
+        "min": 13,
+        "max": 26
+      },
+      "unsafe_wrong_clause": {
+        "median": 21.0,
+        "min": 15,
+        "max": 31
+      },
+      "unsafe_gap_fill": {
+        "median": 44.0,
+        "min": 44,
+        "max": 44
+      },
+      "unsafe_agree": {
+        "median": 29.0,
+        "min": 19,
+        "max": 34
+      },
+      "unsafe_retrieval_miss": {
+        "median": 6.0,
+        "min": 4,
+        "max": 8
+      },
+      "unsafe_kind_answerable": {
+        "median": 47.5,
+        "min": 35,
+        "max": 54
+      },
+      "unsafe_kind_no_policy": {
+        "median": 37.0,
+        "min": 37,
+        "max": 37
+      },
+      "unsafe_kind_legal": {
+        "median": 7.0,
+        "min": 7,
+        "max": 7
+      },
+      "unsafe_kind_leading": {
+        "median": 29.0,
+        "min": 20,
+        "max": 35
+      },
+      "false_handoff_out_of_scope": {
+        "median": 1.0,
+        "min": 0,
+        "max": 2
+      },
+      "false_handoff_no_policy": {
+        "median": 5.0,
+        "min": 2,
+        "max": 7
+      },
+      "false_handoff_policy_type": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "false_handoff_facts_or_wording": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "false_handoff_commitment": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "handoff_rate_pct": {
+        "median": 22.3,
+        "min": 22.3,
+        "max": 22.3
+      },
+      "tier2_share_of_drafts_pct": {
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "tier2_share_of_right_drafts_pct": {
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    "scope+check, no type check": {
+      "unsafe": {
+        "median": 29.5,
+        "min": 23,
+        "max": 42
+      },
+      "false_handoffs": {
+        "median": 6.0,
+        "min": 2,
+        "max": 8
+      },
+      "handoffs": {
+        "median": 157.0,
+        "min": 144,
+        "max": 167
+      },
+      "backend_answers": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "drafted": {
+        "median": 233.0,
+        "min": 233,
+        "max": 233
+      },
+      "tier2": {
+        "median": 153.0,
+        "min": 137,
+        "max": 159
+      },
+      "right_drafts_checked": {
+        "median": 115.5,
+        "min": 103,
+        "max": 123
+      },
+      "right_drafts_to_tier2": {
+        "median": 59.5,
+        "min": 46,
+        "max": 70
+      },
+      "wrong_clause_checked": {
+        "median": 21.0,
+        "min": 15,
+        "max": 31
+      },
+      "wrong_clause_stopped_by_type_only": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "unsafe_blend": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "unsafe_wrong_clause": {
+        "median": 21.0,
+        "min": 15,
+        "max": 31
+      },
+      "unsafe_gap_fill": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "unsafe_agree": {
+        "median": 3.0,
+        "min": 1,
+        "max": 4
+      },
+      "unsafe_retrieval_miss": {
+        "median": 6.0,
+        "min": 4,
+        "max": 8
+      },
+      "unsafe_kind_answerable": {
+        "median": 26.0,
+        "min": 20,
+        "max": 37
+      },
+      "unsafe_kind_no_policy": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "unsafe_kind_legal": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "unsafe_kind_leading": {
+        "median": 3.0,
+        "min": 2,
+        "max": 5
+      },
+      "false_handoff_out_of_scope": {
+        "median": 1.0,
+        "min": 0,
+        "max": 2
+      },
+      "false_handoff_no_policy": {
+        "median": 5.0,
+        "min": 2,
+        "max": 7
+      },
+      "false_handoff_policy_type": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "false_handoff_facts_or_wording": {
+        "median": 0.0,
+        "min": 0,
+        "max": 1
+      },
+      "false_handoff_commitment": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "handoff_rate_pct": {
+        "median": 52.35,
+        "min": 48.0,
+        "max": 55.7
+      },
+      "tier2_share_of_drafts_pct": {
+        "median": 65.7,
+        "min": 58.8,
+        "max": 68.2
+      },
+      "tier2_share_of_right_drafts_pct": {
+        "median": 52.25,
+        "min": 43.0,
+        "max": 57.9
+      }
+    },
+    "scope+check": {
+      "unsafe": {
+        "median": 11.0,
+        "min": 7,
+        "max": 19
+      },
+      "false_handoffs": {
+        "median": 24.0,
+        "min": 18,
+        "max": 30
+      },
+      "handoffs": {
+        "median": 190.5,
+        "min": 185,
+        "max": 203
+      },
+      "backend_answers": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "drafted": {
+        "median": 233.0,
+        "min": 233,
+        "max": 233
+      },
+      "tier2": {
+        "median": 175.0,
+        "min": 167,
+        "max": 185
+      },
+      "right_drafts_checked": {
+        "median": 115.5,
+        "min": 103,
+        "max": 123
+      },
+      "right_drafts_to_tier2": {
+        "median": 67.0,
+        "min": 54,
+        "max": 79
+      },
+      "wrong_clause_checked": {
+        "median": 21.0,
+        "min": 15,
+        "max": 31
+      },
+      "wrong_clause_stopped_by_type_only": {
+        "median": 13.0,
+        "min": 7,
+        "max": 18
+      },
+      "unsafe_blend": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "unsafe_wrong_clause": {
+        "median": 8.0,
+        "min": 4,
+        "max": 14
+      },
+      "unsafe_gap_fill": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "unsafe_agree": {
+        "median": 3.0,
+        "min": 1,
+        "max": 4
+      },
+      "unsafe_retrieval_miss": {
+        "median": 1.0,
+        "min": 0,
+        "max": 2
+      },
+      "unsafe_kind_answerable": {
+        "median": 8.5,
+        "min": 5,
+        "max": 14
+      },
+      "unsafe_kind_no_policy": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "unsafe_kind_legal": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "unsafe_kind_leading": {
+        "median": 3.0,
+        "min": 2,
+        "max": 5
+      },
+      "false_handoff_out_of_scope": {
+        "median": 1.0,
+        "min": 0,
+        "max": 2
+      },
+      "false_handoff_no_policy": {
+        "median": 5.0,
+        "min": 2,
+        "max": 7
+      },
+      "false_handoff_policy_type": {
+        "median": 18.0,
+        "min": 13,
+        "max": 23
+      },
+      "false_handoff_facts_or_wording": {
+        "median": 0.0,
+        "min": 0,
+        "max": 1
+      },
+      "false_handoff_commitment": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "handoff_rate_pct": {
+        "median": 63.5,
+        "min": 61.7,
+        "max": 67.7
+      },
+      "tier2_share_of_drafts_pct": {
+        "median": 75.1,
+        "min": 71.7,
+        "max": 79.4
+      },
+      "tier2_share_of_right_drafts_pct": {
+        "median": 58.3,
+        "min": 51.4,
+        "max": 66.1
+      }
+    },
+    "all gates": {
+      "unsafe": {
+        "median": 10.0,
+        "min": 5,
+        "max": 16
+      },
+      "false_handoffs": {
+        "median": 24.0,
+        "min": 18,
+        "max": 30
+      },
+      "handoffs": {
+        "median": 190.0,
+        "min": 184,
+        "max": 202
+      },
+      "backend_answers": {
+        "median": 3.0,
+        "min": 0,
+        "max": 5
+      },
+      "drafted": {
+        "median": 233.0,
+        "min": 233,
+        "max": 233
+      },
+      "tier2": {
+        "median": 167.5,
+        "min": 160,
+        "max": 176
+      },
+      "right_drafts_checked": {
+        "median": 115.5,
+        "min": 103,
+        "max": 123
+      },
+      "right_drafts_to_tier2": {
+        "median": 67.0,
+        "min": 54,
+        "max": 79
+      },
+      "wrong_clause_checked": {
+        "median": 21.0,
+        "min": 15,
+        "max": 31
+      },
+      "wrong_clause_stopped_by_type_only": {
+        "median": 13.0,
+        "min": 7,
+        "max": 18
+      },
+      "unsafe_blend": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "unsafe_wrong_clause": {
+        "median": 8.0,
+        "min": 4,
+        "max": 14
+      },
+      "unsafe_gap_fill": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "unsafe_agree": {
+        "median": 1.0,
+        "min": 0,
+        "max": 1
+      },
+      "unsafe_retrieval_miss": {
+        "median": 1.0,
+        "min": 0,
+        "max": 2
+      },
+      "unsafe_kind_answerable": {
+        "median": 8.5,
+        "min": 5,
+        "max": 14
+      },
+      "unsafe_kind_no_policy": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "unsafe_kind_legal": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "unsafe_kind_leading": {
+        "median": 1.0,
+        "min": 0,
+        "max": 2
+      },
+      "false_handoff_out_of_scope": {
+        "median": 1.0,
+        "min": 0,
+        "max": 2
+      },
+      "false_handoff_no_policy": {
+        "median": 5.0,
+        "min": 2,
+        "max": 7
+      },
+      "false_handoff_policy_type": {
+        "median": 18.0,
+        "min": 13,
+        "max": 23
+      },
+      "false_handoff_facts_or_wording": {
+        "median": 0.0,
+        "min": 0,
+        "max": 1
+      },
+      "false_handoff_commitment": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "handoff_rate_pct": {
+        "median": 63.3,
+        "min": 61.3,
+        "max": 67.3
+      },
+      "tier2_share_of_drafts_pct": {
+        "median": 71.85,
+        "min": 68.7,
+        "max": 75.5
+      },
+      "tier2_share_of_right_drafts_pct": {
+        "median": 58.3,
+        "min": 51.4,
+        "max": 66.1
+      }
+    }
+  }
+}

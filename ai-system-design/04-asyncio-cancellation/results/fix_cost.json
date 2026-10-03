@@ -1,0 +1,71 @@
+{
+  "delay_ms_each_way": 5.0,
+  "redis_py": "8.1.0",
+  "samples_per_cell": 400,
+  "get_ms": {
+    "redis-py, warm connection": {
+      "median": 12.02,
+      "min": 10.73,
+      "max": 14.24
+    },
+    "redis-py, closed connection": {
+      "median": 49.81,
+      "min": 46.54,
+      "max": 53.84
+    },
+    "toy pool, warm connection": {
+      "median": 11.63,
+      "min": 10.36,
+      "max": 13.86
+    },
+    "toy pool, closed connection": {
+      "median": 12.48,
+      "min": 11.21,
+      "max": 15.57
+    }
+  },
+  "handshake": [
+    {
+      "redis_py": "8.1.0",
+      "sent_before_the_command": [
+        [
+          "HELLO 3"
+        ],
+        [
+          "CLIENT MAINT_NOTIFICATIONS"
+        ],
+        [
+          "CLIENT SETINFO",
+          "CLIENT SETINFO",
+          "SELECT 9"
+        ]
+      ],
+      "round_trips_before_the_command": 3,
+      "the_command": [
+        "GET handshake:none"
+      ]
+    },
+    {
+      "redis_py": "4.5.1",
+      "sent_before_the_command": [
+        [
+          "SELECT 9"
+        ]
+      ],
+      "round_trips_before_the_command": 1,
+      "the_command": [
+        "GET handshake:none"
+      ]
+    }
+  ],
+  "owner_check": {
+    "calls_per_round": 200000,
+    "rounds": 20,
+    "value_bytes": 64,
+    "json_loads_ns": 1933.7,
+    "owned_by_ns": 2017.4,
+    "owner_check_adds_ns": 88.2,
+    "owner_check_adds_ns_min": -68.3,
+    "owner_check_adds_ns_max": 376.0
+  }
+}

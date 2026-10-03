@@ -1,0 +1,87 @@
+{
+  "rounds": 20,
+  "calls_per_round": 1000,
+  "warmup": 100,
+  "results": [
+    {
+      "case": "Redis PING",
+      "redis_round_trips": 1,
+      "calls": 20000,
+      "p50_us": 338.7,
+      "p99_us": 495.5,
+      "round_p50_min_us": 310.7,
+      "round_p50_max_us": 373.5,
+      "mean_us": 348.2
+    },
+    {
+      "case": "read on prod",
+      "redis_round_trips": 1,
+      "calls": 20000,
+      "p50_us": 349.7,
+      "p99_us": 519.0,
+      "round_p50_min_us": 329.3,
+      "round_p50_max_us": 380.8,
+      "mean_us": 361.8
+    },
+    {
+      "case": "destructive on staging",
+      "redis_round_trips": 2,
+      "calls": 20000,
+      "p50_us": 735.0,
+      "p99_us": 1037.2,
+      "round_p50_min_us": 682.4,
+      "round_p50_max_us": 792.7,
+      "mean_us": 756.4
+    },
+    {
+      "case": "approved write on prod",
+      "redis_round_trips": 3,
+      "calls": 20000,
+      "p50_us": 1068.0,
+      "p99_us": 1524.0,
+      "round_p50_min_us": 1001.6,
+      "round_p50_max_us": 1215.8,
+      "mean_us": 1102.4
+    },
+    {
+      "case": "approved destructive on prod",
+      "redis_round_trips": 4,
+      "calls": 20000,
+      "p50_us": 1464.3,
+      "p99_us": 2061.6,
+      "round_p50_min_us": 1387.3,
+      "round_p50_max_us": 1695.3,
+      "mean_us": 1507.7
+    },
+    {
+      "case": "denied destructive on prod",
+      "redis_round_trips": 4,
+      "calls": 20000,
+      "p50_us": 1460.5,
+      "p99_us": 1947.1,
+      "round_p50_min_us": 1388.9,
+      "round_p50_max_us": 1533.2,
+      "mean_us": 1494.4
+    },
+    {
+      "case": "approved destructive on prod + Kafka audit",
+      "redis_round_trips": 4,
+      "calls": 20000,
+      "p50_us": 1482.6,
+      "p99_us": 2017.8,
+      "round_p50_min_us": 1399.1,
+      "round_p50_max_us": 1608.7,
+      "mean_us": 1521.5
+    },
+    {
+      "case": "approve() (the human's side)",
+      "redis_round_trips": 1,
+      "calls": 20000,
+      "p50_us": 367.3,
+      "p99_us": 538.6,
+      "round_p50_min_us": 342.8,
+      "round_p50_max_us": 410.6,
+      "mean_us": 378.4
+    }
+  ]
+}

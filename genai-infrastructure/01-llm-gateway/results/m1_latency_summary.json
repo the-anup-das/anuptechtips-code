@@ -1,0 +1,596 @@
+{
+  "started": "2026-10-01 21:29:47",
+  "setup": {
+    "rounds": 10,
+    "python": "3.12.4",
+    "experiments": {
+      "instant": {
+        "mock_ms_to_first_token": 0,
+        "requests_per_cell": {
+          "1": 2000,
+          "16": 2000,
+          "64": 2000
+        }
+      },
+      "one second": {
+        "mock_ms_to_first_token": 1000,
+        "requests_per_cell": {
+          "64": 640
+        }
+      }
+    },
+    "mock": "mock_upstream:app, 1 uvicorn process, 20-token answers",
+    "gateway": "gateway:app, 1 uvicorn process; Redis 8.10.2 in Docker",
+    "client": "asyncio, one httpx.AsyncClient per concurrent caller, keep-alive"
+  },
+  "results": {
+    "instant | non-stream | c=1 | direct": {
+      "p50_ms": {
+        "median": 0.746,
+        "min": 0.736,
+        "max": 0.786
+      },
+      "p99_ms": {
+        "median": 1.131,
+        "min": 1.097,
+        "max": 1.232
+      },
+      "rps": {
+        "median": 1260.65,
+        "min": 1210.7,
+        "max": 1291.7
+      }
+    },
+    "instant | non-stream | c=1 | proxy": {
+      "p50_ms": {
+        "median": 1.864,
+        "min": 1.854,
+        "max": 1.931
+      },
+      "p99_ms": {
+        "median": 2.479,
+        "min": 2.429,
+        "max": 2.68
+      },
+      "rps": {
+        "median": 517.45,
+        "min": 503.2,
+        "max": 522.9
+      },
+      "added_p50_ms": {
+        "median": 1.115,
+        "min": 1.101,
+        "max": 1.19
+      },
+      "added_p99_ms": {
+        "median": 1.341,
+        "min": 1.278,
+        "max": 1.544
+      }
+    },
+    "instant | non-stream | c=1 | all checks": {
+      "p50_ms": {
+        "median": 3.194,
+        "min": 3.14,
+        "max": 3.24
+      },
+      "p99_ms": {
+        "median": 4.137,
+        "min": 4.004,
+        "max": 4.45
+      },
+      "rps": {
+        "median": 307.3,
+        "min": 300.9,
+        "max": 313.6
+      },
+      "added_p50_ms": {
+        "median": 2.446,
+        "min": 2.395,
+        "max": 2.491
+      },
+      "added_p99_ms": {
+        "median": 2.994,
+        "min": 2.905,
+        "max": 3.218
+      }
+    },
+    "instant | non-stream | c=16 | direct": {
+      "p50_ms": {
+        "median": 9.233,
+        "min": 8.971,
+        "max": 9.533
+      },
+      "p99_ms": {
+        "median": 11.462,
+        "min": 10.184,
+        "max": 17.381
+      },
+      "rps": {
+        "median": 1724.4,
+        "min": 1647.9,
+        "max": 1777.7
+      }
+    },
+    "instant | non-stream | c=16 | proxy": {
+      "p50_ms": {
+        "median": 29.299,
+        "min": 28.272,
+        "max": 30.549
+      },
+      "p99_ms": {
+        "median": 128.105,
+        "min": 122.044,
+        "max": 134.819
+      },
+      "rps": {
+        "median": 438.8,
+        "min": 420.8,
+        "max": 443.9
+      },
+      "added_p50_ms": {
+        "median": 20.126,
+        "min": 19.104,
+        "max": 21.065
+      },
+      "added_p99_ms": {
+        "median": 116.63,
+        "min": 104.663,
+        "max": 124.635
+      }
+    },
+    "instant | non-stream | c=16 | all checks": {
+      "p50_ms": {
+        "median": 30.267,
+        "min": 25.495,
+        "max": 30.91
+      },
+      "p99_ms": {
+        "median": 150.784,
+        "min": 134.543,
+        "max": 169.033
+      },
+      "rps": {
+        "median": 374.75,
+        "min": 360.7,
+        "max": 378.2
+      },
+      "added_p50_ms": {
+        "median": 20.912,
+        "min": 16.327,
+        "max": 21.939
+      },
+      "added_p99_ms": {
+        "median": 137.827,
+        "min": 123.121,
+        "max": 158.849
+      }
+    },
+    "instant | non-stream | c=64 | direct": {
+      "p50_ms": {
+        "median": 33.268,
+        "min": 32.643,
+        "max": 35.457
+      },
+      "p99_ms": {
+        "median": 68.8,
+        "min": 54.546,
+        "max": 81.907
+      },
+      "rps": {
+        "median": 1797.15,
+        "min": 1650.2,
+        "max": 1885.6
+      }
+    },
+    "instant | non-stream | c=64 | proxy": {
+      "p50_ms": {
+        "median": 154.012,
+        "min": 141.543,
+        "max": 164.866
+      },
+      "p99_ms": {
+        "median": 1485.342,
+        "min": 1355.45,
+        "max": 1570.577
+      },
+      "rps": {
+        "median": 250.7,
+        "min": 245.1,
+        "max": 254.6
+      },
+      "added_p50_ms": {
+        "median": 120.303,
+        "min": 106.652,
+        "max": 131.96
+      },
+      "added_p99_ms": {
+        "median": 1420.354,
+        "min": 1287.148,
+        "max": 1488.67
+      }
+    },
+    "instant | non-stream | c=64 | all checks": {
+      "p50_ms": {
+        "median": 180.233,
+        "min": 174.013,
+        "max": 185.349
+      },
+      "p99_ms": {
+        "median": 1381.582,
+        "min": 1258.682,
+        "max": 1569.152
+      },
+      "rps": {
+        "median": 233.25,
+        "min": 227.6,
+        "max": 238.0
+      },
+      "added_p50_ms": {
+        "median": 146.831,
+        "min": 140.033,
+        "max": 150.421
+      },
+      "added_p99_ms": {
+        "median": 1313.302,
+        "min": 1203.824,
+        "max": 1506.042
+      }
+    },
+    "instant | stream | c=1 | direct": {
+      "p50_ms": {
+        "median": 0.866,
+        "min": 0.86,
+        "max": 0.899
+      },
+      "p99_ms": {
+        "median": 1.224,
+        "min": 1.174,
+        "max": 1.369
+      },
+      "rps": {
+        "median": 682.05,
+        "min": 657.6,
+        "max": 689.1
+      }
+    },
+    "instant | stream | c=1 | proxy": {
+      "p50_ms": {
+        "median": 2.21,
+        "min": 2.171,
+        "max": 2.635
+      },
+      "p99_ms": {
+        "median": 3.0,
+        "min": 2.774,
+        "max": 3.622
+      },
+      "rps": {
+        "median": 278.8,
+        "min": 250.3,
+        "max": 282.8
+      },
+      "added_p50_ms": {
+        "median": 1.344,
+        "min": 1.31,
+        "max": 1.736
+      },
+      "added_p99_ms": {
+        "median": 1.776,
+        "min": 1.547,
+        "max": 2.253
+      }
+    },
+    "instant | stream | c=1 | all checks": {
+      "p50_ms": {
+        "median": 3.129,
+        "min": 2.813,
+        "max": 3.763
+      },
+      "p99_ms": {
+        "median": 4.18,
+        "min": 3.985,
+        "max": 5.206
+      },
+      "rps": {
+        "median": 212.25,
+        "min": 182.5,
+        "max": 245.1
+      },
+      "added_p50_ms": {
+        "median": 2.263,
+        "min": 1.944,
+        "max": 2.864
+      },
+      "added_p99_ms": {
+        "median": 2.958,
+        "min": 2.737,
+        "max": 3.837
+      }
+    },
+    "instant | stream | c=16 | direct": {
+      "p50_ms": {
+        "median": 10.057,
+        "min": 6.869,
+        "max": 15.535
+      },
+      "p99_ms": {
+        "median": 20.764,
+        "min": 16.675,
+        "max": 25.782
+      },
+      "rps": {
+        "median": 863.55,
+        "min": 814.2,
+        "max": 1248.3
+      }
+    },
+    "instant | stream | c=16 | proxy": {
+      "p50_ms": {
+        "median": 36.065,
+        "min": 22.927,
+        "max": 41.602
+      },
+      "p99_ms": {
+        "median": 183.032,
+        "min": 137.403,
+        "max": 205.061
+      },
+      "rps": {
+        "median": 292.65,
+        "min": 278.6,
+        "max": 342.2
+      },
+      "added_p50_ms": {
+        "median": 24.896,
+        "min": 16.058,
+        "max": 31.359
+      },
+      "added_p99_ms": {
+        "median": 159.719,
+        "min": 115.914,
+        "max": 182.459
+      }
+    },
+    "instant | stream | c=16 | all checks": {
+      "p50_ms": {
+        "median": 41.773,
+        "min": 39.909,
+        "max": 44.79
+      },
+      "p99_ms": {
+        "median": 172.45,
+        "min": 164.31,
+        "max": 201.697
+      },
+      "rps": {
+        "median": 266.85,
+        "min": 254.2,
+        "max": 271.5
+      },
+      "added_p50_ms": {
+        "median": 31.526,
+        "min": 26.627,
+        "max": 34.771
+      },
+      "added_p99_ms": {
+        "median": 154.178,
+        "min": 141.545,
+        "max": 175.915
+      }
+    },
+    "instant | stream | c=64 | direct": {
+      "p50_ms": {
+        "median": 39.325,
+        "min": 37.563,
+        "max": 42.801
+      },
+      "p99_ms": {
+        "median": 65.984,
+        "min": 59.874,
+        "max": 84.194
+      },
+      "rps": {
+        "median": 897.15,
+        "min": 881.5,
+        "max": 938.4
+      }
+    },
+    "instant | stream | c=64 | proxy": {
+      "p50_ms": {
+        "median": 205.419,
+        "min": 177.298,
+        "max": 234.645
+      },
+      "p99_ms": {
+        "median": 1736.11,
+        "min": 1607.834,
+        "max": 1884.809
+      },
+      "rps": {
+        "median": 191.95,
+        "min": 176.7,
+        "max": 212.6
+      },
+      "added_p50_ms": {
+        "median": 163.895,
+        "min": 138.496,
+        "max": 193.439
+      },
+      "added_p99_ms": {
+        "median": 1670.659,
+        "min": 1532.704,
+        "max": 1822.784
+      }
+    },
+    "instant | stream | c=64 | all checks": {
+      "p50_ms": {
+        "median": 222.107,
+        "min": 211.908,
+        "max": 251.296
+      },
+      "p99_ms": {
+        "median": 1647.312,
+        "min": 1418.464,
+        "max": 1717.489
+      },
+      "rps": {
+        "median": 180.9,
+        "min": 163.5,
+        "max": 190.5
+      },
+      "added_p50_ms": {
+        "median": 182.621,
+        "min": 174.345,
+        "max": 212.573
+      },
+      "added_p99_ms": {
+        "median": 1578.28,
+        "min": 1356.439,
+        "max": 1654.343
+      }
+    },
+    "one second | non-stream | c=64 | direct": {
+      "p50_ms": {
+        "median": 1031.969,
+        "min": 1023.871,
+        "max": 1037.663
+      },
+      "p99_ms": {
+        "median": 1064.417,
+        "min": 1047.469,
+        "max": 1080.721
+      },
+      "rps": {
+        "median": 61.8,
+        "min": 61.6,
+        "max": 62.0
+      }
+    },
+    "one second | non-stream | c=64 | proxy": {
+      "p50_ms": {
+        "median": 1014.627,
+        "min": 1011.05,
+        "max": 1016.301
+      },
+      "p99_ms": {
+        "median": 1457.429,
+        "min": 1418.527,
+        "max": 1499.414
+      },
+      "rps": {
+        "median": 59.15,
+        "min": 59.0,
+        "max": 59.3
+      },
+      "added_p50_ms": {
+        "median": -17.592,
+        "min": -24.096,
+        "max": -8.244
+      },
+      "added_p99_ms": {
+        "median": 385.947,
+        "min": 349.771,
+        "max": 440.335
+      }
+    },
+    "one second | non-stream | c=64 | all checks": {
+      "p50_ms": {
+        "median": 1020.834,
+        "min": 1017.721,
+        "max": 1024.888
+      },
+      "p99_ms": {
+        "median": 1467.774,
+        "min": 1442.458,
+        "max": 1496.355
+      },
+      "rps": {
+        "median": 58.7,
+        "min": 58.4,
+        "max": 59.0
+      },
+      "added_p50_ms": {
+        "median": -11.308,
+        "min": -17.106,
+        "max": -2.886
+      },
+      "added_p99_ms": {
+        "median": 399.077,
+        "min": 373.702,
+        "max": 421.718
+      }
+    },
+    "one second | stream | c=64 | direct": {
+      "p50_ms": {
+        "median": 1015.673,
+        "min": 1011.895,
+        "max": 1019.033
+      },
+      "p99_ms": {
+        "median": 1051.77,
+        "min": 1043.997,
+        "max": 1062.685
+      },
+      "rps": {
+        "median": 60.6,
+        "min": 60.3,
+        "max": 61.1
+      }
+    },
+    "one second | stream | c=64 | proxy": {
+      "p50_ms": {
+        "median": 1013.954,
+        "min": 1012.84,
+        "max": 1016.289
+      },
+      "p99_ms": {
+        "median": 1481.89,
+        "min": 1439.095,
+        "max": 1503.093
+      },
+      "rps": {
+        "median": 57.75,
+        "min": 57.5,
+        "max": 58.0
+      },
+      "added_p50_ms": {
+        "median": -0.11,
+        "min": -5.791,
+        "max": 1.32
+      },
+      "added_p99_ms": {
+        "median": 430.48,
+        "min": 391.918,
+        "max": 447.612
+      }
+    },
+    "one second | stream | c=64 | all checks": {
+      "p50_ms": {
+        "median": 1014.316,
+        "min": 1012.421,
+        "max": 1017.308
+      },
+      "p99_ms": {
+        "median": 1469.601,
+        "min": 1379.21,
+        "max": 1518.347
+      },
+      "rps": {
+        "median": 57.6,
+        "min": 56.8,
+        "max": 58.4
+      },
+      "added_p50_ms": {
+        "median": -0.287,
+        "min": -5.344,
+        "max": 4.223
+      },
+      "added_p99_ms": {
+        "median": 419.863,
+        "min": 327.771,
+        "max": 466.246
+      }
+    }
+  }
+}

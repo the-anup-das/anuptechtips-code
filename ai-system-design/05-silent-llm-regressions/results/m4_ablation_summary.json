@@ -1,0 +1,743 @@
+{
+  "runs": 20,
+  "requests_per_eval": 7000,
+  "prompt": [
+    "You are a coding assistant.",
+    "Prefer small, reviewable changes.",
+    "Run the tests before you report success.",
+    "Keep text between tool calls to 25 words or fewer.",
+    "Never invent file paths.",
+    "Ask before deleting files."
+  ],
+  "models": {
+    "model-1": {
+      "(none: the full prompt)": {
+        "overall": {
+          "median": 0.942,
+          "min": 0.9365714285714286,
+          "max": 0.9475714285714286
+        },
+        "known_answer": {
+          "median": 0.974,
+          "min": 0.97025,
+          "max": 0.9775
+        },
+        "wrong_premise": {
+          "median": 0.91925,
+          "min": 0.902,
+          "max": 0.9285
+        },
+        "multi_step": {
+          "median": 0.8625,
+          "min": 0.831,
+          "max": 0.875
+        },
+        "runs_flagged_harmful": 0
+      },
+      "You are a coding assistant.": {
+        "overall": {
+          "median": 0.9421428571428572,
+          "min": 0.9362857142857143,
+          "max": 0.9454285714285714
+        },
+        "known_answer": {
+          "median": 0.973875,
+          "min": 0.968,
+          "max": 0.9785
+        },
+        "wrong_premise": {
+          "median": 0.9195,
+          "min": 0.9075,
+          "max": 0.9285
+        },
+        "multi_step": {
+          "median": 0.8614999999999999,
+          "min": 0.827,
+          "max": 0.878
+        },
+        "runs_flagged_harmful": 0
+      },
+      "Prefer small, reviewable changes.": {
+        "overall": {
+          "median": 0.9422142857142857,
+          "min": 0.9367142857142857,
+          "max": 0.9454285714285714
+        },
+        "known_answer": {
+          "median": 0.9735,
+          "min": 0.9685,
+          "max": 0.9795
+        },
+        "wrong_premise": {
+          "median": 0.9185,
+          "min": 0.905,
+          "max": 0.928
+        },
+        "multi_step": {
+          "median": 0.861,
+          "min": 0.843,
+          "max": 0.875
+        },
+        "runs_flagged_harmful": 0
+      },
+      "Run the tests before you report success.": {
+        "overall": {
+          "median": 0.9411428571428571,
+          "min": 0.9381428571428572,
+          "max": 0.9458571428571428
+        },
+        "known_answer": {
+          "median": 0.9725,
+          "min": 0.96875,
+          "max": 0.97625
+        },
+        "wrong_premise": {
+          "median": 0.917,
+          "min": 0.9085,
+          "max": 0.93
+        },
+        "multi_step": {
+          "median": 0.8594999999999999,
+          "min": 0.839,
+          "max": 0.881
+        },
+        "runs_flagged_harmful": 0
+      },
+      "Keep text between tool calls to 25 words or fewer.": {
+        "overall": {
+          "median": 0.9572857142857143,
+          "min": 0.9511428571428572,
+          "max": 0.9607142857142857
+        },
+        "known_answer": {
+          "median": 0.9721249999999999,
+          "min": 0.96775,
+          "max": 0.977
+        },
+        "wrong_premise": {
+          "median": 0.91725,
+          "min": 0.9065,
+          "max": 0.9315
+        },
+        "multi_step": {
+          "median": 0.975,
+          "min": 0.96,
+          "max": 0.982
+        },
+        "runs_flagged_harmful": 20
+      },
+      "Never invent file paths.": {
+        "overall": {
+          "median": 0.9414285714285714,
+          "min": 0.9371428571428572,
+          "max": 0.9478571428571428
+        },
+        "known_answer": {
+          "median": 0.973375,
+          "min": 0.96925,
+          "max": 0.9775
+        },
+        "wrong_premise": {
+          "median": 0.917,
+          "min": 0.9085,
+          "max": 0.93
+        },
+        "multi_step": {
+          "median": 0.859,
+          "min": 0.832,
+          "max": 0.883
+        },
+        "runs_flagged_harmful": 0
+      },
+      "Ask before deleting files.": {
+        "overall": {
+          "median": 0.9410714285714286,
+          "min": 0.9371428571428572,
+          "max": 0.945
+        },
+        "known_answer": {
+          "median": 0.97325,
+          "min": 0.96975,
+          "max": 0.97725
+        },
+        "wrong_premise": {
+          "median": 0.918,
+          "min": 0.905,
+          "max": 0.923
+        },
+        "multi_step": {
+          "median": 0.8605,
+          "min": 0.837,
+          "max": 0.878
+        },
+        "runs_flagged_harmful": 0
+      }
+    },
+    "model-2": {
+      "(none: the full prompt)": {
+        "overall": {
+          "median": 0.9524285714285714,
+          "min": 0.949,
+          "max": 0.958
+        },
+        "known_answer": {
+          "median": 0.98625,
+          "min": 0.981,
+          "max": 0.98925
+        },
+        "wrong_premise": {
+          "median": 0.9285,
+          "min": 0.911,
+          "max": 0.9375
+        },
+        "multi_step": {
+          "median": 0.8734999999999999,
+          "min": 0.851,
+          "max": 0.887
+        },
+        "runs_flagged_harmful": 0
+      },
+      "You are a coding assistant.": {
+        "overall": {
+          "median": 0.9522857142857143,
+          "min": 0.9481428571428572,
+          "max": 0.9574285714285714
+        },
+        "known_answer": {
+          "median": 0.9865,
+          "min": 0.98225,
+          "max": 0.9895
+        },
+        "wrong_premise": {
+          "median": 0.9235,
+          "min": 0.915,
+          "max": 0.9365
+        },
+        "multi_step": {
+          "median": 0.872,
+          "min": 0.853,
+          "max": 0.898
+        },
+        "runs_flagged_harmful": 0
+      },
+      "Prefer small, reviewable changes.": {
+        "overall": {
+          "median": 0.9534285714285714,
+          "min": 0.9485714285714286,
+          "max": 0.9567142857142857
+        },
+        "known_answer": {
+          "median": 0.98675,
+          "min": 0.9835,
+          "max": 0.9905
+        },
+        "wrong_premise": {
+          "median": 0.92625,
+          "min": 0.9195,
+          "max": 0.932
+        },
+        "multi_step": {
+          "median": 0.873,
+          "min": 0.851,
+          "max": 0.888
+        },
+        "runs_flagged_harmful": 0
+      },
+      "Run the tests before you report success.": {
+        "overall": {
+          "median": 0.9529285714285713,
+          "min": 0.947,
+          "max": 0.9584285714285714
+        },
+        "known_answer": {
+          "median": 0.9862500000000001,
+          "min": 0.98425,
+          "max": 0.9895
+        },
+        "wrong_premise": {
+          "median": 0.9275,
+          "min": 0.9145,
+          "max": 0.9335
+        },
+        "multi_step": {
+          "median": 0.8725,
+          "min": 0.842,
+          "max": 0.899
+        },
+        "runs_flagged_harmful": 0
+      },
+      "Keep text between tool calls to 25 words or fewer.": {
+        "overall": {
+          "median": 0.9681428571428572,
+          "min": 0.9647142857142857,
+          "max": 0.9712857142857143
+        },
+        "known_answer": {
+          "median": 0.98625,
+          "min": 0.98375,
+          "max": 0.98775
+        },
+        "wrong_premise": {
+          "median": 0.92525,
+          "min": 0.9165,
+          "max": 0.932
+        },
+        "multi_step": {
+          "median": 0.983,
+          "min": 0.975,
+          "max": 0.992
+        },
+        "runs_flagged_harmful": 20
+      },
+      "Never invent file paths.": {
+        "overall": {
+          "median": 0.9509285714285713,
+          "min": 0.947,
+          "max": 0.9562857142857143
+        },
+        "known_answer": {
+          "median": 0.9864999999999999,
+          "min": 0.98175,
+          "max": 0.98875
+        },
+        "wrong_premise": {
+          "median": 0.92425,
+          "min": 0.917,
+          "max": 0.929
+        },
+        "multi_step": {
+          "median": 0.873,
+          "min": 0.851,
+          "max": 0.887
+        },
+        "runs_flagged_harmful": 0
+      },
+      "Ask before deleting files.": {
+        "overall": {
+          "median": 0.9522142857142857,
+          "min": 0.949,
+          "max": 0.9565714285714285
+        },
+        "known_answer": {
+          "median": 0.9858750000000001,
+          "min": 0.98175,
+          "max": 0.98925
+        },
+        "wrong_premise": {
+          "median": 0.92525,
+          "min": 0.908,
+          "max": 0.932
+        },
+        "multi_step": {
+          "median": 0.871,
+          "min": 0.849,
+          "max": 0.894
+        },
+        "runs_flagged_harmful": 0
+      }
+    }
+  },
+  "flags_per_run": [
+    {
+      "run": 0,
+      "model": "model-1",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 0,
+      "model": "model-2",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 1,
+      "model": "model-1",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 1,
+      "model": "model-2",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 2,
+      "model": "model-1",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 2,
+      "model": "model-2",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 3,
+      "model": "model-1",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 3,
+      "model": "model-2",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 4,
+      "model": "model-1",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 4,
+      "model": "model-2",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 5,
+      "model": "model-1",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 5,
+      "model": "model-2",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 6,
+      "model": "model-1",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 6,
+      "model": "model-2",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 7,
+      "model": "model-1",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 7,
+      "model": "model-2",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 8,
+      "model": "model-1",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 8,
+      "model": "model-2",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 9,
+      "model": "model-1",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 9,
+      "model": "model-2",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 10,
+      "model": "model-1",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 10,
+      "model": "model-2",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 11,
+      "model": "model-1",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 11,
+      "model": "model-2",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 12,
+      "model": "model-1",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 12,
+      "model": "model-2",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 13,
+      "model": "model-1",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 13,
+      "model": "model-2",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 14,
+      "model": "model-1",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 14,
+      "model": "model-2",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 15,
+      "model": "model-1",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 15,
+      "model": "model-2",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 16,
+      "model": "model-1",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 16,
+      "model": "model-2",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 17,
+      "model": "model-1",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 17,
+      "model": "model-2",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 18,
+      "model": "model-1",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 18,
+      "model": "model-2",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 19,
+      "model": "model-1",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    },
+    {
+      "run": 19,
+      "model": "model-2",
+      "harmful": [
+        [
+          "Keep text between tool calls to 25 words or fewer.",
+          "multi_step"
+        ]
+      ]
+    }
+  ],
+  "setup": "AMD Ryzen 9 7950X3D (16 cores/32 threads), 64 GB RAM, Windows 11, Docker Desktop 28.5 (WSL2); Python 3.12, NumPy 1.26, psycopg 3.3.6, PostgreSQL 18.6"
+}

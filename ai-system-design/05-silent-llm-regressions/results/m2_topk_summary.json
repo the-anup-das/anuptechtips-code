@@ -1,0 +1,247 @@
+{
+  "runs": 20,
+  "requests_per_run": 9600,
+  "cells": [
+    {
+      "sampler": "exact top-k, fp32 pick",
+      "batch_size": 1,
+      "passed": {
+        "median": 9338.0,
+        "min": 9313,
+        "max": 9377
+      },
+      "answers_changed": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "replies_changed": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "pass_rate_median": 0.9727083333333333
+    },
+    {
+      "sampler": "exact top-k, fp32 pick",
+      "batch_size": 8,
+      "passed": {
+        "median": 9338.0,
+        "min": 9313,
+        "max": 9377
+      },
+      "answers_changed": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "replies_changed": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "pass_rate_median": 0.9727083333333333
+    },
+    {
+      "sampler": "exact top-k, fp32 pick",
+      "batch_size": 32,
+      "passed": {
+        "median": 9338.0,
+        "min": 9313,
+        "max": 9377
+      },
+      "answers_changed": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "replies_changed": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "pass_rate_median": 0.9727083333333333
+    },
+    {
+      "sampler": "exact top-k, fp32 pick",
+      "batch_size": 64,
+      "passed": {
+        "median": 9338.0,
+        "min": 9313,
+        "max": 9377
+      },
+      "answers_changed": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "replies_changed": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "pass_rate_median": 0.9727083333333333
+    },
+    {
+      "sampler": "exact top-k, fp16 pick",
+      "batch_size": 1,
+      "passed": {
+        "median": 9337.5,
+        "min": 9313,
+        "max": 9377
+      },
+      "answers_changed": {
+        "median": 0.0,
+        "min": 0,
+        "max": 2
+      },
+      "replies_changed": {
+        "median": 105.0,
+        "min": 88,
+        "max": 128
+      },
+      "pass_rate_median": 0.97265625
+    },
+    {
+      "sampler": "exact top-k, fp16 pick",
+      "batch_size": 8,
+      "passed": {
+        "median": 9337.5,
+        "min": 9313,
+        "max": 9377
+      },
+      "answers_changed": {
+        "median": 0.0,
+        "min": 0,
+        "max": 2
+      },
+      "replies_changed": {
+        "median": 105.0,
+        "min": 88,
+        "max": 128
+      },
+      "pass_rate_median": 0.97265625
+    },
+    {
+      "sampler": "exact top-k, fp16 pick",
+      "batch_size": 32,
+      "passed": {
+        "median": 9337.5,
+        "min": 9313,
+        "max": 9377
+      },
+      "answers_changed": {
+        "median": 0.0,
+        "min": 0,
+        "max": 2
+      },
+      "replies_changed": {
+        "median": 105.0,
+        "min": 88,
+        "max": 128
+      },
+      "pass_rate_median": 0.97265625
+    },
+    {
+      "sampler": "exact top-k, fp16 pick",
+      "batch_size": 64,
+      "passed": {
+        "median": 9337.5,
+        "min": 9313,
+        "max": 9377
+      },
+      "answers_changed": {
+        "median": 0.0,
+        "min": 0,
+        "max": 2
+      },
+      "replies_changed": {
+        "median": 105.0,
+        "min": 88,
+        "max": 128
+      },
+      "pass_rate_median": 0.97265625
+    },
+    {
+      "sampler": "approximate top-k (bug), fp32 pick",
+      "batch_size": 1,
+      "passed": {
+        "median": 9338.0,
+        "min": 9313,
+        "max": 9377
+      },
+      "answers_changed": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "replies_changed": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "pass_rate_median": 0.9727083333333333
+    },
+    {
+      "sampler": "approximate top-k (bug), fp32 pick",
+      "batch_size": 8,
+      "passed": {
+        "median": 9338.0,
+        "min": 9313,
+        "max": 9377
+      },
+      "answers_changed": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "replies_changed": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "pass_rate_median": 0.9727083333333333
+    },
+    {
+      "sampler": "approximate top-k (bug), fp32 pick",
+      "batch_size": 32,
+      "passed": {
+        "median": 8972.5,
+        "min": 8953,
+        "max": 9005
+      },
+      "answers_changed": {
+        "median": 385.0,
+        "min": 375,
+        "max": 393
+      },
+      "replies_changed": {
+        "median": 3933.0,
+        "min": 3838,
+        "max": 4020
+      },
+      "pass_rate_median": 0.9346354166666667
+    },
+    {
+      "sampler": "approximate top-k (bug), fp32 pick",
+      "batch_size": 64,
+      "passed": {
+        "median": 8972.5,
+        "min": 8953,
+        "max": 9005
+      },
+      "answers_changed": {
+        "median": 385.0,
+        "min": 375,
+        "max": 393
+      },
+      "replies_changed": {
+        "median": 3933.0,
+        "min": 3838,
+        "max": 4020
+      },
+      "pass_rate_median": 0.9346354166666667
+    }
+  ],
+  "setup": "AMD Ryzen 9 7950X3D (16 cores/32 threads), 64 GB RAM, Windows 11, Docker Desktop 28.5 (WSL2); Python 3.12, NumPy 1.26 (no services needed)"
+}

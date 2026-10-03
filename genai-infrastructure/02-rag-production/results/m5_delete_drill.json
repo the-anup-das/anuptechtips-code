@@ -1,0 +1,127 @@
+{
+  "documents": 2000,
+  "sections_per_document": 5,
+  "source_events": 2600,
+  "edited": 400,
+  "revoked": 100,
+  "deleted": 100,
+  "runs": 20,
+  "lost_share_in_lossy_variant": 0.02,
+  "summary": {
+    "append_only": {
+      "deleted_still_served": {
+        "median": 100.0,
+        "min": 100,
+        "max": 100
+      },
+      "edited_serving_old": {
+        "median": 400.0,
+        "min": 400,
+        "max": 400
+      },
+      "revoked_still_readable": {
+        "median": 100.0,
+        "min": 100,
+        "max": 100
+      },
+      "leftover_chunks": {
+        "median": 3000.0,
+        "min": 3000,
+        "max": 3000
+      },
+      "runs_with_any_stale_answer": 20
+    },
+    "last_event_wins": {
+      "deleted_still_served": {
+        "median": 16.0,
+        "min": 10,
+        "max": 22
+      },
+      "edited_serving_old": {
+        "median": 58.0,
+        "min": 40,
+        "max": 70
+      },
+      "revoked_still_readable": {
+        "median": 12.5,
+        "min": 7,
+        "max": 19
+      },
+      "leftover_chunks": {
+        "median": 435.0,
+        "min": 365,
+        "max": 495
+      },
+      "runs_with_any_stale_answer": 20
+    },
+    "versioned": {
+      "deleted_still_served": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "edited_serving_old": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "revoked_still_readable": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "leftover_chunks": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "runs_with_any_stale_answer": 0
+    },
+    "versioned_lossy": {
+      "deleted_still_served": {
+        "median": 2.0,
+        "min": 0,
+        "max": 4
+      },
+      "edited_serving_old": {
+        "median": 7.0,
+        "min": 4,
+        "max": 11
+      },
+      "revoked_still_readable": {
+        "median": 2.0,
+        "min": 1,
+        "max": 7
+      },
+      "leftover_chunks": {
+        "median": 60.0,
+        "min": 30,
+        "max": 85
+      },
+      "runs_with_any_stale_answer": 20
+    },
+    "versioned_lossy_reconciled": {
+      "deleted_still_served": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "edited_serving_old": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "revoked_still_readable": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "leftover_chunks": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "runs_with_any_stale_answer": 0
+    }
+  }
+}

@@ -1,0 +1,27 @@
+[
+  {"kind": "answerable", "groups": ["all-staff"], "question": "What is the refund limit for EU customers?", "doc_id": "refund-policy", "answer": "30 days"},
+  {"kind": "answerable", "groups": ["all-staff"], "question": "How long do US customers have to ask for a refund?", "doc_id": "refund-policy", "answer": "45 days"},
+  {"kind": "answerable", "groups": ["all-staff"], "question": "Can digital goods be refunded after the download?", "doc_id": "refund-policy", "answer": "can't be refunded once the download has started"},
+  {"kind": "answerable", "groups": ["all-staff"], "question": "How much parental leave do contractors in Germany get?", "doc_id": "parental-leave", "answer": "8 weeks"},
+  {"kind": "answerable", "groups": ["all-staff"], "question": "How many weeks of paid parental leave do full-time employees get?", "doc_id": "parental-leave", "answer": "26 weeks"},
+  {"kind": "answerable", "groups": ["all-staff"], "question": "What is the daily limit for meals in the expense policy?", "doc_id": "expense-policy", "answer": "60 euros"},
+  {"kind": "answerable", "groups": ["all-staff"], "question": "Which flights have to be booked in economy class?", "doc_id": "expense-policy", "answer": "under 6 hours"},
+  {"kind": "answerable", "groups": ["all-staff"], "question": "When does an expense need approval from the manager?", "doc_id": "expense-policy", "answer": "above 500 euros"},
+  {"kind": "answerable", "groups": ["all-staff"], "question": "What does VPN error E1042 mean?", "doc_id": "vpn-setup", "answer": "certificate expired"},
+  {"kind": "answerable", "groups": ["all-staff"], "question": "How many characters must a password have?", "doc_id": "security-policy", "answer": "14 characters"},
+  {"kind": "answerable", "groups": ["all-staff"], "question": "How quickly must lost devices be reported to security?", "doc_id": "security-policy", "answer": "within 1 hour"},
+  {"kind": "answerable", "groups": ["all-staff"], "question": "Which holiday closes the offices in Germany in October?", "doc_id": "holiday-calendar", "answer": "3 October"},
+  {"kind": "answerable", "groups": ["all-staff"], "question": "What is the replacement cycle for laptops in the equipment policy?", "doc_id": "equipment-policy", "answer": "every 3 years"},
+  {"kind": "answerable", "groups": ["all-staff", "engineering"], "question": "How fast must the primary on-call acknowledge a page?", "doc_id": "on-call-runbook", "answer": "within 5 minutes"},
+  {"kind": "answerable", "groups": ["all-staff", "engineering"], "question": "What was the root cause of the payment outage?", "doc_id": "payment-outage-postmortem", "answer": "retry storm"},
+  {"kind": "answerable", "groups": ["all-staff", "hr"], "question": "What is the salary band for senior engineers?", "doc_id": "salary-bands", "answer": "95,000 to 120,000"},
+
+  {"kind": "restricted", "groups": ["all-staff"], "question": "What is the salary band for senior engineers?", "doc_id": "salary-bands", "answer": "95,000 to 120,000"},
+  {"kind": "restricted", "groups": ["all-staff"], "question": "How much did the board approve for the Northwind acquisition?", "doc_id": "board-minutes-2026-q3", "answer": "40 million euros"},
+  {"kind": "restricted", "groups": ["all-staff"], "question": "What was the root cause of the payment outage?", "doc_id": "payment-outage-postmortem", "answer": "retry storm"},
+  {"kind": "restricted", "groups": ["all-staff", "engineering"], "question": "Did the board freeze hiring?", "doc_id": "board-minutes-2026-q3", "answer": "froze hiring"},
+
+  {"kind": "unanswerable", "groups": ["all-staff"], "question": "What is the dress code in the office?", "doc_id": null, "answer": null},
+  {"kind": "unanswerable", "groups": ["all-staff"], "question": "How many vacation days do interns get?", "doc_id": null, "answer": null},
+  {"kind": "unanswerable", "groups": ["all-staff"], "question": "Which brand is the coffee machine in the kitchen?", "doc_id": null, "answer": null}
+]

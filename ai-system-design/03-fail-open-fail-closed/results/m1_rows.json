@@ -1,0 +1,65 @@
+{
+  "runs": 5,
+  "scenarios": {
+    "before the change": {
+      "rows_unfiltered": 60,
+      "distinct_names": 60,
+      "rows_with_schema_filter": 60,
+      "role_can_read_r0_table": false
+    },
+    "USAGE on schema r0 only": {
+      "rows_unfiltered": 60,
+      "distinct_names": 60,
+      "rows_with_schema_filter": 60,
+      "role_can_read_r0_table": false
+    },
+    "SELECT on r0.http_requests_features": {
+      "rows_unfiltered": 120,
+      "distinct_names": 60,
+      "rows_with_schema_filter": 60,
+      "role_can_read_r0_table": false
+    },
+    "SELECT on the table and USAGE on the schema": {
+      "rows_unfiltered": 120,
+      "distinct_names": 60,
+      "rows_with_schema_filter": 60,
+      "role_can_read_r0_table": true
+    },
+    "INSERT on the table": {
+      "rows_unfiltered": 120,
+      "distinct_names": 60,
+      "rows_with_schema_filter": 60,
+      "role_can_read_r0_table": false
+    },
+    "UPDATE on the table": {
+      "rows_unfiltered": 120,
+      "distinct_names": 60,
+      "rows_with_schema_filter": 60,
+      "role_can_read_r0_table": false
+    },
+    "REFERENCES on the table": {
+      "rows_unfiltered": 120,
+      "distinct_names": 60,
+      "rows_with_schema_filter": 60,
+      "role_can_read_r0_table": false
+    },
+    "DELETE on the table": {
+      "rows_unfiltered": 60,
+      "distinct_names": 60,
+      "rows_with_schema_filter": 60,
+      "role_can_read_r0_table": false
+    },
+    "TRUNCATE on the table": {
+      "rows_unfiltered": 60,
+      "distinct_names": 60,
+      "rows_with_schema_filter": 60,
+      "role_can_read_r0_table": false
+    },
+    "TRIGGER on the table": {
+      "rows_unfiltered": 60,
+      "distinct_names": 60,
+      "rows_with_schema_filter": 60,
+      "role_can_read_r0_table": false
+    }
+  }
+}

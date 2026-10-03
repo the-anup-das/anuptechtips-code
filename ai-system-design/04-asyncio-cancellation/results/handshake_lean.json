@@ -1,0 +1,13 @@
+{
+  "redis_py": "8.1.0",
+  "options": "protocol=2, driver_info=None",
+  "sent_before_the_command": [
+    [
+      "SELECT 9"
+    ]
+  ],
+  "round_trips_before_the_command": 1,
+  "the_command": [
+    "GET handshake:none"
+  ]
+}

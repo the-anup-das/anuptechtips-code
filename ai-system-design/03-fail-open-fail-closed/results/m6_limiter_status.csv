@@ -1,0 +1,10 @@
+limiter_redis,route,status,retry_after,detail
+healthy,naive limiter,200,,
+healthy,fail open (/search),200,,
+healthy,fail closed (/login),200,,
+refusing connections,naive limiter,429,1,Too Many Requests
+refusing connections,fail open (/search),200,,
+refusing connections,fail closed (/login),503,1,Rate limiter unavailable
+hung,naive limiter,429,1,Too Many Requests
+hung,fail open (/search),200,,
+hung,fail closed (/login),503,1,Rate limiter unavailable

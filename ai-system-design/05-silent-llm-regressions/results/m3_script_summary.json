@@ -1,0 +1,60 @@
+{
+  "runs": 20,
+  "replies_per_run": 10000,
+  "boost": 12.0,
+  "bug_off": {
+    "flagged": {
+      "median": 198.5,
+      "min": 195,
+      "max": 200
+    },
+    "flagged_translation_probes": {
+      "median": 198.5,
+      "min": 195,
+      "max": 200
+    },
+    "flagged_other_probes": {
+      "median": 0.0,
+      "min": 0,
+      "max": 0
+    },
+    "passed": {
+      "median": 9726.5,
+      "min": 9700,
+      "max": 9761
+    },
+    "flagged_but_passed": {
+      "median": 0.0,
+      "min": 0,
+      "max": 0
+    }
+  },
+  "bug_on": {
+    "flagged": {
+      "median": 640.0,
+      "min": 597,
+      "max": 679
+    },
+    "flagged_translation_probes": {
+      "median": 198.5,
+      "min": 195,
+      "max": 200
+    },
+    "flagged_other_probes": {
+      "median": 443.0,
+      "min": 401,
+      "max": 480
+    },
+    "passed": {
+      "median": 9698.5,
+      "min": 9670,
+      "max": 9729
+    },
+    "flagged_but_passed": {
+      "median": 402.5,
+      "min": 360,
+      "max": 436
+    }
+  },
+  "setup": "AMD Ryzen 9 7950X3D (16 cores/32 threads), 64 GB RAM, Windows 11, Docker Desktop 28.5 (WSL2); Python 3.12, NumPy 1.26 (no services needed)"
+}

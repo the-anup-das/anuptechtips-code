@@ -1,0 +1,71 @@
+{
+  "started": "2026-10-01 20:31:24",
+  "setup": {
+    "runs": 20,
+    "requests_at_once": 200,
+    "budget_fits": 10,
+    "worst_case_micro_usd": 321,
+    "limit_micro_usd": 3210,
+    "model_call_ms": 2000,
+    "python": "3.12.4",
+    "gateway": "1 uvicorn process per budget mode; Redis 8.10.2 in Docker"
+  },
+  "results": {
+    "check, then spend": {
+      "runs": 20,
+      "served_200": {
+        "median": 200.0,
+        "min": 192,
+        "max": 200
+      },
+      "refused_429": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "other": {
+        "median": 0.0,
+        "min": 0,
+        "max": 8
+      },
+      "spent_micro_usd": {
+        "median": 64200.0,
+        "min": 61632,
+        "max": 64200
+      },
+      "times_the_budget": {
+        "median": 20.0,
+        "min": 19.2,
+        "max": 20.0
+      }
+    },
+    "reserve, then settle": {
+      "runs": 20,
+      "served_200": {
+        "median": 10.0,
+        "min": 10,
+        "max": 10
+      },
+      "refused_429": {
+        "median": 190.0,
+        "min": 190,
+        "max": 190
+      },
+      "other": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "spent_micro_usd": {
+        "median": 3210.0,
+        "min": 3210,
+        "max": 3210
+      },
+      "times_the_budget": {
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      }
+    }
+  }
+}

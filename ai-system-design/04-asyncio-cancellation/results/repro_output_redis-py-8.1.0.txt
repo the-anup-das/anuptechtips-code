@@ -1,0 +1,5 @@
+$ python repro_cancel_then_get.py
+GET repro:foo cancelled after 50 ms: sent, reply not read
+bar: b'bar'
+ping: True
+foo: b'foo'

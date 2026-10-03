@@ -1,0 +1,150 @@
+{
+  "emails": 200,
+  "runs": 20,
+  "max_destructive": 20,
+  "window_s": 10.0,
+  "results": [
+    {
+      "variant": "no gate",
+      "runs": 20,
+      "attempted": 200,
+      "deleted": {
+        "median": 200.0,
+        "min": 200,
+        "max": 200
+      },
+      "refused_rate_limit": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "refused_kill_switch": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "switch_ms": null,
+      "elapsed_ms": {
+        "median": 326.15,
+        "min": 288.1,
+        "max": 350.8
+      }
+    },
+    {
+      "variant": "token bucket",
+      "runs": 20,
+      "attempted": 200,
+      "deleted": {
+        "median": 5.0,
+        "min": 5,
+        "max": 5
+      },
+      "refused_rate_limit": {
+        "median": 195.0,
+        "min": 195,
+        "max": 195
+      },
+      "refused_kill_switch": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "switch_ms": null,
+      "elapsed_ms": {
+        "median": 168.7,
+        "min": 155.1,
+        "max": 195.6
+      }
+    },
+    {
+      "variant": "watchdog",
+      "runs": 20,
+      "attempted": 200,
+      "deleted": {
+        "median": 25.0,
+        "min": 22,
+        "max": 45
+      },
+      "refused_rate_limit": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "refused_kill_switch": {
+        "median": 175.0,
+        "min": 155,
+        "max": 178
+      },
+      "switch_ms": {
+        "median": 12.2,
+        "min": 5.29,
+        "max": 70.75
+      },
+      "elapsed_ms": {
+        "median": 134.85000000000002,
+        "min": 123.7,
+        "max": 183.1
+      }
+    },
+    {
+      "variant": "watchdog, paced",
+      "runs": 20,
+      "attempted": 200,
+      "deleted": {
+        "median": 22.0,
+        "min": 21,
+        "max": 23
+      },
+      "refused_rate_limit": {
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "refused_kill_switch": {
+        "median": 178.0,
+        "min": 177,
+        "max": 179
+      },
+      "switch_ms": {
+        "median": 46.43,
+        "min": 23.08,
+        "max": 70.35
+      },
+      "elapsed_ms": {
+        "median": 4215.950000000001,
+        "min": 4202.2,
+        "max": 4247.7
+      }
+    },
+    {
+      "variant": "bucket + watchdog",
+      "runs": 20,
+      "attempted": 200,
+      "deleted": {
+        "median": 5.0,
+        "min": 5,
+        "max": 5
+      },
+      "refused_rate_limit": {
+        "median": 54.0,
+        "min": 43,
+        "max": 64
+      },
+      "refused_kill_switch": {
+        "median": 141.0,
+        "min": 131,
+        "max": 152
+      },
+      "switch_ms": {
+        "median": 32.114999999999995,
+        "min": 24.37,
+        "max": 42.13
+      },
+      "elapsed_ms": {
+        "median": 116.25,
+        "min": 109.4,
+        "max": 128.2
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+action,kill_switch,naive_engine,fixed_engine
+block,off,ok,ok
+block,on,ok,ok
+log,off,ok,ok
+log,on,ok,ok
+skip,off,ok,ok
+skip,on,ok,ok
+execute,off,ok,ok
+execute,on,AttributeError: 'NoneType' object has no attribute 'results_index',ok

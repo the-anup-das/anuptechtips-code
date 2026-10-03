@@ -1,0 +1,810 @@
+{'round': 1, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 0.741, 'p99_ms': 1.136, 'mean_ms': 0.789, 'rps': 1265.6}
+{'round': 1, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 1.931, 'p99_ms': 2.68, 'mean_ms': 1.987, 'rps': 503.2}
+{'round': 1, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 3.208, 'p99_ms': 4.189, 'mean_ms': 3.257, 'rps': 306.9}
+{'round': 1, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 9.455, 'p99_ms': 12.16, 'mean_ms': 9.591, 'rps': 1664.1}
+{'round': 1, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 29.843, 'p99_ms': 123.935, 'mean_ms': 36.332, 'rps': 439.5}
+{'round': 1, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 26.596, 'p99_ms': 150.346, 'mean_ms': 42.714, 'rps': 374.0}
+{'round': 1, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 34.891, 'p99_ms': 63.11, 'mean_ms': 36.462, 'rps': 1737.7}
+{'round': 1, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 141.543, 'p99_ms': 1417.299, 'mean_ms': 251.339, 'rps': 253.2}
+{'round': 1, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 181.761, 'p99_ms': 1569.152, 'mean_ms': 274.78, 'rps': 231.6}
+{'round': 1, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 0.879, 'p99_ms': 1.293, 'mean_ms': 0.917, 'rps': 668.9}
+{'round': 1, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 2.277, 'p99_ms': 3.276, 'mean_ms': 2.356, 'rps': 271.1}
+{'round': 1, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 3.395, 'p99_ms': 4.784, 'mean_ms': 3.49, 'rps': 196.8}
+{'round': 1, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 10.019, 'p99_ms': 23.304, 'mean_ms': 10.324, 'rps': 848.6}
+{'round': 1, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 28.687, 'p99_ms': 139.218, 'mean_ms': 55.215, 'rps': 282.6}
+{'round': 1, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 44.79, 'p99_ms': 164.849, 'mean_ms': 55.829, 'rps': 261.8}
+{'round': 1, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 40.015, 'p99_ms': 66.125, 'mean_ms': 41.06, 'rps': 887.8}
+{'round': 1, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 214.965, 'p99_ms': 1650.306, 'mean_ms': 332.001, 'rps': 185.5}
+{'round': 1, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 231.992, 'p99_ms': 1623.949, 'mean_ms': 334.097, 'rps': 178.7}
+{'round': 1, 'experiment': 'one second', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1037.663, 'p99_ms': 1059.629, 'mean_ms': 1036.972, 'rps': 61.6}
+{'round': 1, 'experiment': 'one second', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1013.567, 'p99_ms': 1461.237, 'mean_ms': 1058.556, 'rps': 59.3}
+{'round': 1, 'experiment': 'one second', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1022.985, 'p99_ms': 1450.978, 'mean_ms': 1069.117, 'rps': 58.7}
+{'round': 1, 'experiment': 'one second', 'path': 'direct', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1016.806, 'p99_ms': 1052.101, 'mean_ms': 1017.892, 'rps': 60.3}
+{'round': 1, 'experiment': 'one second', 'path': 'proxy', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1013.314, 'p99_ms': 1454.05, 'mean_ms': 1054.066, 'rps': 57.7}
+{'round': 1, 'experiment': 'one second', 'path': 'all checks', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1014.276, 'p99_ms': 1518.347, 'mean_ms': 1064.621, 'rps': 56.8}
+{'round': 2, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 0.757, 'p99_ms': 1.167, 'mean_ms': 0.798, 'rps': 1252.1}
+{'round': 2, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 1.865, 'p99_ms': 2.445, 'mean_ms': 1.919, 'rps': 521.0}
+{'round': 2, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 3.178, 'p99_ms': 4.144, 'mean_ms': 3.237, 'rps': 308.9}
+{'round': 2, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 9.306, 'p99_ms': 16.179, 'mean_ms': 9.401, 'rps': 1697.6}
+{'round': 2, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 30.371, 'p99_ms': 128.277, 'mean_ms': 37.315, 'rps': 428.0}
+{'round': 2, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 27.734, 'p99_ms': 161.578, 'mean_ms': 43.073, 'rps': 370.9}
+{'round': 2, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 32.962, 'p99_ms': 81.907, 'mean_ms': 35.577, 'rps': 1781.2}
+{'round': 2, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 151.67, 'p99_ms': 1570.577, 'mean_ms': 254.578, 'rps': 250.0}
+{'round': 2, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 179.024, 'p99_ms': 1285.731, 'mean_ms': 273.885, 'rps': 232.4}
+{'round': 2, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 0.869, 'p99_ms': 1.245, 'mean_ms': 0.907, 'rps': 677.6}
+{'round': 2, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 2.221, 'p99_ms': 3.0, 'mean_ms': 2.28, 'rps': 277.5}
+{'round': 2, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 2.813, 'p99_ms': 4.006, 'mean_ms': 2.892, 'rps': 245.1}
+{'round': 2, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 6.869, 'p99_ms': 17.993, 'mean_ms': 7.291, 'rps': 1248.3}
+{'round': 2, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 22.927, 'p99_ms': 137.403, 'mean_ms': 45.559, 'rps': 342.2}
+{'round': 2, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 40.314, 'p99_ms': 172.659, 'mean_ms': 54.645, 'rps': 266.4}
+{'round': 2, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 41.206, 'p99_ms': 62.934, 'mean_ms': 41.94, 'rps': 919.3}
+{'round': 2, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 234.645, 'p99_ms': 1832.339, 'mean_ms': 349.503, 'rps': 176.7}
+{'round': 2, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 228.187, 'p99_ms': 1655.646, 'mean_ms': 331.682, 'rps': 180.1}
+{'round': 2, 'experiment': 'one second', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1034.827, 'p99_ms': 1077.774, 'mean_ms': 1037.876, 'rps': 61.6}
+{'round': 2, 'experiment': 'one second', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1015.156, 'p99_ms': 1458.069, 'mean_ms': 1059.374, 'rps': 59.0}
+{'round': 2, 'experiment': 'one second', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1017.721, 'p99_ms': 1477.077, 'mean_ms': 1063.246, 'rps': 59.0}
+{'round': 2, 'experiment': 'one second', 'path': 'direct', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1012.837, 'p99_ms': 1045.187, 'mean_ms': 1014.41, 'rps': 60.8}
+{'round': 2, 'experiment': 'one second', 'path': 'proxy', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1014.157, 'p99_ms': 1489.045, 'mean_ms': 1055.087, 'rps': 58.0}
+{'round': 2, 'experiment': 'one second', 'path': 'all checks', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1013.141, 'p99_ms': 1510.146, 'mean_ms': 1056.067, 'rps': 58.4}
+{'round': 3, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 0.743, 'p99_ms': 1.1, 'mean_ms': 0.792, 'rps': 1261.7}
+{'round': 3, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 1.854, 'p99_ms': 2.458, 'mean_ms': 1.912, 'rps': 522.9}
+{'round': 3, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 3.164, 'p99_ms': 4.294, 'mean_ms': 3.233, 'rps': 309.2}
+{'round': 3, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 9.008, 'p99_ms': 11.196, 'mean_ms': 9.078, 'rps': 1758.4}
+{'round': 3, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 28.576, 'p99_ms': 128.342, 'mean_ms': 36.207, 'rps': 441.0}
+{'round': 3, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 30.611, 'p99_ms': 159.497, 'mean_ms': 43.765, 'rps': 365.0}
+{'round': 3, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 33.159, 'p99_ms': 70.119, 'mean_ms': 34.319, 'rps': 1844.6}
+{'round': 3, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 160.45, 'p99_ms': 1549.397, 'mean_ms': 253.906, 'rps': 250.5}
+{'round': 3, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 178.546, 'p99_ms': 1465.725, 'mean_ms': 271.905, 'rps': 234.1}
+{'round': 3, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 0.863, 'p99_ms': 1.222, 'mean_ms': 0.898, 'rps': 680.5}
+{'round': 3, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 2.253, 'p99_ms': 3.064, 'mean_ms': 2.323, 'rps': 274.7}
+{'round': 3, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 3.075, 'p99_ms': 4.133, 'mean_ms': 3.132, 'rps': 215.1}
+{'round': 3, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 9.594, 'p99_ms': 17.393, 'mean_ms': 9.738, 'rps': 869.7}
+{'round': 3, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 38.504, 'p99_ms': 160.101, 'mean_ms': 52.126, 'rps': 296.6}
+{'round': 3, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 39.909, 'p99_ms': 171.084, 'mean_ms': 53.552, 'rps': 271.5}
+{'round': 3, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 37.563, 'p99_ms': 70.605, 'mean_ms': 38.994, 'rps': 899.4}
+{'round': 3, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 195.461, 'p99_ms': 1795.59, 'mean_ms': 308.423, 'rps': 199.8}
+{'round': 3, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 211.908, 'p99_ms': 1714.419, 'mean_ms': 318.345, 'rps': 187.6}
+{'round': 3, 'experiment': 'one second', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1023.871, 'p99_ms': 1080.721, 'mean_ms': 1027.236, 'rps': 62.0}
+{'round': 3, 'experiment': 'one second', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1015.627, 'p99_ms': 1462.914, 'mean_ms': 1061.441, 'rps': 59.0}
+{'round': 3, 'experiment': 'one second', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1020.985, 'p99_ms': 1479.433, 'mean_ms': 1062.654, 'rps': 58.7}
+{'round': 3, 'experiment': 'one second', 'path': 'direct', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1013.061, 'p99_ms': 1054.657, 'mean_ms': 1016.51, 'rps': 60.5}
+{'round': 3, 'experiment': 'one second', 'path': 'proxy', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1013.75, 'p99_ms': 1492.416, 'mean_ms': 1056.54, 'rps': 57.9}
+{'round': 3, 'experiment': 'one second', 'path': 'all checks', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1013.044, 'p99_ms': 1460.347, 'mean_ms': 1054.474, 'rps': 58.0}
+{'round': 4, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 0.736, 'p99_ms': 1.138, 'mean_ms': 0.779, 'rps': 1282.2}
+{'round': 4, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 1.862, 'p99_ms': 2.475, 'mean_ms': 1.927, 'rps': 518.6}
+{'round': 4, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 3.227, 'p99_ms': 4.13, 'mean_ms': 3.285, 'rps': 304.3}
+{'round': 4, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 9.533, 'p99_ms': 17.381, 'mean_ms': 9.687, 'rps': 1647.9}
+{'round': 4, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 30.549, 'p99_ms': 122.044, 'mean_ms': 37.341, 'rps': 427.7}
+{'round': 4, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 30.669, 'p99_ms': 143.054, 'mean_ms': 42.242, 'rps': 378.2}
+{'round': 4, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 33.188, 'p99_ms': 54.546, 'mean_ms': 33.558, 'rps': 1885.6}
+{'round': 4, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 155.985, 'p99_ms': 1433.227, 'mean_ms': 253.582, 'rps': 250.8}
+{'round': 4, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 179.98, 'p99_ms': 1258.682, 'mean_ms': 267.372, 'rps': 238.0}
+{'round': 4, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 0.861, 'p99_ms': 1.215, 'mean_ms': 0.896, 'rps': 683.0}
+{'round': 4, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 2.171, 'p99_ms': 2.881, 'mean_ms': 2.241, 'rps': 282.0}
+{'round': 4, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 3.086, 'p99_ms': 3.988, 'mean_ms': 3.138, 'rps': 214.7}
+{'round': 4, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 9.904, 'p99_ms': 20.685, 'mean_ms': 10.076, 'rps': 869.1}
+{'round': 4, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 35.639, 'p99_ms': 190.713, 'mean_ms': 52.086, 'rps': 297.0}
+{'round': 4, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 40.604, 'p99_ms': 164.31, 'mean_ms': 54.491, 'rps': 266.8}
+{'round': 4, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 40.247, 'p99_ms': 75.13, 'mean_ms': 41.998, 'rps': 884.5}
+{'round': 4, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 207.352, 'p99_ms': 1607.834, 'mean_ms': 327.04, 'rps': 187.8}
+{'round': 4, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 223.39, 'p99_ms': 1638.979, 'mean_ms': 322.895, 'rps': 184.8}
+{'round': 4, 'experiment': 'one second', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1031.999, 'p99_ms': 1051.949, 'mean_ms': 1033.588, 'rps': 61.9}
+{'round': 4, 'experiment': 'one second', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1016.301, 'p99_ms': 1441.651, 'mean_ms': 1061.674, 'rps': 59.1}
+{'round': 4, 'experiment': 'one second', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1019.809, 'p99_ms': 1450.8, 'mean_ms': 1063.823, 'rps': 58.7}
+{'round': 4, 'experiment': 'one second', 'path': 'direct', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1019.033, 'p99_ms': 1053.568, 'mean_ms': 1019.347, 'rps': 60.5}
+{'round': 4, 'experiment': 'one second', 'path': 'proxy', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1013.242, 'p99_ms': 1484.204, 'mean_ms': 1055.848, 'rps': 58.0}
+{'round': 4, 'experiment': 'one second', 'path': 'all checks', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1013.689, 'p99_ms': 1496.287, 'mean_ms': 1056.643, 'rps': 57.4}
+{'round': 5, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 0.745, 'p99_ms': 1.125, 'mean_ms': 0.795, 'rps': 1256.5}
+{'round': 5, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 1.859, 'p99_ms': 2.659, 'mean_ms': 1.935, 'rps': 516.6}
+{'round': 5, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 3.14, 'p99_ms': 4.059, 'mean_ms': 3.188, 'rps': 313.6}
+{'round': 5, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 8.971, 'p99_ms': 11.422, 'mean_ms': 8.98, 'rps': 1777.7}
+{'round': 5, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 29.483, 'p99_ms': 127.933, 'mean_ms': 36.318, 'rps': 439.6}
+{'round': 5, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 30.91, 'p99_ms': 134.543, 'mean_ms': 42.31, 'rps': 377.6}
+{'round': 5, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 32.906, 'p99_ms': 69.299, 'mean_ms': 34.023, 'rps': 1862.0}
+{'round': 5, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 164.866, 'p99_ms': 1379.94, 'mean_ms': 259.553, 'rps': 245.1}
+{'round': 5, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 183.327, 'p99_ms': 1394.14, 'mean_ms': 279.584, 'rps': 227.6}
+{'round': 5, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 0.899, 'p99_ms': 1.369, 'mean_ms': 0.943, 'rps': 657.6}
+{'round': 5, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 2.635, 'p99_ms': 3.622, 'mean_ms': 2.664, 'rps': 250.3}
+{'round': 5, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 3.763, 'p99_ms': 5.206, 'mean_ms': 3.792, 'rps': 182.5}
+{'round': 5, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 10.243, 'p99_ms': 25.782, 'mean_ms': 10.608, 'rps': 814.2}
+{'round': 5, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 41.602, 'p99_ms': 181.449, 'mean_ms': 55.58, 'rps': 278.6}
+{'round': 5, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 42.817, 'p99_ms': 201.697, 'mean_ms': 57.225, 'rps': 254.2}
+{'round': 5, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 39.847, 'p99_ms': 65.843, 'mean_ms': 40.887, 'rps': 894.9}
+{'round': 5, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 222.207, 'p99_ms': 1613.921, 'mean_ms': 338.87, 'rps': 182.9}
+{'round': 5, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 242.069, 'p99_ms': 1563.855, 'mean_ms': 349.449, 'rps': 171.0}
+{'round': 5, 'experiment': 'one second', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1031.258, 'p99_ms': 1079.498, 'mean_ms': 1032.826, 'rps': 61.8}
+{'round': 5, 'experiment': 'one second', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1014.701, 'p99_ms': 1437.658, 'mean_ms': 1057.917, 'rps': 59.1}
+{'round': 5, 'experiment': 'one second', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1020.684, 'p99_ms': 1471.241, 'mean_ms': 1067.07, 'rps': 59.0}
+{'round': 5, 'experiment': 'one second', 'path': 'direct', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1011.895, 'p99_ms': 1062.685, 'mean_ms': 1012.937, 'rps': 61.0}
+{'round': 5, 'experiment': 'one second', 'path': 'proxy', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1012.84, 'p99_ms': 1454.603, 'mean_ms': 1053.452, 'rps': 57.9}
+{'round': 5, 'experiment': 'one second', 'path': 'all checks', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1012.421, 'p99_ms': 1419.475, 'mean_ms': 1052.07, 'rps': 57.9}
+{'round': 6, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 0.749, 'p99_ms': 1.112, 'mean_ms': 0.794, 'rps': 1257.9}
+{'round': 6, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 1.877, 'p99_ms': 2.429, 'mean_ms': 1.934, 'rps': 516.8}
+{'round': 6, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 3.206, 'p99_ms': 4.108, 'mean_ms': 3.259, 'rps': 306.7}
+{'round': 6, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 9.236, 'p99_ms': 10.666, 'mean_ms': 9.277, 'rps': 1720.9}
+{'round': 6, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 28.68, 'p99_ms': 128.842, 'mean_ms': 35.966, 'rps': 443.9}
+{'round': 6, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 29.924, 'p99_ms': 151.222, 'mean_ms': 42.355, 'rps': 377.2}
+{'round': 6, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 32.643, 'p99_ms': 69.967, 'mean_ms': 33.929, 'rps': 1865.6}
+{'round': 6, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 149.891, 'p99_ms': 1518.619, 'mean_ms': 249.927, 'rps': 254.6}
+{'round': 6, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 180.487, 'p99_ms': 1302.003, 'mean_ms': 270.424, 'rps': 235.3}
+{'round': 6, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 0.864, 'p99_ms': 1.21, 'mean_ms': 0.896, 'rps': 682.5}
+{'round': 6, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 2.199, 'p99_ms': 3.0, 'mean_ms': 2.273, 'rps': 280.4}
+{'round': 6, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 3.13, 'p99_ms': 4.184, 'mean_ms': 3.197, 'rps': 212.4}
+{'round': 6, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 10.614, 'p99_ms': 23.209, 'mean_ms': 10.789, 'rps': 828.6}
+{'round': 6, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 38.407, 'p99_ms': 205.061, 'mean_ms': 53.546, 'rps': 289.5}
+{'round': 6, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 41.767, 'p99_ms': 172.242, 'mean_ms': 53.54, 'rps': 271.2}
+{'round': 6, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 38.802, 'p99_ms': 62.025, 'mean_ms': 39.392, 'rps': 914.2}
+{'round': 6, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 177.298, 'p99_ms': 1884.809, 'mean_ms': 290.126, 'rps': 212.6}
+{'round': 6, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 219.643, 'p99_ms': 1418.464, 'mean_ms': 314.181, 'rps': 190.5}
+{'round': 6, 'experiment': 'one second', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1031.639, 'p99_ms': 1068.756, 'mean_ms': 1032.518, 'rps': 61.9}
+{'round': 6, 'experiment': 'one second', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1014.552, 'p99_ms': 1418.527, 'mean_ms': 1060.737, 'rps': 59.2}
+{'round': 6, 'experiment': 'one second', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1024.888, 'p99_ms': 1442.458, 'mean_ms': 1068.305, 'rps': 58.4}
+{'round': 6, 'experiment': 'one second', 'path': 'direct', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1017.548, 'p99_ms': 1046.246, 'mean_ms': 1016.525, 'rps': 60.4}
+{'round': 6, 'experiment': 'one second', 'path': 'proxy', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1015.714, 'p99_ms': 1439.095, 'mean_ms': 1055.99, 'rps': 57.7}
+{'round': 6, 'experiment': 'one second', 'path': 'all checks', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1015.101, 'p99_ms': 1501.916, 'mean_ms': 1058.464, 'rps': 57.1}
+{'round': 7, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 0.747, 'p99_ms': 1.144, 'mean_ms': 0.793, 'rps': 1259.6}
+{'round': 7, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 1.862, 'p99_ms': 2.482, 'mean_ms': 1.929, 'rps': 518.1}
+{'round': 7, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 3.185, 'p99_ms': 4.158, 'mean_ms': 3.256, 'rps': 307.1}
+{'round': 7, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 9.039, 'p99_ms': 10.599, 'mean_ms': 9.084, 'rps': 1757.8}
+{'round': 7, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 28.976, 'p99_ms': 127.348, 'mean_ms': 36.463, 'rps': 437.9}
+{'round': 7, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 29.02, 'p99_ms': 145.974, 'mean_ms': 42.546, 'rps': 375.5}
+{'round': 7, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 34.069, 'p99_ms': 70.429, 'mean_ms': 35.906, 'rps': 1760.7}
+{'round': 7, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 153.378, 'p99_ms': 1495.591, 'mean_ms': 253.905, 'rps': 250.6}
+{'round': 7, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 182.412, 'p99_ms': 1352.498, 'mean_ms': 274.181, 'rps': 232.2}
+{'round': 7, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 0.863, 'p99_ms': 1.227, 'mean_ms': 0.897, 'rps': 684.1}
+{'round': 7, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 2.185, 'p99_ms': 2.774, 'mean_ms': 2.237, 'rps': 282.8}
+{'round': 7, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 3.139, 'p99_ms': 4.176, 'mean_ms': 3.201, 'rps': 211.8}
+{'round': 7, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 10.524, 'p99_ms': 20.844, 'mean_ms': 11.21, 'rps': 860.1}
+{'round': 7, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 33.069, 'p99_ms': 184.615, 'mean_ms': 53.636, 'rps': 289.6}
+{'round': 7, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 41.78, 'p99_ms': 180.157, 'mean_ms': 54.575, 'rps': 266.9}
+{'round': 7, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 38.723, 'p99_ms': 84.194, 'mean_ms': 40.655, 'rps': 888.2}
+{'round': 7, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 196.592, 'p99_ms': 1782.381, 'mean_ms': 310.775, 'rps': 197.6}
+{'round': 7, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 251.296, 'p99_ms': 1716.757, 'mean_ms': 365.871, 'rps': 163.5}
+{'round': 7, 'experiment': 'one second', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1032.031, 'p99_ms': 1059.079, 'mean_ms': 1034.186, 'rps': 61.8}
+{'round': 7, 'experiment': 'one second', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1012.965, 'p99_ms': 1499.414, 'mean_ms': 1059.704, 'rps': 59.2}
+{'round': 7, 'experiment': 'one second', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1021.024, 'p99_ms': 1464.307, 'mean_ms': 1066.004, 'rps': 58.7}
+{'round': 7, 'experiment': 'one second', 'path': 'direct', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1016.013, 'p99_ms': 1043.997, 'mean_ms': 1017.316, 'rps': 60.4}
+{'round': 7, 'experiment': 'one second', 'path': 'proxy', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1016.289, 'p99_ms': 1474.32, 'mean_ms': 1058.669, 'rps': 57.7}
+{'round': 7, 'experiment': 'one second', 'path': 'all checks', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1017.308, 'p99_ms': 1464.22, 'mean_ms': 1057.814, 'rps': 57.2}
+{'round': 8, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 0.738, 'p99_ms': 1.099, 'mean_ms': 0.773, 'rps': 1291.7}
+{'round': 8, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 1.875, 'p99_ms': 2.637, 'mean_ms': 1.936, 'rps': 516.3}
+{'round': 8, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 3.168, 'p99_ms': 4.004, 'mean_ms': 3.214, 'rps': 311.1}
+{'round': 8, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 9.168, 'p99_ms': 11.501, 'mean_ms': 9.198, 'rps': 1735.4}
+{'round': 8, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 28.272, 'p99_ms': 131.88, 'mean_ms': 36.109, 'rps': 442.2}
+{'round': 8, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 25.495, 'p99_ms': 148.969, 'mean_ms': 42.537, 'rps': 375.5}
+{'round': 8, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 33.98, 'p99_ms': 59.548, 'mean_ms': 35.622, 'rps': 1777.0}
+{'round': 8, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 149.167, 'p99_ms': 1475.094, 'mean_ms': 252.87, 'rps': 251.6}
+{'round': 8, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 174.013, 'p99_ms': 1474.951, 'mean_ms': 268.527, 'rps': 237.0}
+{'round': 8, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 0.86, 'p99_ms': 1.174, 'mean_ms': 0.886, 'rps': 689.1}
+{'round': 8, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 2.183, 'p99_ms': 2.946, 'mean_ms': 2.242, 'rps': 282.4}
+{'round': 8, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 3.265, 'p99_ms': 4.372, 'mean_ms': 3.318, 'rps': 205.2}
+{'round': 8, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 9.804, 'p99_ms': 20.617, 'mean_ms': 10.072, 'rps': 867.0}
+{'round': 8, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 36.491, 'p99_ms': 193.736, 'mean_ms': 52.389, 'rps': 295.7}
+{'round': 8, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 41.6, 'p99_ms': 169.083, 'mean_ms': 54.271, 'rps': 267.6}
+{'round': 8, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 38.444, 'p99_ms': 59.874, 'mean_ms': 39.054, 'rps': 938.4}
+{'round': 8, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 194.709, 'p99_ms': 1628.729, 'mean_ms': 313.269, 'rps': 196.4}
+{'round': 8, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 213.183, 'p99_ms': 1674.412, 'mean_ms': 329.764, 'rps': 181.0}
+{'round': 8, 'experiment': 'one second', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1032.543, 'p99_ms': 1047.469, 'mean_ms': 1029.351, 'rps': 61.9}
+{'round': 8, 'experiment': 'one second', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1011.05, 'p99_ms': 1456.79, 'mean_ms': 1057.816, 'rps': 59.3}
+{'round': 8, 'experiment': 'one second', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1022.69, 'p99_ms': 1462.863, 'mean_ms': 1068.021, 'rps': 58.9}
+{'round': 8, 'experiment': 'one second', 'path': 'direct', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1015.332, 'p99_ms': 1050.366, 'mean_ms': 1017.647, 'rps': 61.1}
+{'round': 8, 'experiment': 'one second', 'path': 'proxy', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1014.835, 'p99_ms': 1496.277, 'mean_ms': 1058.416, 'rps': 57.8}
+{'round': 8, 'experiment': 'one second', 'path': 'all checks', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1014.357, 'p99_ms': 1462.266, 'mean_ms': 1056.183, 'rps': 57.8}
+{'round': 9, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 0.786, 'p99_ms': 1.232, 'mean_ms': 0.825, 'rps': 1210.7}
+{'round': 9, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 1.887, 'p99_ms': 2.535, 'mean_ms': 1.939, 'rps': 515.5}
+{'round': 9, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 3.24, 'p99_ms': 4.45, 'mean_ms': 3.322, 'rps': 300.9}
+{'round': 9, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 9.231, 'p99_ms': 10.184, 'mean_ms': 9.239, 'rps': 1727.9}
+{'round': 9, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 29.546, 'p99_ms': 134.819, 'mean_ms': 37.947, 'rps': 420.8}
+{'round': 9, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 30.631, 'p99_ms': 169.033, 'mean_ms': 44.292, 'rps': 360.7}
+{'round': 9, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 35.457, 'p99_ms': 68.257, 'mean_ms': 38.403, 'rps': 1650.2}
+{'round': 9, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 159.022, 'p99_ms': 1500.098, 'mean_ms': 256.404, 'rps': 248.2}
+{'round': 9, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 185.349, 'p99_ms': 1370.324, 'mean_ms': 275.067, 'rps': 231.4}
+{'round': 9, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 0.868, 'p99_ms': 1.219, 'mean_ms': 0.899, 'rps': 682.5}
+{'round': 9, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 2.199, 'p99_ms': 3.0, 'mean_ms': 2.256, 'rps': 280.1}
+{'round': 9, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 3.128, 'p99_ms': 4.187, 'mean_ms': 3.202, 'rps': 212.1}
+{'round': 9, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 10.095, 'p99_ms': 22.53, 'mean_ms': 10.392, 'rps': 840.5}
+{'round': 9, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 33.455, 'p99_ms': 173.863, 'mean_ms': 54.405, 'rps': 285.3}
+{'round': 9, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 42.107, 'p99_ms': 188.102, 'mean_ms': 55.747, 'rps': 261.3}
+{'round': 9, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 38.726, 'p99_ms': 63.146, 'mean_ms': 40.288, 'rps': 881.5}
+{'round': 9, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 212.267, 'p99_ms': 1706.278, 'mean_ms': 325.3, 'rps': 189.3}
+{'round': 9, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 220.825, 'p99_ms': 1717.489, 'mean_ms': 330.548, 'rps': 180.8}
+{'round': 9, 'experiment': 'one second', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1031.826, 'p99_ms': 1074.637, 'mean_ms': 1033.745, 'rps': 61.8}
+{'round': 9, 'experiment': 'one second', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1013.729, 'p99_ms': 1483.675, 'mean_ms': 1059.779, 'rps': 59.0}
+{'round': 9, 'experiment': 'one second', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1020.216, 'p99_ms': 1496.355, 'mean_ms': 1070.9, 'rps': 58.7}
+{'round': 9, 'experiment': 'one second', 'path': 'direct', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1016.218, 'p99_ms': 1055.481, 'mean_ms': 1017.545, 'rps': 60.7}
+{'round': 9, 'experiment': 'one second', 'path': 'proxy', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1015.652, 'p99_ms': 1503.093, 'mean_ms': 1060.03, 'rps': 57.5}
+{'round': 9, 'experiment': 'one second', 'path': 'all checks', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1015.662, 'p99_ms': 1474.983, 'mean_ms': 1060.116, 'rps': 57.3}
+{'round': 10, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 0.748, 'p99_ms': 1.097, 'mean_ms': 0.787, 'rps': 1269.4}
+{'round': 10, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 1.857, 'p99_ms': 2.442, 'mean_ms': 1.915, 'rps': 522.0}
+{'round': 10, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 3.202, 'p99_ms': 4.012, 'mean_ms': 3.251, 'rps': 307.5}
+{'round': 10, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 9.247, 'p99_ms': 15.92, 'mean_ms': 9.378, 'rps': 1702.1}
+{'round': 10, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 29.115, 'p99_ms': 123.15, 'mean_ms': 36.45, 'rps': 438.1}
+{'round': 10, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 30.689, 'p99_ms': 153.013, 'mean_ms': 42.78, 'rps': 373.3}
+{'round': 10, 'experiment': 'instant', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 33.348, 'p99_ms': 68.302, 'mean_ms': 34.913, 'rps': 1813.1}
+{'round': 10, 'experiment': 'instant', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 154.646, 'p99_ms': 1355.45, 'mean_ms': 250.41, 'rps': 254.2}
+{'round': 10, 'experiment': 'instant', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 179.083, 'p99_ms': 1392.839, 'mean_ms': 270.053, 'rps': 235.6}
+{'round': 10, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 0.868, 'p99_ms': 1.248, 'mean_ms': 0.899, 'rps': 681.6}
+{'round': 10, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 2.266, 'p99_ms': 2.969, 'mean_ms': 2.318, 'rps': 275.0}
+{'round': 10, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 1, 'requests': 2000, 'p50_ms': 3.1, 'p99_ms': 3.985, 'mean_ms': 3.154, 'rps': 214.6}
+{'round': 10, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 15.535, 'p99_ms': 16.675, 'mean_ms': 14.594, 'rps': 911.5}
+{'round': 10, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 39.593, 'p99_ms': 199.134, 'mean_ms': 52.156, 'rps': 296.5}
+{'round': 10, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 16, 'requests': 2000, 'p50_ms': 42.162, 'p99_ms': 182.149, 'mean_ms': 54.128, 'rps': 268.6}
+{'round': 10, 'experiment': 'instant', 'path': 'direct', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 42.801, 'p99_ms': 67.727, 'mean_ms': 43.966, 'rps': 926.1}
+{'round': 10, 'experiment': 'instant', 'path': 'proxy', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 203.486, 'p99_ms': 1765.941, 'mean_ms': 316.143, 'rps': 194.6}
+{'round': 10, 'experiment': 'instant', 'path': 'all checks', 'mode': 'stream', 'concurrency': 64, 'requests': 2000, 'p50_ms': 219.728, 'p99_ms': 1587.965, 'mean_ms': 323.804, 'rps': 184.3}
+{'round': 10, 'experiment': 'one second', 'path': 'direct', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1031.939, 'p99_ms': 1060.078, 'mean_ms': 1034.895, 'rps': 61.8}
+{'round': 10, 'experiment': 'one second', 'path': 'proxy', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1014.866, 'p99_ms': 1424.492, 'mean_ms': 1059.742, 'rps': 59.2}
+{'round': 10, 'experiment': 'one second', 'path': 'all checks', 'mode': 'non-stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1020.233, 'p99_ms': 1471.418, 'mean_ms': 1067.599, 'rps': 58.5}
+{'round': 10, 'experiment': 'one second', 'path': 'direct', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1012.125, 'p99_ms': 1051.439, 'mean_ms': 1014.97, 'rps': 60.8}
+{'round': 10, 'experiment': 'one second', 'path': 'proxy', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1013.231, 'p99_ms': 1479.576, 'mean_ms': 1055.136, 'rps': 57.7}
+{'round': 10, 'experiment': 'one second', 'path': 'all checks', 'mode': 'stream', 'concurrency': 64, 'requests': 640, 'p50_ms': 1016.348, 'p99_ms': 1379.21, 'mean_ms': 1051.007, 'rps': 58.2}
+{
+  "instant | non-stream | c=1 | direct": {
+    "p50_ms": {
+      "median": 0.746,
+      "min": 0.736,
+      "max": 0.786
+    },
+    "p99_ms": {
+      "median": 1.131,
+      "min": 1.097,
+      "max": 1.232
+    },
+    "rps": {
+      "median": 1260.65,
+      "min": 1210.7,
+      "max": 1291.7
+    }
+  },
+  "instant | non-stream | c=1 | proxy": {
+    "p50_ms": {
+      "median": 1.864,
+      "min": 1.854,
+      "max": 1.931
+    },
+    "p99_ms": {
+      "median": 2.479,
+      "min": 2.429,
+      "max": 2.68
+    },
+    "rps": {
+      "median": 517.45,
+      "min": 503.2,
+      "max": 522.9
+    },
+    "added_p50_ms": {
+      "median": 1.115,
+      "min": 1.101,
+      "max": 1.19
+    },
+    "added_p99_ms": {
+      "median": 1.341,
+      "min": 1.278,
+      "max": 1.544
+    }
+  },
+  "instant | non-stream | c=1 | all checks": {
+    "p50_ms": {
+      "median": 3.194,
+      "min": 3.14,
+      "max": 3.24
+    },
+    "p99_ms": {
+      "median": 4.137,
+      "min": 4.004,
+      "max": 4.45
+    },
+    "rps": {
+      "median": 307.3,
+      "min": 300.9,
+      "max": 313.6
+    },
+    "added_p50_ms": {
+      "median": 2.446,
+      "min": 2.395,
+      "max": 2.491
+    },
+    "added_p99_ms": {
+      "median": 2.994,
+      "min": 2.905,
+      "max": 3.218
+    }
+  },
+  "instant | non-stream | c=16 | direct": {
+    "p50_ms": {
+      "median": 9.233,
+      "min": 8.971,
+      "max": 9.533
+    },
+    "p99_ms": {
+      "median": 11.462,
+      "min": 10.184,
+      "max": 17.381
+    },
+    "rps": {
+      "median": 1724.4,
+      "min": 1647.9,
+      "max": 1777.7
+    }
+  },
+  "instant | non-stream | c=16 | proxy": {
+    "p50_ms": {
+      "median": 29.299,
+      "min": 28.272,
+      "max": 30.549
+    },
+    "p99_ms": {
+      "median": 128.105,
+      "min": 122.044,
+      "max": 134.819
+    },
+    "rps": {
+      "median": 438.8,
+      "min": 420.8,
+      "max": 443.9
+    },
+    "added_p50_ms": {
+      "median": 20.126,
+      "min": 19.104,
+      "max": 21.065
+    },
+    "added_p99_ms": {
+      "median": 116.63,
+      "min": 104.663,
+      "max": 124.635
+    }
+  },
+  "instant | non-stream | c=16 | all checks": {
+    "p50_ms": {
+      "median": 30.267,
+      "min": 25.495,
+      "max": 30.91
+    },
+    "p99_ms": {
+      "median": 150.784,
+      "min": 134.543,
+      "max": 169.033
+    },
+    "rps": {
+      "median": 374.75,
+      "min": 360.7,
+      "max": 378.2
+    },
+    "added_p50_ms": {
+      "median": 20.912,
+      "min": 16.327,
+      "max": 21.939
+    },
+    "added_p99_ms": {
+      "median": 137.827,
+      "min": 123.121,
+      "max": 158.849
+    }
+  },
+  "instant | non-stream | c=64 | direct": {
+    "p50_ms": {
+      "median": 33.268,
+      "min": 32.643,
+      "max": 35.457
+    },
+    "p99_ms": {
+      "median": 68.8,
+      "min": 54.546,
+      "max": 81.907
+    },
+    "rps": {
+      "median": 1797.15,
+      "min": 1650.2,
+      "max": 1885.6
+    }
+  },
+  "instant | non-stream | c=64 | proxy": {
+    "p50_ms": {
+      "median": 154.012,
+      "min": 141.543,
+      "max": 164.866
+    },
+    "p99_ms": {
+      "median": 1485.342,
+      "min": 1355.45,
+      "max": 1570.577
+    },
+    "rps": {
+      "median": 250.7,
+      "min": 245.1,
+      "max": 254.6
+    },
+    "added_p50_ms": {
+      "median": 120.303,
+      "min": 106.652,
+      "max": 131.96
+    },
+    "added_p99_ms": {
+      "median": 1420.354,
+      "min": 1287.148,
+      "max": 1488.67
+    }
+  },
+  "instant | non-stream | c=64 | all checks": {
+    "p50_ms": {
+      "median": 180.233,
+      "min": 174.013,
+      "max": 185.349
+    },
+    "p99_ms": {
+      "median": 1381.582,
+      "min": 1258.682,
+      "max": 1569.152
+    },
+    "rps": {
+      "median": 233.25,
+      "min": 227.6,
+      "max": 238.0
+    },
+    "added_p50_ms": {
+      "median": 146.831,
+      "min": 140.033,
+      "max": 150.421
+    },
+    "added_p99_ms": {
+      "median": 1313.302,
+      "min": 1203.824,
+      "max": 1506.042
+    }
+  },
+  "instant | stream | c=1 | direct": {
+    "p50_ms": {
+      "median": 0.866,
+      "min": 0.86,
+      "max": 0.899
+    },
+    "p99_ms": {
+      "median": 1.224,
+      "min": 1.174,
+      "max": 1.369
+    },
+    "rps": {
+      "median": 682.05,
+      "min": 657.6,
+      "max": 689.1
+    }
+  },
+  "instant | stream | c=1 | proxy": {
+    "p50_ms": {
+      "median": 2.21,
+      "min": 2.171,
+      "max": 2.635
+    },
+    "p99_ms": {
+      "median": 3.0,
+      "min": 2.774,
+      "max": 3.622
+    },
+    "rps": {
+      "median": 278.8,
+      "min": 250.3,
+      "max": 282.8
+    },
+    "added_p50_ms": {
+      "median": 1.344,
+      "min": 1.31,
+      "max": 1.736
+    },
+    "added_p99_ms": {
+      "median": 1.776,
+      "min": 1.547,
+      "max": 2.253
+    }
+  },
+  "instant | stream | c=1 | all checks": {
+    "p50_ms": {
+      "median": 3.129,
+      "min": 2.813,
+      "max": 3.763
+    },
+    "p99_ms": {
+      "median": 4.18,
+      "min": 3.985,
+      "max": 5.206
+    },
+    "rps": {
+      "median": 212.25,
+      "min": 182.5,
+      "max": 245.1
+    },
+    "added_p50_ms": {
+      "median": 2.263,
+      "min": 1.944,
+      "max": 2.864
+    },
+    "added_p99_ms": {
+      "median": 2.958,
+      "min": 2.737,
+      "max": 3.837
+    }
+  },
+  "instant | stream | c=16 | direct": {
+    "p50_ms": {
+      "median": 10.057,
+      "min": 6.869,
+      "max": 15.535
+    },
+    "p99_ms": {
+      "median": 20.764,
+      "min": 16.675,
+      "max": 25.782
+    },
+    "rps": {
+      "median": 863.55,
+      "min": 814.2,
+      "max": 1248.3
+    }
+  },
+  "instant | stream | c=16 | proxy": {
+    "p50_ms": {
+      "median": 36.065,
+      "min": 22.927,
+      "max": 41.602
+    },
+    "p99_ms": {
+      "median": 183.032,
+      "min": 137.403,
+      "max": 205.061
+    },
+    "rps": {
+      "median": 292.65,
+      "min": 278.6,
+      "max": 342.2
+    },
+    "added_p50_ms": {
+      "median": 24.896,
+      "min": 16.058,
+      "max": 31.359
+    },
+    "added_p99_ms": {
+      "median": 159.719,
+      "min": 115.914,
+      "max": 182.459
+    }
+  },
+  "instant | stream | c=16 | all checks": {
+    "p50_ms": {
+      "median": 41.773,
+      "min": 39.909,
+      "max": 44.79
+    },
+    "p99_ms": {
+      "median": 172.45,
+      "min": 164.31,
+      "max": 201.697
+    },
+    "rps": {
+      "median": 266.85,
+      "min": 254.2,
+      "max": 271.5
+    },
+    "added_p50_ms": {
+      "median": 31.526,
+      "min": 26.627,
+      "max": 34.771
+    },
+    "added_p99_ms": {
+      "median": 154.178,
+      "min": 141.545,
+      "max": 175.915
+    }
+  },
+  "instant | stream | c=64 | direct": {
+    "p50_ms": {
+      "median": 39.325,
+      "min": 37.563,
+      "max": 42.801
+    },
+    "p99_ms": {
+      "median": 65.984,
+      "min": 59.874,
+      "max": 84.194
+    },
+    "rps": {
+      "median": 897.15,
+      "min": 881.5,
+      "max": 938.4
+    }
+  },
+  "instant | stream | c=64 | proxy": {
+    "p50_ms": {
+      "median": 205.419,
+      "min": 177.298,
+      "max": 234.645
+    },
+    "p99_ms": {
+      "median": 1736.11,
+      "min": 1607.834,
+      "max": 1884.809
+    },
+    "rps": {
+      "median": 191.95,
+      "min": 176.7,
+      "max": 212.6
+    },
+    "added_p50_ms": {
+      "median": 163.895,
+      "min": 138.496,
+      "max": 193.439
+    },
+    "added_p99_ms": {
+      "median": 1670.659,
+      "min": 1532.704,
+      "max": 1822.784
+    }
+  },
+  "instant | stream | c=64 | all checks": {
+    "p50_ms": {
+      "median": 222.107,
+      "min": 211.908,
+      "max": 251.296
+    },
+    "p99_ms": {
+      "median": 1647.312,
+      "min": 1418.464,
+      "max": 1717.489
+    },
+    "rps": {
+      "median": 180.9,
+      "min": 163.5,
+      "max": 190.5
+    },
+    "added_p50_ms": {
+      "median": 182.621,
+      "min": 174.345,
+      "max": 212.573
+    },
+    "added_p99_ms": {
+      "median": 1578.28,
+      "min": 1356.439,
+      "max": 1654.343
+    }
+  },
+  "one second | non-stream | c=64 | direct": {
+    "p50_ms": {
+      "median": 1031.969,
+      "min": 1023.871,
+      "max": 1037.663
+    },
+    "p99_ms": {
+      "median": 1064.417,
+      "min": 1047.469,
+      "max": 1080.721
+    },
+    "rps": {
+      "median": 61.8,
+      "min": 61.6,
+      "max": 62.0
+    }
+  },
+  "one second | non-stream | c=64 | proxy": {
+    "p50_ms": {
+      "median": 1014.627,
+      "min": 1011.05,
+      "max": 1016.301
+    },
+    "p99_ms": {
+      "median": 1457.429,
+      "min": 1418.527,
+      "max": 1499.414
+    },
+    "rps": {
+      "median": 59.15,
+      "min": 59.0,
+      "max": 59.3
+    },
+    "added_p50_ms": {
+      "median": -17.592,
+      "min": -24.096,
+      "max": -8.244
+    },
+    "added_p99_ms": {
+      "median": 385.947,
+      "min": 349.771,
+      "max": 440.335
+    }
+  },
+  "one second | non-stream | c=64 | all checks": {
+    "p50_ms": {
+      "median": 1020.834,
+      "min": 1017.721,
+      "max": 1024.888
+    },
+    "p99_ms": {
+      "median": 1467.774,
+      "min": 1442.458,
+      "max": 1496.355
+    },
+    "rps": {
+      "median": 58.7,
+      "min": 58.4,
+      "max": 59.0
+    },
+    "added_p50_ms": {
+      "median": -11.308,
+      "min": -17.106,
+      "max": -2.886
+    },
+    "added_p99_ms": {
+      "median": 399.077,
+      "min": 373.702,
+      "max": 421.718
+    }
+  },
+  "one second | stream | c=64 | direct": {
+    "p50_ms": {
+      "median": 1015.673,
+      "min": 1011.895,
+      "max": 1019.033
+    },
+    "p99_ms": {
+      "median": 1051.77,
+      "min": 1043.997,
+      "max": 1062.685
+    },
+    "rps": {
+      "median": 60.6,
+      "min": 60.3,
+      "max": 61.1
+    }
+  },
+  "one second | stream | c=64 | proxy": {
+    "p50_ms": {
+      "median": 1013.954,
+      "min": 1012.84,
+      "max": 1016.289
+    },
+    "p99_ms": {
+      "median": 1481.89,
+      "min": 1439.095,
+      "max": 1503.093
+    },
+    "rps": {
+      "median": 57.75,
+      "min": 57.5,
+      "max": 58.0
+    },
+    "added_p50_ms": {
+      "median": -0.11,
+      "min": -5.791,
+      "max": 1.32
+    },
+    "added_p99_ms": {
+      "median": 430.48,
+      "min": 391.918,
+      "max": 447.612
+    }
+  },
+  "one second | stream | c=64 | all checks": {
+    "p50_ms": {
+      "median": 1014.316,
+      "min": 1012.421,
+      "max": 1017.308
+    },
+    "p99_ms": {
+      "median": 1469.601,
+      "min": 1379.21,
+      "max": 1518.347
+    },
+    "rps": {
+      "median": 57.6,
+      "min": 56.8,
+      "max": 58.4
+    },
+    "added_p50_ms": {
+      "median": -0.287,
+      "min": -5.344,
+      "max": 4.223
+    },
+    "added_p99_ms": {
+      "median": 419.863,
+      "min": 327.771,
+      "max": 466.246
+    }
+  }
+}

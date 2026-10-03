@@ -1,0 +1,21 @@
+{
+  "message_bytes": 887,
+  "rounds": 5,
+  "messages_per_round": 100,
+  "v4": {
+    "reachable": true,
+    "publishes": 500,
+    "median_ms": 0.59,
+    "p95_ms": 0.68,
+    "min_ms": 0.53,
+    "max_ms": 0.88
+  },
+  "v6": {
+    "reachable": true,
+    "publishes": 500,
+    "median_ms": 50.01,
+    "p95_ms": 60.02,
+    "min_ms": 49.76,
+    "max_ms": 60.21
+  }
+}

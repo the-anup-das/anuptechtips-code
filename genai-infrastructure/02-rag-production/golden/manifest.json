@@ -1,0 +1,13 @@
+{
+  "refund-policy": {"acl": ["all-staff"]},
+  "parental-leave": {"acl": ["all-staff"]},
+  "expense-policy": {"acl": ["all-staff"]},
+  "vpn-setup": {"acl": ["all-staff"]},
+  "security-policy": {"acl": ["all-staff"]},
+  "holiday-calendar": {"acl": ["all-staff"]},
+  "equipment-policy": {"acl": ["all-staff"]},
+  "on-call-runbook": {"acl": ["engineering"]},
+  "payment-outage-postmortem": {"acl": ["engineering"]},
+  "salary-bands": {"acl": ["hr"]},
+  "board-minutes-2026-q3": {"acl": ["leadership"]}
+}

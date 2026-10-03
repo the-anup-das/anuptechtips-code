@@ -1,0 +1,35 @@
+{
+  "runs": 20,
+  "batch": 25,
+  "relay_killed_after_acked_batch": 6,
+  "replies": {
+    "median": 300.0,
+    "min": 300,
+    "max": 300
+  },
+  "pending_after_crash": {
+    "median": 175.0,
+    "min": 175,
+    "max": 175
+  },
+  "events_in_kafka": {
+    "median": 325.0,
+    "min": 325,
+    "max": 325
+  },
+  "duplicates": {
+    "median": 25.0,
+    "min": 25,
+    "max": 25
+  },
+  "rebuilt": {
+    "median": 300.0,
+    "min": 300,
+    "max": 300
+  },
+  "mismatches": {
+    "median": 0.0,
+    "min": 0,
+    "max": 0
+  }
+}
