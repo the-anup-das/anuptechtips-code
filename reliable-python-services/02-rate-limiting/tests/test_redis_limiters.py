@@ -108,6 +108,16 @@ def test_redis_clock_going_backwards_does_not_drain_the_bucket(r, scripts, key):
     assert allowed == 0 and wait_ms <= 600      # without math.max: wait ~100 s
 
 
+@pytest.mark.parametrize("backend", BACKENDS)
+def test_token_bucket_rejects_a_cost_bigger_than_the_bucket(backend, r, scripts, key):
+    args = [rl.args_for("token_bucket")[0], 20, 21]   # cost 21, capacity 20
+    if backend == "evalsha":
+        out = scripts["token_bucket"](keys=[key], args=args)
+    else:
+        out = rl.fcall(r, "token_bucket", key, args)
+    assert out == [0, -1]
+
+
 def test_naive_limiter_races_past_the_limit(r, key):
     allowed = count_concurrent(lambda: rl.naive_fixed_window(r, key))
     assert allowed > 100

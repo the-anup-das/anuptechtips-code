@@ -2,6 +2,9 @@
 local rate = tonumber(ARGV[1])
 local capacity = tonumber(ARGV[2])
 local cost = tonumber(ARGV[3])
+if cost > capacity then
+  return {0, -1}  -- can never fit: say so instead of asking the caller to wait
+end
 
 local t = redis.call('TIME')
 local now = tonumber(t[1]) + tonumber(t[2]) / 1000000
