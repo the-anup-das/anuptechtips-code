@@ -18,8 +18,9 @@ It shows the parts of a retrieval-augmented generation system that a demo skips:
   per-stage timers and a cache key that includes the permission scope.
 - **A retrieval gate for CI** (`tests/test_retrieval_gate.py`, `golden/`): recall on a golden set
   must not drop, and no restricted chunk may come back.
-- **Two measurements**: what a filtered vector search returns at three scopes, and what three
-  ingestion consumers still serve after documents are deleted.
+- **Three measurements**: what a filtered vector search returns at three scopes, what three
+  ingestion consumers still serve after documents are deleted, and what seven chunkers find
+  on the golden handbook.
 
 No embedding model, reranker or LLM is needed. `embedder.py` is a deterministic hashing
 stand-in, the reranker and the LLM are fakes in the tests, and the measurements use seeded
@@ -41,7 +42,9 @@ synthetic vectors (`synth.py`).
 | `synth.py` | seeded, clustered synthetic vectors |
 | `measure_filtered_search.py` | M3: rows returned, recall and latency of a filtered search, by scope and setting |
 | `measure_delete_drill.py` | M5: what three consumers still serve after edits, revokes and deletes |
+| `measure_chunking.py` | M6: seven chunkers on the golden handbook, what retrieval finds and how much text it sends |
 | `measure_request_size.py` | the Docker Desktop request-size quirk described below |
+| `check_filtered_search.py` | run on your own pgvector table: does a filtered search come back short? Read only |
 | `tests/` | pytest against the pgvector container, one test per behavior the post describes |
 | `results/` | raw CSV/JSON from every run |
 
@@ -56,8 +59,30 @@ cd genai-infrastructure/02-rag-production
 pytest -q
 python measure_filtered_search.py
 python measure_delete_drill.py
+python measure_chunking.py
 python measure_request_size.py
 ```
+
+### Check your own database
+
+`check_filtered_search.py` needs only `psycopg`. It takes sample vectors from your table, runs
+one user's filtered search with your current settings, with `relaxed_order` and exactly, and
+prints how many rows came back. The connection is read only. `--where` goes into the SQL as
+written, so use it on your own database only.
+
+```shell
+python check_filtered_search.py --dsn postgresql://user:pass@host:5432/db \
+    --table chunks --column embedding --where "acl && '{g01}'::text[]" --k 10
+```
+
+On the 200,000-row `bench` table from the measurement below, for a user in 1 group (1.0% of
+the rows), 50 searches asking for 10 rows each:
+
+| Setting | Avg rows | Short | Empty |
+|---|---|---|---|
+| default | 0.52 | 50 | 38 |
+| relaxed_order | 10.00 | 0 | 0 |
+| exact | 10.00 | 0 | 0 |
 
 Every test creates its own schema and drops it. The measurements use the schemas `bench` and
 `drill`. Override the connection with `RAG_DSN`.
@@ -125,6 +150,29 @@ in ten twice. Median of 20 runs (minimum to maximum where the runs differ).
 | versioned, 2% of the events lost | 2 (0 to 4) | 7 (4 to 11) | 2 (1 to 7) | 60 (30 to 85) |
 | the same, after one `reconcile` | 0 | 0 | 0 | 0 |
 
+### Chunking (`measure_chunking.py`)
+
+The 11-page handbook in `golden/` (618 words) indexed once per chunker, then the 16
+answerable golden questions asked with `hybrid_search`. Found means a chunk of the right
+document holding the whole answer text is in the top k. Cut in half means no chunk holds the
+whole answer. Words is the average text in the top 5, what the model gets to read.
+
+| Chunker | Chunks | Answers cut in half | Found in top 1 (of 16) | Top 3 | Top 5 | Words in top 5 |
+|---|---|---|---|---|---|---|
+| headings and paragraphs, title and section path in front (`chunking.chunk`) | 38 | 0 | 15 | 16 | 16 | 95.2 |
+| the same, without the title and section path | 38 | 0 | 11 | 13 | 14 | 75.1 |
+| fixed 40 words, headings dropped | 17 | 2 | 13 | 14 | 14 | 158.0 |
+| fixed 40 words, title in front | 17 | 2 | 14 | 14 | 14 | 160.4 |
+| fixed 40 words, 20 overlap | 19 | 0 | 12 | 16 | 16 | 181.6 |
+| fixed 20 words, headings dropped | 30 | 3 | 11 | 12 | 13 | 90.8 |
+| whole page | 11 | 0 | 16 | 16 | 16 | 317.4 |
+
+A 40-word window ends on "The limit is 45" and the next one starts with "days from
+delivery", with the "US customers" heading gone. The whole page finds everything because
+these pages are 36 to 84 words long; it sends the model more than three times the text of the
+structure-aware chunks. `results/m6_chunking.json` also has dense-only and keyword-only
+counts.
+
 ### Request size on Docker Desktop (`measure_request_size.py`)
 
 Median milliseconds for one `SELECT length(%s::text)` by size of the text parameter, 20
@@ -141,6 +189,9 @@ Three single-row inserts: 50 ms with `executemany`,
 
 ## About the numbers
 
+- **The chunking test is small.** 16 questions on 11 short pages, with the hashing stand-in,
+  which matches words rather than meaning. It compares chunkers on one corpus; run it on your
+  own documents and model before you pick sizes.
 - **The vectors are synthetic.** `synth.py` draws unit vectors around 500 cluster centres
   (50 topics of 10 subtopics) with a fixed seed. That is enough for these two tests: the
   filtered-search shortfall comes from the order of operations (index scan first, filter
