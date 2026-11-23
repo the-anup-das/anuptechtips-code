@@ -37,4 +37,4 @@ First write refused (`--say-no-once`, gpt-oss-20b): 4 of 10 retried and fixed it
 
 ## Be careful
 
-`run_tests` runs the project's code, and `write_file` lets the model change that code. The yes/no question before each write is what stops the model from running code you didn't see. Keep it on unless the folder is a throwaway copy.
+`run_tests` runs the project's code, and `write_file` lets the model change that code. The yes/no question before each write is what stops the model from running code you didn't see. Keep it on. Working in a copy (`workdir/`) doesn't help, because the tests run with your access to the whole machine. `measure.py` says yes to every write, so only run it on this sample project.
