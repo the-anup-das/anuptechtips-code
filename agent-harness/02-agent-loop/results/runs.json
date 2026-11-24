@@ -1,0 +1,215 @@
+{
+ "summary": {
+  "model": "openai/gpt-oss-20b",
+  "runs": 10,
+  "max_turns": 10,
+  "fixed": 10,
+  "turns_median": 5.0,
+  "turns_min": 5,
+  "turns_max": 5,
+  "seconds_median": 13.7,
+  "last_turn_prompt_tokens_median": 690.0
+ },
+ "runs": [
+  {
+   "run": 1,
+   "status": "done",
+   "turns": 5,
+   "tests_pass": true,
+   "tool_calls": [
+    "run_tests",
+    "read_file",
+    "write_file",
+    "run_tests"
+   ],
+   "prompt_tokens_per_turn": [
+    235,
+    421,
+    527,
+    645,
+    690
+   ],
+   "seconds": 13.4
+  },
+  {
+   "run": 2,
+   "status": "done",
+   "turns": 5,
+   "tests_pass": true,
+   "tool_calls": [
+    "run_tests",
+    "read_file",
+    "write_file",
+    "run_tests"
+   ],
+   "prompt_tokens_per_turn": [
+    235,
+    421,
+    527,
+    645,
+    690
+   ],
+   "seconds": 13.6
+  },
+  {
+   "run": 3,
+   "status": "done",
+   "turns": 5,
+   "tests_pass": true,
+   "tool_calls": [
+    "run_tests",
+    "read_file",
+    "write_file",
+    "run_tests"
+   ],
+   "prompt_tokens_per_turn": [
+    235,
+    421,
+    527,
+    645,
+    690
+   ],
+   "seconds": 13.6
+  },
+  {
+   "run": 4,
+   "status": "done",
+   "turns": 5,
+   "tests_pass": true,
+   "tool_calls": [
+    "run_tests",
+    "read_file",
+    "write_file",
+    "run_tests"
+   ],
+   "prompt_tokens_per_turn": [
+    235,
+    421,
+    527,
+    645,
+    690
+   ],
+   "seconds": 14.0
+  },
+  {
+   "run": 5,
+   "status": "done",
+   "turns": 5,
+   "tests_pass": true,
+   "tool_calls": [
+    "run_tests",
+    "read_file",
+    "write_file",
+    "run_tests"
+   ],
+   "prompt_tokens_per_turn": [
+    235,
+    421,
+    527,
+    645,
+    690
+   ],
+   "seconds": 13.7
+  },
+  {
+   "run": 6,
+   "status": "done",
+   "turns": 5,
+   "tests_pass": true,
+   "tool_calls": [
+    "run_tests",
+    "read_file",
+    "write_file",
+    "run_tests"
+   ],
+   "prompt_tokens_per_turn": [
+    235,
+    421,
+    527,
+    645,
+    690
+   ],
+   "seconds": 13.6
+  },
+  {
+   "run": 7,
+   "status": "done",
+   "turns": 5,
+   "tests_pass": true,
+   "tool_calls": [
+    "run_tests",
+    "read_file",
+    "write_file",
+    "run_tests"
+   ],
+   "prompt_tokens_per_turn": [
+    235,
+    421,
+    527,
+    645,
+    690
+   ],
+   "seconds": 13.7
+  },
+  {
+   "run": 8,
+   "status": "done",
+   "turns": 5,
+   "tests_pass": true,
+   "tool_calls": [
+    "run_tests",
+    "read_file",
+    "write_file",
+    "run_tests"
+   ],
+   "prompt_tokens_per_turn": [
+    235,
+    421,
+    527,
+    645,
+    690
+   ],
+   "seconds": 13.8
+  },
+  {
+   "run": 9,
+   "status": "done",
+   "turns": 5,
+   "tests_pass": true,
+   "tool_calls": [
+    "run_tests",
+    "read_file",
+    "write_file",
+    "run_tests"
+   ],
+   "prompt_tokens_per_turn": [
+    235,
+    421,
+    527,
+    645,
+    690
+   ],
+   "seconds": 13.8
+  },
+  {
+   "run": 10,
+   "status": "done",
+   "turns": 5,
+   "tests_pass": true,
+   "tool_calls": [
+    "run_tests",
+    "read_file",
+    "write_file",
+    "run_tests"
+   ],
+   "prompt_tokens_per_turn": [
+    235,
+    421,
+    527,
+    645,
+    690
+   ],
+   "seconds": 13.8
+  }
+ ]
+}
